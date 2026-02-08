@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python feishu_sheet_storage.py:*)",
+      "Bash(python3:*)",
+      "Bash(pip3 install:*)",
+      "Bash(source:*)",
+      "Bash(pip install:*)",
+      "Bash(chmod:*)",
+      "Bash(python show_sheet_info.py:*)",
+      "Bash(python:*)",
+      "Bash(pip show:*)",
+      "Bash(ls:*)",
+      "Bash(./check_sensitive.sh:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
