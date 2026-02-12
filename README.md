@@ -78,11 +78,8 @@ pip install -r requirements_module1.txt
 ### 4. 运行爬虫（模块1）
 
 ```bash
-# 确保在虚拟环境中（看到 (venv) 前缀）
-source venv/bin/activate
-
 # 爬取今天所有数据
-python modules/scraper.py
+source venv/bin/activate && python modules/scraper.py
 
 # 或使用脚本
 ./scripts/run_scraper.sh
@@ -143,23 +140,20 @@ app_moitor/
 **⚠️ 重要：所有命令必须在虚拟环境中执行！**
 
 ```bash
-# 先激活虚拟环境
-source venv/bin/activate
-
 # 爬取所有数据（10个分类，约5-10分钟）
-python modules/scraper.py
+source venv/bin/activate && python modules/scraper.py
 
 # 只爬取 App Store
-python modules/scraper.py --platform app_store
+source venv/bin/activate && python modules/scraper.py --platform app_store
 
 # 只爬取指定分类
-python modules/scraper.py --category health_fitness
+source venv/bin/activate && python modules/scraper.py --category health_fitness
 
 # 爬取指定日期（注意：只能获取当前实时数据）
-python modules/scraper.py --date 2026-02-12
+source venv/bin/activate && python modules/scraper.py --date 2026-02-12
 
 # 查看帮助
-python modules/scraper.py --help
+source venv/bin/activate && python modules/scraper.py --help
 ```
 
 ### 模块2：识别新上榜产品
@@ -167,23 +161,20 @@ python modules/scraper.py --help
 详细文档请查看：[README_MODULE2.md](README_MODULE2.md)
 
 ```bash
-# 先激活虚拟环境
-source venv/bin/activate
-
 # 识别今天的新上榜产品
-python modules/detector.py
+source venv/bin/activate && python modules/detector.py
 
 # 或使用脚本
 ./scripts/run_detector.sh
 
 # 识别指定日期
-python modules/detector.py --date 2026-02-12
+source venv/bin/activate && python modules/detector.py --date 2026-02-12
 
 # 强制重新识别
-python modules/detector.py --force
+source venv/bin/activate && python modules/detector.py --force
 
 # 查看帮助
-python modules/detector.py --help
+source venv/bin/activate && python modules/detector.py --help
 ```
 
 ### 模块3：AI智能分析 🚧
@@ -369,14 +360,22 @@ MIT License
 ---
 
 **快速开始**：
-1. 创建虚拟环境：`python3.11 -m venv venv`
-2. 激活环境：`source venv/bin/activate`
-3. 安装依赖：`pip install -r requirements_module1.txt`
-4. 运行爬虫：`python modules/scraper.py`
-5. 查看数据：`data/raw/{日期}/`
+```bash
+# 1. 创建虚拟环境
+python3.11 -m venv venv
+
+# 2. 安装依赖
+source venv/bin/activate && pip install -r requirements_module1.txt
+
+# 3. 运行爬虫
+source venv/bin/activate && python modules/scraper.py
+
+# 4. 查看数据
+cat data/raw/$(date +%Y-%m-%d)/app_store/health_fitness.json
+```
 
 **⚠️ 重要提示**：
-- 必须在虚拟环境中执行所有 Python 命令
+- 必须使用 `source venv/bin/activate &&` 前缀执行所有 Python 命令
 - 系统自带的 Python（LibreSSL）无法连接到 API
 - 虚拟环境使用的 Python 3.11（OpenSSL）可以正常工作
 
