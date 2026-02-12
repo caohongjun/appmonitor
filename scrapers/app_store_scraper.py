@@ -111,8 +111,12 @@ class AppStoreScraper:
             # 获取开发者
             developer = entry.get("im:artist", {}).get("label", "")
 
-            # 获取商店链接
-            store_url = entry.get("link", {}).get("attributes", {}).get("href", "")
+            # 获取商店链接（link是一个列表，取第一个元素）
+            link = entry.get("link", [])
+            if link and isinstance(link, list) and len(link) > 0:
+                store_url = link[0].get("attributes", {}).get("href", "")
+            else:
+                store_url = ""
 
             # 获取图标链接（取最大尺寸）
             images = entry.get("im:image", [])
