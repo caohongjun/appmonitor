@@ -113,6 +113,9 @@ async function loadData() {
                                 <th>图标</th>
                                 <th>应用名称</th>
                                 <th>开发者</th>
+                                <th>上架时间</th>
+                                <th>评分</th>
+                                <th>评价数</th>
                                 <th>链接</th>
                             </tr>
                         </thead>
@@ -125,6 +128,9 @@ async function loadData() {
                                         <div class="app-name">${app.name}</div>
                                     </td>
                                     <td><div class="app-developer">${app.developer}</div></td>
+                                    <td>${app.release_date || '-'}</td>
+                                    <td>${app.rating ? app.rating.toFixed(1) + ' ⭐' : '-'}</td>
+                                    <td>${app.rating_count ? app.rating_count.toLocaleString() : '-'}</td>
                                     <td><a href="${app.store_url}" target="_blank">查看</a></td>
                                 </tr>
                             `).join('')}

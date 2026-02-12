@@ -72,10 +72,16 @@ class AppStoreScraper:
             apps = []
             timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
+            # 第一步：解析基本信息
             for rank, entry in enumerate(entries, start=1):
                 app = self._parse_app_entry(entry, rank, category_name, timestamp)
                 if app:
                     apps.append(app)
+
+            # 第二步：批量获取详细信息（评分、评价数）
+            if apps:
+                print(f"  正在获取详细信息...")
+                self._enrich_app_details(apps, session)
 
             print(f"  ✓ {category_name} 爬取成功，共 {len(apps)} 个应用")
             time.sleep(self.delay)  # 延迟避免请求过快
@@ -102,7 +108,10 @@ class AppStoreScraper:
             Optional[Dict]: 应用数据字典
         """
         try:
-            # 获取应用ID
+            # 获取应用ID（iTunes ID，用于详细信息查询）
+            itunes_id = entry.get("id", {}).get("attributes", {}).get("im:id", "")
+
+            # 获取Bundle ID
             app_id = entry.get("id", {}).get("attributes", {}).get("im:bundleId", "")
 
             # 获取应用名称
@@ -130,15 +139,22 @@ class AppStoreScraper:
             else:
                 icon_url = ""
 
+            # 获取上架时间
+            release_date = entry.get("im:releaseDate", {}).get("attributes", {}).get("label", "")
+
             return {
                 "platform": "App Store",
                 "category": category,
                 "app_id": app_id,
+                "itunes_id": itunes_id,  # 用于批量查询详细信息
                 "rank": rank,
                 "name": name,
                 "developer": developer,
                 "store_url": store_url,
                 "icon_url": icon_url,
+                "release_date": release_date,
+                "rating": 0,  # 稍后通过Search API填充
+                "rating_count": 0,  # 稍后通过Search API填充
                 "timestamp": timestamp
             }
 
@@ -147,6 +163,61 @@ class AppStoreScraper:
             # print(f"    解析应用数据失败: {e}")
             # traceback.print_exc()  # 取消注释以查看详细错误
             return None
+
+    def _enrich_app_details(self, apps: List[Dict], session: requests.Session):
+        """
+        批量获取应用详细信息（评分、评价数）
+
+        Args:
+            apps: 应用列表
+            session: requests session
+        """
+        try:
+            # 提取iTunes ID（最多200个）
+            itunes_ids = [app.get("itunes_id") for app in apps if app.get("itunes_id")]
+            if not itunes_ids:
+                return
+
+            # 分批查询（每批200个）
+            batch_size = 200
+            for i in range(0, len(itunes_ids), batch_size):
+                batch_ids = itunes_ids[i:i + batch_size]
+                ids_str = ",".join(batch_ids)
+
+                # 调用iTunes Search API
+                lookup_url = f"https://itunes.apple.com/lookup?id={ids_str}"
+                response = session.get(lookup_url, timeout=self.timeout)
+
+                if response.status_code == 200:
+                    data = response.json()
+                    results = data.get("results", [])
+
+                    # 创建ID到详细信息的映射
+                    details_map = {}
+                    for result in results:
+                        track_id = str(result.get("trackId", ""))
+                        details_map[track_id] = {
+                            "rating": result.get("averageUserRating", 0),
+                            "rating_count": result.get("userRatingCount", 0),
+                            "store_url": result.get("trackViewUrl", "")  # 使用正确的商店链接
+                        }
+
+                    # 更新应用信息
+                    for app in apps:
+                        itunes_id = app.get("itunes_id")
+                        if itunes_id in details_map:
+                            details = details_map[itunes_id]
+                            app["rating"] = details.get("rating", 0)
+                            app["rating_count"] = details.get("rating_count", 0)
+                            # 修复商店链接
+                            if details.get("store_url"):
+                                app["store_url"] = details.get("store_url")
+
+                time.sleep(1)  # 批量请求之间的延迟
+
+        except Exception as e:
+            print(f"    获取详细信息失败: {e}")
+            # 即使失败也继续，使用默认值
 
 
 if __name__ == "__main__":
