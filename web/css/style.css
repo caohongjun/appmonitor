@@ -365,6 +365,67 @@ th.sortable:hover {
     background-color: #f3f4f6;
 }
 
+/* 可点击的应用名称 */
+.app-name.clickable {
+    color: #667eea;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.app-name.clickable:hover {
+    color: #764ba2;
+    text-decoration: underline;
+}
+
+/* 状态标签 */
+.status-badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 12px;
+    color: white;
+    font-size: 0.85em;
+    font-weight: 600;
+}
+
+/* 小按钮 */
+.btn-small {
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: 1px solid #e5e7eb;
+    background: white;
+    color: #1f2937;
+    font-size: 0.85em;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin-right: 5px;
+}
+
+.btn-small:hover {
+    background: #f3f4f6;
+    transform: translateY(-1px);
+}
+
+.btn-small.btn-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+}
+
+.btn-small.btn-primary:hover {
+    box-shadow: 0 2px 8px rgba(102, 126, 234, 0.4);
+}
+
+.btn-small.btn-danger {
+    background: #ef4444;
+    color: white;
+    border: none;
+}
+
+.btn-small.btn-danger:hover {
+    background: #dc2626;
+}
+
 .data-table h4 {
     background: #f9fafb;
     padding: 15px 20px;

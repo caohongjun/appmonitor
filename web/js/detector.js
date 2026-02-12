@@ -206,12 +206,12 @@ function renderDetectorTable(platformName, categoryName) {
                     </tr>
                 </thead>
                 <tbody>
-                    ${filteredApps.map(app => `
+                    ${filteredApps.map((app, index) => `
                         <tr>
                             <td><strong>#${app.rank}</strong></td>
                             <td><img src="${app.icon_url}" alt="${app.name}" class="app-icon" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2240%22 height=%2240%22><rect width=%2240%22 height=%2240%22 fill=%22%23ddd%22/></svg>'"></td>
                             <td>
-                                <div class="app-name">${app.name}</div>
+                                <div class="app-name clickable" onclick="requestAnalysis(${index})">${app.name}</div>
                             </td>
                             <td><div class="app-developer">${app.developer}</div></td>
                             <td>${app.release_date || '-'}</td>
@@ -264,6 +264,51 @@ function sortDetectorTable(column) {
     const platformName = platformNames[currentPlatform];
     const categoryName = categories[currentPlatform][currentCategory];
     renderDetectorTable(platformName, categoryName);
+}
+
+// 请求分析应用
+function requestAnalysis(index) {
+    const app = filteredApps[index];
+
+    // 二次确认弹窗
+    const confirmed = confirm(
+        `是否对应用 "${app.name}" 进行AI智能分析？\n\n` +
+        `平台: ${app.platform}\n` +
+        `分类: ${app.category}\n` +
+        `开发者: ${app.developer}\n\n` +
+        `点击"确定"将把该应用加入分析队列。`
+    );
+
+    if (confirmed) {
+        // 保存到待分析列表
+        addToAnalysisQueue(app);
+        alert(`"${app.name}" 已加入分析队列！\n请前往"AI智能分析"页面查看。`);
+    }
+}
+
+// 添加到分析队列
+function addToAnalysisQueue(app) {
+    // 从 localStorage 读取现有队列
+    let queue = JSON.parse(localStorage.getItem('analysisQueue') || '[]');
+
+    // 检查是否已存在（根据 app_id 和 platform 判断）
+    const exists = queue.some(item =>
+        item.app_id === app.app_id && item.platform === app.platform
+    );
+
+    if (!exists) {
+        // 添加时间戳
+        app.added_time = new Date().toISOString();
+        app.status = 'pending'; // pending, analyzing, completed
+        queue.push(app);
+
+        // 保存到 localStorage
+        localStorage.setItem('analysisQueue', JSON.stringify(queue));
+
+        console.log('已添加到分析队列:', app.name);
+    } else {
+        console.log('应用已在队列中:', app.name);
+    }
 }
 
 // 页面加载完成后执行

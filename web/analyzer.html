@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI智能分析 - App 榜单监控</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 AI 智能分析</h1>
+            <p class="subtitle"><a href="index.html" style="color: white">← 返回首页</a></p>
+        </header>
+
+        <main>
+            <div class="page-layout">
+                <!-- 左侧状态导航 -->
+                <div class="sidebar">
+                    <h3>📊 分析状态</h3>
+                    <ul class="date-list">
+                        <li class="date-item active" onclick="filterByStatus('all')">
+                            全部应用
+                        </li>
+                        <li class="date-item" onclick="filterByStatus('pending')">
+                            待分析
+                        </li>
+                        <li class="date-item" onclick="filterByStatus('analyzing')">
+                            分析中
+                        </li>
+                        <li class="date-item" onclick="filterByStatus('completed')">
+                            已完成
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 右侧内容区 -->
+                <div class="content-area">
+                    <div class="top-bar">
+                        <h2>分析队列</h2>
+                        <div class="top-info" id="statsInfo">
+                            待分析: <strong id="pendingCount">0</strong> |
+                            分析中: <strong id="analyzingCount">0</strong> |
+                            已完成: <strong id="completedCount">0</strong>
+                        </div>
+                    </div>
+
+                    <!-- 平台Tab切换 -->
+                    <div class="tabs">
+                        <div class="tab active" data-platform="all">全部平台</div>
+                        <div class="tab" data-platform="app_store">App Store</div>
+                        <div class="tab" data-platform="google_play">Google Play</div>
+                    </div>
+
+                    <!-- 数据展示区 -->
+                    <div id="dataContent">
+                        <p>加载中...</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>App Store & Google Play 榜单监控 Agent</p>
+        </footer>
+    </div>
+
+    <script src="js/common.js"></script>
+    <script src="js/analyzer.js"></script>
+</body>
+</html>
