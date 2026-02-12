@@ -354,6 +354,17 @@ code {
     margin-bottom: 20px;
 }
 
+/* 可排序的表头 */
+th.sortable {
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.2s;
+}
+
+th.sortable:hover {
+    background-color: #f3f4f6;
+}
+
 .data-table h4 {
     background: #f9fafb;
     padding: 15px 20px;

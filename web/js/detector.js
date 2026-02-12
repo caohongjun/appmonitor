@@ -4,6 +4,8 @@ let currentDate = getQueryParam('date') || getTodayString();
 let currentPlatform = 'app_store';
 let currentCategory = 'health_fitness';
 let allNewApps = []; // 存储所有新产品数据
+let currentSort = { column: null, order: 'asc' }; // 当前排序状态
+let filteredApps = []; // 当前筛选后的应用数据
 
 const categories = {
     'app_store': {
@@ -153,64 +155,115 @@ async function loadData() {
         const platformName = platformNames[currentPlatform];
         const categoryName = categories[currentPlatform][currentCategory];
 
-        const filteredApps = allNewApps.filter(app =>
+        filteredApps = allNewApps.filter(app =>
             app.platform === platformName && app.category === categoryName
         );
 
-        // 渲染表格
-        if (filteredApps.length === 0) {
-            content.innerHTML = `
-                <div class="data-table">
-                    <p style="padding: 40px; text-align: center; color: #6b7280;">
-                        🎉 ${platformName} - ${categoryName} 暂无新上榜产品
-                    </p>
-                </div>
-            `;
-            return;
-        }
-
-        const html = `
-            <div class="data-table">
-                <h4>${platformName} - ${categoryName} (${filteredApps.length}个新产品)</h4>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>排名</th>
-                            <th>图标</th>
-                            <th>应用名称</th>
-                            <th>开发者</th>
-                            <th>上架时间</th>
-                            <th>评分</th>
-                            <th>评价数</th>
-                            <th>链接</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        ${filteredApps.map(app => `
-                            <tr>
-                                <td><strong>#${app.rank}</strong></td>
-                                <td><img src="${app.icon_url}" alt="${app.name}" class="app-icon" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2240%22 height=%2240%22><rect width=%2240%22 height=%2240%22 fill=%22%23ddd%22/></svg>'"></td>
-                                <td>
-                                    <div class="app-name">${app.name}</div>
-                                </td>
-                                <td><div class="app-developer">${app.developer}</div></td>
-                                <td>${app.release_date || '-'}</td>
-                                <td>${app.rating ? app.rating.toFixed(1) + ' ⭐' : '-'}</td>
-                                <td>${app.rating_count ? app.rating_count.toLocaleString() : '-'}</td>
-                                <td><a href="${app.store_url}" target="_blank">查看</a></td>
-                            </tr>
-                        `).join('')}
-                    </tbody>
-                </table>
-                <p style="text-align: center; padding: 15px; color: #6b7280;">共 ${filteredApps.length} 个新产品</p>
-            </div>
-        `;
-
-        content.innerHTML = html;
+        currentSort = { column: null, order: 'asc' }; // 重置排序
+        renderDetectorTable(platformName, categoryName);
     } catch (error) {
         content.innerHTML = '<p style="color: red;">加载失败，请检查数据文件</p>';
         console.error('加载数据失败:', error);
     }
+}
+
+// 渲染新产品表格
+function renderDetectorTable(platformName, categoryName) {
+    const content = document.getElementById('dataContent');
+
+    if (filteredApps.length === 0) {
+        content.innerHTML = `
+            <div class="data-table">
+                <p style="padding: 40px; text-align: center; color: #6b7280;">
+                    🎉 ${platformName} - ${categoryName} 暂无新上榜产品
+                </p>
+            </div>
+        `;
+        return;
+    }
+
+    const sortIndicator = (col) => {
+        if (currentSort.column === col) {
+            return currentSort.order === 'asc' ? ' ↑' : ' ↓';
+        }
+        return '';
+    };
+
+    const html = `
+        <div class="data-table">
+            <h4>${platformName} - ${categoryName} (${filteredApps.length}个新产品)</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>排名</th>
+                        <th>图标</th>
+                        <th>应用名称</th>
+                        <th>开发者</th>
+                        <th class="sortable" onclick="sortDetectorTable('release_date')">上架时间${sortIndicator('release_date')}</th>
+                        <th>评分</th>
+                        <th>评价数</th>
+                        <th>链接</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    ${filteredApps.map(app => `
+                        <tr>
+                            <td><strong>#${app.rank}</strong></td>
+                            <td><img src="${app.icon_url}" alt="${app.name}" class="app-icon" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2240%22 height=%2240%22><rect width=%2240%22 height=%2240%22 fill=%22%23ddd%22/></svg>'"></td>
+                            <td>
+                                <div class="app-name">${app.name}</div>
+                            </td>
+                            <td><div class="app-developer">${app.developer}</div></td>
+                            <td>${app.release_date || '-'}</td>
+                            <td>${app.rating ? app.rating.toFixed(1) + ' ⭐' : '-'}</td>
+                            <td>${app.rating_count ? app.rating_count.toLocaleString() : '-'}</td>
+                            <td><a href="${app.store_url}" target="_blank">查看</a></td>
+                        </tr>
+                    `).join('')}
+                </tbody>
+            </table>
+            <p style="text-align: center; padding: 15px; color: #6b7280;">共 ${filteredApps.length} 个新产品</p>
+        </div>
+    `;
+
+    content.innerHTML = html;
+}
+
+// 表格排序
+function sortDetectorTable(column) {
+    // 切换排序方向
+    if (currentSort.column === column) {
+        currentSort.order = currentSort.order === 'asc' ? 'desc' : 'asc';
+    } else {
+        currentSort.column = column;
+        currentSort.order = 'desc'; // 默认倒序（新到旧）
+    }
+
+    // 排序数据
+    filteredApps.sort((a, b) => {
+        let valueA = a[column] || '';
+        let valueB = b[column] || '';
+
+        // 日期比较
+        if (column === 'release_date') {
+            // 将 YYYY/MM/DD 转换为时间戳进行比较
+            const dateA = valueA ? new Date(valueA.replace(/\//g, '-')).getTime() : 0;
+            const dateB = valueB ? new Date(valueB.replace(/\//g, '-')).getTime() : 0;
+            return currentSort.order === 'asc' ? dateA - dateB : dateB - dateA;
+        }
+
+        // 默认字符串比较
+        if (currentSort.order === 'asc') {
+            return valueA > valueB ? 1 : -1;
+        } else {
+            return valueA < valueB ? 1 : -1;
+        }
+    });
+
+    // 重新渲染表格
+    const platformName = platformNames[currentPlatform];
+    const categoryName = categories[currentPlatform][currentCategory];
+    renderDetectorTable(platformName, categoryName);
 }
 
 // 页面加载完成后执行

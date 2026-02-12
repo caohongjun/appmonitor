@@ -3,6 +3,8 @@
 let currentDate = getQueryParam('date') || getTodayString();
 let currentPlatform = 'app_store';
 let currentCategory = 'health_fitness'; // 当前选中的分类
+let currentSort = { column: null, order: 'asc' }; // 当前排序状态
+let currentApps = []; // 当前显示的应用数据
 
 const categories = {
     'app_store': {
@@ -103,43 +105,9 @@ async function loadData() {
         const data = await loadJSON(`../data/raw/${currentDate}/${currentPlatform}/${currentCategory}.json`);
 
         if (data && data.apps) {
-            const html = `
-                <div class="data-table">
-                    <h4>${categoryName} (${data.apps.length}个应用)</h4>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>排名</th>
-                                <th>图标</th>
-                                <th>应用名称</th>
-                                <th>开发者</th>
-                                <th>上架时间</th>
-                                <th>评分</th>
-                                <th>评价数</th>
-                                <th>链接</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            ${data.apps.map(app => `
-                                <tr>
-                                    <td><strong>#${app.rank}</strong></td>
-                                    <td><img src="${app.icon_url}" alt="${app.name}" class="app-icon" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2240%22 height=%2240%22><rect width=%2240%22 height=%2240%22 fill=%22%23ddd%22/></svg>'"></td>
-                                    <td>
-                                        <div class="app-name">${app.name}</div>
-                                    </td>
-                                    <td><div class="app-developer">${app.developer}</div></td>
-                                    <td>${app.release_date || '-'}</td>
-                                    <td>${app.rating ? app.rating.toFixed(1) + ' ⭐' : '-'}</td>
-                                    <td>${app.rating_count ? app.rating_count.toLocaleString() : '-'}</td>
-                                    <td><a href="${app.store_url}" target="_blank">查看</a></td>
-                                </tr>
-                            `).join('')}
-                        </tbody>
-                    </table>
-                    <p style="text-align: center; padding: 15px; color: #6b7280;">共 ${data.apps.length} 个应用</p>
-                </div>
-            `;
-            content.innerHTML = html;
+            currentApps = data.apps;
+            currentSort = { column: null, order: 'asc' }; // 重置排序
+            renderTable(categoryName);
         } else {
             content.innerHTML = `
                 <div class="data-table">
@@ -152,6 +120,91 @@ async function loadData() {
         content.innerHTML = '<p style="color: red;">加载失败，请检查数据文件</p>';
         console.error('加载数据失败:', error);
     }
+}
+
+// 渲染表格
+function renderTable(categoryName) {
+    const content = document.getElementById('dataContent');
+    const sortIndicator = (col) => {
+        if (currentSort.column === col) {
+            return currentSort.order === 'asc' ? ' ↑' : ' ↓';
+        }
+        return '';
+    };
+
+    const html = `
+        <div class="data-table">
+            <h4>${categoryName} (${currentApps.length}个应用)</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>排名</th>
+                        <th>图标</th>
+                        <th>应用名称</th>
+                        <th>开发者</th>
+                        <th class="sortable" onclick="sortTable('release_date')">上架时间${sortIndicator('release_date')}</th>
+                        <th>评分</th>
+                        <th>评价数</th>
+                        <th>链接</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    ${currentApps.map(app => `
+                        <tr>
+                            <td><strong>#${app.rank}</strong></td>
+                            <td><img src="${app.icon_url}" alt="${app.name}" class="app-icon" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2240%22 height=%2240%22><rect width=%2240%22 height=%2240%22 fill=%22%23ddd%22/></svg>'"></td>
+                            <td>
+                                <div class="app-name">${app.name}</div>
+                            </td>
+                            <td><div class="app-developer">${app.developer}</div></td>
+                            <td>${app.release_date || '-'}</td>
+                            <td>${app.rating ? app.rating.toFixed(1) + ' ⭐' : '-'}</td>
+                            <td>${app.rating_count ? app.rating_count.toLocaleString() : '-'}</td>
+                            <td><a href="${app.store_url}" target="_blank">查看</a></td>
+                        </tr>
+                    `).join('')}
+                </tbody>
+            </table>
+            <p style="text-align: center; padding: 15px; color: #6b7280;">共 ${currentApps.length} 个应用</p>
+        </div>
+    `;
+    content.innerHTML = html;
+}
+
+// 表格排序
+function sortTable(column) {
+    // 切换排序方向
+    if (currentSort.column === column) {
+        currentSort.order = currentSort.order === 'asc' ? 'desc' : 'asc';
+    } else {
+        currentSort.column = column;
+        currentSort.order = 'desc'; // 默认倒序（新到旧）
+    }
+
+    // 排序数据
+    currentApps.sort((a, b) => {
+        let valueA = a[column] || '';
+        let valueB = b[column] || '';
+
+        // 日期比较
+        if (column === 'release_date') {
+            // 将 YYYY/MM/DD 转换为时间戳进行比较
+            const dateA = valueA ? new Date(valueA.replace(/\//g, '-')).getTime() : 0;
+            const dateB = valueB ? new Date(valueB.replace(/\//g, '-')).getTime() : 0;
+            return currentSort.order === 'asc' ? dateA - dateB : dateB - dateA;
+        }
+
+        // 默认字符串比较
+        if (currentSort.order === 'asc') {
+            return valueA > valueB ? 1 : -1;
+        } else {
+            return valueA < valueB ? 1 : -1;
+        }
+    });
+
+    // 重新渲染表格
+    const categoryName = categories[currentPlatform][currentCategory];
+    renderTable(categoryName);
 }
 
 // 页面加载完成后执行
