@@ -157,7 +157,7 @@ async function loadData() {
             app.platform === platformName && app.category === categoryName
         );
 
-        // 渲染卡片
+        // 渲染表格
         if (filteredApps.length === 0) {
             content.innerHTML = `
                 <div class="data-table">
@@ -172,24 +172,37 @@ async function loadData() {
         const html = `
             <div class="data-table">
                 <h4>${platformName} - ${categoryName} (${filteredApps.length}个新产品)</h4>
-                <div class="card-list">
-                    ${filteredApps.map(app => `
-                        <div class="app-card">
-                            <div class="app-header">
-                                <img src="${app.icon_url}" alt="${app.name}" class="app-icon" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2240%22 height=%2240%22><rect width=%2240%22 height=%2240%22 fill=%22%23ddd%22/></svg>'">
-                                <div class="app-info">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>排名</th>
+                            <th>图标</th>
+                            <th>应用名称</th>
+                            <th>开发者</th>
+                            <th>上架时间</th>
+                            <th>评分</th>
+                            <th>评价数</th>
+                            <th>链接</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${filteredApps.map(app => `
+                            <tr>
+                                <td><strong>#${app.rank}</strong></td>
+                                <td><img src="${app.icon_url}" alt="${app.name}" class="app-icon" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2240%22 height=%2240%22><rect width=%2240%22 height=%2240%22 fill=%22%23ddd%22/></svg>'"></td>
+                                <td>
                                     <div class="app-name">${app.name}</div>
-                                    <div class="app-developer">${app.developer}</div>
-                                </div>
-                            </div>
-                            <div class="app-meta">
-                                <div class="meta-item">📊 排名: #${app.rank}</div>
-                                <div class="meta-item">📅 ${app.release_date || '未知'}</div>
-                            </div>
-                            <a href="${app.store_url}" target="_blank" class="btn btn-primary" style="width: 100%; text-align: center;">查看详情 →</a>
-                        </div>
-                    `).join('')}
-                </div>
+                                </td>
+                                <td><div class="app-developer">${app.developer}</div></td>
+                                <td>${app.release_date || '-'}</td>
+                                <td>${app.rating ? app.rating.toFixed(1) + ' ⭐' : '-'}</td>
+                                <td>${app.rating_count ? app.rating_count.toLocaleString() : '-'}</td>
+                                <td><a href="${app.store_url}" target="_blank">查看</a></td>
+                            </tr>
+                        `).join('')}
+                    </tbody>
+                </table>
+                <p style="text-align: center; padding: 15px; color: #6b7280;">共 ${filteredApps.length} 个新产品</p>
             </div>
         `;
 
