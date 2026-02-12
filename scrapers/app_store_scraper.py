@@ -139,8 +139,9 @@ class AppStoreScraper:
             else:
                 icon_url = ""
 
-            # 获取上架时间
-            release_date = entry.get("im:releaseDate", {}).get("attributes", {}).get("label", "")
+            # 获取上架时间（转换为 YYYY/MM/DD 格式）
+            release_date_raw = entry.get("im:releaseDate", {}).get("label", "")
+            release_date = self._format_release_date(release_date_raw)
 
             return {
                 "platform": "App Store",
@@ -163,6 +164,31 @@ class AppStoreScraper:
             # print(f"    解析应用数据失败: {e}")
             # traceback.print_exc()  # 取消注释以查看详细错误
             return None
+
+    def _format_release_date(self, date_str: str) -> str:
+        """
+        格式化上架时间为 YYYY/MM/DD 格式
+
+        Args:
+            date_str: ISO格式的日期字符串（如 "2010-11-03T18:40:59-07:00"）
+
+        Returns:
+            str: 格式化后的日期（如 "2010/11/03"）
+        """
+        if not date_str:
+            return ""
+
+        try:
+            # 如果是 "2010-11-03T..." 格式，直接提取日期部分
+            if "T" in date_str:
+                date_part = date_str.split("T")[0]  # 获取 "2010-11-03"
+                return date_part.replace("-", "/")  # 转换为 "2010/11/03"
+            # 如果已经是 "2010-11-03" 格式
+            elif "-" in date_str and len(date_str) == 10:
+                return date_str.replace("-", "/")
+            return date_str
+        except:
+            return ""
 
     def _enrich_app_details(self, apps: List[Dict], session: requests.Session):
         """
