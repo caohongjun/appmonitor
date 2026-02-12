@@ -78,6 +78,9 @@ pip install -r requirements_module1.txt
 ### 4. 运行爬虫（模块1）
 
 ```bash
+# 确保在虚拟环境中（看到 (venv) 前缀）
+source venv/bin/activate
+
 # 爬取今天所有数据
 python modules/scraper.py
 
@@ -137,7 +140,12 @@ app_moitor/
 
 详细文档请查看：[README_MODULE1.md](README_MODULE1.md)
 
+**⚠️ 重要：所有命令必须在虚拟环境中执行！**
+
 ```bash
+# 先激活虚拟环境
+source venv/bin/activate
+
 # 爬取所有数据（10个分类，约5-10分钟）
 python modules/scraper.py
 
@@ -147,7 +155,7 @@ python modules/scraper.py --platform app_store
 # 只爬取指定分类
 python modules/scraper.py --category health_fitness
 
-# 爬取指定日期
+# 爬取指定日期（注意：只能获取当前实时数据）
 python modules/scraper.py --date 2026-02-12
 
 # 查看帮助
@@ -159,6 +167,9 @@ python modules/scraper.py --help
 详细文档请查看：[README_MODULE2.md](README_MODULE2.md)
 
 ```bash
+# 先激活虚拟环境
+source venv/bin/activate
+
 # 识别今天的新上榜产品
 python modules/detector.py
 
@@ -289,6 +300,34 @@ crontab -e
 - 如果使用系统自带的 Python 3.9（LibreSSL 2.8.3）会导致网络连接失败
 - 推荐使用 Homebrew 安装的 Python：`brew install python@3.11`
 
+### ⚠️ 常见错误
+
+**错误：Connection reset by peer**
+
+```bash
+✗ 爬取失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+```
+
+**原因**：使用了系统 Python（LibreSSL 2.8.3）而不是 venv Python（OpenSSL 3.6.1）
+
+**解决**：
+```bash
+# 方法1：激活 venv 后执行
+source venv/bin/activate
+python modules/scraper.py
+
+# 方法2：直接使用 venv 的 Python
+./venv/bin/python3 modules/scraper.py
+```
+
+**如何确认使用的是哪个 Python？**
+```bash
+# 激活 venv 后会看到 (venv) 前缀
+source venv/bin/activate
+(venv) $ python -c "import ssl; print(ssl.OPENSSL_VERSION)"
+# 应该显示: OpenSSL 3.6.1 27 Jan 2026
+```
+
 ### 频率限制
 
 - ✅ **推荐频率**：每天 1 次
@@ -330,8 +369,15 @@ MIT License
 ---
 
 **快速开始**：
-1. 安装依赖：`pip install -r requirements_module1.txt`
-2. 运行爬虫：`python modules/scraper.py`
-3. 查看数据：`data/raw/{日期}/`
+1. 创建虚拟环境：`python3.11 -m venv venv`
+2. 激活环境：`source venv/bin/activate`
+3. 安装依赖：`pip install -r requirements_module1.txt`
+4. 运行爬虫：`python modules/scraper.py`
+5. 查看数据：`data/raw/{日期}/`
+
+**⚠️ 重要提示**：
+- 必须在虚拟环境中执行所有 Python 命令
+- 系统自带的 Python（LibreSSL）无法连接到 API
+- 虚拟环境使用的 Python 3.11（OpenSSL）可以正常工作
 
 祝你使用愉快！🚀
