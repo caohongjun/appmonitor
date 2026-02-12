@@ -13,7 +13,11 @@
       "Bash(ls:*)",
       "Bash(./check_sensitive.sh:*)",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(curl:*)",
+      "Bash(/opt/homebrew/bin/brew install python@3.11)",
+      "Bash(/opt/homebrew/bin/python3.11:*)",
+      "Bash(grep:*)"
     ]
   }
 }

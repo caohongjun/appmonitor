@@ -3,9 +3,6 @@
 定义需要监控的应用分类
 """
 
-# 飞书配置
-from config import FEISHU_APP_ID, FEISHU_APP_SECRET, FEISHU_SPREADSHEET_TOKEN
-
 # ===== App Store 分类配置 =====
 # App Store RSS API 分类 ID (genreId)
 # 文档: https://rss.applemarketingtools.com/

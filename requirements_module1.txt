@@ -1,0 +1,3 @@
+# 模块1（爬虫）依赖
+requests>=2.31.0
+google-play-scraper>=1.2.0

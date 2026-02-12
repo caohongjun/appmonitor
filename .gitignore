@@ -45,3 +45,7 @@ Thumbs.db
 
 # Logs
 *.log
+logs/
+
+# Data files (不提交数据)
+data/
