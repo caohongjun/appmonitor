@@ -737,6 +737,111 @@ footer a:hover {
     box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
 }
 
+/* 商店链接输入区域 */
+.store-link-input-container {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.input-group {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.store-link-input {
+    flex: 1;
+    padding: 14px 18px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.95);
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.store-link-input:focus {
+    border-color: #fff;
+    background: #fff;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.3);
+}
+
+.store-link-input::placeholder {
+    color: #999;
+}
+
+.btn-primary {
+    padding: 14px 28px;
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+    box-shadow: 0 4px 12px rgba(245, 87, 108, 0.4);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(245, 87, 108, 0.5);
+}
+
+.btn-primary:active {
+    transform: translateY(0);
+}
+
+.btn-icon {
+    font-size: 16px;
+}
+
+.input-hint {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.input-hint code {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-family: 'Monaco', 'Courier New', monospace;
+    font-size: 11px;
+    color: #fff;
+    white-space: nowrap;
+}
+
+/* Toast 动画 */
+@keyframes slideIn {
+    from {
+        transform: translateX(400px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideOut {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(400px);
+        opacity: 0;
+    }
+}
+
 /* 响应式 */
 @media (max-width: 768px) {
     .page-layout {
@@ -758,5 +863,14 @@ footer a:hover {
 
     .modal-actions {
         flex-direction: column;
+    }
+
+    .input-group {
+        flex-direction: column;
+    }
+
+    .btn-primary {
+        width: 100%;
+        justify-content: center;
     }
 }

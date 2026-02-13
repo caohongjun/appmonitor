@@ -358,6 +358,222 @@ function removeFromQueue(appId, platform) {
     }
 }
 
+// 解析商店链接并开始分析
+async function analyzeFromStoreLink() {
+    const input = document.getElementById('storeLinkInput');
+    const button = document.getElementById('analyzeLinkBtn');
+    const storeLink = input.value.trim();
+
+    if (!storeLink) {
+        showToast('请输入商店链接', 'error');
+        return;
+    }
+
+    // 解析链接
+    const parsedResult = parseStoreLink(storeLink);
+
+    if (!parsedResult) {
+        showToast('无法识别的链接格式！请输入有效的 App Store 或 Google Play 链接', 'error');
+        input.focus();
+        return;
+    }
+
+    const { app_id, platform, app_name } = parsedResult;
+
+    // 禁用按钮，防止重复提交
+    button.disabled = true;
+    button.innerHTML = '<span class="btn-icon">⏳</span>正在分析...';
+
+    try {
+        // 调用分析API
+        const response = await fetch('/api/analyze', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                app_id: app_id,
+                platform: platform
+            })
+        });
+
+        const result = await response.json();
+
+        if (result.success) {
+            // 添加到分析队列
+            const existingIndex = analysisQueue.findIndex(
+                app => app.app_id === app_id && app.platform === platform
+            );
+
+            if (existingIndex === -1) {
+                analysisQueue.push({
+                    app_id: app_id,
+                    name: app_name || app_id,
+                    platform: platform,
+                    status: 'analyzing',
+                    added_time: new Date().toISOString(),
+                    store_url: storeLink
+                });
+
+                // 保存到 localStorage
+                localStorage.setItem('analysisQueue', JSON.stringify(analysisQueue));
+
+                // 刷新页面
+                loadAnalysisQueue();
+                renderTable();
+
+                showToast('分析任务已启动！', 'success');
+
+                // 清空输入框
+                input.value = '';
+            } else {
+                // 如果已存在，更新状态为分析中
+                analysisQueue[existingIndex].status = 'analyzing';
+                localStorage.setItem('analysisQueue', JSON.stringify(analysisQueue));
+                renderTable();
+                showToast('分析任务已重新启动', 'info');
+            }
+
+            // 开始轮询检查结果
+            startPollingForResult(app_id, platform);
+
+        } else {
+            showToast('启动分析失败：' + (result.error || '未知错误'), 'error');
+        }
+    } catch (error) {
+        console.error('分析请求失败:', error);
+        showToast('网络错误，请检查服务器是否运行', 'error');
+    } finally {
+        // 恢复按钮状态
+        button.disabled = false;
+        button.innerHTML = '<span class="btn-icon">🔍</span>开始分析';
+    }
+}
+
+// 解析商店链接，提取 app_id 和 platform
+function parseStoreLink(url) {
+    // App Store 链接格式：https://apps.apple.com/.../id123456789
+    const appStorePattern = /apps\.apple\.com\/.*\/id(\d+)/i;
+    const appStoreMatch = url.match(appStorePattern);
+
+    if (appStoreMatch) {
+        return {
+            app_id: appStoreMatch[1],  // 提取数字ID
+            platform: 'App Store',
+            app_name: extractAppNameFromUrl(url) || `App ${appStoreMatch[1]}`
+        };
+    }
+
+    // Google Play 链接格式：https://play.google.com/store/apps/details?id=com.example.app
+    const googlePlayPattern = /play\.google\.com\/store\/apps\/details\?id=([a-zA-Z0-9._]+)/i;
+    const googlePlayMatch = url.match(googlePlayPattern);
+
+    if (googlePlayMatch) {
+        return {
+            app_id: googlePlayMatch[1],  // 提取包名
+            platform: 'Google Play',
+            app_name: extractAppNameFromUrl(url) || googlePlayMatch[1].split('.').pop()
+        };
+    }
+
+    return null;
+}
+
+// 从URL中提取应用名称（如果有）
+function extractAppNameFromUrl(url) {
+    try {
+        // App Store: https://apps.apple.com/us/app/app-name/id123
+        const appStoreNameMatch = url.match(/\/app\/([^/]+)\/id/i);
+        if (appStoreNameMatch) {
+            return decodeURIComponent(appStoreNameMatch[1])
+                .replace(/-/g, ' ')
+                .replace(/\b\w/g, l => l.toUpperCase());
+        }
+
+        // Google Play: URL中可能有 &hl=zh 等参数，但通常没有名称
+        return null;
+    } catch (error) {
+        return null;
+    }
+}
+
+// 开始轮询检查分析结果
+function startPollingForResult(app_id, platform) {
+    const today = getTodayString();
+    let pollCount = 0;
+    const maxPolls = 60; // 最多轮询60次（5分钟）
+
+    const pollInterval = setInterval(async () => {
+        pollCount++;
+
+        try {
+            const response = await fetch(`/api/analysis/${app_id}?platform=${encodeURIComponent(platform)}&date=${today}`);
+
+            if (response.ok) {
+                // 分析完成
+                clearInterval(pollInterval);
+
+                // 更新队列状态
+                const appIndex = analysisQueue.findIndex(
+                    app => app.app_id === app_id && app.platform === platform
+                );
+
+                if (appIndex !== -1) {
+                    analysisQueue[appIndex].status = 'completed';
+                    analysisQueue[appIndex].analyzed_time = new Date().toISOString();
+                    localStorage.setItem('analysisQueue', JSON.stringify(analysisQueue));
+                    renderTable();
+                    updateStats();
+                }
+
+                showToast('分析完成！', 'success');
+            } else if (pollCount >= maxPolls) {
+                // 超时
+                clearInterval(pollInterval);
+                showToast('分析超时，请检查日志', 'warning');
+            }
+        } catch (error) {
+            if (pollCount >= maxPolls) {
+                clearInterval(pollInterval);
+            }
+        }
+    }, 5000); // 每5秒检查一次
+}
+
+// 显示提示消息
+function showToast(message, type = 'info') {
+    // 创建toast元素
+    const toast = document.createElement('div');
+    toast.className = `toast toast-${type}`;
+    toast.textContent = message;
+
+    // 添加样式
+    toast.style.cssText = `
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        padding: 15px 25px;
+        background: ${type === 'success' ? '#10b981' : type === 'error' ? '#ef4444' : type === 'warning' ? '#f59e0b' : '#3b82f6'};
+        color: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        z-index: 10000;
+        animation: slideIn 0.3s ease;
+        font-weight: 500;
+    `;
+
+    // 添加到页面
+    document.body.appendChild(toast);
+
+    // 3秒后移除
+    setTimeout(() => {
+        toast.style.animation = 'slideOut 0.3s ease';
+        setTimeout(() => {
+            document.body.removeChild(toast);
+        }, 300);
+    }, 3000);
+}
+
 // 自动检查分析结果
 async function autoCheckAnalysisResults() {
     const today = getTodayString();

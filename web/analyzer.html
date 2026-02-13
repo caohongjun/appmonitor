@@ -45,6 +45,27 @@
                         </div>
                     </div>
 
+                    <!-- 输入商店链接进行分析 -->
+                    <div class="store-link-input-container">
+                        <div class="input-group">
+                            <input
+                                type="text"
+                                id="storeLinkInput"
+                                class="store-link-input"
+                                placeholder="输入 App Store 或 Google Play 商店链接，例如：https://apps.apple.com/app/id123456789"
+                            />
+                            <button id="analyzeLinkBtn" class="btn-primary" onclick="analyzeFromStoreLink()">
+                                <span class="btn-icon">🔍</span>
+                                开始分析
+                            </button>
+                        </div>
+                        <div class="input-hint">
+                            支持格式：
+                            <code>https://apps.apple.com/.../id[数字]</code> 或
+                            <code>https://play.google.com/store/apps/details?id=[包名]</code>
+                        </div>
+                    </div>
+
                     <!-- 平台Tab切换 -->
                     <div class="tabs">
                         <div class="tab active" data-platform="all">全部平台</div>
