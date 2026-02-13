@@ -1,0 +1,297 @@
+/* 分析详情页面样式 */
+
+.detail-container {
+    min-height: 600px;
+}
+
+/* 加载状态 */
+.loading-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 20px;
+}
+
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 4px solid #e5e7eb;
+    border-top-color: #667eea;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.loading-state p {
+    margin-top: 20px;
+    color: #6b7280;
+    font-size: 1.1em;
+}
+
+/* 错误状态 */
+.error-state {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.error-icon {
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+.error-state h2 {
+    color: #ef4444;
+    margin-bottom: 10px;
+}
+
+.error-state p {
+    color: #6b7280;
+    margin-bottom: 30px;
+}
+
+/* 应用信息区 */
+.app-info-section {
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 30px;
+    border: 2px solid #e5e7eb;
+}
+
+.app-info-header {
+    display: flex;
+    gap: 25px;
+    align-items: start;
+    margin-bottom: 20px;
+}
+
+.app-icon-large {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    flex-shrink: 0;
+}
+
+.app-info-text {
+    flex: 1;
+}
+
+.app-name-large {
+    font-size: 2em;
+    color: #1f2937;
+    margin-bottom: 15px;
+}
+
+.app-meta-info {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.meta-badge {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 20px;
+    background: #f3f4f6;
+    color: #1f2937;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+.rank-badge {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.app-developer {
+    color: #6b7280;
+    margin-bottom: 20px;
+}
+
+.app-actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.analysis-meta {
+    display: flex;
+    gap: 30px;
+    padding-top: 20px;
+    border-top: 2px solid #e5e7eb;
+    color: #6b7280;
+    font-size: 0.95em;
+}
+
+.analysis-meta strong {
+    color: #1f2937;
+}
+
+/* 分析内容区 */
+.analysis-content {
+    background: white;
+    border-radius: 15px;
+    padding: 40px;
+    border: 2px solid #e5e7eb;
+}
+
+/* Markdown样式 */
+.markdown-body {
+    font-size: 1.05em;
+    line-height: 1.8;
+    color: #1f2937;
+}
+
+.markdown-body h1 {
+    font-size: 2em;
+    color: #1f2937;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #667eea;
+}
+
+.markdown-body h2 {
+    font-size: 1.6em;
+    color: #1f2937;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    border-left: 4px solid #667eea;
+}
+
+.markdown-body h3 {
+    font-size: 1.3em;
+    color: #374151;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.markdown-body p {
+    margin-bottom: 16px;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+.markdown-body li {
+    margin-bottom: 10px;
+}
+
+.markdown-body strong {
+    color: #111827;
+    font-weight: 700;
+}
+
+.markdown-body code {
+    background: #f3f4f6;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    color: #d63384;
+}
+
+.markdown-body pre {
+    background: #f9fafb;
+    padding: 20px;
+    border-radius: 10px;
+    overflow-x: auto;
+    margin-bottom: 20px;
+}
+
+.markdown-body pre code {
+    background: none;
+    padding: 0;
+    color: #1f2937;
+}
+
+.markdown-body blockquote {
+    border-left: 4px solid #667eea;
+    padding-left: 20px;
+    margin-left: 0;
+    color: #6b7280;
+    font-style: italic;
+}
+
+.markdown-body table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+    padding: 12px;
+    border: 1px solid #e5e7eb;
+    text-align: left;
+}
+
+.markdown-body table th {
+    background: #f9fafb;
+    font-weight: 600;
+}
+
+.markdown-body table tr:hover {
+    background: #f9fafb;
+}
+
+.markdown-body hr {
+    border: none;
+    border-top: 2px solid #e5e7eb;
+    margin: 30px 0;
+}
+
+/* 响应式 */
+@media (max-width: 768px) {
+    .app-info-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .app-icon-large {
+        width: 100px;
+        height: 100px;
+    }
+
+    .app-name-large {
+        font-size: 1.5em;
+    }
+
+    .app-meta-info {
+        justify-content: center;
+    }
+
+    .app-actions {
+        justify-content: center;
+    }
+
+    .analysis-meta {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .analysis-content {
+        padding: 25px 20px;
+    }
+
+    .markdown-body {
+        font-size: 1em;
+    }
+
+    .markdown-body h1 {
+        font-size: 1.6em;
+    }
+
+    .markdown-body h2 {
+        font-size: 1.3em;
+    }
+}

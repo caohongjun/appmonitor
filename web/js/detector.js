@@ -266,40 +266,150 @@ function sortDetectorTable(column) {
     renderDetectorTable(platformName, categoryName);
 }
 
+// 当前选中的应用
+let selectedApp = null;
+
 // 请求分析应用
 function requestAnalysis(index) {
-    const app = filteredApps[index];
+    selectedApp = filteredApps[index];
+    showAnalysisModal(selectedApp);
+}
 
-    // 二次确认弹窗
-    const confirmed = confirm(
-        `是否对应用 "${app.name}" 进行AI智能分析？\n\n` +
-        `平台: ${app.platform}\n` +
-        `分类: ${app.category}\n` +
-        `开发者: ${app.developer}\n\n` +
-        `点击"确定"将把该应用加入分析队列。`
-    );
+// 显示分析弹窗
+function showAnalysisModal(app) {
+    const modal = document.getElementById('analysisModal');
 
-    if (confirmed) {
-        // 保存到待分析列表
-        addToAnalysisQueue(app);
-        alert(`"${app.name}" 已加入分析队列！\n请前往"AI智能分析"页面查看。`);
-    }
+    // 填充应用信息
+    document.getElementById('modalAppIcon').src = app.icon_url;
+    document.getElementById('modalAppIcon').alt = app.name;
+    document.getElementById('modalAppName').textContent = app.name;
+    document.getElementById('modalAppPlatform').textContent = app.platform;
+    document.getElementById('modalAppCategory').textContent = app.category;
+    document.getElementById('modalAppDeveloper').textContent = app.developer;
+
+    // 显示弹窗
+    modal.classList.add('show');
+
+    // 点击遮罩层关闭弹窗
+    modal.onclick = function(e) {
+        if (e.target === modal) {
+            closeAnalysisModal();
+        }
+    };
+}
+
+// 关闭分析弹窗
+function closeAnalysisModal() {
+    const modal = document.getElementById('analysisModal');
+    modal.classList.remove('show');
+    selectedApp = null;
+}
+
+// 加入待分析队列
+function addToQueue() {
+    if (!selectedApp) return;
+
+    // 保存到待分析列表
+    addToAnalysisQueue(selectedApp);
+
+    // 关闭弹窗
+    closeAnalysisModal();
+
+    // 显示提示
+    showToast(`✅ "${selectedApp.name}" 已加入分析队列！`, 'success');
+}
+
+// 立即分析
+function analyzeNow() {
+    if (!selectedApp) return;
+
+    // 保存到待分析列表，状态设为analyzing
+    addToAnalysisQueue(selectedApp, 'analyzing');
+
+    // 关闭弹窗
+    closeAnalysisModal();
+
+    // TODO: 这里将来调用后端API进行分析
+    showToast(`⚡ 开始分析 "${selectedApp.name}"`, 'info');
+
+    // 跳转到分析页面
+    setTimeout(() => {
+        window.location.href = 'analyzer.html';
+    }, 1500);
+}
+
+// 显示提示消息
+function showToast(message, type = 'info') {
+    // 创建toast元素
+    const toast = document.createElement('div');
+    toast.style.cssText = `
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background: ${type === 'success' ? 'linear-gradient(135deg, #10b981 0%, #059669 100%)' :
+                     type === 'info' ? 'linear-gradient(135deg, #3b82f6 0%, #2563eb 100%)' :
+                     'linear-gradient(135deg, #667eea 0%, #764ba2 100%)'};
+        color: white;
+        padding: 16px 24px;
+        border-radius: 12px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        z-index: 10000;
+        font-weight: 600;
+        animation: slideInRight 0.3s ease;
+    `;
+    toast.textContent = message;
+
+    // 添加动画
+    const style = document.createElement('style');
+    style.textContent = `
+        @keyframes slideInRight {
+            from {
+                transform: translateX(400px);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+        @keyframes slideOutRight {
+            from {
+                transform: translateX(0);
+                opacity: 1;
+            }
+            to {
+                transform: translateX(400px);
+                opacity: 0;
+            }
+        }
+    `;
+    document.head.appendChild(style);
+
+    document.body.appendChild(toast);
+
+    // 3秒后自动消失
+    setTimeout(() => {
+        toast.style.animation = 'slideOutRight 0.3s ease';
+        setTimeout(() => {
+            document.body.removeChild(toast);
+        }, 300);
+    }, 3000);
 }
 
 // 添加到分析队列
-function addToAnalysisQueue(app) {
+function addToAnalysisQueue(app, status = 'pending') {
     // 从 localStorage 读取现有队列
     let queue = JSON.parse(localStorage.getItem('analysisQueue') || '[]');
 
     // 检查是否已存在（根据 app_id 和 platform 判断）
-    const exists = queue.some(item =>
+    const existingIndex = queue.findIndex(item =>
         item.app_id === app.app_id && item.platform === app.platform
     );
 
-    if (!exists) {
-        // 添加时间戳
+    if (existingIndex === -1) {
+        // 不存在，添加新记录
         app.added_time = new Date().toISOString();
-        app.status = 'pending'; // pending, analyzing, completed
+        app.status = status; // pending, analyzing, completed
         queue.push(app);
 
         // 保存到 localStorage
@@ -307,7 +417,10 @@ function addToAnalysisQueue(app) {
 
         console.log('已添加到分析队列:', app.name);
     } else {
-        console.log('应用已在队列中:', app.name);
+        // 已存在，更新状态
+        queue[existingIndex].status = status;
+        localStorage.setItem('analysisQueue', JSON.stringify(queue));
+        console.log('已更新应用状态:', app.name, status);
     }
 }
 

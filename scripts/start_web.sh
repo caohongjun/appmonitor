@@ -1,15 +1,16 @@
 #!/bin/bash
-# 启动Web服务器
+# 启动增强版Web服务器（支持静态文件 + API接口）
 
 cd "$(dirname "$0")/.."
 
-echo "🚀 启动 Web 服务器..."
-echo "📂 根目录: $(pwd)"
-echo ""
-echo "👉 访问地址: http://localhost:8000/web/"
-echo ""
-echo "按 Ctrl+C 停止服务器"
-echo ""
+# 确保虚拟环境中有必要的依赖
+source venv/bin/activate
 
-# 使用Python启动HTTP服务器
-python3 -m http.server 8000
+# 检查并安装anthropic（如果需要）
+if ! pip list 2>/dev/null | grep -q anthropic; then
+    echo "📦 安装anthropic库..."
+    pip install anthropic -q
+fi
+
+# 启动增强版服务器
+python simple_server.py

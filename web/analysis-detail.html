@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>分析详情 - App 榜单监控</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/analysis-detail.css">
+    <!-- Markdown渲染库 -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <!-- 代码高亮（可选） -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11/styles/github.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/highlight.js@11/lib/core.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 AI 智能分析</h1>
+            <p class="subtitle">
+                <a href="analyzer.html" style="color: white">← 返回分析队列</a>
+            </p>
+        </header>
+
+        <main>
+            <div class="detail-container">
+                <!-- 加载中状态 -->
+                <div id="loadingState" class="loading-state">
+                    <div class="spinner"></div>
+                    <p>加载中...</p>
+                </div>
+
+                <!-- 错误状态 -->
+                <div id="errorState" class="error-state" style="display: none;">
+                    <div class="error-icon">⚠️</div>
+                    <h2>加载失败</h2>
+                    <p id="errorMessage"></p>
+                    <button class="btn btn-primary" onclick="location.href='analyzer.html'">返回分析队列</button>
+                </div>
+
+                <!-- 内容区 -->
+                <div id="contentArea" style="display: none;">
+                    <!-- 应用信息卡片 -->
+                    <div class="app-info-section">
+                        <div class="app-info-header">
+                            <img id="appIcon" class="app-icon-large" src="" alt="">
+                            <div class="app-info-text">
+                                <h1 id="appName" class="app-name-large"></h1>
+                                <div class="app-meta-info">
+                                    <span id="appPlatform" class="meta-badge"></span>
+                                    <span id="appCategory" class="meta-badge"></span>
+                                    <span id="appRank" class="meta-badge rank-badge"></span>
+                                </div>
+                                <p class="app-developer">
+                                    <strong>开发者：</strong><span id="appDeveloper"></span>
+                                </p>
+                                <div class="app-actions">
+                                    <a id="storeLink" href="#" target="_blank" class="btn btn-small">查看商店页面</a>
+                                    <button class="btn btn-small" onclick="copyAnalysis()">📋 复制分析内容</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="analysis-meta">
+                            <span>📅 分析时间：<strong id="analysisDate"></strong></span>
+                            <span>🔢 Token使用：<strong id="tokensUsed"></strong></span>
+                        </div>
+                    </div>
+
+                    <!-- 分析内容 -->
+                    <div class="analysis-content">
+                        <div id="markdownContent" class="markdown-body">
+                            <!-- Markdown内容将在这里渲染 -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>App Store & Google Play 榜单监控 Agent</p>
+        </footer>
+    </div>
+
+    <script src="js/common.js"></script>
+    <script src="js/analysis-detail.js"></script>
+</body>
+</html>
