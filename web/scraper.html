@@ -55,5 +55,53 @@
 
     <script src="js/common.js"></script>
     <script src="js/scraper.js"></script>
+    <script src="js/detector.js"></script>
+
+    <!-- AI分析弹窗 -->
+    <div class="modal-overlay" id="analysisModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>🤖 AI智能分析</h3>
+                <button class="modal-close" onclick="closeAnalysisModal()">×</button>
+            </div>
+            <div class="modal-body">
+                <div class="app-info-card">
+                    <div class="app-info-row">
+                        <img id="modalAppIcon" class="app-info-icon" src="" alt="">
+                        <div class="app-info-details">
+                            <div class="app-info-name" id="modalAppName"></div>
+                            <div class="app-info-meta">
+                                <div>
+                                    <span class="app-info-label">平台：</span>
+                                    <span class="app-info-value" id="modalAppPlatform"></span>
+                                </div>
+                                <div>
+                                    <span class="app-info-label">分类：</span>
+                                    <span class="app-info-value" id="modalAppCategory"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="margin-top: 12px; padding-top: 12px; border-top: 1px solid #e5e7eb;">
+                        <span class="app-info-label">开发者：</span>
+                        <span class="app-info-value" id="modalAppDeveloper"></span>
+                    </div>
+                </div>
+
+                <p class="modal-description">
+                    请选择分析方式，您可以立即开始分析，或将其加入队列稍后处理
+                </p>
+
+                <div class="modal-actions">
+                    <button class="modal-btn modal-btn-queue" onclick="addToQueue()">
+                        📋 加入待分析队列
+                    </button>
+                    <button class="modal-btn modal-btn-analyze" onclick="analyzeNow()">
+                        ⚡ 立即分析
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

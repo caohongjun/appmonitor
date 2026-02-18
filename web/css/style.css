@@ -882,3 +882,49 @@ footer a:hover {
         justify-content: center;
     }
 }
+
+/* Toast 提示消息样式 */
+.toast {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+    z-index: 10000;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: all 0.3s ease;
+    max-width: 300px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.toast.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.toast-info {
+    background: #3b82f6;
+}
+
+.toast-success {
+    background: #10b981;
+}
+
+.toast-error {
+    background: #ef4444;
+}
+
+/* 可点击的应用名称样式 */
+.app-name.clickable {
+    color: #3b82f6;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.app-name.clickable:hover {
+    color: #2563eb;
+    text-decoration: underline;
+}

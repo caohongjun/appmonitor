@@ -166,12 +166,12 @@ function renderTable(categoryName) {
                     </tr>
                 </thead>
                 <tbody>
-                    ${currentApps.map(app => `
+                    ${currentApps.map((app, index) => `
                         <tr>
                             <td><strong>#${app.rank}</strong></td>
                             <td><img src="${app.icon_url}" alt="${app.name}" class="app-icon" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2240%22 height=%2240%22><rect width=%2240%22 height=%2240%22 fill=%22%23ddd%22/></svg>'"></td>
                             <td>
-                                <div class="app-name">${app.name}</div>
+                                <div class="app-name clickable" onclick="requestAnalysis(${index})">${app.name}</div>
                             </td>
                             <td><div class="app-developer">${app.developer}</div></td>
                             <td>${app.release_date || '-'}</td>
@@ -295,6 +295,201 @@ async function refreshDateList() {
     } catch (error) {
         console.error('刷新日期列表失败:', error);
     }
+}
+
+// AI 分析弹窗相关函数
+let selectedApp = null;
+
+// 请求分析应用
+function requestAnalysis(index) {
+    if (!currentApps || !currentApps[index]) {
+        return;
+    }
+    
+    const app = currentApps[index];
+    // 添加平台和分类信息
+    const platformName = currentPlatform === 'app_store' ? 'App Store' : 'Google Play';
+    const categoryName = categories[currentPlatform][currentCategory];
+    
+    selectedApp = {
+        ...app,
+        platform: platformName,
+        category: categoryName
+    };
+    
+    showAnalysisModal(selectedApp);
+}
+
+// 显示分析弹窗
+function showAnalysisModal(app) {
+    const modal = document.getElementById('analysisModal');
+
+    // 保存应用信息到全局变量
+    selectedApp = app;
+
+    // 填充应用信息
+    document.getElementById('modalAppIcon').src = app.icon_url;
+    document.getElementById('modalAppIcon').alt = app.name;
+    document.getElementById('modalAppName').textContent = app.name;
+    document.getElementById('modalAppPlatform').textContent = app.platform;
+    document.getElementById('modalAppCategory').textContent = app.category;
+    document.getElementById('modalAppDeveloper').textContent = app.developer;
+
+    // 显示弹窗
+    modal.classList.add('show');
+
+    // 点击遮罩层关闭弹窗
+    modal.onclick = function(e) {
+        if (e.target === modal) {
+            closeAnalysisModal();
+        }
+    };
+}
+
+// 关闭分析弹窗
+function closeAnalysisModal() {
+    const modal = document.getElementById('analysisModal');
+    modal.classList.remove('show');
+    selectedApp = null;
+}
+
+// 加入待分析队列并开始分析
+async function addToQueue() {
+    if (!selectedApp) {
+        return;
+    }
+
+    // 添加到队列
+    addToAnalysisQueue(selectedApp, 'analyzing');
+
+    // 先保存 app 名称，因为关闭弹窗后 selectedApp 会变为 null
+    const appName = selectedApp.name;
+    const appId = selectedApp.app_id;
+    const platform = selectedApp.platform;
+
+    // 关闭弹窗
+    closeAnalysisModal();
+
+    // 显示loading
+    showToast(`⚡ 正在启动分析 "${appName}"...`, 'info');
+
+    try {
+        const response = await fetch('/api/analyze', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                app_id: appId,
+                platform: platform
+            })
+        });
+
+        const result = await response.json();
+
+        if (result.success) {
+            showToast(`✅ "${appName}" 已加入队列并开始分析！`, 'success');
+            setTimeout(() => {
+                window.location.href = 'analyzer.html';
+            }, 1000);
+        } else {
+            showToast(`❌ 启动分析失败: ${result.error || '未知错误'}`, 'error');
+        }
+    } catch (error) {
+        console.error('启动分析失败:', error);
+        showToast(`❌ 启动分析失败: ${error.message}`, 'error');
+    }
+}
+
+// 立即分析
+async function analyzeNow() {
+    if (!selectedApp) {
+        return;
+    }
+
+    // 先添加到分析队列
+    addToAnalysisQueue(selectedApp, 'analyzing');
+
+    // 先保存 app 名称，因为关闭弹窗后 selectedApp 会变为 null
+    const appName = selectedApp.name;
+    const appId = selectedApp.app_id;
+    const platform = selectedApp.platform;
+
+    // 先关闭弹窗
+    closeAnalysisModal();
+
+    // 显示loading
+    showToast(`⚡ 正在启动分析 "${appName}"...`, 'info');
+
+    try {
+        const response = await fetch('/api/analyze', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                app_id: appId,
+                platform: platform
+            })
+        });
+
+        const result = await response.json();
+
+        if (result.success) {
+            showToast(`✅ "${appName}" 分析已启动！`, 'success');
+            // 等待一下然后跳转
+            setTimeout(() => {
+                window.location.href = 'analyzer.html';
+            }, 1000);
+        } else {
+            showToast(`❌ 启动分析失败: ${result.error || '未知错误'}`, 'error');
+        }
+    } catch (error) {
+        console.error('启动分析失败:', error);
+        showToast(`❌ 启动分析失败: ${error.message}`, 'error');
+    }
+}
+
+// 添加到分析队列
+function addToAnalysisQueue(app, status = 'pending') {
+    const queue = JSON.parse(localStorage.getItem('analysisQueue') || '[]');
+    
+    // 检查是否已在队列中
+    const existingIndex = queue.findIndex(item => item.app_id === app.app_id);
+    if (existingIndex >= 0) {
+        queue[existingIndex].status = status;
+    } else {
+        queue.push({
+            ...app,
+            status: status,
+            addedTime: new Date().toISOString()
+        });
+    }
+    
+    localStorage.setItem('analysisQueue', JSON.stringify(queue));
+}
+
+// 显示提示消息
+function showToast(message, type = 'info') {
+    // 创建toast元素
+    const toast = document.createElement('div');
+    toast.className = `toast toast-${type}`;
+    toast.textContent = message;
+    
+    document.body.appendChild(toast);
+    
+    // 触发动画
+    setTimeout(() => {
+        toast.classList.add('show');
+    }, 10);
+    
+    // 3秒后移除
+    setTimeout(() => {
+        toast.classList.remove('show');
+        setTimeout(() => {
+            document.body.removeChild(toast);
+        }, 300);
+    }, 3000);
 }
 
 // 页面加载完成后执行
