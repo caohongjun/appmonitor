@@ -27,10 +27,23 @@ const categories = {
 async function init() {
     // 加载日期列表
     const dates = await getAvailableDates();
+    
+    // 检查当前日期是否有数据
+    const isToday = currentDate === getTodayString();
+    const hasData = dates.includes(currentDate);
+    
+    if (!hasData && isToday) {
+        // 今天没有数据，显示爬取中状态
+        showScrapingStatus();
+        // 开始轮询检查数据
+        pollForData();
+    } else if (!hasData) {
+        // 历史日期没有数据，切换到最新的可用日期
+        currentDate = dates[0];
+        console.log(`当前日期 ${currentDate} 没有数据，切换到 ${currentDate}`);
+    }
+    
     renderDateList(dates);
-
-    // 显示当前日期
-    document.getElementById('currentDate').textContent = formatDate(currentDate);
 
     // 平台Tab切换
     document.querySelectorAll('.tabs:not(.category-tabs) .tab').forEach(tab => {
@@ -53,8 +66,10 @@ async function init() {
     // 渲染分类tabs
     renderCategoryTabs();
 
-    // 加载数据
-    loadData();
+    // 只有在有数据时才加载数据
+    if (hasData) {
+        loadData();
+    }
 }
 
 // 渲染分类Tabs
@@ -92,7 +107,9 @@ function renderDateList(dates) {
 
 // 切换日期
 function changeDate(date) {
-    window.location.href = `?date=${date}`;
+    const url = new URL(window.location);
+    url.searchParams.set('date', date);
+    window.location.href = url.toString();
 }
 
 // 加载数据 - 只加载当前选中的分类
@@ -205,6 +222,79 @@ function sortTable(column) {
     // 重新渲染表格
     const categoryName = categories[currentPlatform][currentCategory];
     renderTable(categoryName);
+}
+
+// 显示爬取中状态
+function showScrapingStatus() {
+    const content = document.getElementById('dataContent');
+    const categoryName = categories[currentPlatform][currentCategory];
+    
+    content.innerHTML = `
+        <div class="data-table">
+            <h4>${categoryName}</h4>
+            <div style="padding: 40px; text-align: center;">
+                <div class="loading-spinner"></div>
+                <p style="color: #6b7280; margin-top: 20px; font-size: 18px; font-weight: bold;">
+                    🚀 正在爬取 ${formatDate(currentDate)} 的榜单数据
+                </p>
+                <p style="color: #9ca3af; font-size: 14px; margin-top: 10px;">预计需要 5-10 分钟，请稍候...</p>
+                <p style="color: #9ca3af; font-size: 14px;">页面将在爬取完成后自动刷新</p>
+            </div>
+        </div>
+    `;
+}
+
+// 轮询检查数据是否生成
+function pollForData() {
+    const maxAttempts = 60; // 最多检查60次（10分钟）
+    let attempts = 0;
+    
+    const poll = async () => {
+        attempts++;
+        console.log(`检查数据 (${attempts}/${maxAttempts})...`);
+        
+        try {
+            const categoryName = categories[currentPlatform][currentCategory];
+            const data = await loadJSON(`../data/raw/${currentDate}/${currentPlatform}/${currentCategory}.json`);
+            
+            if (data && data.apps) {
+                console.log('数据爬取完成!');
+                showToast('数据爬取完成!', 'success');
+                
+                // 重新加载数据
+                currentApps = data.apps;
+                currentSort = { column: null, order: 'asc' };
+                renderTable(categoryName);
+                
+                // 刷新日期列表
+                refreshDateList();
+                return;
+            }
+        } catch (error) {
+            // 数据还不存在，继续轮询
+        }
+        
+        if (attempts >= maxAttempts) {
+            console.log('轮询超时');
+            showToast('爬取超时，请稍后手动刷新页面', 'error');
+            return;
+        }
+        
+        // 10秒后再次检查
+        setTimeout(poll, 10000);
+    };
+    
+    poll();
+}
+
+// 刷新日期列表
+async function refreshDateList() {
+    try {
+        const dates = await getAvailableDates();
+        renderDateList(dates);
+    } catch (error) {
+        console.error('刷新日期列表失败:', error);
+    }
 }
 
 // 页面加载完成后执行

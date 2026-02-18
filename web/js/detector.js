@@ -84,22 +84,18 @@ function renderCategoryTabs() {
 
 // 获取有新上榜产品数据的日期
 async function getNewAppsDate() {
+    // 获取所有可用的日期
     const dates = [];
-    const today = new Date();
-
-    for (let i = 0; i < 30; i++) {
-        const date = new Date(today);
-        date.setDate(date.getDate() - i);
-        const dateStr = date.toISOString().split('T')[0];
-
-        try {
-            const response = await fetch(`../data/new_apps/${dateStr}.json`);
-            if (response.ok) {
-                dates.push(dateStr);
-            }
-        } catch (e) {
-            // 忽略错误
+    
+    try {
+        // 使用 API 获取实际存在的日期
+        const response = await fetch('/api/detector/dates');
+        if (response.ok) {
+            const data = await response.json();
+            dates.push(...(data.dates || []));
         }
+    } catch (e) {
+        // 忽略错误
     }
 
     return dates;
@@ -271,6 +267,10 @@ let selectedApp = null;
 
 // 请求分析应用
 function requestAnalysis(index) {
+    if (!filteredApps || !filteredApps[index]) {
+        return;
+    }
+    
     selectedApp = filteredApps[index];
     showAnalysisModal(selectedApp);
 }
@@ -278,6 +278,9 @@ function requestAnalysis(index) {
 // 显示分析弹窗
 function showAnalysisModal(app) {
     const modal = document.getElementById('analysisModal');
+
+    // 保存应用信息到全局变量
+    selectedApp = app;
 
     // 填充应用信息
     document.getElementById('modalAppIcon').src = app.icon_url;
@@ -305,37 +308,101 @@ function closeAnalysisModal() {
     selectedApp = null;
 }
 
-// 加入待分析队列
-function addToQueue() {
-    if (!selectedApp) return;
+// 加入待分析队列并开始分析
+async function addToQueue() {
+    if (!selectedApp) {
+        return;
+    }
 
-    // 保存到待分析列表
-    addToAnalysisQueue(selectedApp);
+    // 添加到队列
+    addToAnalysisQueue(selectedApp, 'analyzing');
+
+    // 先保存 app 名称，因为关闭弹窗后 selectedApp 会变为 null
+    const appName = selectedApp.name;
+    const appId = selectedApp.app_id;
+    const platform = selectedApp.platform;
 
     // 关闭弹窗
     closeAnalysisModal();
 
-    // 显示提示
-    showToast(`✅ "${selectedApp.name}" 已加入分析队列！`, 'success');
+    // 显示loading
+    showToast(`⚡ 正在启动分析 "${appName}"...`, 'info');
+
+    try {
+        const response = await fetch('/api/analyze', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                app_id: appId,
+                platform: platform
+            })
+        });
+
+        const result = await response.json();
+
+        if (result.success) {
+            showToast(`✅ "${appName}" 已加入队列并开始分析！`, 'success');
+            setTimeout(() => {
+                window.location.href = 'analyzer.html';
+            }, 1000);
+        } else {
+            showToast(`❌ 启动分析失败: ${result.error || '未知错误'}`, 'error');
+        }
+    } catch (error) {
+        console.error('启动分析失败:', error);
+        showToast(`❌ 启动分析失败: ${error.message}`, 'error');
+    }
 }
 
 // 立即分析
-function analyzeNow() {
-    if (!selectedApp) return;
+async function analyzeNow() {
+    if (!selectedApp) {
+        return;
+    }
 
-    // 保存到待分析列表，状态设为analyzing
+    // 先添加到分析队列
     addToAnalysisQueue(selectedApp, 'analyzing');
 
-    // 关闭弹窗
+    // 先保存 app 名称，因为关闭弹窗后 selectedApp 会变为 null
+    const appName = selectedApp.name;
+    const appId = selectedApp.app_id;
+    const platform = selectedApp.platform;
+
+    // 先关闭弹窗
     closeAnalysisModal();
 
-    // TODO: 这里将来调用后端API进行分析
-    showToast(`⚡ 开始分析 "${selectedApp.name}"`, 'info');
+    // 显示loading
+    showToast(`⚡ 正在启动分析 "${appName}"...`, 'info');
 
-    // 跳转到分析页面
-    setTimeout(() => {
-        window.location.href = 'analyzer.html';
-    }, 1500);
+    try {
+        const response = await fetch('/api/analyze', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                app_id: appId,
+                platform: platform
+            })
+        });
+
+        const result = await response.json();
+
+        if (result.success) {
+            showToast(`✅ "${appName}" 分析已启动！`, 'success');
+            // 等待一下然后跳转
+            setTimeout(() => {
+                window.location.href = 'analyzer.html';
+            }, 1000);
+        } else {
+            showToast(`❌ 启动分析失败: ${result.error || '未知错误'}`, 'error');
+        }
+    } catch (error) {
+        console.error('启动分析失败:', error);
+        showToast(`❌ 启动分析失败: ${error.message}`, 'error');
+    }
 }
 
 // 显示提示消息

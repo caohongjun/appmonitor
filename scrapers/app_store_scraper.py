@@ -8,6 +8,7 @@ import time
 from typing import List, Dict, Optional
 from datetime import datetime
 import urllib3
+import logging
 
 # 禁用SSL警告
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -16,7 +17,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 class AppStoreScraper:
     """App Store 爬虫类"""
 
-    def __init__(self, country="us", limit=100, delay=2, timeout=30):
+    def __init__(self, country="us", limit=100, delay=2, timeout=30, logger=None):
         """
         初始化爬虫
 
@@ -25,12 +26,14 @@ class AppStoreScraper:
             limit: 每个分类爬取数量（默认 100）
             delay: 请求延迟（秒）
             timeout: 请求超时时间（秒）
+            logger: 日志记录器（可选）
         """
         self.country = country
         self.limit = limit
         self.delay = delay
         self.timeout = timeout
         self.base_url = "https://itunes.apple.com"
+        self.logger = logger or logging.getLogger(__name__)
 
     def scrape_category(self, category_id: str, category_name: str) -> List[Dict]:
         """
@@ -46,7 +49,7 @@ class AppStoreScraper:
         url = f"{self.base_url}/{self.country}/rss/topfreeapplications/limit={self.limit}/genre={category_id}/json"
 
         try:
-            print(f"  正在爬取 App Store - {category_name}...")
+            self.logger.info(f"正在爬取 App Store - {category_name}...")
 
             # 添加请求头，模拟真实浏览器
             headers = {
@@ -66,7 +69,7 @@ class AppStoreScraper:
             entries = data.get("feed", {}).get("entry", [])
 
             if not entries:
-                print(f"  ⚠️  {category_name} 未获取到数据")
+                self.logger.warning(f"{category_name} 未获取到数据")
                 return []
 
             apps = []
@@ -80,18 +83,18 @@ class AppStoreScraper:
 
             # 第二步：批量获取详细信息（评分、评价数）
             if apps:
-                print(f"  正在获取详细信息...")
+                self.logger.info(f"正在获取详细信息...")
                 self._enrich_app_details(apps, session)
 
-            print(f"  ✓ {category_name} 爬取成功，共 {len(apps)} 个应用")
+            self.logger.info(f"{category_name} 爬取成功，共 {len(apps)} 个应用")
             time.sleep(self.delay)  # 延迟避免请求过快
             return apps
 
         except requests.RequestException as e:
-            print(f"  ✗ {category_name} 爬取失败: {e}")
+            self.logger.error(f"{category_name} 爬取失败: {e}")
             return []
         except Exception as e:
-            print(f"  ✗ {category_name} 解析失败: {e}")
+            self.logger.error(f"{category_name} 解析失败: {e}")
             return []
 
     def _parse_app_entry(self, entry: Dict, rank: int, category: str, timestamp: str) -> Optional[Dict]:
@@ -242,7 +245,7 @@ class AppStoreScraper:
                 time.sleep(1)  # 批量请求之间的延迟
 
         except Exception as e:
-            print(f"    获取详细信息失败: {e}")
+            self.logger.error(f"获取详细信息失败: {e}")
             # 即使失败也继续，使用默认值
 
 

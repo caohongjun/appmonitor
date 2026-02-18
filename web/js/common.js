@@ -3,29 +3,13 @@
 // 获取所有可用的日期
 async function getAvailableDates() {
     try {
-        const response = await fetch('../data/raw/');
-        // 由于无法列出目录，我们使用一个简单的方法
-        // 尝试加载最近30天的数据
-        const dates = [];
-        const today = new Date();
-
-        for (let i = 0; i < 30; i++) {
-            const date = new Date(today);
-            date.setDate(date.getDate() - i);
-            const dateStr = date.toISOString().split('T')[0];
-
-            // 尝试加载这个日期的数据
-            try {
-                const testResponse = await fetch(`../data/raw/${dateStr}/app_store/health_fitness.json`);
-                if (testResponse.ok) {
-                    dates.push(dateStr);
-                }
-            } catch (e) {
-                // 忽略错误
-            }
+        // 使用 API 获取实际存在的日期
+        const response = await fetch('/api/dates');
+        if (response.ok) {
+            const data = await response.json();
+            return data.dates || [];
         }
-
-        return dates;
+        return [];
     } catch (error) {
         console.error('获取日期列表失败:', error);
         return [];
@@ -79,4 +63,48 @@ function getQueryParam(param) {
 // 获取今天的日期字符串
 function getTodayString() {
     return new Date().toISOString().split('T')[0];
+}
+
+// 显示Toast提示消息
+function showToast(message, type = 'info') {
+    // 检查是否已存在toast容器
+    let toastContainer = document.querySelector('.toast-container');
+    
+    if (!toastContainer) {
+        // 创建toast容器
+        toastContainer = document.createElement('div');
+        toastContainer.className = 'toast-container';
+        toastContainer.style.cssText = `
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 9999;
+            max-width: 300px;
+        `;
+        document.body.appendChild(toastContainer);
+    }
+
+    // 创建toast元素
+    const toast = document.createElement('div');
+    toast.className = `toast toast-${type}`;
+    toast.textContent = message;
+    toast.style.cssText = `
+        background: ${type === 'success' ? '#10b981' : type === 'error' ? '#ef4444' : '#3b82f6'};
+        color: white;
+        padding: 12px 20px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        animation: slideIn 0.3s ease;
+    `;
+
+    toastContainer.appendChild(toast);
+
+    // 3秒后移除
+    setTimeout(() => {
+        toast.style.animation = 'slideOut 0.3s ease';
+        setTimeout(() => {
+            toast.remove();
+        }, 300);
+    }, 3000);
 }

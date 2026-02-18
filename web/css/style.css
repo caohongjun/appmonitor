@@ -60,6 +60,13 @@ main {
     transition: all 0.3s;
 }
 
+.module-card .btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
 .module-card:hover {
     border-color: #667eea;
     box-shadow: 0 10px 30px rgba(102, 126, 234, 0.2);
@@ -71,7 +78,13 @@ main {
 }
 
 .module-icon {
-    font-size: 3em;
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+.module-header {
+    display: flex;
+    align-items: center;
     margin-bottom: 15px;
 }
 
@@ -239,22 +252,22 @@ code {
 /* 页面布局（带侧边栏） */
 .page-layout {
     display: flex;
-    gap: 30px;
+    gap: 20px;
     min-height: 600px;
 }
 
 .sidebar {
-    width: 250px;
+    width: 140px;
     background: #f9fafb;
     border-radius: 15px;
-    padding: 20px;
+    padding: 15px;
     flex-shrink: 0;
 }
 
 .sidebar h3 {
     color: #1f2937;
     margin-bottom: 15px;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .date-list {
@@ -350,42 +363,37 @@ code {
     background: white;
     border-radius: 10px;
     overflow: hidden;
+    overflow-x: auto;
     border: 2px solid #e5e7eb;
     margin-bottom: 20px;
 }
 
-/* 可排序的表头 */
-th.sortable {
-    cursor: pointer;
-    user-select: none;
-    transition: background-color 0.2s;
+/* 强制不出现横向滚动条 */
+html, body {
+    overflow-x: hidden;
 }
 
-th.sortable:hover {
-    background-color: #f3f4f6;
+table {
+    width: 100%;
+    min-width: 0;
+    border-collapse: collapse;
 }
 
-/* 可点击的应用名称 */
-.app-name.clickable {
-    color: #667eea;
-    cursor: pointer;
-    text-decoration: none;
-    transition: color 0.2s;
+th, td {
+    padding: 10px 12px;
+    text-align: left;
+    border-bottom: 1px solid #e5e7eb;
+    white-space: nowrap;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
-.app-name.clickable:hover {
-    color: #764ba2;
-    text-decoration: underline;
-}
-
-/* 状态标签 */
-.status-badge {
-    display: inline-block;
-    padding: 4px 12px;
-    border-radius: 12px;
-    color: white;
-    font-size: 0.85em;
+th {
+    background: #f9fafb;
+    color: #6b7280;
     font-weight: 600;
+    font-size: 0.9em;
 }
 
 /* 小按钮 */
@@ -454,13 +462,6 @@ th, td {
     border-bottom: 1px solid #e5e7eb;
 }
 
-th {
-    background: #f9fafb;
-    color: #6b7280;
-    font-weight: 600;
-    font-size: 0.9em;
-}
-
 tr:hover {
     background: #f9fafb;
 }
@@ -473,7 +474,14 @@ tr:hover {
 
 .app-name {
     font-weight: 600;
-    color: #1f2937;
+    color: #2563eb;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.app-name:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
 }
 
 .app-developer {

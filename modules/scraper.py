@@ -47,7 +47,8 @@ class RankingMonitorScraper:
             country=app_store_config["country"],
             limit=app_store_config["limit"],
             delay=app_store_config["delay"],
-            timeout=SCRAPER_CONFIG["timeout"]
+            timeout=SCRAPER_CONFIG["timeout"],
+            logger=self.logger
         )
 
         if GOOGLE_PLAY_AVAILABLE:
@@ -57,7 +58,8 @@ class RankingMonitorScraper:
                 collection=google_play_config["collection"],
                 limit=google_play_config["limit"],
                 delay=google_play_config["delay"],
-                timeout=SCRAPER_CONFIG["timeout"]
+                timeout=SCRAPER_CONFIG["timeout"],
+                logger=self.logger
             )
         else:
             self.google_play_scraper = None
@@ -70,9 +72,9 @@ class RankingMonitorScraper:
         Args:
             categories: 指定要爬取的分类列表，None表示全部
         """
-        print("\n" + "=" * 60)
-        print("📱 开始爬取 App Store 榜单")
-        print("=" * 60)
+        self.logger.info("=" * 60)
+        self.logger.info("开始爬取 App Store 榜单")
+        self.logger.info("=" * 60)
 
         target_categories = categories or list(APP_STORE_CATEGORIES.keys())
         success_count = 0
@@ -118,9 +120,9 @@ class RankingMonitorScraper:
             except Exception as e:
                 self.logger.error(f"App Store - {category_name} 爬取异常: {e}")
 
-        print(f"\n✓ App Store 爬取完成")
-        print(f"  成功: {success_count}/{len(target_categories)} 个分类")
-        print(f"  应用总数: {total_apps}")
+        self.logger.info(f"App Store 爬取完成")
+        self.logger.info(f"成功: {success_count}/{len(target_categories)} 个分类")
+        self.logger.info(f"应用总数: {total_apps}")
 
     def scrape_google_play(self, categories=None):
         """
@@ -130,12 +132,12 @@ class RankingMonitorScraper:
             categories: 指定要爬取的分类列表，None表示全部
         """
         if not self.google_play_scraper:
-            print("\n⚠️  Google Play 爬虫不可用，请安装: pip install google-play-scraper")
+            self.logger.warning("Google Play 爬虫不可用，请安装: pip install google-play-scraper")
             return
 
-        print("\n" + "=" * 60)
-        print("🤖 开始爬取 Google Play 榜单")
-        print("=" * 60)
+        self.logger.info("=" * 60)
+        self.logger.info("开始爬取 Google Play 榜单")
+        self.logger.info("=" * 60)
 
         target_categories = categories or list(GOOGLE_PLAY_CATEGORIES.keys())
         success_count = 0
@@ -181,9 +183,9 @@ class RankingMonitorScraper:
             except Exception as e:
                 self.logger.error(f"Google Play - {category_name} 爬取异常: {e}")
 
-        print(f"\n✓ Google Play 爬取完成")
-        print(f"  成功: {success_count}/{len(target_categories)} 个分类")
-        print(f"  应用总数: {total_apps}")
+        self.logger.info(f"Google Play 爬取完成")
+        self.logger.info(f"成功: {success_count}/{len(target_categories)} 个分类")
+        self.logger.info(f"应用总数: {total_apps}")
 
     def scrape_all(self, platform=None, categories=None):
         """
@@ -194,10 +196,10 @@ class RankingMonitorScraper:
             categories: 指定分类列表，None表示全部
         """
         start_time = datetime.now()
-        print("\n" + "=" * 60)
-        print(f"🚀 榜单监控 - 数据爬取")
-        print(f"📅 日期: {self.date}")
-        print("=" * 60)
+        self.logger.info("=" * 60)
+        self.logger.info(f"榜单监控 - 数据爬取")
+        self.logger.info(f"日期: {self.date}")
+        self.logger.info("=" * 60)
 
         if platform is None or platform == "app_store":
             self.scrape_app_store(categories)
@@ -208,9 +210,9 @@ class RankingMonitorScraper:
         end_time = datetime.now()
         duration = (end_time - start_time).total_seconds()
 
-        print("\n" + "=" * 60)
-        print(f"✓ 全部爬取完成，耗时: {duration:.1f} 秒")
-        print("=" * 60)
+        self.logger.info("=" * 60)
+        self.logger.info(f"全部爬取完成，耗时: {duration:.1f} 秒")
+        self.logger.info("=" * 60)
 
 
 def main():

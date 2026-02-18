@@ -158,17 +158,17 @@ class NewAppDetector:
         Returns:
             Dict: 检测结果
         """
-        print("\n" + "=" * 60)
-        print(f"🔍 新上榜产品识别")
-        print(f"📅 今天: {self.date}")
-        print(f"📅 对比: {compare_date}")
-        print("=" * 60)
+        self.logger.info("=" * 60)
+        self.logger.info(f"新上榜产品识别")
+        self.logger.info(f"今天: {self.date}")
+        self.logger.info(f"对比: {compare_date}")
+        self.logger.info("=" * 60)
 
         all_new_apps = []
         analyzed_apps = self.load_analyzed_apps() if skip_analyzed else set()
 
         # 检测 App Store
-        print("\n📱 检测 App Store...")
+        self.logger.info("检测 App Store...")
         for category_key, category_info in APP_STORE_CATEGORIES.items():
             category_name = category_info["name_cn"]
 
@@ -176,11 +176,11 @@ class NewAppDetector:
             yesterday_apps = self.load_ranking_data(compare_date, "app_store", category_key)
 
             if not today_apps:
-                print(f"  ⚠️  {category_name} - 今天无数据")
+                self.logger.warning(f"{category_name} - 今天无数据")
                 continue
 
             if not yesterday_apps:
-                print(f"  ⚠️  {category_name} - 对比日期无数据")
+                self.logger.warning(f"{category_name} - 对比日期无数据")
                 continue
 
             new_apps = self.find_new_apps(today_apps, yesterday_apps)
@@ -190,13 +190,13 @@ class NewAppDetector:
                 new_apps = [app for app in new_apps if app.get("app_id") not in analyzed_apps]
 
             if new_apps:
-                print(f"  ✓ {category_name} - 发现 {len(new_apps)} 个新上榜产品")
+                self.logger.info(f"{category_name} - 发现 {len(new_apps)} 个新上榜产品")
                 all_new_apps.extend(new_apps)
             else:
-                print(f"  - {category_name} - 无新上榜产品")
+                self.logger.info(f"{category_name} - 无新上榜产品")
 
         # 检测 Google Play
-        print("\n🤖 检测 Google Play...")
+        self.logger.info("检测 Google Play...")
         for category_key, category_info in GOOGLE_PLAY_CATEGORIES.items():
             category_name = category_info["name_cn"]
 
@@ -204,11 +204,11 @@ class NewAppDetector:
             yesterday_apps = self.load_ranking_data(compare_date, "google_play", category_key)
 
             if not today_apps:
-                print(f"  ⚠️  {category_name} - 今天无数据")
+                self.logger.warning(f"{category_name} - 今天无数据")
                 continue
 
             if not yesterday_apps:
-                print(f"  ⚠️  {category_name} - 对比日期无数据")
+                self.logger.warning(f"{category_name} - 对比日期无数据")
                 continue
 
             new_apps = self.find_new_apps(today_apps, yesterday_apps)
@@ -218,10 +218,10 @@ class NewAppDetector:
                 new_apps = [app for app in new_apps if app.get("app_id") not in analyzed_apps]
 
             if new_apps:
-                print(f"  ✓ {category_name} - 发现 {len(new_apps)} 个新上榜产品")
+                self.logger.info(f"{category_name} - 发现 {len(new_apps)} 个新上榜产品")
                 all_new_apps.extend(new_apps)
             else:
-                print(f"  - {category_name} - 无新上榜产品")
+                self.logger.info(f"{category_name} - 无新上榜产品")
 
         # 保存结果
         result = {
@@ -234,15 +234,14 @@ class NewAppDetector:
 
         output_file = os.path.join(DATA_DIR, "new_apps", f"{self.date}.json")
         if save_to_json(result, output_file):
-            print(f"\n✓ 结果已保存: {output_file}")
+            self.logger.info(f"结果已保存: {output_file}")
             self.logger.info(f"识别完成，共 {len(all_new_apps)} 个新上榜产品")
         else:
-            print(f"\n✗ 结果保存失败")
             self.logger.error("结果保存失败")
 
-        print("\n" + "=" * 60)
-        print(f"✓ 识别完成，共发现 {len(all_new_apps)} 个新上榜产品")
-        print("=" * 60)
+        self.logger.info("=" * 60)
+        self.logger.info(f"识别完成，共发现 {len(all_new_apps)} 个新上榜产品")
+        self.logger.info("=" * 60)
 
         return result
 
@@ -259,8 +258,8 @@ class NewAppDetector:
         compare_date = self.find_compare_date(max_lookback_days=3)
 
         if not compare_date:
-            print("❌ 错误: 未找到可用的历史数据（向前3天内）")
-            print("   请先运行爬虫获取历史数据")
+            self.logger.error("未找到可用的历史数据（向前3天内）")
+            self.logger.error("请先运行爬虫获取历史数据")
             return
 
         # 2. 检测新上榜产品
@@ -272,11 +271,11 @@ class NewAppDetector:
             new_app_ids = {app["app_id"] for app in result["new_apps"]}
             analyzed_apps.update(new_app_ids)
             self.save_analyzed_apps(analyzed_apps)
-            print(f"✓ 已更新分析记录（共 {len(analyzed_apps)} 个产品）")
+            self.logger.info(f"已更新分析记录（共 {len(analyzed_apps)} 个产品）")
 
         end_time = datetime.now()
         duration = (end_time - start_time).total_seconds()
-        print(f"\n⏱  耗时: {duration:.1f} 秒")
+        self.logger.info(f"耗时: {duration:.1f} 秒")
 
 
 def main():

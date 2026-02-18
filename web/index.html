@@ -17,10 +17,16 @@
             <div class="modules-grid">
                 <!-- 模块1：榜单数据 -->
                 <div class="module-card">
-                    <div class="module-icon">📦</div>
-                    <h2>模块1：榜单数据爬取</h2>
+                    <div class="module-header">
+                        <span class="module-icon">📦</span>
+                        <h2>模块1：榜单数据爬取</h2>
+                    </div>
                     <p class="module-desc">查看每日爬取的应用商店榜单数据，支持 App Store 和 Google Play 共10个分类。</p>
                     <div class="module-stats">
+                        <div class="stat">
+                            <span class="stat-label">最新日期</span>
+                            <span class="stat-value" id="module1-date">加载中...</span>
+                        </div>
                         <div class="stat">
                             <span class="stat-label">平台</span>
                             <span class="stat-value">2个</span>
@@ -29,20 +35,22 @@
                             <span class="stat-label">分类</span>
                             <span class="stat-value">10个</span>
                         </div>
-                        <div class="stat">
-                            <span class="stat-label">状态</span>
-                            <span class="stat-value status-active">✅ 已完成</span>
-                        </div>
                     </div>
-                    <a href="scraper.html" class="btn btn-primary">查看榜单数据 →</a>
+                    <button class="btn btn-primary" onclick="checkAndGoToScraper()">查看榜单数据 →</button>
                 </div>
 
                 <!-- 模块2：新上榜产品 -->
                 <div class="module-card">
-                    <div class="module-icon">🔍</div>
-                    <h2>模块2：新上榜产品识别</h2>
+                    <div class="module-header">
+                        <span class="module-icon">🔍</span>
+                        <h2>模块2：新上榜产品识别</h2>
+                    </div>
                     <p class="module-desc">自动对比每日榜单变化，识别新上榜的产品，为深度分析做准备。</p>
                     <div class="module-stats">
+                        <div class="stat">
+                            <span class="stat-label">最新日期</span>
+                            <span class="stat-value" id="module2-date">加载中...</span>
+                        </div>
                         <div class="stat">
                             <span class="stat-label">对比逻辑</span>
                             <span class="stat-value">智能回溯</span>
@@ -51,20 +59,22 @@
                             <span class="stat-label">去重机制</span>
                             <span class="stat-value">已实现</span>
                         </div>
-                        <div class="stat">
-                            <span class="stat-label">状态</span>
-                            <span class="stat-value status-active">✅ 已完成</span>
-                        </div>
                     </div>
-                    <a href="detector.html" class="btn btn-primary">查看新上榜产品 →</a>
+                    <button class="btn btn-primary" onclick="checkAndRunDetector()">查看新上榜产品 →</button>
                 </div>
 
                 <!-- 模块3：AI分析 -->
                 <div class="module-card">
-                    <div class="module-icon">🤖</div>
-                    <h2>模块3：AI智能分析</h2>
+                    <div class="module-header">
+                        <span class="module-icon">🤖</span>
+                        <h2>模块3：AI智能分析</h2>
+                    </div>
                     <p class="module-desc">点击新上榜产品名称加入分析队列，使用AI进行深度分析。</p>
                     <div class="module-stats">
+                        <div class="stat">
+                            <span class="stat-label">最新日期</span>
+                            <span class="stat-value" id="module3-date">加载中...</span>
+                        </div>
                         <div class="stat">
                             <span class="stat-label">分析维度</span>
                             <span class="stat-value">5个</span>
@@ -72,10 +82,6 @@
                         <div class="stat">
                             <span class="stat-label">AI模型</span>
                             <span class="stat-value">Claude</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-label">状态</span>
-                            <span class="stat-value status-active">✅ 队列管理</span>
                         </div>
                     </div>
                     <a href="analyzer.html" class="btn btn-primary">查看分析队列 →</a>
@@ -112,22 +118,29 @@
                     <div class="step">
                         <div class="step-number">1</div>
                         <div class="step-content">
-                            <h4>运行爬虫</h4>
-                            <code>python modules/scraper.py</code>
+                            <h4>启动Web服务</h4>
+                            <code>bash scripts/start_web.sh</code>
                         </div>
                     </div>
                     <div class="step">
                         <div class="step-number">2</div>
                         <div class="step-content">
-                            <h4>识别新产品</h4>
-                            <code>python modules/detector.py</code>
+                            <h4>模块1-爬取数据</h4>
+                            <code>python modules/scraper.py</code>
                         </div>
                     </div>
                     <div class="step">
                         <div class="step-number">3</div>
                         <div class="step-content">
-                            <h4>查看结果</h4>
-                            <code>在网页中浏览数据</code>
+                            <h4>模块2-检测新品</h4>
+                            <code>python modules/detector.py</code>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h4>模块3-AI分析</h4>
+                            <code>python modules/analyzer.py</code>
                         </div>
                     </div>
                 </div>

@@ -6,6 +6,7 @@ Google Play 爬虫模块
 import time
 from typing import List, Dict, Optional
 from datetime import datetime
+import logging
 
 try:
     from google_play_scraper import search, app
@@ -18,7 +19,7 @@ except ImportError:
 class GooglePlayScraper:
     """Google Play 爬虫类"""
 
-    def __init__(self, country="us", collection="TOP_FREE", limit=100, delay=3, timeout=30):
+    def __init__(self, country="us", collection="TOP_FREE", limit=100, delay=3, timeout=30, logger=None):
         """
         初始化爬虫
 
@@ -28,6 +29,7 @@ class GooglePlayScraper:
             limit: 每个分类爬取数量（默认 100）
             delay: 请求延迟（秒）
             timeout: 请求超时时间（秒）
+            logger: 日志记录器（可选）
         """
         if not GOOGLE_PLAY_AVAILABLE:
             raise ImportError("google-play-scraper 未安装")
@@ -37,6 +39,7 @@ class GooglePlayScraper:
         self.limit = limit
         self.delay = delay
         self.timeout = timeout
+        self.logger = logger or logging.getLogger(__name__)
 
     def scrape_category(self, category_key: str, category_name: str) -> List[Dict]:
         """
@@ -50,7 +53,7 @@ class GooglePlayScraper:
             List[Dict]: 应用列表
         """
         try:
-            print(f"  正在爬取 Google Play - {category_name}...")
+            self.logger.info(f"正在爬取 Google Play - {category_name}...")
 
             # 使用 search 方法搜索该分类的热门应用
             # 注意：google-play-scraper 没有官方榜单API，通过搜索热门关键词获取
@@ -74,7 +77,7 @@ class GooglePlayScraper:
             )
 
             if not apps_data:
-                print(f"  ⚠️  {category_name} 未获取到数据")
+                self.logger.warning(f"{category_name} 未获取到数据")
                 return []
 
             apps = []
@@ -85,12 +88,12 @@ class GooglePlayScraper:
                 if app_info:
                     apps.append(app_info)
 
-            print(f"  ✓ {category_name} 爬取成功，共 {len(apps)} 个应用")
+            self.logger.info(f"{category_name} 爬取成功，共 {len(apps)} 个应用")
             time.sleep(self.delay)  # 延迟避免请求过快
             return apps
 
         except Exception as e:
-            print(f"  ✗ {category_name} 爬取失败: {e}")
+            self.logger.error(f"{category_name} 爬取失败: {e}")
             return []
 
     def _parse_app_data(self, app_data: Dict, rank: int, category: str, timestamp: str) -> Optional[Dict]:
