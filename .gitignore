@@ -29,8 +29,7 @@ env/
 ENV/
 
 # Config files with sensitive information
-config.py
-# config_categories.py 可以上传（它只是从 config.py 导入）
+# config.py 已删除飞书配置，可以上传
 
 # IDE
 .vscode/
@@ -46,9 +45,6 @@ Thumbs.db
 # Logs
 *.log
 logs/
-
-# Data files (不提交数据)
-data/
 
 # Environment variables (敏感信息)
 .env
