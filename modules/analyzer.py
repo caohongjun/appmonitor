@@ -135,12 +135,12 @@ def analyze_app(app: Dict) -> Optional[Dict]:
 
         # 调用Claude API
         logger.info("调用Claude API...")
-        logger.info(f"  模型: claude-sonnet-4-5-20250929")
+        logger.info(f"  模型: claude-3-5-sonnet-20241022")
         logger.info(f"  最大Token: 4000")
 
         try:
             message = client.messages.create(
-                model="claude-sonnet-4-5-20250929",
+                model="claude-3-5-sonnet-20241022",
                 max_tokens=4000,
                 messages=[
                     {"role": "user", "content": prompt}
