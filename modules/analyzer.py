@@ -135,18 +135,27 @@ def analyze_app(app: Dict) -> Optional[Dict]:
 
         # 调用Claude API
         logger.info("调用Claude API...")
-        logger.info(f"  模型: claude-3-5-sonnet-20241022")
+        logger.info(f"  模型: claude-sonnet-4-5-20250929")
         logger.info(f"  最大Token: 4000")
 
         try:
             message = client.messages.create(
-                model="claude-3-5-sonnet-20241022",
+                model="claude-sonnet-4-5-20250929",
                 max_tokens=4000,
                 messages=[
                     {"role": "user", "content": prompt}
                 ]
             )
             logger.info("✓ API调用成功")
+        except anthropic.PermissionDeniedError as e:
+            logger.error(f"✗ API权限错误: {e}")
+            logger.error(f"  错误类型: PermissionDeniedError (403)")
+            logger.error(f"  可能原因:")
+            logger.error(f"    1. API Key 没有访问 claude-sonnet-4-5-20250929 模型的权限")
+            logger.error(f"    2. API Key 已过期或被禁用")
+            logger.error(f"    3. 账户余额不足")
+            logger.error(f"  建议: 请检查 Anthropic 控制台的 API Key 权限设置")
+            raise
         except Exception as e:
             logger.error(f"✗ API调用失败: {e}")
             raise
