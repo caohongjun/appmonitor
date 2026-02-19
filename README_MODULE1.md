@@ -193,7 +193,7 @@ Google Play 使用非官方库，可能因为网络问题或 Google 限流导致
 crontab -e
 
 # 添加：每天早上9点执行
-0 9 * * * cd /path/to/app_moitor && python3 modules/scraper.py
+0 9 * * * cd /path/to/appmonitor && python3 modules/scraper.py
 ```
 
 ### Q4: 数据保存在哪里？

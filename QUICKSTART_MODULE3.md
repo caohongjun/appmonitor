@@ -34,7 +34,7 @@
 ### 第一步：启动Web服务器
 
 ```bash
-cd /Users/caohongjun/workspace/app_moitor
+cd /Users/caohongjun/workspace/appmonitor
 ./scripts/start_web.sh
 ```
 

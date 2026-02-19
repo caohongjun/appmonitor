@@ -21,7 +21,7 @@
 ./scripts/start_web.sh
 
 # 方式2：手动启动
-cd /path/to/app_moitor
+cd /path/to/appmonitor
 python3 -m http.server 8000
 ```
 

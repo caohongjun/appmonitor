@@ -395,7 +395,7 @@ web/
 ## 📁 项目目录结构
 
 ```
-app_monitor/
+appmonitor/
 ├── README.md                     # 项目说明
 ├── REQUIREMENTS.md               # 需求文档（本文档）
 ├── config.py                     # 配置文件
@@ -462,7 +462,7 @@ app_monitor/
 # config.py
 
 # ===== 通用配置 =====
-PROJECT_ROOT = "/path/to/app_monitor"
+PROJECT_ROOT = "/path/to/appmonitor"
 DATA_DIR = f"{PROJECT_ROOT}/data"
 LOG_DIR = f"{PROJECT_ROOT}/logs"
 

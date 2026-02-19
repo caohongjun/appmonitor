@@ -57,8 +57,8 @@
 ### 1. 克隆项目
 
 ```bash
-git clone https://gitee.com/hojun666/app_moitor.git
-cd app_moitor
+git clone https://github.com/您的用户名/appmonitor.git
+cd appmonitor
 ```
 
 ### 2. 创建虚拟环境（推荐）
@@ -99,7 +99,7 @@ cat data/raw/$(date +%Y-%m-%d)/app_store/health_fitness.json
 ## 📁 项目结构
 
 ```
-app_moitor/
+appmonitor/
 ├── README.md                     # 项目说明（本文档）
 ├── README_MODULE1.md             # 模块1详细文档
 ├── REQUIREMENTS.md               # 完整需求文档
@@ -195,7 +195,7 @@ python modules/analyzer.py
 crontab -e
 
 # 添加以下行（每天早上9点执行）
-0 9 * * * cd /path/to/app_moitor && source venv/bin/activate && python modules/scraper.py
+0 9 * * * cd /path/to/appmonitor && source venv/bin/activate && python modules/scraper.py
 ```
 
 ---
