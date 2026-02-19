@@ -94,6 +94,16 @@ function renderTable() {
         filteredApps = filteredApps.filter(app => app.status === currentStatus);
     }
 
+    // 按加入时间倒序排序（最新的在前）
+    filteredApps.sort((a, b) => {
+        const timeA = new Date(a.added_time || 0).getTime();
+        const timeB = new Date(b.added_time || 0).getTime();
+        console.log('排序:', a.name, timeA, 'vs', b.name, timeB, '=>', timeB - timeA);
+        return timeB - timeA;
+    });
+    
+    console.log('排序后的应用列表:', filteredApps.map(app => ({ name: app.name, time: app.added_time })));
+
     if (filteredApps.length === 0) {
         content.innerHTML = `
             <div class="data-table">
@@ -339,23 +349,176 @@ function viewAnalysis(appId, platform) {
 
 // 从队列中移除
 function removeFromQueue(appId, platform) {
-    const confirmed = confirm('确定要从分析队列中移除此应用吗？');
+    const app = analysisQueue.find(item =>
+        item.app_id === appId && item.platform === platform
+    );
 
-    if (confirmed) {
-        // 从队列中移除
-        analysisQueue = analysisQueue.filter(item =>
-            !(item.app_id === appId && item.platform === platform)
-        );
-
-        // 保存到 localStorage
-        localStorage.setItem('analysisQueue', JSON.stringify(analysisQueue));
-
-        // 刷新页面
-        loadAnalysisQueue();
-        renderTable();
-
-        alert('已移除');
+    if (!app) {
+        return;
     }
+
+    // 显示现代化确认弹窗
+    showConfirmModal(
+        '确认移除',
+        `确定要从分析队列中移除以下应用吗？<br><br>
+        <strong>${app.name}</strong><br>
+        <small style="color: #6b7280;">${app.platform} - ${app.category || '未知分类'}</small>`,
+        () => {
+            // 从队列中移除
+            analysisQueue = analysisQueue.filter(item =>
+                !(item.app_id === appId && item.platform === platform)
+            );
+
+            // 保存到 localStorage
+            localStorage.setItem('analysisQueue', JSON.stringify(analysisQueue));
+
+            // 刷新页面
+            loadAnalysisQueue();
+            renderTable();
+
+            showToast('已移除', 'success');
+        }
+    );
+}
+
+// 显示现代化确认弹窗
+function showConfirmModal(title, message, onConfirm) {
+    // 创建遮罩层
+    const overlay = document.createElement('div');
+    overlay.className = 'modal-overlay';
+    overlay.style.cssText = `
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10000;
+        animation: fadeIn 0.2s ease;
+    `;
+
+    // 创建弹窗
+    const modal = document.createElement('div');
+    modal.className = 'confirm-modal';
+    modal.style.cssText = `
+        background: white;
+        border-radius: 16px;
+        padding: 32px;
+        max-width: 400px;
+        width: 90%;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        animation: slideUp 0.3s ease;
+    `;
+
+    modal.innerHTML = `
+        <h3 style="margin: 0 0 16px 0; font-size: 20px; font-weight: 600; color: #1f2937;">${title}</h3>
+        <p style="margin: 0 0 24px 0; color: #6b7280; line-height: 1.6;">${message}</p>
+        <div style="display: flex; gap: 12px; justify-content: flex-end;">
+            <button id="cancelBtn" style="
+                padding: 10px 20px;
+                border: 1px solid #e5e7eb;
+                background: white;
+                color: #6b7280;
+                border-radius: 8px;
+                font-size: 14px;
+                font-weight: 500;
+                cursor: pointer;
+                transition: all 0.2s;
+            ">取消</button>
+            <button id="confirmBtn" style="
+                padding: 10px 20px;
+                border: none;
+                background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+                color: white;
+                border-radius: 8px;
+                font-size: 14px;
+                font-weight: 500;
+                cursor: pointer;
+                transition: all 0.2s;
+            ">确认移除</button>
+        </div>
+    `;
+
+    // 添加动画样式
+    const style = document.createElement('style');
+    style.textContent = `
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideUp {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        @keyframes fadeOut {
+            from { opacity: 1; }
+            to { opacity: 0; }
+        }
+        @keyframes slideDown {
+            from { transform: translateY(0); opacity: 1; }
+            to { transform: translateY(20px); opacity: 0; }
+        }
+        .confirm-modal button:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+        .confirm-modal button:active {
+            transform: translateY(0);
+        }
+    `;
+    document.head.appendChild(style);
+
+    // 添加到页面
+    overlay.appendChild(modal);
+    document.body.appendChild(overlay);
+
+    // 绑定事件
+    const cancelBtn = modal.querySelector('#cancelBtn');
+    const confirmBtn = modal.querySelector('#confirmBtn');
+
+    cancelBtn.addEventListener('click', () => {
+        overlay.style.animation = 'fadeOut 0.2s ease';
+        modal.style.animation = 'slideDown 0.2s ease';
+        setTimeout(() => {
+            document.body.removeChild(overlay);
+        }, 200);
+    });
+
+    confirmBtn.addEventListener('click', () => {
+        overlay.style.animation = 'fadeOut 0.2s ease';
+        modal.style.animation = 'slideDown 0.2s ease';
+        setTimeout(() => {
+            document.body.removeChild(overlay);
+            onConfirm();
+        }, 200);
+    });
+
+    // 点击遮罩层关闭
+    overlay.addEventListener('click', (e) => {
+        if (e.target === overlay) {
+            overlay.style.animation = 'fadeOut 0.2s ease';
+            modal.style.animation = 'slideDown 0.2s ease';
+            setTimeout(() => {
+                document.body.removeChild(overlay);
+            }, 200);
+        }
+    });
+
+    // ESC键关闭
+    const handleEsc = (e) => {
+        if (e.key === 'Escape') {
+            overlay.style.animation = 'fadeOut 0.2s ease';
+            modal.style.animation = 'slideDown 0.2s ease';
+            setTimeout(() => {
+                document.body.removeChild(overlay);
+            }, 200);
+            document.removeEventListener('keydown', handleEsc);
+        }
+    };
+    document.addEventListener('keydown', handleEsc);
 }
 
 // 解析商店链接并开始分析

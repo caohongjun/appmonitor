@@ -135,9 +135,15 @@ async function loadData() {
             return;
         }
 
-        // 更新头部信息
-        document.getElementById('currentDate').textContent = `今天: ${formatDate(data.date)}`;
-        document.getElementById('compareDate').textContent = `对比: ${formatDate(data.compare_date)}`;
+        // 更新头部信息（如果元素存在）
+        const currentDateEl = document.getElementById('currentDate');
+        const compareDateEl = document.getElementById('compareDate');
+        if (currentDateEl) {
+            currentDateEl.textContent = `今天: ${formatDate(data.date)}`;
+        }
+        if (compareDateEl) {
+            compareDateEl.textContent = `对比: ${formatDate(data.compare_date)}`;
+        }
 
         // 存储所有新产品
         allNewApps = data.new_apps;
@@ -492,4 +498,9 @@ function addToAnalysisQueue(app, status = 'pending') {
 }
 
 // 页面加载完成后执行
-document.addEventListener('DOMContentLoaded', init);
+document.addEventListener('DOMContentLoaded', () => {
+    // 只在detector.html页面中执行初始化
+    if (window.location.pathname.endsWith('detector.html') || window.location.pathname.includes('detector')) {
+        init();
+    }
+});

@@ -39,6 +39,7 @@ async function loadStats() {
     try {
         // 获取数据天数
         const dates = await getAvailableDates();
+        console.log('可用日期列表:', dates);
         document.getElementById('total-dates').textContent = dates.length;
 
         // 加载模块1日期（最新爬取日期）
@@ -67,8 +68,10 @@ async function loadStats() {
 
         // 加载模块3日期（最新AI分析日期）
         const analyzedData = await loadJSON(`../data/analyzed_apps.json`);
-        if (analyzedData && analyzedData.latest_date) {
-            document.getElementById('module3-date').textContent = formatDate(analyzedData.latest_date);
+        if (analyzedData && analyzedData.last_updated) {
+            // last_updated 格式: "2026-02-19 09:34:13"，提取日期部分
+            const datePart = analyzedData.last_updated.split(' ')[0];
+            document.getElementById('module3-date').textContent = formatDate(datePart);
         } else {
             document.getElementById('module3-date').textContent = '暂无';
         }
@@ -76,6 +79,7 @@ async function loadStats() {
         // 获取最新一天的应用总数
         if (dates.length > 0) {
             const latestDate = dates[0];
+            console.log('最新日期:', latestDate);
             let totalApps = 0;
 
             // App Store
@@ -83,6 +87,7 @@ async function loadStats() {
             for (const category of appStoreCategories) {
                 const data = await loadJSON(`../data/raw/${latestDate}/app_store/${category}.json`);
                 if (data && data.apps) {
+                    console.log(`App Store ${category}:`, data.apps.length, '个应用');
                     totalApps += data.apps.length;
                 }
             }
@@ -92,22 +97,42 @@ async function loadStats() {
             for (const category of googlePlayCategories) {
                 const data = await loadJSON(`../data/raw/${latestDate}/google_play/${category}.json`);
                 if (data && data.apps) {
+                    console.log(`Google Play ${category}:`, data.apps.length, '个应用');
                     totalApps += data.apps.length;
                 }
             }
 
+            console.log('总应用数:', totalApps);
             document.getElementById('total-apps').textContent = totalApps;
         }
 
         // 获取新上榜产品数
-        const newAppsData = await loadJSON(`../data/new_apps/${getTodayString()}.json`);
+        const newAppsData = await loadJSON(`../data/new_apps/${today}.json`);
+        console.log('新上榜产品数据:', newAppsData);
         if (newAppsData) {
             document.getElementById('new-apps').textContent = newAppsData.total_count || 0;
         }
 
-        // 获取已分析产品数
-        if (analyzedData) {
-            document.getElementById('analyzed-apps').textContent = analyzedData.total_count || 0;
+        // 获取已分析产品数（统计实际的分析结果文件数量）
+        try {
+            const response = await fetch('../data/analysis');
+            const text = await response.text();
+            const dateMatches = text.match(/href="([0-9]{4}-[0-9]{2}-[0-9]{2})\/"/g) || [];
+            let totalAnalyzed = 0;
+            
+            for (const dateMatch of dateMatches) {
+                const date = dateMatch.match(/([0-9]{4}-[0-9]{2}-[0-9]{2})/)[1];
+                const dateResponse = await fetch(`../data/analysis/${date}`);
+                const dateText = await dateResponse.text();
+                const jsonMatches = dateText.match(/href="([^"]+\.json)"/g) || [];
+                totalAnalyzed += jsonMatches.length;
+            }
+            
+            document.getElementById('analyzed-apps').textContent = totalAnalyzed;
+            console.log('已分析产品数（实际文件）:', totalAnalyzed);
+        } catch (e) {
+            console.error('统计已分析产品数失败:', e);
+            document.getElementById('analyzed-apps').textContent = '0';
         }
 
     } catch (error) {
@@ -120,15 +145,18 @@ async function getAvailableDates() {
     try {
         const response = await fetch('../data/raw');
         const text = await response.text();
+        console.log('目录列表HTML:', text);
         
         // 解析目录列表
         const dates = [];
-        const regex = /href="([0-9]{4}-[0-9]{2}-[0-9]{2})"/g;
+        // 修复正则表达式，匹配 Python HTTP 服务器的目录格式
+        const regex = /href="([0-9]{4}-[0-9]{2}-[0-9]{2})\/"/g;
         let match;
         while ((match = regex.exec(text)) !== null) {
             dates.push(match[1]);
         }
         
+        console.log('解析出的日期:', dates);
         return dates.sort().reverse();
     } catch (error) {
         console.error('获取日期列表失败:', error);

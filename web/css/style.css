@@ -396,6 +396,93 @@ th {
     font-size: 0.9em;
 }
 
+th.sortable {
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.2s;
+}
+
+th.sortable:hover {
+    background: #e5e7eb;
+}
+
+/* 应用信息单元格样式 */
+.app-header-cell {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.app-name-cell {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.app-name {
+    font-weight: 600;
+    color: #2563eb;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.app-name:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+}
+
+.app-name.clickable {
+    color: #2563eb;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.app-name.clickable:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+}
+
+.app-category {
+    font-size: 0.85em;
+    color: #6b7280;
+}
+
+.app-developer {
+    color: #374151;
+    font-size: 0.9em;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.app-rating {
+    color: #f59e0b;
+    font-weight: 600;
+}
+
+.app-rating-count {
+    color: #6b7280;
+    font-size: 0.9em;
+}
+
+.app-release-date {
+    color: #6b7280;
+    font-size: 0.9em;
+}
+
+/* 表格链接样式 */
+table a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+table a:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+}
+
 /* 小按钮 */
 .btn-small {
     padding: 6px 12px;
