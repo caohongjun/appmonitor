@@ -34,7 +34,7 @@
 - ✅ **去重机制**：维护已分析产品列表
 - ✅ **命令行支持**：可指定日期、强制重新识别
 
-### 🤖 模块3：AI智能分析 🚧 规划中
+### 🤖 模块3：AI智能分析 ✅ 已完成
 
 - 基本信息分析（发布时间、公司背景、数据指标）
 - 投放素材分析（推广渠道、素材方向）
@@ -177,11 +177,14 @@ source venv/bin/activate && python modules/detector.py --force
 source venv/bin/activate && python modules/detector.py --help
 ```
 
-### 模块3：AI智能分析 🚧
+### 模块3：AI智能分析 ✅
 
 ```bash
-# 敬请期待
-python modules/analyzer.py
+# 运行AI分析
+source venv/bin/activate && python modules/analyzer.py
+
+# 查看帮助
+source venv/bin/activate && python modules/analyzer.py --help
 ```
 
 ---
@@ -269,11 +272,11 @@ crontab -e
   - [x] 命令行支持
   - [x] 数据存储
 
-- [ ] **模块3：AI智能分析** - 📋 待开发
-  - [ ] Claude API 集成
-  - [ ] 5个维度分析
-  - [ ] 结果存储
-  - [ ] Token 优化
+- [x] **模块3：AI智能分析** - ✅ 已完成
+  - [x] Claude API 集成
+  - [x] 5个维度分析
+  - [x] 结果存储
+  - [x] Token 优化
 
 - [ ] **模块4：网页展示** - 📋 待开发
   - [ ] 主入口页面
