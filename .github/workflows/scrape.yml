@@ -30,12 +30,6 @@ jobs:
       run: |
         echo "开始爬取榜单数据..."
         python modules/scraper.py --date today
-    
-    - name: 上传数据
-      uses: actions/upload-artifact@v4
-      with:
-        name: scraper-data
-        path: data/
   
   detector:
     runs-on: ubuntu-latest
@@ -61,12 +55,6 @@ jobs:
       run: |
         echo "检测新上榜产品..."
         python modules/detector.py --date today
-    
-    - name: 上传数据
-      uses: actions/upload-artifact@v4
-      with:
-        name: detector-data
-        path: data/
   
   commit:
     runs-on: ubuntu-latest
