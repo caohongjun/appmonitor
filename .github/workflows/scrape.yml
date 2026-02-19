@@ -22,17 +22,17 @@ jobs:
       - name: 安装依赖
         run: |
           python -m pip install --upgrade pip
-          pip install requests beautifulsoup4 lxml
+          pip install requests beautifulsoup4 lxml google-play-scraper
       
       - name: 运行模块1：爬取榜单数据
         run: |
           echo "开始爬取榜单数据..."
-          python modules/scraper.py --date today
+          python modules/scraper.py --date $(date +'%Y-%m-%d')
       
       - name: 运行模块2：检测新上榜产品
         run: |
           echo "检测新上榜产品..."
-          python modules/detector.py --date today
+          python modules/detector.py --date $(date +'%Y-%m-%d')
       
       - name: 提交数据
         run: |
