@@ -27,11 +27,13 @@ jobs:
         pip install requests beautifulsoup4 lxml
     
     - name: 运行模块1：爬取榜单数据
+      id: scraper
       run: |
         echo "开始爬取榜单数据..."
         python modules/scraper.py --date today
     
     - name: 运行模块2：检测新上榜产品
+      needs: scraper
       run: |
         echo "检测新上榜产品..."
         python modules/detector.py --date today
