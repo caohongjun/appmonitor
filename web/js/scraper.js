@@ -95,12 +95,16 @@ function switchCategory(category) {
 // 渲染日期列表
 function renderDateList(dates) {
     console.log('渲染日期列表:', dates);
-    const container = document.getElementById('date-list');
+    const container = document.getElementById('dateList');
+    if (!container) {
+        console.error('找不到 dateList 元素');
+        return;
+    }
     container.innerHTML = dates.map(date => `
-        <div class="date-item ${date === currentDate ? 'active' : ''}" 
+        <li class="date-item ${date === currentDate ? 'active' : ''}" 
              onclick="selectDate('${date}')">
             ${formatDate(date)}
-        </div>
+        </li>
     `).join('');
 }
 
@@ -114,7 +118,11 @@ async function selectDate(date) {
 
 // 渲染应用列表
 function renderApps() {
-    const container = document.getElementById('apps-container');
+    const container = document.getElementById('dataContent');
+    if (!container) {
+        console.error('找不到 dataContent 元素');
+        return;
+    }
     
     if (currentApps.length === 0) {
         container.innerHTML = '<div class="no-data">暂无数据</div>';
@@ -142,7 +150,11 @@ function updatePlatformTabs() {
 
 // 更新分类Tab
 function updateCategoryTabs() {
-    const container = document.querySelector('.category-tabs');
+    const container = document.getElementById('categoryTabs');
+    if (!container) {
+        console.error('找不到 categoryTabs 元素');
+        return;
+    }
     container.innerHTML = Object.entries(categories[currentPlatform]).map(([key, name]) => `
         <div class="tab ${key === currentCategory ? 'active' : ''}" 
              data-category="${key}">
