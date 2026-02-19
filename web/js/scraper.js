@@ -27,6 +27,7 @@ const categories = {
 async function init() {
     // 加载日期列表
     const dates = await getAvailableDates();
+    console.log('可用日期:', dates);
     
     // 检查当前日期是否有数据
     const hasData = dates.includes(currentDate);
@@ -60,6 +61,7 @@ async function init() {
 async function loadData() {
     try {
         const url = `../data/raw/${currentDate}/${currentPlatform}/${currentCategory}.json`;
+        console.log('加载数据:', url);
         const data = await loadJSON(url);
         
         if (data && data.apps) {
@@ -92,6 +94,7 @@ function switchCategory(category) {
 
 // 渲染日期列表
 function renderDateList(dates) {
+    console.log('渲染日期列表:', dates);
     const container = document.getElementById('date-list');
     container.innerHTML = dates.map(date => `
         <div class="date-item ${date === currentDate ? 'active' : ''}" 
@@ -160,15 +163,18 @@ async function getAvailableDates() {
     try {
         const response = await fetch('../data/raw');
         const text = await response.text();
+        console.log('目录列表HTML:', text);
         
         // 解析目录列表
         const dates = [];
-        const regex = /href="([0-9]{4}-[0-9]{2}-[0-9]{2})"/g;
+        // 修复正则表达式，匹配 Python HTTP 服务器的目录格式
+        const regex = /href="([0-9]{4}-[0-9]{2}-[0-9]{2})\/"/g;
         let match;
         while ((match = regex.exec(text)) !== null) {
             dates.push(match[1]);
         }
         
+        console.log('解析出的日期:', dates);
         return dates.sort().reverse();
     } catch (error) {
         console.error('获取日期列表失败:', error);
