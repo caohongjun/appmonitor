@@ -1,93 +1,41 @@
-// 主页JavaScript
+// 主页JavaScript - GitHub Pages 版本
+
+// GitHub 仓库配置
+const GITHUB_REPO = 'caohongjun/appmonitor';
+const GITHUB_API_BASE = `https://api.github.com/repos/${GITHUB_REPO}/contents/data`;
+const GITHUB_RAW_BASE = `https://raw.githubusercontent.com/${GITHUB_REPO}/master/data`;
 
 // 检查今天的数据并跳转到榜单页面
 async function checkAndGoToScraper() {
     const today = getTodayString();
-    const testUrl = `../data/raw/${today}/app_store/health_fitness.json`;
+    const testUrl = `${GITHUB_RAW_BASE}/raw/${today}/app_store/health_fitness.json`;
     
     try {
         const response = await fetch(testUrl);
         if (response.ok) {
             window.location.href = 'scraper.html';
         } else {
-            await startScrapingAndRedirect();
+            showToast('今天的数据还未爬取，请稍后再试', 'info');
         }
     } catch (error) {
-        await startScrapingAndRedirect();
-    }
-}
-
-// 开始爬取并跳转
-async function startScrapingAndRedirect() {
-    const today = getTodayString();
-    
-    try {
-        showToast('今天的数据不存在，正在开始爬取...', 'info');
-        
-        const response = await fetch('/api/scrape', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({
-                date: today
-            })
-        });
-        
-        const result = await response.json();
-        
-        if (result.success) {
-            showToast('爬取任务已启动，正在跳转...', 'success');
-            setTimeout(() => {
-                window.location.href = 'scraper.html';
-            }, 1000);
-        } else {
-            showToast('启动爬取失败: ' + (result.error || '未知错误'), 'error');
-        }
-    } catch (error) {
-        console.error('启动爬取失败:', error);
-        showToast('启动爬取失败: ' + error.message, 'error');
+        showToast('检查数据失败: ' + error.message, 'error');
     }
 }
 
 // 检查并运行检测模块
 async function checkAndRunDetector() {
     const today = getTodayString();
-    const testUrl = `../data/new_apps/${today}.json`;
+    const testUrl = `${GITHUB_RAW_BASE}/new_apps/${today}.json`;
     
     try {
-        // 检查当天是否已有检测数据
         const response = await fetch(testUrl);
         if (response.ok) {
-            // 已有数据，直接跳转
             window.location.href = 'detector.html';
-            return;
-        }
-        
-        // 没有数据，需要重新检测
-        showToast('今天还没有检测数据，正在开始检测...', 'info');
-        
-        const detectResponse = await fetch('/api/detect', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({ force: true })  // 使用 force 确保能检测到新数据
-        });
-        
-        const result = await detectResponse.json();
-        
-        if (result.success) {
-            showToast('检测任务已启动，正在跳转...', 'success');
-            setTimeout(() => {
-                window.location.href = 'detector.html';
-            }, 1000);
         } else {
-            showToast('启动检测失败: ' + (result.error || '未知错误'), 'error');
+            showToast('今天还没有检测数据，请稍后再试', 'info');
         }
     } catch (error) {
-        console.error('启动检测失败:', error);
-        showToast('启动检测失败: ' + error.message, 'error');
+        showToast('检查数据失败: ' + error.message, 'error');
     }
 }
 
@@ -108,14 +56,14 @@ async function loadStats() {
 
         // 加载模块2日期（最新新上榜产品分析日期）
         const newAppsDates = [];
-        // 直接检查当天
         const today = getTodayString();
         try {
-            const response = await fetch(`../data/new_apps/${today}.json`);
+            const response = await fetch(`${GITHUB_RAW_BASE}/new_apps/${today}.json`);
             if (response.ok) {
                 newAppsDates.push(today);
             }
         } catch (e) {}
+        
         if (newAppsDates.length > 0) {
             document.getElementById('module2-date').textContent = formatDate(newAppsDates[0]);
         } else {
@@ -123,7 +71,7 @@ async function loadStats() {
         }
 
         // 加载模块3日期（最新AI分析日期）
-        const analyzedData = await loadJSON('../data/analyzed_apps.json');
+        const analyzedData = await loadJSON(`${GITHUB_RAW_BASE}/analyzed_apps.json`);
         if (analyzedData && analyzedData.latest_date) {
             document.getElementById('module3-date').textContent = formatDate(analyzedData.latest_date);
         } else {
@@ -138,7 +86,7 @@ async function loadStats() {
             // App Store
             const appStoreCategories = ['health_fitness', 'social', 'lifestyle', 'games'];
             for (const category of appStoreCategories) {
-                const data = await loadJSON(`../data/raw/${latestDate}/app_store/${category}.json`);
+                const data = await loadJSON(`${GITHUB_RAW_BASE}/raw/${latestDate}/app_store/${category}.json`);
                 if (data && data.apps) {
                     totalApps += data.apps.length;
                 }
@@ -147,7 +95,7 @@ async function loadStats() {
             // Google Play
             const googlePlayCategories = ['health_fitness', 'social', 'lifestyle', 'games', 'dating', 'tools'];
             for (const category of googlePlayCategories) {
-                const data = await loadJSON(`../data/raw/${latestDate}/google_play/${category}.json`);
+                const data = await loadJSON(`${GITHUB_RAW_BASE}/raw/${latestDate}/google_play/${category}.json`);
                 if (data && data.apps) {
                     totalApps += data.apps.length;
                 }
@@ -157,7 +105,7 @@ async function loadStats() {
         }
 
         // 获取新上榜产品数
-        const newAppsData = await loadJSON(`../data/new_apps/${getTodayString()}.json`);
+        const newAppsData = await loadJSON(`${GITHUB_RAW_BASE}/new_apps/${getTodayString()}.json`);
         if (newAppsData) {
             document.getElementById('new-apps').textContent = newAppsData.total_count || 0;
         }
@@ -169,6 +117,41 @@ async function loadStats() {
 
     } catch (error) {
         console.error('加载统计数据失败:', error);
+    }
+}
+
+// 获取可用的日期列表
+async function getAvailableDates() {
+    try {
+        const response = await fetch(`${GITHUB_API_BASE}/raw`);
+        const data = await response.json();
+        
+        if (data && data.length > 0) {
+            const folders = data
+                .filter(item => item.type === 'dir')
+                .map(item => item.name)
+                .sort()
+                .reverse();
+            return folders;
+        }
+        return [];
+    } catch (error) {
+        console.error('获取日期列表失败:', error);
+        return [];
+    }
+}
+
+// 加载 JSON 数据
+async function loadJSON(url) {
+    try {
+        const response = await fetch(url);
+        if (response.ok) {
+            return await response.json();
+        }
+        return null;
+    } catch (error) {
+        console.error('加载 JSON 失败:', url, error);
+        return null;
     }
 }
 

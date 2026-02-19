@@ -1,10 +1,15 @@
-// 榜单数据页面JavaScript
+// 榜单数据页面JavaScript - GitHub Pages 版本
+
+// GitHub 仓库配置
+const GITHUB_REPO = 'caohongjun/appmonitor';
+const GITHUB_API_BASE = `https://api.github.com/repos/${GITHUB_REPO}/contents/data`;
+const GITHUB_RAW_BASE = `https://raw.githubusercontent.com/${GITHUB_REPO}/master/data`;
 
 let currentDate = getQueryParam('date') || getTodayString();
 let currentPlatform = 'app_store';
-let currentCategory = 'health_fitness'; // 当前选中的分类
-let currentSort = { column: null, order: 'asc' }; // 当前排序状态
-let currentApps = []; // 当前显示的应用数据
+let currentCategory = 'health_fitness';
+let currentSort = { column: null, order: 'asc' };
+let currentApps = [];
 
 const categories = {
     'app_store': {
@@ -29,18 +34,11 @@ async function init() {
     const dates = await getAvailableDates();
     
     // 检查当前日期是否有数据
-    const isToday = currentDate === getTodayString();
     const hasData = dates.includes(currentDate);
     
-    if (!hasData && isToday) {
-        // 今天没有数据，显示爬取中状态
-        showScrapingStatus();
-        // 开始轮询检查数据
-        pollForData();
-    } else if (!hasData) {
-        // 历史日期没有数据，切换到最新的可用日期
-        currentDate = dates[0];
-        console.log(`当前日期 ${currentDate} 没有数据，切换到 ${currentDate}`);
+    if (!hasData) {
+        // 切换到最新的可用日期
+        currentDate = dates[0] || getTodayString();
     }
     
     renderDateList(dates);
@@ -48,449 +46,154 @@ async function init() {
     // 平台Tab切换
     document.querySelectorAll('.tabs:not(.category-tabs) .tab').forEach(tab => {
         tab.addEventListener('click', () => {
-            document.querySelectorAll('.tabs:not(.category-tabs) .tab').forEach(t => t.classList.remove('active'));
-            tab.classList.add('active');
-            currentPlatform = tab.dataset.platform;
-
-            // 重置为第一个分类
-            currentCategory = Object.keys(categories[currentPlatform])[0];
-
-            // 重新渲染分类tabs
-            renderCategoryTabs();
-
-            // 加载数据
-            loadData();
+            switchPlatform(tab.dataset.platform);
         });
     });
 
-    // 渲染分类tabs
-    renderCategoryTabs();
+    // 分类Tab切换
+    document.querySelectorAll('.category-tabs .tab').forEach(tab => {
+        tab.addEventListener('click', () => {
+            switchCategory(tab.dataset.category);
+        });
+    });
 
-    // 只有在有数据时才加载数据
-    if (hasData) {
-        loadData();
+    // 加载数据
+    await loadData();
+}
+
+// 加载数据
+async function loadData() {
+    try {
+        const url = `${GITHUB_RAW_BASE}/raw/${currentDate}/${currentPlatform}/${currentCategory}.json`;
+        const data = await loadJSON(url);
+        
+        if (data && data.apps) {
+            currentApps = data.apps;
+            renderApps();
+        } else {
+            showToast('加载数据失败', 'error');
+        }
+    } catch (error) {
+        console.error('加载数据失败:', error);
+        showToast('加载数据失败: ' + error.message, 'error');
     }
 }
 
-// 渲染分类Tabs
-function renderCategoryTabs() {
-    const categoryTabsContainer = document.getElementById('categoryTabs');
-    const categoryKeys = Object.keys(categories[currentPlatform]);
+// 切换平台
+function switchPlatform(platform) {
+    currentPlatform = platform;
+    currentCategory = Object.keys(categories[platform])[0];
+    updatePlatformTabs();
+    updateCategoryTabs();
+    loadData();
+}
 
-    categoryTabsContainer.innerHTML = categoryKeys.map(key => `
-        <div class="tab ${key === currentCategory ? 'active' : ''}" data-category="${key}">
-            ${categories[currentPlatform][key]}
-        </div>
-    `).join('');
-
-    // 添加分类tab点击事件
-    categoryTabsContainer.querySelectorAll('.tab').forEach(tab => {
-        tab.addEventListener('click', () => {
-            categoryTabsContainer.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-            tab.classList.add('active');
-            currentCategory = tab.dataset.category;
-            loadData();
-        });
-    });
+// 切换分类
+function switchCategory(category) {
+    currentCategory = category;
+    updateCategoryTabs();
+    loadData();
 }
 
 // 渲染日期列表
 function renderDateList(dates) {
-    const dateList = document.getElementById('dateList');
-    dateList.innerHTML = dates.map(date => `
-        <li class="date-item ${date === currentDate ? 'active' : ''}"
-            onclick="changeDate('${date}')">
+    const container = document.getElementById('date-list');
+    container.innerHTML = dates.map(date => `
+        <div class="date-item ${date === currentDate ? 'active' : ''}" 
+             onclick="selectDate('${date}')">
             ${formatDate(date)}
-        </li>
+        </div>
     `).join('');
 }
 
-// 切换日期
-function changeDate(date) {
-    const url = new URL(window.location);
-    url.searchParams.set('date', date);
-    window.location.href = url.toString();
+// 选择日期
+function selectDate(date) {
+    currentDate = date;
+    renderDateList(await getAvailableDates());
+    loadData();
 }
 
-// 加载数据 - 只加载当前选中的分类
-async function loadData() {
-    const content = document.getElementById('dataContent');
-    content.innerHTML = '<p>加载中...</p>';
-
-    try {
-        const categoryName = categories[currentPlatform][currentCategory];
-        const data = await loadJSON(`../data/raw/${currentDate}/${currentPlatform}/${currentCategory}.json`);
-
-        if (data && data.apps) {
-            currentApps = data.apps;
-            currentSort = { column: null, order: 'asc' }; // 重置排序
-            renderTable(categoryName);
-        } else {
-            content.innerHTML = `
-                <div class="data-table">
-                    <h4>${categoryName}</h4>
-                    <p style="padding: 20px; color: #6b7280;">暂无数据</p>
-                </div>
-            `;
-        }
-    } catch (error) {
-        content.innerHTML = '<p style="color: red;">加载失败，请检查数据文件</p>';
-        console.error('加载数据失败:', error);
-    }
-}
-
-// 渲染表格
-function renderTable(categoryName) {
-    const content = document.getElementById('dataContent');
-    const sortIndicator = (col) => {
-        if (currentSort.column === col) {
-            return currentSort.order === 'asc' ? ' ↑' : ' ↓';
-        }
-        return '';
-    };
-
-    const html = `
-        <div class="data-table">
-            <h4>${categoryName} (${currentApps.length}个应用)</h4>
-            <table>
-                <thead>
-                    <tr>
-                        <th>排名</th>
-                        <th>图标</th>
-                        <th>应用名称</th>
-                        <th>开发者</th>
-                        <th class="sortable" onclick="sortTable('release_date')">上架时间${sortIndicator('release_date')}</th>
-                        <th>评分</th>
-                        <th>评价数</th>
-                        <th>链接</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    ${currentApps.map((app, index) => `
-                        <tr>
-                            <td><strong>#${app.rank}</strong></td>
-                            <td><img src="${app.icon_url}" alt="${app.name}" class="app-icon" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2240%22 height=%2240%22><rect width=%2240%22 height=%2240%22 fill=%22%23ddd%22/></svg>'"></td>
-                            <td>
-                                <div class="app-name clickable" onclick="requestAnalysis(${index})">${app.name}</div>
-                            </td>
-                            <td><div class="app-developer">${app.developer}</div></td>
-                            <td>${app.release_date || '-'}</td>
-                            <td>${app.rating ? app.rating.toFixed(1) + ' ⭐' : '-'}</td>
-                            <td>${app.rating_count ? app.rating_count.toLocaleString() : '-'}</td>
-                            <td><a href="${app.store_url}" target="_blank">查看</a></td>
-                        </tr>
-                    `).join('')}
-                </tbody>
-            </table>
-            <p style="text-align: center; padding: 15px; color: #6b7280;">共 ${currentApps.length} 个应用</p>
-        </div>
-    `;
-    content.innerHTML = html;
-}
-
-// 表格排序
-function sortTable(column) {
-    // 切换排序方向
-    if (currentSort.column === column) {
-        currentSort.order = currentSort.order === 'asc' ? 'desc' : 'asc';
-    } else {
-        currentSort.column = column;
-        currentSort.order = 'desc'; // 默认倒序（新到旧）
-    }
-
-    // 排序数据
-    currentApps.sort((a, b) => {
-        let valueA = a[column] || '';
-        let valueB = b[column] || '';
-
-        // 日期比较
-        if (column === 'release_date') {
-            // 将 YYYY/MM/DD 转换为时间戳进行比较
-            const dateA = valueA ? new Date(valueA.replace(/\//g, '-')).getTime() : 0;
-            const dateB = valueB ? new Date(valueB.replace(/\//g, '-')).getTime() : 0;
-            return currentSort.order === 'asc' ? dateA - dateB : dateB - dateA;
-        }
-
-        // 默认字符串比较
-        if (currentSort.order === 'asc') {
-            return valueA > valueB ? 1 : -1;
-        } else {
-            return valueA < valueB ? 1 : -1;
-        }
-    });
-
-    // 重新渲染表格
-    const categoryName = categories[currentPlatform][currentCategory];
-    renderTable(categoryName);
-}
-
-// 显示爬取中状态
-function showScrapingStatus() {
-    const content = document.getElementById('dataContent');
-    const categoryName = categories[currentPlatform][currentCategory];
+// 渲染应用列表
+function renderApps() {
+    const container = document.getElementById('apps-container');
     
-    content.innerHTML = `
-        <div class="data-table">
-            <h4>${categoryName}</h4>
-            <div style="padding: 40px; text-align: center;">
-                <div class="loading-spinner"></div>
-                <p style="color: #6b7280; margin-top: 20px; font-size: 18px; font-weight: bold;">
-                    🚀 正在爬取 ${formatDate(currentDate)} 的榜单数据
-                </p>
-                <p style="color: #9ca3af; font-size: 14px; margin-top: 10px;">预计需要 5-10 分钟，请稍候...</p>
-                <p style="color: #9ca3af; font-size: 14px;">页面将在爬取完成后自动刷新</p>
+    if (currentApps.length === 0) {
+        container.innerHTML = '<div class="no-data">暂无数据</div>';
+        return;
+    }
+    
+    container.innerHTML = currentApps.map(app => `
+        <div class="app-card">
+            <img src="${app.icon_url}" alt="${app.name}" class="app-icon" onerror="this.src='https://via.placeholder.com/64'">
+            <div class="app-info">
+                <div class="app-name">${app.name}</div>
+                <div class="app-category">${app.category || 'N/A'}</div>
+                <div class="app-rank">排名: ${app.rank || 'N/A'}</div>
             </div>
         </div>
-    `;
+    `).join('');
 }
 
-// 轮询检查数据是否生成
-function pollForData() {
-    const maxAttempts = 60; // 最多检查60次（10分钟）
-    let attempts = 0;
+// 更新平台Tab
+function updatePlatformTabs() {
+    document.querySelectorAll('.tabs:not(.category-tabs) .tab').forEach(tab => {
+        tab.classList.toggle('active', tab.dataset.platform === currentPlatform);
+    });
+}
+
+// 更新分类Tab
+function updateCategoryTabs() {
+    const container = document.querySelector('.category-tabs');
+    container.innerHTML = Object.entries(categories[currentPlatform]).map(([key, name]) => `
+        <div class="tab ${key === currentCategory ? 'active' : ''}" 
+             data-category="${key}">
+            ${name}
+        </div>
+    `).join('');
     
-    const poll = async () => {
-        attempts++;
-        console.log(`检查数据 (${attempts}/${maxAttempts})...`);
-        
-        try {
-            const categoryName = categories[currentPlatform][currentCategory];
-            const data = await loadJSON(`../data/raw/${currentDate}/${currentPlatform}/${currentCategory}.json`);
-            
-            if (data && data.apps) {
-                console.log('数据爬取完成!');
-                showToast('数据爬取完成!', 'success');
-                
-                // 重新加载数据
-                currentApps = data.apps;
-                currentSort = { column: null, order: 'asc' };
-                renderTable(categoryName);
-                
-                // 刷新日期列表
-                refreshDateList();
-                return;
-            }
-        } catch (error) {
-            // 数据还不存在，继续轮询
-        }
-        
-        if (attempts >= maxAttempts) {
-            console.log('轮询超时');
-            showToast('爬取超时，请稍后手动刷新页面', 'error');
-            return;
-        }
-        
-        // 10秒后再次检查
-        setTimeout(poll, 10000);
-    };
-    
-    poll();
-}
-
-// 刷新日期列表
-async function refreshDateList() {
-    try {
-        const dates = await getAvailableDates();
-        renderDateList(dates);
-    } catch (error) {
-        console.error('刷新日期列表失败:', error);
-    }
-}
-
-// AI 分析弹窗相关函数
-let selectedApp = null;
-
-// 请求分析应用
-function requestAnalysis(index) {
-    if (!currentApps || !currentApps[index]) {
-        return;
-    }
-    
-    const app = currentApps[index];
-    // 添加平台和分类信息
-    const platformName = currentPlatform === 'app_store' ? 'App Store' : 'Google Play';
-    const categoryName = categories[currentPlatform][currentCategory];
-    
-    selectedApp = {
-        ...app,
-        platform: platformName,
-        category: categoryName
-    };
-    
-    showAnalysisModal(selectedApp);
-}
-
-// 显示分析弹窗
-function showAnalysisModal(app) {
-    const modal = document.getElementById('analysisModal');
-
-    // 保存应用信息到全局变量
-    selectedApp = app;
-
-    // 填充应用信息
-    document.getElementById('modalAppIcon').src = app.icon_url;
-    document.getElementById('modalAppIcon').alt = app.name;
-    document.getElementById('modalAppName').textContent = app.name;
-    document.getElementById('modalAppPlatform').textContent = app.platform;
-    document.getElementById('modalAppCategory').textContent = app.category;
-    document.getElementById('modalAppDeveloper').textContent = app.developer;
-
-    // 显示弹窗
-    modal.classList.add('show');
-
-    // 点击遮罩层关闭弹窗
-    modal.onclick = function(e) {
-        if (e.target === modal) {
-            closeAnalysisModal();
-        }
-    };
-}
-
-// 关闭分析弹窗
-function closeAnalysisModal() {
-    const modal = document.getElementById('analysisModal');
-    modal.classList.remove('show');
-    selectedApp = null;
-}
-
-// 加入待分析队列并开始分析
-async function addToQueue() {
-    if (!selectedApp) {
-        return;
-    }
-
-    // 添加到队列
-    addToAnalysisQueue(selectedApp, 'analyzing');
-
-    // 先保存 app 名称，因为关闭弹窗后 selectedApp 会变为 null
-    const appName = selectedApp.name;
-    const appId = selectedApp.app_id;
-    const platform = selectedApp.platform;
-
-    // 关闭弹窗
-    closeAnalysisModal();
-
-    // 显示loading
-    showToast(`⚡ 正在启动分析 "${appName}"...`, 'info');
-
-    try {
-        const response = await fetch('/api/analyze', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({
-                app_id: appId,
-                platform: platform
-            })
+    // 重新绑定事件
+    container.querySelectorAll('.tab').forEach(tab => {
+        tab.addEventListener('click', () => {
+            switchCategory(tab.dataset.category);
         });
-
-        const result = await response.json();
-
-        if (result.success) {
-            showToast(`✅ "${appName}" 已加入队列并开始分析！`, 'success');
-            setTimeout(() => {
-                window.location.href = 'analyzer.html';
-            }, 1000);
-        } else {
-            showToast(`❌ 启动分析失败: ${result.error || '未知错误'}`, 'error');
-        }
-    } catch (error) {
-        console.error('启动分析失败:', error);
-        showToast(`❌ 启动分析失败: ${error.message}`, 'error');
-    }
+    });
 }
 
-// 立即分析
-async function analyzeNow() {
-    if (!selectedApp) {
-        return;
-    }
-
-    // 先添加到分析队列
-    addToAnalysisQueue(selectedApp, 'analyzing');
-
-    // 先保存 app 名称，因为关闭弹窗后 selectedApp 会变为 null
-    const appName = selectedApp.name;
-    const appId = selectedApp.app_id;
-    const platform = selectedApp.platform;
-
-    // 先关闭弹窗
-    closeAnalysisModal();
-
-    // 显示loading
-    showToast(`⚡ 正在启动分析 "${appName}"...`, 'info');
-
+// 获取可用的日期列表
+async function getAvailableDates() {
     try {
-        const response = await fetch('/api/analyze', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({
-                app_id: appId,
-                platform: platform
-            })
-        });
-
-        const result = await response.json();
-
-        if (result.success) {
-            showToast(`✅ "${appName}" 分析已启动！`, 'success');
-            // 等待一下然后跳转
-            setTimeout(() => {
-                window.location.href = 'analyzer.html';
-            }, 1000);
-        } else {
-            showToast(`❌ 启动分析失败: ${result.error || '未知错误'}`, 'error');
+        const response = await fetch(`${GITHUB_API_BASE}/raw`);
+        const data = await response.json();
+        
+        if (data && data.length > 0) {
+            return data
+                .filter(item => item.type === 'dir')
+                .map(item => item.name)
+                .sort()
+                .reverse();
         }
+        return [];
     } catch (error) {
-        console.error('启动分析失败:', error);
-        showToast(`❌ 启动分析失败: ${error.message}`, 'error');
+        console.error('获取日期列表失败:', error);
+        return [];
     }
 }
 
-// 添加到分析队列
-function addToAnalysisQueue(app, status = 'pending') {
-    const queue = JSON.parse(localStorage.getItem('analysisQueue') || '[]');
-    
-    // 检查是否已在队列中
-    const existingIndex = queue.findIndex(item => item.app_id === app.app_id);
-    if (existingIndex >= 0) {
-        queue[existingIndex].status = status;
-    } else {
-        queue.push({
-            ...app,
-            status: status,
-            addedTime: new Date().toISOString()
-        });
+// 加载 JSON 数据
+async function loadJSON(url) {
+    try {
+        const response = await fetch(url);
+        if (response.ok) {
+            return await response.json();
+        }
+        return null;
+    } catch (error) {
+        console.error('加载 JSON 失败:', url, error);
+        return null;
     }
-    
-    localStorage.setItem('analysisQueue', JSON.stringify(queue));
-}
-
-// 显示提示消息
-function showToast(message, type = 'info') {
-    // 创建toast元素
-    const toast = document.createElement('div');
-    toast.className = `toast toast-${type}`;
-    toast.textContent = message;
-    
-    document.body.appendChild(toast);
-    
-    // 触发动画
-    setTimeout(() => {
-        toast.classList.add('show');
-    }, 10);
-    
-    // 3秒后移除
-    setTimeout(() => {
-        toast.classList.remove('show');
-        setTimeout(() => {
-            document.body.removeChild(toast);
-        }, 300);
-    }, 3000);
 }
 
 // 页面加载完成后执行
-document.addEventListener('DOMContentLoaded', init);
+document.addEventListener('DOMContentLoaded', () => {
+    init();
+});
