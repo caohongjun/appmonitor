@@ -1,0 +1,97 @@
+{
+  "date": "2026-02-18",
+  "platform": "Google Play",
+  "category": "工具",
+  "category_key": "tools",
+  "total_apps": 8,
+  "apps": [
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.yousx.thetoolsapp",
+      "rank": 1,
+      "name": "Tooly All Tools In One Toolbox",
+      "developer": "Camrilla",
+      "store_url": "https://play.google.com/store/apps/details?id=com.yousx.thetoolsapp",
+      "icon_url": "https://play-lh.googleusercontent.com/3cC0TdImz_yFG1VFu_hDbHhsy0kGPgijsoffE_1gVjlmAOYMVzQfGmGa50m3JyyYbiqENSeveS0bNcLSNbnB",
+      "timestamp": "2026-02-18 09:48:34"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.pcmehanik.smarttoolbox",
+      "rank": 2,
+      "name": "Smart Tools - All In One",
+      "developer": "PC Mehanik",
+      "store_url": "https://play.google.com/store/apps/details?id=com.pcmehanik.smarttoolbox",
+      "icon_url": "https://play-lh.googleusercontent.com/eDVcRv2uqR_kTHbK0riFwESVO67qfOi6ATVtMFApXeJwyCzcHl4spwrPMpnMtbca8w",
+      "timestamp": "2026-02-18 09:48:34"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.pradhyu.alltoolseveryutility",
+      "rank": 3,
+      "name": "All tools",
+      "developer": "ATEU Softwares ®",
+      "store_url": "https://play.google.com/store/apps/details?id=com.pradhyu.alltoolseveryutility",
+      "icon_url": "https://play-lh.googleusercontent.com/vu22TlhNvH6wWmpUrUoWSFDbu_Ewxek47gwGp4XC2w8ZiMRCGjb4PeWza9fnsv_VXzZtwUMb5dzQcR0LkQKS2Q",
+      "timestamp": "2026-02-18 09:48:34"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.smarttools.utility.multipurpose",
+      "rank": 4,
+      "name": "Smart Tools- Utilities toolbox",
+      "developer": "Apps Cabinet",
+      "store_url": "https://play.google.com/store/apps/details?id=com.smarttools.utility.multipurpose",
+      "icon_url": "https://play-lh.googleusercontent.com/NNPvsJuE3a8qOW-jbmk0s6nd_euO31VftZJyDcBd3nHUCPhWZH7C1JI1YeVovA3UWiR1",
+      "timestamp": "2026-02-18 09:48:34"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.tss.omnitools",
+      "rank": 5,
+      "name": "Omni Tools – All in One Tools",
+      "developer": "Total Soft Solutions",
+      "store_url": "https://play.google.com/store/apps/details?id=com.tss.omnitools",
+      "icon_url": "https://play-lh.googleusercontent.com/_axGc40RHMsYzzpngOK3kRBECZ_MZn0dykUahd6k_pcv_wN7nPavKgthjTHIPuuYow",
+      "timestamp": "2026-02-18 09:48:34"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.premium.pdfutility",
+      "rank": 6,
+      "name": "PDF Utility Tools & Converter",
+      "developer": "Premium Quality Apps",
+      "store_url": "https://play.google.com/store/apps/details?id=com.premium.pdfutility",
+      "icon_url": "https://play-lh.googleusercontent.com/b9k_XywpPpgm-_4CIjREFDlqltBbT6wv3mb18e2sk7zLSGbokeZ6tTVwTkHBUR9md1I",
+      "timestamp": "2026-02-18 09:48:34"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.appcodecraft.curiomate",
+      "rank": 7,
+      "name": "CurioMate: Utility Tools",
+      "developer": "AppCodeCraft",
+      "store_url": "https://play.google.com/store/apps/details?id=com.appcodecraft.curiomate",
+      "icon_url": "https://play-lh.googleusercontent.com/lx4QliShZ4LPYQPfYZyUFAuC8_JQv5K_L2PrbYPn-v15P3skyMXwu5Txbbs-0FJFvc4",
+      "timestamp": "2026-02-18 09:48:34"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.dilojhon.all.tools.utilities.toolkit.smart.toolbox",
+      "rank": 8,
+      "name": "All Tools - Utilities Toolkit",
+      "developer": "dilojhon",
+      "store_url": "https://play.google.com/store/apps/details?id=com.dilojhon.all.tools.utilities.toolkit.smart.toolbox",
+      "icon_url": "https://play-lh.googleusercontent.com/D2A32Imm2LD0wRoRrfXAYw3J6QXHWHuuJSxCBvP26aYYEHyDk95fVEewXg5ugt8gZN8",
+      "timestamp": "2026-02-18 09:48:34"
+    }
+  ]
+}
