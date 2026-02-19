@@ -49,3 +49,6 @@ logs/
 
 # Data files (不提交数据)
 data/
+
+# Environment variables (敏感信息)
+.env
