@@ -1,4 +1,4 @@
-name: 定期爬取榜单数据
+name: 定期爬取榜单数据（模块1和模块2）
 
 on:
   schedule:
@@ -30,8 +30,6 @@ jobs:
       run: |
         echo "开始爬取榜单数据..."
         python modules/scraper.py --date today
-      env:
-        ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
     
     - name: 运行模块2：检测新上榜产品
       run: |
