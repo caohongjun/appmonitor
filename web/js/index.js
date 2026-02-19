@@ -1,14 +1,9 @@
-// 主页JavaScript - GitHub Pages 版本
-
-// GitHub 仓库配置
-const GITHUB_REPO = 'caohongjun/appmonitor';
-const GITHUB_API_BASE = `https://api.github.com/repos/${GITHUB_REPO}/contents/data`;
-const GITHUB_RAW_BASE = `https://raw.githubusercontent.com/${GITHUB_REPO}/master/data`;
+// 主页JavaScript - 本地版本
 
 // 检查今天的数据并跳转到榜单页面
 async function checkAndGoToScraper() {
     const today = getTodayString();
-    const testUrl = `${GITHUB_RAW_BASE}/raw/${today}/app_store/health_fitness.json`;
+    const testUrl = `../data/raw/${today}/app_store/health_fitness.json`;
     
     try {
         const response = await fetch(testUrl);
@@ -25,7 +20,7 @@ async function checkAndGoToScraper() {
 // 检查并运行检测模块
 async function checkAndRunDetector() {
     const today = getTodayString();
-    const testUrl = `${GITHUB_RAW_BASE}/new_apps/${today}.json`;
+    const testUrl = `../data/new_apps/${today}.json`;
     
     try {
         const response = await fetch(testUrl);
@@ -58,7 +53,7 @@ async function loadStats() {
         const newAppsDates = [];
         const today = getTodayString();
         try {
-            const response = await fetch(`${GITHUB_RAW_BASE}/new_apps/${today}.json`);
+            const response = await fetch(`../data/new_apps/${today}.json`);
             if (response.ok) {
                 newAppsDates.push(today);
             }
@@ -71,7 +66,7 @@ async function loadStats() {
         }
 
         // 加载模块3日期（最新AI分析日期）
-        const analyzedData = await loadJSON(`${GITHUB_RAW_BASE}/analyzed_apps.json`);
+        const analyzedData = await loadJSON(`../data/analyzed_apps.json`);
         if (analyzedData && analyzedData.latest_date) {
             document.getElementById('module3-date').textContent = formatDate(analyzedData.latest_date);
         } else {
@@ -86,7 +81,7 @@ async function loadStats() {
             // App Store
             const appStoreCategories = ['health_fitness', 'social', 'lifestyle', 'games'];
             for (const category of appStoreCategories) {
-                const data = await loadJSON(`${GITHUB_RAW_BASE}/raw/${latestDate}/app_store/${category}.json`);
+                const data = await loadJSON(`../data/raw/${latestDate}/app_store/${category}.json`);
                 if (data && data.apps) {
                     totalApps += data.apps.length;
                 }
@@ -95,7 +90,7 @@ async function loadStats() {
             // Google Play
             const googlePlayCategories = ['health_fitness', 'social', 'lifestyle', 'games', 'dating', 'tools'];
             for (const category of googlePlayCategories) {
-                const data = await loadJSON(`${GITHUB_RAW_BASE}/raw/${latestDate}/google_play/${category}.json`);
+                const data = await loadJSON(`../data/raw/${latestDate}/google_play/${category}.json`);
                 if (data && data.apps) {
                     totalApps += data.apps.length;
                 }
@@ -105,7 +100,7 @@ async function loadStats() {
         }
 
         // 获取新上榜产品数
-        const newAppsData = await loadJSON(`${GITHUB_RAW_BASE}/new_apps/${getTodayString()}.json`);
+        const newAppsData = await loadJSON(`../data/new_apps/${getTodayString()}.json`);
         if (newAppsData) {
             document.getElementById('new-apps').textContent = newAppsData.total_count || 0;
         }
@@ -123,18 +118,18 @@ async function loadStats() {
 // 获取可用的日期列表
 async function getAvailableDates() {
     try {
-        const response = await fetch(`${GITHUB_API_BASE}/raw`);
-        const data = await response.json();
+        const response = await fetch('../data/raw');
+        const text = await response.text();
         
-        if (data && data.length > 0) {
-            const folders = data
-                .filter(item => item.type === 'dir')
-                .map(item => item.name)
-                .sort()
-                .reverse();
-            return folders;
+        // 解析目录列表
+        const dates = [];
+        const regex = /href="([0-9]{4}-[0-9]{2}-[0-9]{2})"/g;
+        let match;
+        while ((match = regex.exec(text)) !== null) {
+            dates.push(match[1]);
         }
-        return [];
+        
+        return dates.sort().reverse();
     } catch (error) {
         console.error('获取日期列表失败:', error);
         return [];

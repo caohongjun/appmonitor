@@ -1,9 +1,4 @@
-// 榜单数据页面JavaScript - GitHub Pages 版本
-
-// GitHub 仓库配置
-const GITHUB_REPO = 'caohongjun/appmonitor';
-const GITHUB_API_BASE = `https://api.github.com/repos/${GITHUB_REPO}/contents/data`;
-const GITHUB_RAW_BASE = `https://raw.githubusercontent.com/${GITHUB_REPO}/master/data`;
+// 榜单数据页面JavaScript - 本地版本
 
 let currentDate = getQueryParam('date') || getTodayString();
 let currentPlatform = 'app_store';
@@ -64,7 +59,7 @@ async function init() {
 // 加载数据
 async function loadData() {
     try {
-        const url = `${GITHUB_RAW_BASE}/raw/${currentDate}/${currentPlatform}/${currentCategory}.json`;
+        const url = `../data/raw/${currentDate}/${currentPlatform}/${currentCategory}.json`;
         const data = await loadJSON(url);
         
         if (data && data.apps) {
@@ -107,9 +102,10 @@ function renderDateList(dates) {
 }
 
 // 选择日期
-function selectDate(date) {
+async function selectDate(date) {
     currentDate = date;
-    renderDateList(await getAvailableDates());
+    const dates = await getAvailableDates();
+    renderDateList(dates);
     loadData();
 }
 
@@ -162,17 +158,18 @@ function updateCategoryTabs() {
 // 获取可用的日期列表
 async function getAvailableDates() {
     try {
-        const response = await fetch(`${GITHUB_API_BASE}/raw`);
-        const data = await response.json();
+        const response = await fetch('../data/raw');
+        const text = await response.text();
         
-        if (data && data.length > 0) {
-            return data
-                .filter(item => item.type === 'dir')
-                .map(item => item.name)
-                .sort()
-                .reverse();
+        // 解析目录列表
+        const dates = [];
+        const regex = /href="([0-9]{4}-[0-9]{2}-[0-9]{2})"/g;
+        let match;
+        while ((match = regex.exec(text)) !== null) {
+            dates.push(match[1]);
         }
-        return [];
+        
+        return dates.sort().reverse();
     } catch (error) {
         console.error('获取日期列表失败:', error);
         return [];
