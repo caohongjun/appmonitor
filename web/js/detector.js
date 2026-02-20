@@ -88,7 +88,15 @@ async function getNewAppsDate() {
     const dates = [];
     
     try {
-        // 使用 API 获取实际存在的日期
+        // 优先尝试从dates.json读取（适用于GitHub Pages）
+        const datesResponse = await fetch('../data/new_apps/dates.json');
+        if (datesResponse.ok) {
+            const datesData = await datesResponse.json();
+            dates.push(...(datesData.dates || []));
+            return dates;
+        }
+        
+        // 如果dates.json不存在，尝试使用API获取（适用于本地开发服务器）
         const response = await fetch('/api/detector/dates');
         if (response.ok) {
             const data = await response.json();

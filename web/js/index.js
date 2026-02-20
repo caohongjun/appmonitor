@@ -143,6 +143,15 @@ async function loadStats() {
 // 获取可用的日期列表
 async function getAvailableDates() {
     try {
+        // 优先尝试从dates.json读取（适用于GitHub Pages）
+        const datesResponse = await fetch('../data/raw/dates.json');
+        if (datesResponse.ok) {
+            const datesData = await datesResponse.json();
+            console.log('从dates.json读取日期:', datesData.dates);
+            return datesData.dates;
+        }
+        
+        // 如果dates.json不存在，尝试获取目录列表（适用于本地开发服务器）
         const response = await fetch('../data/raw');
         const text = await response.text();
         console.log('目录列表HTML:', text);
