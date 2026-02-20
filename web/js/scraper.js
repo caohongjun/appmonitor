@@ -308,6 +308,13 @@ function sortAppsTable(column) {
             return scraperCurrentSort.order === 'asc' ? dateA - dateB : dateB - dateA;
         }
 
+        // 数字比较（用于排名）
+        if (column === 'rank') {
+            const numA = Number(valueA) || 0;
+            const numB = Number(valueB) || 0;
+            return scraperCurrentSort.order === 'asc' ? numA - numB : numB - numA;
+        }
+
         // 默认字符串比较
         if (scraperCurrentSort.order === 'asc') {
             return valueA > valueB ? 1 : -1;
@@ -350,7 +357,7 @@ function renderApps() {
             <table>
                 <thead>
                     <tr>
-                        <th>排名</th>
+                        <th class="sortable" onclick="sortAppsTable('rank')">排名${sortIndicator('rank')}</th>
                         <th>图标</th>
                         <th>应用名称</th>
                         <th>开发者</th>
