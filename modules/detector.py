@@ -278,6 +278,41 @@ class NewAppDetector:
         self.logger.info(f"耗时: {duration:.1f} 秒")
 
 
+def update_new_apps_dates_json(date_str):
+    """
+    更新new_apps/dates.json文件，添加新日期
+    
+    Args:
+        date_str: 日期字符串（YYYY-MM-DD）
+    """
+    import json
+    dates_file = os.path.join(DATA_DIR, "new_apps", "dates.json")
+    
+    # 读取现有的dates.json
+    dates = []
+    if os.path.exists(dates_file):
+        try:
+            with open(dates_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                dates = data.get('dates', [])
+        except Exception as e:
+            print(f"读取new_apps/dates.json失败: {e}")
+    
+    # 添加新日期（如果不存在）
+    if date_str not in dates:
+        dates.insert(0, date_str)  # 插入到最前面
+        # 限制只保留最近30天的数据
+        dates = dates[:30]
+        
+        # 保存dates.json
+        try:
+            with open(dates_file, 'w', encoding='utf-8') as f:
+                json.dump({'dates': dates}, f, indent=2, ensure_ascii=False)
+            print(f"✓ 已更新new_apps/dates.json，添加日期: {date_str}")
+        except Exception as e:
+            print(f"保存new_apps/dates.json失败: {e}")
+
+
 def main():
     """主函数"""
     parser = argparse.ArgumentParser(
@@ -314,6 +349,9 @@ def main():
     # 创建识别器并运行
     detector = NewAppDetector(args.date)
     detector.run(force=args.force)
+    
+    # 更新new_apps/dates.json
+    update_new_apps_dates_json(detector.date)
 
 
 if __name__ == "__main__":

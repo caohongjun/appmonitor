@@ -215,6 +215,41 @@ class RankingMonitorScraper:
         self.logger.info("=" * 60)
 
 
+def update_dates_json(date_str):
+    """
+    更新dates.json文件，添加新日期
+    
+    Args:
+        date_str: 日期字符串（YYYY-MM-DD）
+    """
+    dates_file = os.path.join(DATA_DIR, "raw", "dates.json")
+    
+    # 读取现有的dates.json
+    dates = []
+    if os.path.exists(dates_file):
+        try:
+            import json
+            with open(dates_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                dates = data.get('dates', [])
+        except Exception as e:
+            print(f"读取dates.json失败: {e}")
+    
+    # 添加新日期（如果不存在）
+    if date_str not in dates:
+        dates.insert(0, date_str)  # 插入到最前面
+        # 限制只保留最近30天的数据
+        dates = dates[:30]
+        
+        # 保存dates.json
+        try:
+            with open(dates_file, 'w', encoding='utf-8') as f:
+                json.dump({'dates': dates}, f, indent=2, ensure_ascii=False)
+            print(f"✓ 已更新dates.json，添加日期: {date_str}")
+        except Exception as e:
+            print(f"保存dates.json失败: {e}")
+
+
 def main():
     """主函数"""
     parser = argparse.ArgumentParser(
@@ -263,6 +298,9 @@ def main():
     # 创建爬虫实例并执行
     scraper = RankingMonitorScraper(args.date)
     scraper.scrape_all(args.platform, categories)
+    
+    # 更新dates.json
+    update_dates_json(scraper.date)
 
 
 if __name__ == "__main__":
