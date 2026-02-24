@@ -1,0 +1,152 @@
+{
+  "date": "2026-02-24",
+  "platform": "Google Play",
+  "category": "约会",
+  "category_key": "dating",
+  "total_apps": 13,
+  "apps": [
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "com.bumble.app",
+      "rank": 1,
+      "name": "Bumble Dating App: Meet & Date",
+      "developer": "Bumble Holding Limited",
+      "store_url": "https://play.google.com/store/apps/details?id=com.bumble.app",
+      "icon_url": "https://play-lh.googleusercontent.com/7GSSxUQ2KneDsNK1KIlBa26ukNM6UmOtpfAVSj-72Im-62jd1-38et6VEqBD-LKfXZdGHQfucP3tVOIGa3kV",
+      "timestamp": "2026-02-24 01:01:52"
+    },
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "com.badoo.mobile",
+      "rank": 2,
+      "name": "Badoo Dating App: Meet & Date",
+      "developer": "Badoo",
+      "store_url": "https://play.google.com/store/apps/details?id=com.badoo.mobile",
+      "icon_url": "https://play-lh.googleusercontent.com/mix0TYeOXNQ8vCIKE-dwOlCUrb5RKuJJVdmWmDfjosD1l-Btx08-rZRK0e91ap_gMrw",
+      "timestamp": "2026-02-24 01:01:52"
+    },
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "com.myyearbook.m",
+      "rank": 3,
+      "name": "MeetMe: Chat & Meet New People",
+      "developer": "MeetMe.com",
+      "store_url": "https://play.google.com/store/apps/details?id=com.myyearbook.m",
+      "icon_url": "https://play-lh.googleusercontent.com/cR2dPR_sLBCUAjdWU3Y54OGt3YLbdNrIyo7Hu15yB4B9HZbmY_umJ_2RA018Qc8g3fI",
+      "timestamp": "2026-02-24 01:01:52"
+    },
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "enterprises.dating.boo",
+      "rank": 4,
+      "name": "Boo: Dating. Friends. Chat.",
+      "developer": "Boo Enterprises, Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=enterprises.dating.boo",
+      "icon_url": "https://play-lh.googleusercontent.com/7odIr8zuMI5ddrSG6KtefaVNEvKBoiGzo6Q96lowbP5tLFhqiqUl3Mc16PMk2E1m9g",
+      "timestamp": "2026-02-24 01:01:52"
+    },
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "com.match.android.matchmobile",
+      "rank": 5,
+      "name": "Match Dating App : Chat & Meet",
+      "developer": "Match Group Americas, LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=com.match.android.matchmobile",
+      "icon_url": "https://play-lh.googleusercontent.com/y6iCFBHUmbKyptLeu6d6QGwbMDIAYKM3zrkIMTjS88ot2v630Hu3bIXH1GLxGkz470e1",
+      "timestamp": "2026-02-24 01:01:52"
+    },
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "com.pof.android",
+      "rank": 6,
+      "name": "Plenty of Fish : Dating App",
+      "developer": "Plentyoffish Media ULC",
+      "store_url": "https://play.google.com/store/apps/details?id=com.pof.android",
+      "icon_url": "https://play-lh.googleusercontent.com/aTMFxLXK9hMjPx9m3ASk3PuZArzBF6nPZnX_RZQNugYAs6q-DlLFvbrMByHA_E0bhEDs",
+      "timestamp": "2026-02-24 01:01:52"
+    },
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "com.tinder",
+      "rank": 7,
+      "name": "Tinder Dating App: Chat & Date",
+      "developer": "Tinder LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=com.tinder",
+      "icon_url": "https://play-lh.googleusercontent.com/fDpoqIbZ884ylRnMK8Lx9Fu4DsLQk5yt4f9WkxeOAPpGnzc9BTi_YKkMsLvoMdx7Uzg",
+      "timestamp": "2026-02-24 01:01:52"
+    },
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "co.hinge.app",
+      "rank": 8,
+      "name": "Hinge Dating App: Match & Date",
+      "developer": "Hinge, Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=co.hinge.app",
+      "icon_url": "https://play-lh.googleusercontent.com/5P5svqXNCWqE0NtHSV91pl2YUGKJ2aitjaUWIVZd-65AtskDVO2o9bpYx1oAV9fr0-nt",
+      "timestamp": "2026-02-24 01:01:52"
+    },
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "co.feeld",
+      "rank": 9,
+      "name": "Feeld: Open-Minded Dating App",
+      "developer": "Feeld Ltd.",
+      "store_url": "https://play.google.com/store/apps/details?id=co.feeld",
+      "icon_url": "https://play-lh.googleusercontent.com/hAy8padxTbfN1ZZvfmL9tWxVpPEaur9S0xnu5HnFVajUwQIQf-CFalwraBgGGvCu77s",
+      "timestamp": "2026-02-24 01:01:52"
+    },
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "com.okcupid.okcupid",
+      "rank": 10,
+      "name": "OkCupid Dating: Date Singles",
+      "developer": "okcupid.com",
+      "store_url": "https://play.google.com/store/apps/details?id=com.okcupid.okcupid",
+      "icon_url": "https://play-lh.googleusercontent.com/paVjCzUNZBzQ8RI4TttQGM7PpW2IZuFgT_ryeAYs-mBBDWk2q7cX8bv6-_t2hnI5hZo",
+      "timestamp": "2026-02-24 01:01:52"
+    },
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "com.jaumo",
+      "rank": 11,
+      "name": "Jaumo Dating App: Flirt & Date",
+      "developer": "Joyride GmbH",
+      "store_url": "https://play.google.com/store/apps/details?id=com.jaumo",
+      "icon_url": "https://play-lh.googleusercontent.com/9cXYATkeEc_YLoZCO_-VoowmmtzIiHX8_S0lZ4bg3FbcGVbWrRAgWaekuIDdkGLhBFI",
+      "timestamp": "2026-02-24 01:01:52"
+    },
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "com.dating.android",
+      "rank": 12,
+      "name": "Dating.com: Global Online Date",
+      "developer": "KREOVA TECH LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=com.dating.android",
+      "icon_url": "https://play-lh.googleusercontent.com/P5FK0r9bQAB45Wt-BUyx86RacNsFzgKS_Zbrf4UGpcdrZz9VMUdvH3e6U-ytbQXX2Jo",
+      "timestamp": "2026-02-24 01:01:52"
+    },
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "com.eharmony",
+      "rank": 13,
+      "name": "eharmony dating & real love",
+      "developer": "eharmony Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.eharmony",
+      "icon_url": "https://play-lh.googleusercontent.com/Dc1Wsu2FSK_rVVZnUCRfEZlmGyYB4kK6NR3WKlgWSwaqq0so8RY7JtEvI5N0Yeieb-s",
+      "timestamp": "2026-02-24 01:01:52"
+    }
+  ]
+}
