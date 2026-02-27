@@ -1,0 +1,163 @@
+{
+  "date": "2026-02-27",
+  "platform": "Google Play",
+  "category": "社交",
+  "category_key": "social",
+  "total_apps": 14,
+  "apps": [
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "org.telegram.messenger",
+      "rank": 1,
+      "name": "Telegram",
+      "developer": "Telegram FZ-LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=org.telegram.messenger",
+      "icon_url": "https://play-lh.googleusercontent.com/ZU9cSsyIJZo6Oy7HTHiEPwZg0m2Crep-d5ZrfajqtsH-qgUXSqKpNA2FpPDTn-7qA5Q",
+      "timestamp": "2026-02-27 01:01:40"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "com.facebook.orca",
+      "rank": 2,
+      "name": "Messenger",
+      "developer": "Meta Platforms, Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.facebook.orca",
+      "icon_url": "https://play-lh.googleusercontent.com/JfQNUnohpuq5IP65WN9C109VjLjDEj2tZYlPtComLznQfGeeoesubOaHGBcpZdXKuHU",
+      "timestamp": "2026-02-27 01:01:40"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "com.whatsapp",
+      "rank": 3,
+      "name": "WhatsApp Messenger",
+      "developer": "WhatsApp LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=com.whatsapp",
+      "icon_url": "https://play-lh.googleusercontent.com/bYtqbOcTYOlgc6gqZ2rwb8lptHuwlNE75zYJu6Bn076-hTmvd96HH-6v7S0YUAAJXoJN",
+      "timestamp": "2026-02-27 01:01:40"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "jp.naver.line.android",
+      "rank": 4,
+      "name": "LINE: Calls & Messages",
+      "developer": "LINE (LY Corporation)",
+      "store_url": "https://play.google.com/store/apps/details?id=jp.naver.line.android",
+      "icon_url": "https://play-lh.googleusercontent.com/74iMObG1vsR3Kfm82RjERFhf99QFMNIY211oMvN636_gULghbRBMjpVFTjOK36oxCbs",
+      "timestamp": "2026-02-27 01:01:40"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "com.tencent.mm",
+      "rank": 5,
+      "name": "WeChat",
+      "developer": "WeChat",
+      "store_url": "https://play.google.com/store/apps/details?id=com.tencent.mm",
+      "icon_url": "https://play-lh.googleusercontent.com/QbSSiRcodmWx6HlezOtNu3vmZeuFqkQZQQO5Y2-Zg_jBRm-mXjhlXX5yFj8iphfqzQ",
+      "timestamp": "2026-02-27 01:01:40"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "com.discord",
+      "rank": 6,
+      "name": "Discord - Talk, Play, Hang Out",
+      "developer": "Discord Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.discord",
+      "icon_url": "https://play-lh.googleusercontent.com/0oO5sAneb9lJP6l8c6DH4aj6f85qNpplQVHmPmbbBxAukDnlO7DarDW0b-kEIHa8SQ",
+      "timestamp": "2026-02-27 01:01:40"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "com.viber.voip",
+      "rank": 7,
+      "name": "Rakuten Viber Messenger",
+      "developer": "Viber Media",
+      "store_url": "https://play.google.com/store/apps/details?id=com.viber.voip",
+      "icon_url": "https://play-lh.googleusercontent.com/EbQM-vsHv42Hg6qZvuK47q_cK3-KObc9GRlhNBWebX0AWrg5nMD92Kniqz8Z1BFpD3U",
+      "timestamp": "2026-02-27 01:01:40"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "com.snapchat.android",
+      "rank": 8,
+      "name": "Snapchat",
+      "developer": "Snap Inc",
+      "store_url": "https://play.google.com/store/apps/details?id=com.snapchat.android",
+      "icon_url": "https://play-lh.googleusercontent.com/KxeSAjPTKliCErbivNiXrd6cTwfbqUJcbSRPe_IBVK_YmwckfMRS1VIHz-5cgT09yMo",
+      "timestamp": "2026-02-27 01:01:40"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "com.kakao.talk",
+      "rank": 9,
+      "name": "KakaoTalk : Messenger",
+      "developer": "Kakao Corp.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.kakao.talk",
+      "icon_url": "https://play-lh.googleusercontent.com/KwGCiEolNEeR9Q4RFOnDtb8Pvqs3LNiQEdE07wMCnoULO3yLUprHbGGLBYNEt8k7WJY",
+      "timestamp": "2026-02-27 01:01:40"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "org.thunderdog.challegram",
+      "rank": 10,
+      "name": "Telegram X",
+      "developer": "Telegram FZ-LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=org.thunderdog.challegram",
+      "icon_url": "https://play-lh.googleusercontent.com/DDfeXsEfDPgnOdvwHT_zm4LEcXKUPpQyRkeZUl2APC9rJqX3efpgLDZDd6kQeo4c0ao",
+      "timestamp": "2026-02-27 01:01:40"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "com.google.android.apps.dynamite",
+      "rank": 11,
+      "name": "Google Chat",
+      "developer": "Google LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.dynamite",
+      "icon_url": "https://play-lh.googleusercontent.com/yC17R-QYEZLmTMB7hD8KRjnWu6pJ4qNsdNQibLw8Z07kyY08IRbS89z7kATx75SR9A",
+      "timestamp": "2026-02-27 01:01:40"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "com.google.android.apps.messaging",
+      "rank": 12,
+      "name": "Google Messages",
+      "developer": "Google LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.messaging",
+      "icon_url": "https://play-lh.googleusercontent.com/9AZOTXU_CpreTFAXUPAmJNkm8VGCb1C90fjJ9pHGcVmpGMDSTq3cUbaQJdBT9Tdp9A",
+      "timestamp": "2026-02-27 01:01:40"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "com.groupme.android",
+      "rank": 13,
+      "name": "GroupMe",
+      "developer": "GroupMe",
+      "store_url": "https://play.google.com/store/apps/details?id=com.groupme.android",
+      "icon_url": "https://play-lh.googleusercontent.com/3v5rY1LyfDpINaf1MIQXOE1cwt37Xnwf1h82UQsqsW8RyF6qaJmgOHxjQ3BGU3MS7A",
+      "timestamp": "2026-02-27 01:01:40"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "org.thoughtcrime.securesms",
+      "rank": 14,
+      "name": "Signal Private Messenger",
+      "developer": "Signal Foundation",
+      "store_url": "https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms",
+      "icon_url": "https://play-lh.googleusercontent.com/FtGKSwVtpmMxKoJrJuI837DkYGRsqlMdiVPAd8bomLQZ3_Hc55XokY_dYdXKgGagiYs",
+      "timestamp": "2026-02-27 01:01:40"
+    }
+  ]
+}
