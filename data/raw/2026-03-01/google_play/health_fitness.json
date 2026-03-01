@@ -1,0 +1,130 @@
+{
+  "date": "2026-03-01",
+  "platform": "Google Play",
+  "category": "健康与健身",
+  "category_key": "health_fitness",
+  "total_apps": 11,
+  "apps": [
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "fitness.online.app",
+      "rank": 1,
+      "name": "Fitness App: Gym Workout Plan",
+      "developer": "FITNESS ONLINE LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=fitness.online.app",
+      "icon_url": "https://play-lh.googleusercontent.com/Vkr8u7qdY--dP5UnKsmw63Lgl3vRpmTpw37OCH0SSu7IOZqviEvKyma2OTQuiuVTapkW",
+      "timestamp": "2026-03-01 01:08:59"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "homeworkout.homeworkouts.noequipment",
+      "rank": 2,
+      "name": "Home Workout - No Equipment",
+      "developer": "Leap Fitness Group",
+      "store_url": "https://play.google.com/store/apps/details?id=homeworkout.homeworkouts.noequipment",
+      "icon_url": "https://play-lh.googleusercontent.com/hE56G9-GcqwaBtmavG3ov1pks7Ae6qpxz2p08GROpIEDEnFlxw7d1koPT0BPOATxJNwL",
+      "timestamp": "2026-03-01 01:08:59"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "com.fitbod.fitbod",
+      "rank": 3,
+      "name": "Fitbod: Workout & Gym Planner",
+      "developer": "Fitbod",
+      "store_url": "https://play.google.com/store/apps/details?id=com.fitbod.fitbod",
+      "icon_url": "https://play-lh.googleusercontent.com/guPBWiFOsOm7jUUMKrErSvZuSTNqo3hOgLom_FEQoprZmdpPrFa1I0S5v1IReOP3gQ",
+      "timestamp": "2026-03-01 01:08:59"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "com.fiton.android",
+      "rank": 4,
+      "name": "FitOn Workouts & Fitness Plans",
+      "developer": "FitOn",
+      "store_url": "https://play.google.com/store/apps/details?id=com.fiton.android",
+      "icon_url": "https://play-lh.googleusercontent.com/3F1LsBjZ2p-UjP2hwJa--jk_5gzHHezaQ8n381RI4u11DSb647zt07UVUNO4ZHVtdQ",
+      "timestamp": "2026-03-01 01:08:59"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "fitness.home.workout.weight.loss",
+      "rank": 5,
+      "name": "JustFit - Lazy Workout",
+      "developer": "ENERJOY PTE. LTD.",
+      "store_url": "https://play.google.com/store/apps/details?id=fitness.home.workout.weight.loss",
+      "icon_url": "https://play-lh.googleusercontent.com/93lRSwWU-lrcpHJG-OurGdINhQrBCvhOvzgXPPFgsi7x2HTeelclaz7a2ZHA-8ScGM7i",
+      "timestamp": "2026-03-01 01:08:59"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "homeworkoutapp.homeworkout.fitness.workout.loseweight",
+      "rank": 6,
+      "name": "Home Workout App: Fitness",
+      "developer": "EZ Health",
+      "store_url": "https://play.google.com/store/apps/details?id=homeworkoutapp.homeworkout.fitness.workout.loseweight",
+      "icon_url": "https://play-lh.googleusercontent.com/zhUI4gtwd0O_ufNrQ_jvOUW1mSy289vHztQKlWhYPRxVBgYEffenOajIVzuAc2-opNQ",
+      "timestamp": "2026-03-01 01:08:59"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "com.gen.workoutme",
+      "rank": 7,
+      "name": "BetterMe: Health Coaching",
+      "developer": "BetterMe Limited",
+      "store_url": "https://play.google.com/store/apps/details?id=com.gen.workoutme",
+      "icon_url": "https://play-lh.googleusercontent.com/rhPqNSfmzlM0q0nJQruQ-6M7LAhtiO2eWEZXSPnP7djM3gCcOEYFA2Ee0uFkhoFVgdAm5g5GJvaYtjCTia9aNdw",
+      "timestamp": "2026-03-01 01:08:59"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "com.mapmyfitness.android2",
+      "rank": 8,
+      "name": "Map My Fitness Workout Tracker",
+      "developer": "MapMyFitness, Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.mapmyfitness.android2",
+      "icon_url": "https://play-lh.googleusercontent.com/MWwj8jBLB4-PFPvXyx4Tdiy1m4yrPM8hkTwG0jLvbiAFvjI2pLt46RbVUO_AafWKUmc",
+      "timestamp": "2026-03-01 01:08:59"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "com.sugarapple.workout",
+      "rank": 9,
+      "name": "Workout At Home: No Equipment",
+      "developer": "Sugar Apple",
+      "store_url": "https://play.google.com/store/apps/details?id=com.sugarapple.workout",
+      "icon_url": "https://play-lh.googleusercontent.com/IEpIyOkolrRjTstcLLu7_OEe7O0rODiHw4sD9Y3ubQhsF98m0UTg8JZ-Zmn-sYGwutdu",
+      "timestamp": "2026-03-01 01:08:59"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "com.google.android.apps.fitness",
+      "rank": 10,
+      "name": "Google Fit: Activity Tracking",
+      "developer": "Google LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.fitness",
+      "icon_url": "https://play-lh.googleusercontent.com/jArSD-kxOa2llPXvqrjRcEJdL4XhjP8-WqEfg9UAlYF8v0qzXAZ0EI5k96l0pf3tDNg",
+      "timestamp": "2026-03-01 01:08:59"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "com.eightfit.app",
+      "rank": 11,
+      "name": "8fit Workouts & Meal Planner",
+      "developer": "Urbanite Inc",
+      "store_url": "https://play.google.com/store/apps/details?id=com.eightfit.app",
+      "icon_url": "https://play-lh.googleusercontent.com/dyJyF3MfJqgzuDJPjm-bwQiDavJRV-3Gt96AWvxDNXLfhZUiZJaTcmp-14Mk9xM_CQ",
+      "timestamp": "2026-03-01 01:08:59"
+    }
+  ]
+}
