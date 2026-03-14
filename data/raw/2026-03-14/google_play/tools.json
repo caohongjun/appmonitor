@@ -1,0 +1,97 @@
+{
+  "date": "2026-03-14",
+  "platform": "Google Play",
+  "category": "工具",
+  "category_key": "tools",
+  "total_apps": 8,
+  "apps": [
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.premium.pdfutility",
+      "rank": 1,
+      "name": "PDF Utility Tools & Converter",
+      "developer": "Premium Quality Apps",
+      "store_url": "https://play.google.com/store/apps/details?id=com.premium.pdfutility",
+      "icon_url": "https://play-lh.googleusercontent.com/b9k_XywpPpgm-_4CIjREFDlqltBbT6wv3mb18e2sk7zLSGbokeZ6tTVwTkHBUR9md1I",
+      "timestamp": "2026-03-14 01:00:49"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.telbyte.lite.pdf",
+      "rank": 2,
+      "name": "PDF Utility - PDF Tools",
+      "developer": "Hiren Gohil",
+      "store_url": "https://play.google.com/store/apps/details?id=com.telbyte.lite.pdf",
+      "icon_url": "https://play-lh.googleusercontent.com/OwKETukZ6x8tLXA21xy-45RbWeImzpOfoAHAA65ht5uZ73bMMDmk_cEfQBtXmVI6Kg",
+      "timestamp": "2026-03-14 01:00:49"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.yousx.thetoolsapp",
+      "rank": 3,
+      "name": "Tooly Toolbox All Tools In One",
+      "developer": "Camrilla",
+      "store_url": "https://play.google.com/store/apps/details?id=com.yousx.thetoolsapp",
+      "icon_url": "https://play-lh.googleusercontent.com/3cC0TdImz_yFG1VFu_hDbHhsy0kGPgijsoffE_1gVjlmAOYMVzQfGmGa50m3JyyYbiqENSeveS0bNcLSNbnB",
+      "timestamp": "2026-03-14 01:00:49"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.pradhyu.alltoolseveryutility",
+      "rank": 4,
+      "name": "All tools",
+      "developer": "ATEU Softwares ®",
+      "store_url": "https://play.google.com/store/apps/details?id=com.pradhyu.alltoolseveryutility",
+      "icon_url": "https://play-lh.googleusercontent.com/vu22TlhNvH6wWmpUrUoWSFDbu_Ewxek47gwGp4XC2w8ZiMRCGjb4PeWza9fnsv_VXzZtwUMb5dzQcR0LkQKS2Q",
+      "timestamp": "2026-03-14 01:00:49"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "ua.com.streamsoft.pingtools",
+      "rank": 5,
+      "name": "PingTools Network Utilities",
+      "developer": "Yaroslav Syrytsia",
+      "store_url": "https://play.google.com/store/apps/details?id=ua.com.streamsoft.pingtools",
+      "icon_url": "https://play-lh.googleusercontent.com/cIKrn_UOyF2aDN2WVczO-saAGv7uMjcPHZVLR2rYzOULvISSILcf1U46QQpHZZ-FIzM",
+      "timestamp": "2026-03-14 01:00:49"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.ddm.iptools",
+      "rank": 6,
+      "name": "IP Tools: Network Utilities",
+      "developer": "IP Tools Network Utilities",
+      "store_url": "https://play.google.com/store/apps/details?id=com.ddm.iptools",
+      "icon_url": "https://play-lh.googleusercontent.com/TRViimi-sFBezGpQXG4_G2Ksw2WExJxQ2J2u3XYVIXRC3M3x57Q3MgAj-FYW_c4BRak",
+      "timestamp": "2026-03-14 01:00:49"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.appcodecraft.curiomate",
+      "rank": 7,
+      "name": "CurioMate: Utility Tools",
+      "developer": "AppCodeCraft",
+      "store_url": "https://play.google.com/store/apps/details?id=com.appcodecraft.curiomate",
+      "icon_url": "https://play-lh.googleusercontent.com/lx4QliShZ4LPYQPfYZyUFAuC8_JQv5K_L2PrbYPn-v15P3skyMXwu5Txbbs-0FJFvc4",
+      "timestamp": "2026-03-14 01:00:49"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.dilojhon.all.tools.utilities.toolkit.smart.toolbox",
+      "rank": 8,
+      "name": "All Tools - Utilities Toolkit",
+      "developer": "dilojhon",
+      "store_url": "https://play.google.com/store/apps/details?id=com.dilojhon.all.tools.utilities.toolkit.smart.toolbox",
+      "icon_url": "https://play-lh.googleusercontent.com/D2A32Imm2LD0wRoRrfXAYw3J6QXHWHuuJSxCBvP26aYYEHyDk95fVEewXg5ugt8gZN8",
+      "timestamp": "2026-03-14 01:00:49"
+    }
+  ]
+}
