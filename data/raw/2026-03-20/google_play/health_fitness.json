@@ -1,0 +1,119 @@
+{
+  "date": "2026-03-20",
+  "platform": "Google Play",
+  "category": "健康与健身",
+  "category_key": "health_fitness",
+  "total_apps": 10,
+  "apps": [
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "fitness.online.app",
+      "rank": 1,
+      "name": "Fitness App: Gym Workout Plan",
+      "developer": "FITNESS ONLINE LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=fitness.online.app",
+      "icon_url": "https://play-lh.googleusercontent.com/Vkr8u7qdY--dP5UnKsmw63Lgl3vRpmTpw37OCH0SSu7IOZqviEvKyma2OTQuiuVTapkW",
+      "timestamp": "2026-03-20 01:02:37"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "com.fitbod.fitbod",
+      "rank": 2,
+      "name": "Fitbod: Workout & Gym Planner",
+      "developer": "Fitbod",
+      "store_url": "https://play.google.com/store/apps/details?id=com.fitbod.fitbod",
+      "icon_url": "https://play-lh.googleusercontent.com/guPBWiFOsOm7jUUMKrErSvZuSTNqo3hOgLom_FEQoprZmdpPrFa1I0S5v1IReOP3gQ",
+      "timestamp": "2026-03-20 01:02:37"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "fitness.home.workout.weight.loss",
+      "rank": 3,
+      "name": "JustFit - Lazy Workout",
+      "developer": "ENERJOY PTE. LTD.",
+      "store_url": "https://play.google.com/store/apps/details?id=fitness.home.workout.weight.loss",
+      "icon_url": "https://play-lh.googleusercontent.com/93lRSwWU-lrcpHJG-OurGdINhQrBCvhOvzgXPPFgsi7x2HTeelclaz7a2ZHA-8ScGM7i",
+      "timestamp": "2026-03-20 01:02:37"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "com.fiton.android",
+      "rank": 4,
+      "name": "FitOn Workouts & Fitness Plans",
+      "developer": "FitOn",
+      "store_url": "https://play.google.com/store/apps/details?id=com.fiton.android",
+      "icon_url": "https://play-lh.googleusercontent.com/3F1LsBjZ2p-UjP2hwJa--jk_5gzHHezaQ8n381RI4u11DSb647zt07UVUNO4ZHVtdQ",
+      "timestamp": "2026-03-20 01:02:37"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "homeworkoutapp.homeworkout.fitness.workout.loseweight",
+      "rank": 5,
+      "name": "Home Workout App: Fitness",
+      "developer": "EZ Health",
+      "store_url": "https://play.google.com/store/apps/details?id=homeworkoutapp.homeworkout.fitness.workout.loseweight",
+      "icon_url": "https://play-lh.googleusercontent.com/zhUI4gtwd0O_ufNrQ_jvOUW1mSy289vHztQKlWhYPRxVBgYEffenOajIVzuAc2-opNQ",
+      "timestamp": "2026-03-20 01:02:37"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "com.sugarapple.workout",
+      "rank": 6,
+      "name": "Workout At Home: No Equipment",
+      "developer": "Sugar Apple",
+      "store_url": "https://play.google.com/store/apps/details?id=com.sugarapple.workout",
+      "icon_url": "https://play-lh.googleusercontent.com/IEpIyOkolrRjTstcLLu7_OEe7O0rODiHw4sD9Y3ubQhsF98m0UTg8JZ-Zmn-sYGwutdu",
+      "timestamp": "2026-03-20 01:02:37"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "homeworkout.homeworkouts.noequipment",
+      "rank": 7,
+      "name": "Home Workout - No Equipment",
+      "developer": "Leap Fitness Group",
+      "store_url": "https://play.google.com/store/apps/details?id=homeworkout.homeworkouts.noequipment",
+      "icon_url": "https://play-lh.googleusercontent.com/hE56G9-GcqwaBtmavG3ov1pks7Ae6qpxz2p08GROpIEDEnFlxw7d1koPT0BPOATxJNwL",
+      "timestamp": "2026-03-20 01:02:37"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "com.mapmyfitness.android2",
+      "rank": 8,
+      "name": "Map My Fitness Workout Tracker",
+      "developer": "MapMyFitness, Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.mapmyfitness.android2",
+      "icon_url": "https://play-lh.googleusercontent.com/MWwj8jBLB4-PFPvXyx4Tdiy1m4yrPM8hkTwG0jLvbiAFvjI2pLt46RbVUO_AafWKUmc",
+      "timestamp": "2026-03-20 01:02:37"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "io.strongapp.strong",
+      "rank": 9,
+      "name": "Strong Workout Tracker Gym Log",
+      "developer": "Strong Fitness PTE. LTD.",
+      "store_url": "https://play.google.com/store/apps/details?id=io.strongapp.strong",
+      "icon_url": "https://play-lh.googleusercontent.com/4oDSXUQmbO6D7Y7a1qXYc8fkXest3HGy7wzkTHV_ePxZpscCh4NsF29eciniJkjctYI",
+      "timestamp": "2026-03-20 01:02:37"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "com.visionwizard.wellnessapp",
+      "rank": 10,
+      "name": "Fit Path: Exercises for Women",
+      "developer": "Deep Flow Apps",
+      "store_url": "https://play.google.com/store/apps/details?id=com.visionwizard.wellnessapp",
+      "icon_url": "https://play-lh.googleusercontent.com/p_EhdPnL1SoHheQ-YFEmDRI2dI1-_xRJfpsy5Vm3Bo9kc7CXIvjRlUkAQihVO7S8vA",
+      "timestamp": "2026-03-20 01:02:37"
+    }
+  ]
+}
