@@ -1,0 +1,123 @@
+{
+  "date": "2026-03-31",
+  "compare_date": "2026-03-30",
+  "total_count": 9,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.ha.prepsmart",
+      "itunes_id": "1253012487",
+      "rank": 99,
+      "name": "MacrosFirst - Macro Tracker",
+      "developer": "MacrosFirst, Inc.",
+      "store_url": "https://apps.apple.com/us/app/macrosfirst-macro-tracker/id1253012487?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/80/6f/76/806f76c2-9aca-d169-e533-c5e8da6835f4/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "release_date": "2017/07/19",
+      "rating": 4.86085,
+      "rating_count": 13518,
+      "timestamp": "2026-03-31 01:12:00"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "ai.getwingmate.amata.production",
+      "itunes_id": "6476193842",
+      "rank": 80,
+      "name": "Amata: Matchmaking Club",
+      "developer": "Amata",
+      "store_url": "https://apps.apple.com/us/app/amata-matchmaking-club/id6476193842?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/44/99/ee/4499eee9-efc6-9058-3d67-4d8017f317bc/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "release_date": "2024/02/13",
+      "rating": 4.41214,
+      "rating_count": 1662,
+      "timestamp": "2026-03-31 01:12:12"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.oakever.arrows",
+      "itunes_id": "6758326278",
+      "rank": 89,
+      "name": "Arrows GO!",
+      "developer": "Oakever Games",
+      "store_url": "https://apps.apple.com/us/app/arrows-go/id6758326278?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a3/6f/35/a36f350d-024c-b22b-13b8-17e5afcf9edb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/02/13",
+      "rating": 4.61379,
+      "rating_count": 5119,
+      "timestamp": "2026-03-31 01:12:19"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.ropepuzzle.game",
+      "itunes_id": "6757381713",
+      "rank": 96,
+      "name": "Bump Comla: Rope",
+      "developer": "The Manh Le",
+      "store_url": "https://apps.apple.com/us/app/bump-comla-rope/id6757381713?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/92/d1/c7/92d1c76c-84af-8187-76fd-94e9025b8bc1/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2026/01/06",
+      "rating": 4,
+      "rating_count": 11,
+      "timestamp": "2026-03-31 01:12:19"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "workoutforwomen.femalefitness.womenworkout.loseweight",
+      "rank": 10,
+      "name": "Workout for Women at home",
+      "developer": "Leap Fitness Group",
+      "store_url": "https://play.google.com/store/apps/details?id=workoutforwomen.femalefitness.womenworkout.loseweight",
+      "icon_url": "https://play-lh.googleusercontent.com/KOtUMg1gnBZd7JZrdPxKcQaYzE6URCsBLLX_W9L5JGDVwoDx0o8apPfe4dx_--bJ72Uh",
+      "timestamp": "2026-03-31 01:12:24"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "com.sugarapple.workout",
+      "rank": 24,
+      "name": "Workout At Home: No Equipment",
+      "developer": "Sugar Apple",
+      "store_url": "https://play.google.com/store/apps/details?id=com.sugarapple.workout",
+      "icon_url": "https://play-lh.googleusercontent.com/IEpIyOkolrRjTstcLLu7_OEe7O0rODiHw4sD9Y3ubQhsF98m0UTg8JZ-Zmn-sYGwutdu",
+      "timestamp": "2026-03-31 01:12:24"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "com.facebook.workchat",
+      "rank": 19,
+      "name": "Workplace Chat from Meta",
+      "developer": "Meta Platforms, Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.facebook.workchat",
+      "icon_url": "https://play-lh.googleusercontent.com/crhw3qZdsYTW6icdLk7ViDUW5nOn3PanHr5yIH14cEDcfs-aBDa2DKJcWUirl8MbOw",
+      "timestamp": "2026-03-31 01:12:27"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "is.u.utopia",
+      "rank": 30,
+      "name": "Utopia — Private Messenger",
+      "developer": "1984 Group LP",
+      "store_url": "https://play.google.com/store/apps/details?id=is.u.utopia",
+      "icon_url": "https://play-lh.googleusercontent.com/E6kRKDf_ezdmYYNjmweq-Nzx1ylbdcN-KwXW2TdX7i909B8NrhiIwq09Fa7pwhlXCeVX",
+      "timestamp": "2026-03-31 01:12:27"
+    },
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "com.dating.android",
+      "rank": 18,
+      "name": "Dating.com: Online Dating App",
+      "developer": "KREOVA TECH LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=com.dating.android",
+      "icon_url": "https://play-lh.googleusercontent.com/P5FK0r9bQAB45Wt-BUyx86RacNsFzgKS_Zbrf4UGpcdrZz9VMUdvH3e6U-ytbQXX2Jo",
+      "timestamp": "2026-03-31 01:12:37"
+    }
+  ],
+  "generated_at": "2026-03-31 01:12:43"
+}
