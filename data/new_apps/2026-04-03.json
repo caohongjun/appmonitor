@@ -1,0 +1,104 @@
+{
+  "date": "2026-04-03",
+  "compare_date": "2026-04-02",
+  "total_count": 8,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.loom.lc",
+      "itunes_id": "6756036954",
+      "rank": 97,
+      "name": "Thyme: Video, Social & Meet",
+      "developer": "christopher jhon nablo",
+      "store_url": "https://apps.apple.com/us/app/thyme-video-social-meet/id6756036954?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3f/4a/ab/3f4aabf3-a20d-0098-6873-792f55319d2d/AppIcon-0-1x_U007ephone-0-1-85-220-0.jpeg/100x100bb.png",
+      "release_date": "2025/12/09",
+      "rating": 4.77778,
+      "rating_count": 27,
+      "timestamp": "2026-04-03 01:11:05"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.fanduel.poker",
+      "itunes_id": "6746925342",
+      "rank": 62,
+      "name": "PokerStars on FanDuel",
+      "developer": "FanDuel, Inc.",
+      "store_url": "https://apps.apple.com/us/app/pokerstars-on-fanduel/id6746925342?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/22/22/56/222256a9-48ea-30c6-f63f-0755c3328ccb/AppIcon-0-0-1x_U007emarketing-0-0-0-11-0-0-85-220.png/100x100bb.png",
+      "release_date": "2026/04/01",
+      "rating": 4,
+      "rating_count": 10,
+      "timestamp": "2026-04-03 01:11:17"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "com.github.jamesgay.fitnotes",
+      "rank": 25,
+      "name": "FitNotes - Gym Workout Log",
+      "developer": "James Gay",
+      "store_url": "https://play.google.com/store/apps/details?id=com.github.jamesgay.fitnotes",
+      "icon_url": "https://play-lh.googleusercontent.com/mvY8S6uxR1AmEEt9nqPfqvnefM5JWe74YbblFkjPt7LDGHC62UD988-soAvu83qG6hA",
+      "timestamp": "2026-04-03 01:11:23"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "chat.simplex.app",
+      "rank": 22,
+      "name": "SimpleX Chat",
+      "developer": "SimpleX Chat",
+      "store_url": "https://play.google.com/store/apps/details?id=chat.simplex.app",
+      "icon_url": "https://play-lh.googleusercontent.com/Em1xX7Zh3WtNeXC0TQdRr0oSE_2gMxainzWzqp_ec-Bair5XVIQ23GTRTDIe35aRog",
+      "timestamp": "2026-04-03 01:11:26"
+    },
+    {
+      "platform": "Google Play",
+      "category": "生活方式",
+      "app_id": "com.master.lifestyle",
+      "rank": 13,
+      "name": "Master Lifestyle",
+      "developer": "Master Lifestyle",
+      "store_url": "https://play.google.com/store/apps/details?id=com.master.lifestyle",
+      "icon_url": "https://play-lh.googleusercontent.com/_aj8Dc-amMbNlos395sUpl1mE6QUIQXvJKj6s7FCpEHNrdTQ1Kw0xf1o7IlOvmhLZnMTDdci6VnkPOcVXVdoNn8",
+      "timestamp": "2026-04-03 01:11:30"
+    },
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "com.thvine.nayo",
+      "rank": 27,
+      "name": "Pario: Chat, Meet & Dating App",
+      "developer": "EDREAMS LIMITED",
+      "store_url": "https://play.google.com/store/apps/details?id=com.thvine.nayo",
+      "icon_url": "https://play-lh.googleusercontent.com/wempnJQQbtFrOi-XTkpGnidKTfO5HgGSKBXlDBNaNrKXm4hEXfyUyI7S3KmNufjTNx5HqLC0cFR8a2VyQNsx9g",
+      "timestamp": "2026-04-03 01:11:37"
+    },
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "de.mobiletrend.lovidoo",
+      "rank": 30,
+      "name": "yoomee: Dating & Relationships",
+      "developer": "mobile Trend GmbH",
+      "store_url": "https://play.google.com/store/apps/details?id=de.mobiletrend.lovidoo",
+      "icon_url": "https://play-lh.googleusercontent.com/KkCFg-RuYH1A6q1Kd3fDnZ2Dwoa5aizjS-RackJsSyf2PHgYRf7D6ao-u1-qmzttzO0LVkOoy8ft8NasAZPZJw",
+      "timestamp": "2026-04-03 01:11:37"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.jc.prime.tools",
+      "rank": 14,
+      "name": "JC Prime Tools",
+      "developer": "Whiskey",
+      "store_url": "https://play.google.com/store/apps/details?id=com.jc.prime.tools",
+      "icon_url": "https://play-lh.googleusercontent.com/7JsOa3PEQ674q7fz8WiC34XsHEEXDVD39c6dMh4V1FgT5mPkkeGjYiG5vKDuP0wP9cqTwOarLGW-OJ7b4I9F5Q",
+      "timestamp": "2026-04-03 01:11:40"
+    }
+  ],
+  "generated_at": "2026-04-03 01:11:43"
+}
