@@ -1,0 +1,83 @@
+{
+  "date": "2026-04-07",
+  "compare_date": "2026-04-06",
+  "total_count": 5,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.trueview.app",
+      "itunes_id": "6450962132",
+      "rank": 79,
+      "name": "TrueView Health",
+      "developer": "TrueView LLC",
+      "store_url": "https://apps.apple.com/us/app/trueview-health/id6450962132?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/73/1b/bf731b1d-84bb-73b7-8f04-bb625978c212/AppIcon-0-0-1x_U007emarketing-0-8-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2023/08/28",
+      "rating": 5,
+      "rating_count": 3,
+      "timestamp": "2026-04-07 01:12:10"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.geewhiz.Lancelot.Lancelot",
+      "itunes_id": "1466346433",
+      "rank": 95,
+      "name": "Eureka: Earn money for surveys",
+      "developer": "SocialLoop LLC",
+      "store_url": "https://apps.apple.com/us/app/eureka-earn-money-for-surveys/id1466346433?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/62/ca/89/62ca89bf-da33-98df-b11a-318a0a72c8e8/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2019/06/02",
+      "rating": 4.74484,
+      "rating_count": 540407,
+      "timestamp": "2026-04-07 01:12:22"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.arrow.out",
+      "itunes_id": "6754243057",
+      "rank": 85,
+      "name": "Arrow Out",
+      "developer": "Lion Studios Plus",
+      "store_url": "https://apps.apple.com/us/app/arrow-out/id6754243057?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/04/85/e9/0485e91e-46f3-3e92-cde8-c79d388b47e5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2025/10/26",
+      "rating": 4.65875,
+      "rating_count": 109042,
+      "timestamp": "2026-04-07 01:12:27"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "in.playsimple.codegram",
+      "itunes_id": "6741839590",
+      "rank": 88,
+      "name": "PlaySimple Cryptogram",
+      "developer": "PlaySimple Games Pte Ltd",
+      "store_url": "https://apps.apple.com/us/app/playsimple-cryptogram/id6741839590?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b7/a1/8b/b7a18b6f-8c10-84f3-d462-9e95e0a336b3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2025/02/19",
+      "rating": 4.93112,
+      "rating_count": 17149,
+      "timestamp": "2026-04-07 01:12:27"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.rednetnew.jackpotgoiw",
+      "itunes_id": "6739792763",
+      "rank": 100,
+      "name": "Jackpot Go: Slots Casino",
+      "developer": "WISE WISHES STUDIO LIMITED",
+      "store_url": "https://apps.apple.com/us/app/jackpot-go-slots-casino/id6739792763?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b2/a7/2d/b2a72d80-3801-242e-de19-f1c4e1d69f7c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2025/04/02",
+      "rating": 4.80306,
+      "rating_count": 62146,
+      "timestamp": "2026-04-07 01:12:27"
+    }
+  ],
+  "generated_at": "2026-04-07 01:12:52"
+}
