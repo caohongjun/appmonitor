@@ -1,0 +1,112 @@
+{
+  "date": "2026-04-09",
+  "compare_date": "2026-04-08",
+  "total_count": 8,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.valvesoftware.Steam.friendsui",
+      "itunes_id": "1434890245",
+      "rank": 99,
+      "name": "Steam Chat",
+      "developer": "Valve",
+      "store_url": "https://apps.apple.com/us/app/steam-chat/id1434890245?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/0d/3f/3c/0d3f3c6d-b697-0fe8-5359-3d0bae08d23d/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+      "release_date": "2019/05/22",
+      "rating": 1.77322,
+      "rating_count": 1486,
+      "timestamp": "2026-04-09 01:03:10"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.dyson.dysonlink",
+      "itunes_id": "993135524",
+      "rank": 97,
+      "name": "MyDyson™",
+      "developer": "Dyson Inc.",
+      "store_url": "https://apps.apple.com/us/app/mydyson/id993135524?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f2/e5/08/f2e508ca-a0d3-9034-f2f0-15440ab7e9ab/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+      "release_date": "2016/03/30",
+      "rating": 4.62364,
+      "rating_count": 34892,
+      "timestamp": "2026-04-09 01:03:17"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.puzzle.merge.fruits.watermelon.drop",
+      "itunes_id": "6471572249",
+      "rank": 87,
+      "name": "Fruit Merge™: Match Game",
+      "developer": "Brave HK Limited",
+      "store_url": "https://apps.apple.com/us/app/fruit-merge-match-game/id6471572249?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b4/22/84/b422845b-5ab1-0c7a-7d45-f7d12e79bdd7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2023/11/10",
+      "rating": 4.53772,
+      "rating_count": 277915,
+      "timestamp": "2026-04-09 01:03:23"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.matryoshka.royal.cooking.kitchen.madness",
+      "itunes_id": "1664415775",
+      "rank": 99,
+      "name": "Royal Cooking",
+      "developer": "Matryoshka Games (CY) LTD",
+      "store_url": "https://apps.apple.com/us/app/royal-cooking/id1664415775?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/df/73/8e/df738efb-ed13-c2ef-95ec-32fcf968a0cd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2023/05/23",
+      "rating": 4.75424,
+      "rating_count": 150905,
+      "timestamp": "2026-04-09 01:03:23"
+    },
+    {
+      "platform": "Google Play",
+      "category": "生活方式",
+      "app_id": "com.innovatise.lifestylemed",
+      "rank": 20,
+      "name": "Lifestyle FIT",
+      "developer": "Innovatise GmbH",
+      "store_url": "https://play.google.com/store/apps/details?id=com.innovatise.lifestylemed",
+      "icon_url": "https://play-lh.googleusercontent.com/qAUE1Wwf6OB7n-OpIZ-5YbYrMdQjW0AjLxbkYQwNqzNSJyin3a7O5qkNEhSi7umYUjSI",
+      "timestamp": "2026-04-09 01:03:35"
+    },
+    {
+      "platform": "Google Play",
+      "category": "生活方式",
+      "app_id": "com.tunjunganplaza.mobile",
+      "rank": 23,
+      "name": "Pakuwon Lifestyle",
+      "developer": "Pakuwon Jati",
+      "store_url": "https://play.google.com/store/apps/details?id=com.tunjunganplaza.mobile",
+      "icon_url": "https://play-lh.googleusercontent.com/F-Pfg3fyafFpeHl2kElxXT3OrI30sTFsuXHPJmy78DnEKdPoeS59wpY6UG5eMvF-Cg",
+      "timestamp": "2026-04-09 01:03:35"
+    },
+    {
+      "platform": "Google Play",
+      "category": "生活方式",
+      "app_id": "com.softios.benefitshare",
+      "rank": 26,
+      "name": "Share:Your Smart Lifestyle Hub",
+      "developer": "Benefit Share",
+      "store_url": "https://play.google.com/store/apps/details?id=com.softios.benefitshare",
+      "icon_url": "https://play-lh.googleusercontent.com/5kigEnPZcYOEIv5wmlQkd7oV6_pvGHux4HfJ1yTIPhVJES48scPUTW3uypTK88bBzUGlB8lRxzi0XTHsMvfr3BQ",
+      "timestamp": "2026-04-09 01:03:35"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.alkesa.toolspro",
+      "rank": 26,
+      "name": "Tools Pro - All In One Tools",
+      "developer": "Alkesa",
+      "store_url": "https://play.google.com/store/apps/details?id=com.alkesa.toolspro",
+      "icon_url": "https://play-lh.googleusercontent.com/mUXHMzR-ZXqxhuLGKtY5PHD6XhBqFXxK4tJaOGysa9GU8jmxgmkbykpysyDTonPDjSo",
+      "timestamp": "2026-04-09 01:03:45"
+    }
+  ],
+  "generated_at": "2026-04-09 01:03:48"
+}
