@@ -1,0 +1,123 @@
+{
+  "date": "2026-04-16",
+  "compare_date": "2026-04-15",
+  "total_count": 9,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.MonkeyTaps.IAM",
+      "itunes_id": "874656917",
+      "rank": 96,
+      "name": "I am - Daily Affirmations",
+      "developer": "Monkey Taps",
+      "store_url": "https://apps.apple.com/us/app/i-am-daily-affirmations/id874656917?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/64/b8/88/64b88863-cf43-0e2a-62a3-b89770fd00cd/0_iam-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2014/05/13",
+      "rating": 4.8436,
+      "rating_count": 709935,
+      "timestamp": "2026-04-16 01:20:30"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.coth",
+      "itunes_id": "6757750161",
+      "rank": 93,
+      "name": "Core of the Heart Daily",
+      "developer": "Core Of The Heart",
+      "store_url": "https://apps.apple.com/us/app/core-of-the-heart-daily/id6757750161?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d2/67/14/d2671443-5eef-1d3f-4921-7f534980906a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "release_date": "2026/03/11",
+      "rating": 4.97556,
+      "rating_count": 1841,
+      "timestamp": "2026-04-16 01:20:43"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.thinktwice.app",
+      "itunes_id": "6757983716",
+      "rank": 98,
+      "name": "ThinkTwice - Save Money",
+      "developer": "Lit Apps LLC (Mobile)",
+      "store_url": "https://apps.apple.com/us/app/thinktwice-save-money/id6757983716?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/1d/d0/001dd0d9-3d8e-9296-c17b-4dbb76a8a5a8/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "release_date": "2026/01/28",
+      "rating": 4.29412,
+      "rating_count": 17,
+      "timestamp": "2026-04-16 01:20:43"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.ea.ios.fifamobile",
+      "itunes_id": "1094930513",
+      "rank": 100,
+      "name": "EA SPORTS FC™ Mobile Soccer 26",
+      "developer": "Electronic Arts",
+      "store_url": "https://apps.apple.com/us/app/ea-sports-fc-mobile-soccer-26/id1094930513?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1e/f6/c1/1ef6c173-2e6f-a89a-f17f-79c750497fcf/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+      "release_date": "2016/10/11",
+      "rating": 4.68768,
+      "rating_count": 2297259,
+      "timestamp": "2026-04-16 01:20:50"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "com.gemtechnologies.gem4me",
+      "rank": 29,
+      "name": "Online chat, calls - Gem Space",
+      "developer": "Marketspace Solutions OU",
+      "store_url": "https://play.google.com/store/apps/details?id=com.gemtechnologies.gem4me",
+      "icon_url": "https://play-lh.googleusercontent.com/SkR-YY_M61Pp0VKm4vMxD4nriSleTXFZ_HhEZURgT2SpkLicRXHaUrzalO5LzXoQFw",
+      "timestamp": "2026-04-16 01:20:59"
+    },
+    {
+      "platform": "Google Play",
+      "category": "生活方式",
+      "app_id": "in.lifestyleautomobiles.app",
+      "rank": 11,
+      "name": "Lifestyle Automobiles",
+      "developer": "Tikii",
+      "store_url": "https://play.google.com/store/apps/details?id=in.lifestyleautomobiles.app",
+      "icon_url": "https://play-lh.googleusercontent.com/Fw9rM0PVwZADw1CC64fKKwyijkUtNWY4RThPmDW1LfoRVfxgzcQ4SaH4d8771z5V5ko",
+      "timestamp": "2026-04-16 01:21:02"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.anas.smart_tools_all_in_one_toolkit",
+      "rank": 22,
+      "name": "Smart Tools: All-in-One Kit",
+      "developer": "Anas Tahir",
+      "store_url": "https://play.google.com/store/apps/details?id=com.anas.smart_tools_all_in_one_toolkit",
+      "icon_url": "https://play-lh.googleusercontent.com/Am1nrBBEWowrJ2X1miUv3hNaF8TM5JxhlKwK-HlRetyAeDB_6D4A1Q_nH3EsJtTUG3VoSBMdDv7LnREad8tZ",
+      "timestamp": "2026-04-16 01:21:13"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.nosigames.primetools.primetools",
+      "rank": 24,
+      "name": "Prime Tools: Smart Utilities",
+      "developer": "NosiGames",
+      "store_url": "https://play.google.com/store/apps/details?id=com.nosigames.primetools.primetools",
+      "icon_url": "https://play-lh.googleusercontent.com/ENE0xZz3lhUCRCquqhYlhhm0siqBEXGmVXnfdBOgPKASY8GJO4hhYqCc5-JG6FuBbVOQLTE3g2fkRXcvmPneKA",
+      "timestamp": "2026-04-16 01:21:13"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.appstrend.all.smart.tools",
+      "rank": 28,
+      "name": "Multi Smart Tools: All in One",
+      "developer": "Brave Jackals",
+      "store_url": "https://play.google.com/store/apps/details?id=com.appstrend.all.smart.tools",
+      "icon_url": "https://play-lh.googleusercontent.com/Gf3PbS5FvB43h9X_1-mXAvViodp97WfWbgtDCZzZBXe7zimfCQxxXYs20rfEpm5nTKt1",
+      "timestamp": "2026-04-16 01:21:13"
+    }
+  ],
+  "generated_at": "2026-04-16 01:21:16"
+}
