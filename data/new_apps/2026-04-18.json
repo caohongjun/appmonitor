@@ -1,0 +1,90 @@
+{
+  "date": "2026-04-18",
+  "compare_date": "2026-04-17",
+  "total_count": 6,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.viraldevelopment.CalAI",
+      "itunes_id": "6480417616",
+      "rank": 8,
+      "name": "Cal AI - Calorie Tracker",
+      "developer": "Viral Development LLC",
+      "store_url": "https://apps.apple.com/us/app/cal-ai-calorie-tracker/id6480417616?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/78/93/12789307-206e-b4a9-4151-4d615e67f1f3/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+      "release_date": "2024/04/08",
+      "rating": 4.80617,
+      "rating_count": 304637,
+      "timestamp": "2026-04-18 01:11:24"
+    },
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.ifit.atlasapp",
+      "itunes_id": "6756594504",
+      "rank": 95,
+      "name": "iFIT Personal Trainer (Alpha)",
+      "developer": "ICON Health & Fitness, Inc.",
+      "store_url": "https://apps.apple.com/us/app/ifit-personal-trainer-alpha/id6756594504?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/f8/ab/41f8ab32-c647-c21c-ea92-4ed90fafae73/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png",
+      "release_date": "2026/02/11",
+      "rating": 4.60633,
+      "rating_count": 221,
+      "timestamp": "2026-04-18 01:11:24"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.pryzo.database",
+      "itunes_id": "6761992351",
+      "rank": 97,
+      "name": "Pryzo",
+      "developer": "GORDON WILLIAN",
+      "store_url": "https://apps.apple.com/us/app/pryzo/id6761992351?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/de/f3/fc/def3fc9f-6905-078f-0a49-d47108722f65/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+      "release_date": "2026/04/10",
+      "rating": 0,
+      "rating_count": 0,
+      "timestamp": "2026-04-18 01:11:35"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.devdop.realwar",
+      "itunes_id": "6753818799",
+      "rank": 98,
+      "name": "Real War: Not Fake",
+      "developer": "Heseri Games Inc",
+      "store_url": "https://apps.apple.com/us/app/real-war-not-fake/id6753818799?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d6/54/eb/d654eb53-f231-de6c-0be3-1177f467fd1c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2025/11/04",
+      "rating": 4.21479,
+      "rating_count": 1001,
+      "timestamp": "2026-04-18 01:11:41"
+    },
+    {
+      "platform": "Google Play",
+      "category": "生活方式",
+      "app_id": "com.netpulse.mobile.lifestylecenterlaarbeek",
+      "rank": 26,
+      "name": "Lifestyle center Laarbeek",
+      "developer": "EGYM",
+      "store_url": "https://play.google.com/store/apps/details?id=com.netpulse.mobile.lifestylecenterlaarbeek",
+      "icon_url": "https://play-lh.googleusercontent.com/spDjvhmU9r4IzQ2WrT60tAZ4DFW5TNqPzIycQkDx-znmXyLZDbUK7KnXz7dcTUu8JVs",
+      "timestamp": "2026-04-18 01:11:54"
+    },
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "enterprises.dating.boo",
+      "rank": 18,
+      "name": "Boo: Dating. Friends. Chat.",
+      "developer": "Boo Enterprises, Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=enterprises.dating.boo",
+      "icon_url": "https://play-lh.googleusercontent.com/7odIr8zuMI5ddrSG6KtefaVNEvKBoiGzo6Q96lowbP5tLFhqiqUl3Mc16PMk2E1m9g",
+      "timestamp": "2026-04-18 01:12:00"
+    }
+  ],
+  "generated_at": "2026-04-18 01:12:07"
+}
