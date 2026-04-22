@@ -1,0 +1,90 @@
+{
+  "date": "2026-04-22",
+  "compare_date": "2026-04-21",
+  "total_count": 6,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.kik.chat",
+      "itunes_id": "357218860",
+      "rank": 95,
+      "name": "Kik Messaging & Chat App",
+      "developer": "Medialab - Kik",
+      "store_url": "https://apps.apple.com/us/app/kik-messaging-chat-app/id357218860?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/42/e8/d7/42e8d72a-aa00-54ce-2b65-244944f120a6/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2010/04/10",
+      "rating": 4.26499,
+      "rating_count": 483472,
+      "timestamp": "2026-04-22 01:16:29"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.abbott.an.similac",
+      "itunes_id": "6744415578",
+      "rank": 70,
+      "name": "MySimilac Rewards",
+      "developer": "Abbott",
+      "store_url": "https://apps.apple.com/us/app/mysimilac-rewards/id6744415578?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/92/19/65/921965e1-cd74-2ec7-da6b-bf3b42ce4c2b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/04/20",
+      "rating": 0,
+      "rating_count": 0,
+      "timestamp": "2026-04-22 01:16:34"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.bailing.lark.roll.dev",
+      "itunes_id": "6740966864",
+      "rank": 5,
+      "name": "Dicero!",
+      "developer": "HABBY",
+      "store_url": "https://apps.apple.com/us/app/dicero/id6740966864?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e7/93/92/e7939274-00d6-9875-d460-1cc9a881aad8/xueguai-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "release_date": "2026/04/21",
+      "rating": 5,
+      "rating_count": 1,
+      "timestamp": "2026-04-22 01:16:40"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.phs.global.ios",
+      "itunes_id": "6756989323",
+      "rank": 99,
+      "name": "Last Asylum: Plague",
+      "developer": "WISENESS GAME ONLINE INTERNATIONAL LTD",
+      "store_url": "https://apps.apple.com/us/app/last-asylum-plague/id6756989323?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/40/08/60/4008606a-5cbb-6cf2-cb0d-825375996057/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/02/11",
+      "rating": 4.80185,
+      "rating_count": 16942,
+      "timestamp": "2026-04-22 01:16:40"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "com.jleoapps.gymtotal",
+      "rank": 26,
+      "name": "Gym Fitness Workout: Gym Coach",
+      "developer": "Gym Fitness & Workout",
+      "store_url": "https://play.google.com/store/apps/details?id=com.jleoapps.gymtotal",
+      "icon_url": "https://play-lh.googleusercontent.com/sr8JFLdxjow2qKzA9sa-Fr-ihxi9zsoS7jOYo_FqJrIVlDJua4Jio34UKTkwd_NqavA",
+      "timestamp": "2026-04-22 01:16:46"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "app.setgraph",
+      "rank": 27,
+      "name": "Setgraph: Workout Log",
+      "developer": "Setgraph LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=app.setgraph",
+      "icon_url": "https://play-lh.googleusercontent.com/GwdY_2e9nDzBmuUgaGKlUnQwITzRhJvugt1qIvsl_Y7nbPSP18ih2xDM_mC3RkDvcA",
+      "timestamp": "2026-04-22 01:16:46"
+    }
+  ],
+  "generated_at": "2026-04-22 01:17:07"
+}
