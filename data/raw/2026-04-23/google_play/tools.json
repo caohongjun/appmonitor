@@ -1,0 +1,251 @@
+{
+  "date": "2026-04-23",
+  "platform": "Google Play",
+  "category": "工具",
+  "category_key": "tools",
+  "total_apps": 22,
+  "apps": [
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.pradhyu.alltoolseveryutility",
+      "rank": 1,
+      "name": "All tools",
+      "developer": "ATEU Softwares ®",
+      "store_url": "https://play.google.com/store/apps/details?id=com.pradhyu.alltoolseveryutility",
+      "icon_url": "https://play-lh.googleusercontent.com/vu22TlhNvH6wWmpUrUoWSFDbu_Ewxek47gwGp4XC2w8ZiMRCGjb4PeWza9fnsv_VXzZtwUMb5dzQcR0LkQKS2Q",
+      "timestamp": "2026-04-23 01:22:08"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.orven.smarttools",
+      "rank": 2,
+      "name": "All Tools: Utility & PDF Kit",
+      "developer": "ORVEN IT",
+      "store_url": "https://play.google.com/store/apps/details?id=com.orven.smarttools",
+      "icon_url": "https://play-lh.googleusercontent.com/wyn1u7Eevi8kZcdJpGkU-8isuuShngbB8xrfCpbJ_Bam8sIggb2i3DOg_G_uVXsGMd-bXt5fqF1xg7mq8t9XBQ4",
+      "timestamp": "2026-04-23 01:22:08"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.appcodecraft.curiomate",
+      "rank": 3,
+      "name": "CurioMate: Utility Tools",
+      "developer": "AppCodeCraft",
+      "store_url": "https://play.google.com/store/apps/details?id=com.appcodecraft.curiomate",
+      "icon_url": "https://play-lh.googleusercontent.com/lx4QliShZ4LPYQPfYZyUFAuC8_JQv5K_L2PrbYPn-v15P3skyMXwu5Txbbs-0FJFvc4",
+      "timestamp": "2026-04-23 01:22:08"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.google.android.apps.nbu.files",
+      "rank": 4,
+      "name": "Files by Google",
+      "developer": "Google LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.nbu.files",
+      "icon_url": "https://play-lh.googleusercontent.com/1nfAdJs2Ep2q1skM7QwJ1uHooWSbpFkbIBHhAX6EmdzEKmtk42713TiTU28mWlkcFKPA",
+      "timestamp": "2026-04-23 01:22:08"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.dilojhon.all.tools.utilities.toolkit.smart.toolbox",
+      "rank": 5,
+      "name": "All Tools - Utilities Toolkit",
+      "developer": "dilojhon",
+      "store_url": "https://play.google.com/store/apps/details?id=com.dilojhon.all.tools.utilities.toolkit.smart.toolbox",
+      "icon_url": "https://play-lh.googleusercontent.com/D2A32Imm2LD0wRoRrfXAYw3J6QXHWHuuJSxCBvP26aYYEHyDk95fVEewXg5ugt8gZN8",
+      "timestamp": "2026-04-23 01:22:08"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.toolance.allinonetools",
+      "rank": 6,
+      "name": "TOOLANCE - Smart Utility Tools",
+      "developer": "TOOLANCE",
+      "store_url": "https://play.google.com/store/apps/details?id=com.toolance.allinonetools",
+      "icon_url": "https://play-lh.googleusercontent.com/f3VVsdrLkIRlQoiNDmnQM8yAPlhJOrPkfqjuMpqVo30zKKH2Llmkyz-s5xvZndq-dvudSb65P4SUUf7KWQYc",
+      "timestamp": "2026-04-23 01:22:08"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.insoftyx.dailyutilitytools",
+      "rank": 7,
+      "name": "Daily Tools – Utility App",
+      "developer": "Insoftyx Studio",
+      "store_url": "https://play.google.com/store/apps/details?id=com.insoftyx.dailyutilitytools",
+      "icon_url": "https://play-lh.googleusercontent.com/0wI_PBpjT1q5SoGggRwgmnpYK9pOFmlC46nXAYI2zj6Uyw2avp3ywItWKOBXfp_KP00F1vOAiBPkTefV2MZpVA",
+      "timestamp": "2026-04-23 01:22:08"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.pcmehanik.smarttoolbox",
+      "rank": 8,
+      "name": "Smart Tools - All In One",
+      "developer": "PC Mehanik",
+      "store_url": "https://play.google.com/store/apps/details?id=com.pcmehanik.smarttoolbox",
+      "icon_url": "https://play-lh.googleusercontent.com/eDVcRv2uqR_kTHbK0riFwESVO67qfOi6ATVtMFApXeJwyCzcHl4spwrPMpnMtbca8w",
+      "timestamp": "2026-04-23 01:22:08"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.harborfreight.app",
+      "rank": 9,
+      "name": "Harbor Freight Tools",
+      "developer": "Harbor Freight Tools USA, Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.harborfreight.app",
+      "icon_url": "https://play-lh.googleusercontent.com/Q7n2-GkpmU64JEvkZEBGDrRb1-OvH_te4Bu68FDteGU4tpMiHgVEFf5abwW5t0k_s7biO2BFGlnF-SXUhQmk_HQ",
+      "timestamp": "2026-04-23 01:22:08"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.sm.allsmarttools",
+      "rank": 10,
+      "name": "All Smart Tools - Daily Uses",
+      "developer": "SM Infotech",
+      "store_url": "https://play.google.com/store/apps/details?id=com.sm.allsmarttools",
+      "icon_url": "https://play-lh.googleusercontent.com/YC7FRU2w7M21BYU0SlN0ITyz-l3VlLWGHjfmMrQVaBWQS99VocFrS_BdedCjmJFWwDc",
+      "timestamp": "2026-04-23 01:22:08"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.yousx.thetoolsapp",
+      "rank": 11,
+      "name": "Tooly Toolbox All Tools In One",
+      "developer": "FutureCraft Apps",
+      "store_url": "https://play.google.com/store/apps/details?id=com.yousx.thetoolsapp",
+      "icon_url": "https://play-lh.googleusercontent.com/3cC0TdImz_yFG1VFu_hDbHhsy0kGPgijsoffE_1gVjlmAOYMVzQfGmGa50m3JyyYbiqENSeveS0bNcLSNbnB",
+      "timestamp": "2026-04-23 01:22:08"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.premium.pdfutility",
+      "rank": 12,
+      "name": "PDF Utility Tools & Converter",
+      "developer": "Premium Quality Apps",
+      "store_url": "https://play.google.com/store/apps/details?id=com.premium.pdfutility",
+      "icon_url": "https://play-lh.googleusercontent.com/b9k_XywpPpgm-_4CIjREFDlqltBbT6wv3mb18e2sk7zLSGbokeZ6tTVwTkHBUR9md1I",
+      "timestamp": "2026-04-23 01:22:08"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "us.flexswag.flexutilitypremium",
+      "rank": 13,
+      "name": "Flex Utility Premium",
+      "developer": "JW Dev;",
+      "store_url": "https://play.google.com/store/apps/details?id=us.flexswag.flexutilitypremium",
+      "icon_url": "https://play-lh.googleusercontent.com/DuKSyzmFy2jLUmc7ANlaMLUDATF1EUFwlQw3NfRp5ej3iMn3p5PNaFcARSJycE-rN2kT",
+      "timestamp": "2026-04-23 01:22:08"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.komal.onetaptools",
+      "rank": 14,
+      "name": "Quick Tools: Multi Utility App",
+      "developer": "Komal AppWorks",
+      "store_url": "https://play.google.com/store/apps/details?id=com.komal.onetaptools",
+      "icon_url": "https://play-lh.googleusercontent.com/Yrx-EGGQhsWIlrAfsjzoTPgsKlTTqgVbc4Oo0jEhmrgKJySyA3PQrzX98c0cxCGgAQ",
+      "timestamp": "2026-04-23 01:22:08"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.smarttools.utility.multipurpose",
+      "rank": 15,
+      "name": "Smart Tools- Utilities toolbox",
+      "developer": "Apps Cabinet",
+      "store_url": "https://play.google.com/store/apps/details?id=com.smarttools.utility.multipurpose",
+      "icon_url": "https://play-lh.googleusercontent.com/NNPvsJuE3a8qOW-jbmk0s6nd_euO31VftZJyDcBd3nHUCPhWZH7C1JI1YeVovA3UWiR1",
+      "timestamp": "2026-04-23 01:22:08"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.protectstar.antispy.android",
+      "rank": 16,
+      "name": "Anti Spy Detector - Spyware",
+      "developer": "Protectstar Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.protectstar.antispy.android",
+      "icon_url": "https://play-lh.googleusercontent.com/-RgY7W2BOari84d9BhoshEFx42LKoKncmkVGhCOiyfRzDYv6ic28Qzv913BGrsTB0Bg",
+      "timestamp": "2026-04-23 01:22:08"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "kr.aboy.tools",
+      "rank": 17,
+      "name": "Smart Tools",
+      "developer": "Smart Tools co.",
+      "store_url": "https://play.google.com/store/apps/details?id=kr.aboy.tools",
+      "icon_url": "https://play-lh.googleusercontent.com/dBKE3AzXW9AYnGXEM4G0MRIrOSEcXEzTMYvEtQIT4zTdG140NrFD2i6yUEoCAFTyU14",
+      "timestamp": "2026-04-23 01:22:08"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.VirtualMaze.gpsutils",
+      "rank": 18,
+      "name": "GPS Tools® -Navigate & Explore",
+      "developer": "VirtualMaze",
+      "store_url": "https://play.google.com/store/apps/details?id=com.VirtualMaze.gpsutils",
+      "icon_url": "https://play-lh.googleusercontent.com/2Oo7khbgRMPoK8uxdlyjHJ6mbIZcA3XGul3QBl8cGOpmYJQFxl4yMwTviGKbswHRKkk",
+      "timestamp": "2026-04-23 01:22:08"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.toolsmax.allinone.utilities",
+      "rank": 19,
+      "name": "All in one tools - Toolbox",
+      "developer": "HRDeveloper",
+      "store_url": "https://play.google.com/store/apps/details?id=com.toolsmax.allinone.utilities",
+      "icon_url": "https://play-lh.googleusercontent.com/4K-B_iWR8qvX6aqaImKuCCO6IcluL5NGs3USzdwBp2r7jpQMMaxyihBrTHhKMMIwu0OFW2PM4H9X9vWSjNM_",
+      "timestamp": "2026-04-23 01:22:08"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.google.android.apps.wifisetup.app",
+      "rank": 20,
+      "name": "Device Utility",
+      "developer": "Google LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.wifisetup.app",
+      "icon_url": "https://play-lh.googleusercontent.com/CPyW3M9UC_NR8IvcArOxull74LWiKL3WqfPfjfqZnWVhYR-aErm3PIDut6Q970xJkOI",
+      "timestamp": "2026-04-23 01:22:08"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.ddm.iptools",
+      "rank": 21,
+      "name": "IP Tools: Network Utilities",
+      "developer": "IP Tools Network Utilities",
+      "store_url": "https://play.google.com/store/apps/details?id=com.ddm.iptools",
+      "icon_url": "https://play-lh.googleusercontent.com/TRViimi-sFBezGpQXG4_G2Ksw2WExJxQ2J2u3XYVIXRC3M3x57Q3MgAj-FYW_c4BRak",
+      "timestamp": "2026-04-23 01:22:08"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.DevExtras.VoiceTools",
+      "rank": 22,
+      "name": "Voice Tools",
+      "developer": "DevExtras",
+      "store_url": "https://play.google.com/store/apps/details?id=com.DevExtras.VoiceTools",
+      "icon_url": "https://play-lh.googleusercontent.com/3XFqDgotHeywViHoPxt6MnwT_o6aIwF7gmlFlQBldX1sB81mm9Ff2Z0xI4vEqVHeaIk",
+      "timestamp": "2026-04-23 01:22:08"
+    }
+  ]
+}
