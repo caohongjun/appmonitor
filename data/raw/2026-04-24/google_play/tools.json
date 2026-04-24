@@ -1,0 +1,86 @@
+{
+  "date": "2026-04-24",
+  "platform": "Google Play",
+  "category": "工具",
+  "category_key": "tools",
+  "total_apps": 7,
+  "apps": [
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.pradhyu.alltoolseveryutility",
+      "rank": 1,
+      "name": "All tools",
+      "developer": "ATEU Softwares ®",
+      "store_url": "https://play.google.com/store/apps/details?id=com.pradhyu.alltoolseveryutility",
+      "icon_url": "https://play-lh.googleusercontent.com/vu22TlhNvH6wWmpUrUoWSFDbu_Ewxek47gwGp4XC2w8ZiMRCGjb4PeWza9fnsv_VXzZtwUMb5dzQcR0LkQKS2Q",
+      "timestamp": "2026-04-24 01:21:34"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.appcodecraft.curiomate",
+      "rank": 2,
+      "name": "CurioMate: Utility Tools",
+      "developer": "AppCodeCraft",
+      "store_url": "https://play.google.com/store/apps/details?id=com.appcodecraft.curiomate",
+      "icon_url": "https://play-lh.googleusercontent.com/lx4QliShZ4LPYQPfYZyUFAuC8_JQv5K_L2PrbYPn-v15P3skyMXwu5Txbbs-0FJFvc4",
+      "timestamp": "2026-04-24 01:21:34"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.orven.smarttools",
+      "rank": 3,
+      "name": "All Tools: Utility & PDF Kit",
+      "developer": "ORVEN IT",
+      "store_url": "https://play.google.com/store/apps/details?id=com.orven.smarttools",
+      "icon_url": "https://play-lh.googleusercontent.com/wyn1u7Eevi8kZcdJpGkU-8isuuShngbB8xrfCpbJ_Bam8sIggb2i3DOg_G_uVXsGMd-bXt5fqF1xg7mq8t9XBQ4",
+      "timestamp": "2026-04-24 01:21:34"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.google.android.apps.nbu.files",
+      "rank": 4,
+      "name": "Files by Google",
+      "developer": "Google LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.nbu.files",
+      "icon_url": "https://play-lh.googleusercontent.com/1nfAdJs2Ep2q1skM7QwJ1uHooWSbpFkbIBHhAX6EmdzEKmtk42713TiTU28mWlkcFKPA",
+      "timestamp": "2026-04-24 01:21:34"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.dilojhon.all.tools.utilities.toolkit.smart.toolbox",
+      "rank": 5,
+      "name": "All Tools - Utilities Toolkit",
+      "developer": "dilojhon",
+      "store_url": "https://play.google.com/store/apps/details?id=com.dilojhon.all.tools.utilities.toolkit.smart.toolbox",
+      "icon_url": "https://play-lh.googleusercontent.com/D2A32Imm2LD0wRoRrfXAYw3J6QXHWHuuJSxCBvP26aYYEHyDk95fVEewXg5ugt8gZN8",
+      "timestamp": "2026-04-24 01:21:34"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.insoftyx.dailyutilitytools",
+      "rank": 6,
+      "name": "Daily Tools – Utility App",
+      "developer": "Insoftyx Studio",
+      "store_url": "https://play.google.com/store/apps/details?id=com.insoftyx.dailyutilitytools",
+      "icon_url": "https://play-lh.googleusercontent.com/0wI_PBpjT1q5SoGggRwgmnpYK9pOFmlC46nXAYI2zj6Uyw2avp3ywItWKOBXfp_KP00F1vOAiBPkTefV2MZpVA",
+      "timestamp": "2026-04-24 01:21:34"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.pcmehanik.smarttoolbox",
+      "rank": 7,
+      "name": "Smart Tools - All In One",
+      "developer": "PC Mehanik",
+      "store_url": "https://play.google.com/store/apps/details?id=com.pcmehanik.smarttoolbox",
+      "icon_url": "https://play-lh.googleusercontent.com/eDVcRv2uqR_kTHbK0riFwESVO67qfOi6ATVtMFApXeJwyCzcHl4spwrPMpnMtbca8w",
+      "timestamp": "2026-04-24 01:21:34"
+    }
+  ]
+}

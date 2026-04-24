@@ -1,0 +1,75 @@
+{
+  "date": "2026-04-24",
+  "compare_date": "2026-04-23",
+  "total_count": 5,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.limberhealthv3prod.app",
+      "itunes_id": "6471596320",
+      "rank": 96,
+      "name": "Limber Health Home Exercise",
+      "developer": "Limber Health, Inc.",
+      "store_url": "https://apps.apple.com/us/app/limber-health-home-exercise/id6471596320?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/91/c2/ba91c2da-2740-bbe5-a924-d180a7423ad5/AppIconLimberV3-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+      "release_date": "2023/12/27",
+      "rating": 4.24918,
+      "rating_count": 305,
+      "timestamp": "2026-04-24 01:20:55"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.rastargames.fzgus",
+      "itunes_id": "6746845705",
+      "rank": 31,
+      "name": "MapleStory R- Evolution US",
+      "developer": "Rastar Mobile",
+      "store_url": "https://apps.apple.com/us/app/maplestory-r-evolution-us/id6746845705?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ad/2c/a4/ad2ca4c8-d638-d625-aff1-9884176368c9/AppIcon-1x_U007epad-0-11-0-85-220-0.png/100x100bb.png",
+      "release_date": "2026/04/23",
+      "rating": 0,
+      "rating_count": 0,
+      "timestamp": "2026-04-24 01:21:12"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "io.supercent.pizzaidle",
+      "itunes_id": "6450917563",
+      "rank": 99,
+      "name": "Pizza Ready!",
+      "developer": "Supercent, Inc.",
+      "store_url": "https://apps.apple.com/us/app/pizza-ready/id6450917563?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/99/95/61/99956180-4605-039f-3c7c-f7f594f6ea34/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2023/07/06",
+      "rating": 4.57501,
+      "rating_count": 308175,
+      "timestamp": "2026-04-24 01:21:12"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "com.matic.fitness.womenworkout",
+      "rank": 14,
+      "name": "Women Workout - Female Fitness",
+      "developer": "Matic Studio",
+      "store_url": "https://play.google.com/store/apps/details?id=com.matic.fitness.womenworkout",
+      "icon_url": "https://play-lh.googleusercontent.com/e8DRco9O14NInivgFAdMCYcSBcybcbADGDz9wNQHtNy55uD1drhu3PpQuTwwJWK1UdI",
+      "timestamp": "2026-04-24 01:21:17"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "com.strava",
+      "rank": 30,
+      "name": "Strava: Run, Bike, Walk",
+      "developer": "Strava Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.strava",
+      "icon_url": "https://play-lh.googleusercontent.com/j-ZV144PlVuTVsLuBzIKyEw9CbFnmWw9ku2NJ1ef0gZJh-iiIN1nrNPmAtvgAteyDqU",
+      "timestamp": "2026-04-24 01:21:17"
+    }
+  ],
+  "generated_at": "2026-04-24 01:21:37"
+}
