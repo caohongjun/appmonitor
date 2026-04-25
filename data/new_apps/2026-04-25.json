@@ -1,0 +1,112 @@
+{
+  "date": "2026-04-25",
+  "compare_date": "2026-04-24",
+  "total_count": 8,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.kalo.kalo",
+      "itunes_id": "6746720072",
+      "rank": 82,
+      "name": "Kalo - AI Calorie Tracking",
+      "developer": "Kalo Health Limited",
+      "store_url": "https://apps.apple.com/us/app/kalo-ai-calorie-tracking/id6746720072?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5e/5d/0e/5e5d0e9a-34c0-81d2-7cba-93ef78f1f4b8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2025/08/07",
+      "rating": 4.76846,
+      "rating_count": 2492,
+      "timestamp": "2026-04-25 01:14:23"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.vasu.storybox.statussaver",
+      "itunes_id": "6572295755",
+      "rank": 58,
+      "name": "Web Messenger - Dual Chat",
+      "developer": "Pravin Gondaliya",
+      "store_url": "https://apps.apple.com/us/app/web-messenger-dual-chat/id6572295755?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4a/c0/5d/4ac05d5b-078d-deaa-c476-95aec7f5c219/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2024/10/16",
+      "rating": 4.43161,
+      "rating_count": 3327,
+      "timestamp": "2026-04-25 01:14:29"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.bravestars.savethedog.drawgame",
+      "itunes_id": "6443538544",
+      "rank": 89,
+      "name": "Save The Pets: Save Dog",
+      "developer": "Superboost Soft Limited",
+      "store_url": "https://apps.apple.com/us/app/save-the-pets-save-dog/id6443538544?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/90/98/70/90987067-ba7f-75b0-a95d-a038a1afef93/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2022/10/03",
+      "rating": 2.53052,
+      "rating_count": 213,
+      "timestamp": "2026-04-25 01:14:40"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.homagames.studio.allinhole",
+      "itunes_id": "6503284107",
+      "rank": 97,
+      "name": "All in Hole: Black Hole Games",
+      "developer": "HOMA GAMES",
+      "store_url": "https://apps.apple.com/us/app/all-in-hole-black-hole-games/id6503284107?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/20/46/55/20465549-2e58-dfc0-c992-e6299cebebf8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2024/06/07",
+      "rating": 4.92403,
+      "rating_count": 112814,
+      "timestamp": "2026-04-25 01:14:40"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "com.ogoul.kalamtime",
+      "rank": 28,
+      "name": "KT Messenger (KalamTime)",
+      "developer": "Posh Enterprise Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.ogoul.kalamtime",
+      "icon_url": "https://play-lh.googleusercontent.com/yvpi9CbcNHdoa1FbJbC_EsYGm5WUTm3uXhXtobF3XJ6VNOVz_zKhlWHc5PMYDhPquTM",
+      "timestamp": "2026-04-25 01:14:49"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "ch.threema.app",
+      "rank": 29,
+      "name": "Threema. The Secure Messenger",
+      "developer": "Threema GmbH",
+      "store_url": "https://play.google.com/store/apps/details?id=ch.threema.app",
+      "icon_url": "https://play-lh.googleusercontent.com/7JTe-WbG1zzyoKuiZXgDeZiBEP3k8qVEqVqA_jqWskTqO8dkDWbGoAVH38vKWwltx94",
+      "timestamp": "2026-04-25 01:14:49"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.protechtools.gpstracker",
+      "rank": 24,
+      "name": "GPS Phone Location Tracker",
+      "developer": "ProTech Tools",
+      "store_url": "https://play.google.com/store/apps/details?id=com.protechtools.gpstracker",
+      "icon_url": "https://play-lh.googleusercontent.com/-2dqNid7GzKyfodSAfGFyy2g9EWegPe1aryG4X_Ive-jbrNCxDt5M6d2DqeOQ23Db5wx",
+      "timestamp": "2026-04-25 01:15:02"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.fileclean.manager.easy",
+      "rank": 25,
+      "name": "EasyClean - File Cleaner",
+      "developer": "Delta Tools Dev",
+      "store_url": "https://play.google.com/store/apps/details?id=com.fileclean.manager.easy",
+      "icon_url": "https://play-lh.googleusercontent.com/HqQtV8iCbtSHNtUJy2fRdcXJRQqzF544zN0ziTnX0uT-3Ns5KgeCS1ANQN3whZWwmhYm1XgyRkmiP4sOQjuCig",
+      "timestamp": "2026-04-25 01:15:02"
+    }
+  ],
+  "generated_at": "2026-04-25 01:15:05"
+}
