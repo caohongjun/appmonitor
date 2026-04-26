@@ -1,0 +1,79 @@
+{
+  "date": "2026-04-26",
+  "compare_date": "2026-04-25",
+  "total_count": 5,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.x.xchat",
+      "itunes_id": "6760873038",
+      "rank": 1,
+      "name": "XChat",
+      "developer": "X Corp.",
+      "store_url": "https://apps.apple.com/us/app/xchat/id6760873038?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/11/b6/22/11b6224d-2c5f-4c16-2734-b4189e15e6b8/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2026/04/24",
+      "rating": 3.81881,
+      "rating_count": 436,
+      "timestamp": "2026-04-26 01:23:08"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.light.na",
+      "itunes_id": "6754545818",
+      "rank": 44,
+      "name": "Last Light: Wasteland",
+      "developer": "BINGCHUAN NETWORK (HONG KONG) COMPANY LIMITED",
+      "store_url": "https://apps.apple.com/us/app/last-light-wasteland/id6754545818?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/70/df/22/70df22bb-81aa-f118-e93f-0d13b9901569/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/02/03",
+      "rating": 4.55009,
+      "rating_count": 529,
+      "timestamp": "2026-04-26 01:23:19"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "us.kr.baseballnine",
+      "itunes_id": "1340866223",
+      "rank": 88,
+      "name": "BASEBALL 9",
+      "developer": "playus soft",
+      "store_url": "https://apps.apple.com/us/app/baseball-9/id1340866223?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/cc/a9/e8cca9e1-9f1a-af0a-21bc-a70596497379/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "release_date": "2018/05/24",
+      "rating": 4.52487,
+      "rating_count": 126029,
+      "timestamp": "2026-04-26 01:23:19"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.infoldgames.infinitynikkien",
+      "itunes_id": "6502622570",
+      "rank": 98,
+      "name": "Infinity Nikki",
+      "developer": "INFOLD PTE. LTD.",
+      "store_url": "https://apps.apple.com/us/app/infinity-nikki/id6502622570?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/92/96/7a/92967a1d-f48d-791b-1c46-5cebe42a8dba/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2024/12/03",
+      "rating": 3.88426,
+      "rating_count": 12079,
+      "timestamp": "2026-04-26 01:23:19"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "io.anonchat",
+      "rank": 25,
+      "name": "Anonymous Chat / AnonChat",
+      "developer": "Anon.Chat",
+      "store_url": "https://play.google.com/store/apps/details?id=io.anonchat",
+      "icon_url": "https://play-lh.googleusercontent.com/f7fNE96kFHH4rpGSf7T1v48q-NEYhsbd-a-keTQdQOOMbiNIOhh2nVOf9lBMMOwr1SI",
+      "timestamp": "2026-04-26 01:23:29"
+    }
+  ],
+  "generated_at": "2026-04-26 01:23:45"
+}
