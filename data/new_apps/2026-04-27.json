@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-27",
+  "compare_date": "2026-04-26",
+  "total_count": 4,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.samba.app",
+      "itunes_id": "6753193921",
+      "rank": 30,
+      "name": "Samba: Hub for Professionals",
+      "developer": "Samba Group LLC",
+      "store_url": "https://apps.apple.com/us/app/samba-hub-for-professionals/id6753193921?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2a/89/6c/2a896cef-8091-2a7f-1ece-05ca35a5268b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "release_date": "2026/04/26",
+      "rating": 0,
+      "rating_count": 0,
+      "timestamp": "2026-04-27 01:24:24"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "joy.verami.city",
+      "itunes_id": "6762261255",
+      "rank": 77,
+      "name": "Verami",
+      "developer": "Helen Ellis",
+      "store_url": "https://apps.apple.com/us/app/verami/id6762261255?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/31/d8/97/31d897eb-5e2f-82ed-a39e-00016c9e65ac/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+      "release_date": "2026/04/22",
+      "rating": 0,
+      "rating_count": 0,
+      "timestamp": "2026-04-27 01:24:24"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "io.supercent.linkedcubic",
+      "itunes_id": "6449243946",
+      "rank": 95,
+      "name": "Snake Clash!",
+      "developer": "Supercent, Inc.",
+      "store_url": "https://apps.apple.com/us/app/snake-clash/id6449243946?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4a/1b/3b/4a1b3b67-d952-c249-23e8-2a32925a4dd8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2023/06/12",
+      "rating": 4.66057,
+      "rating_count": 658848,
+      "timestamp": "2026-04-27 01:24:35"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.yax.devicetoolkitapp",
+      "rank": 19,
+      "name": "Device Toolkit: Smart Tools",
+      "developer": "Vijay Vaghela",
+      "store_url": "https://play.google.com/store/apps/details?id=com.yax.devicetoolkitapp",
+      "icon_url": "https://play-lh.googleusercontent.com/dR2s_7cCWM0XHCQ1nq-3_zJ-4ettUf31BoVG1di1zJw5fMeyZ27POUSjdJGiS3SpyIuSmt7DS4CdeJLTei8I6Q",
+      "timestamp": "2026-04-27 01:24:55"
+    }
+  ],
+  "generated_at": "2026-04-27 01:24:58"
+}
