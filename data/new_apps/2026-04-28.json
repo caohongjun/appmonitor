@@ -1,0 +1,79 @@
+{
+  "date": "2026-04-28",
+  "compare_date": "2026-04-27",
+  "total_count": 5,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.kurddev.juula",
+      "itunes_id": "6754256543",
+      "rank": 78,
+      "name": "Juula - Track Your Dolma",
+      "developer": "AWNY HOLDINGS INC.",
+      "store_url": "https://apps.apple.com/us/app/juula-track-your-dolma/id6754256543?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e2/e1/2a/e2e12a65-150d-927b-baa7-8d9a9225f172/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "release_date": "2025/12/08",
+      "rating": 4.78341,
+      "rating_count": 217,
+      "timestamp": "2026-04-28 01:30:34"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.meetyourclass.app",
+      "itunes_id": "6756749002",
+      "rank": 74,
+      "name": "MeetYourClass: College Friends",
+      "developer": "MeetYourClass Inc.",
+      "store_url": "https://apps.apple.com/us/app/meetyourclass-college-friends/id6756749002?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/94/7a/dd/947addac-8f57-19d9-2f96-0c907178a725/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "release_date": "2026/02/25",
+      "rating": 4.61039,
+      "rating_count": 77,
+      "timestamp": "2026-04-28 01:30:40"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.hottagames.nte",
+      "itunes_id": "6754593077",
+      "rank": 1,
+      "name": "NTE: Neverness to Everness",
+      "developer": "N2E ENTERTAINMENT PTE. LTD.",
+      "store_url": "https://apps.apple.com/us/app/nte-neverness-to-everness/id6754593077?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4a/e4/db/4ae4dba1-7a74-b0dc-329e-c6d0c6af93a5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/04/26",
+      "rating": 0,
+      "rating_count": 0,
+      "timestamp": "2026-04-28 01:30:51"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "puzzle.snakes.puzzle.slithereat.gaming",
+      "itunes_id": "6751537447",
+      "rank": 94,
+      "name": "Snake Puzzle: Slither to Eat!",
+      "developer": "Superboost Soft Limited",
+      "store_url": "https://apps.apple.com/us/app/snake-puzzle-slither-to-eat/id6751537447?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0e/6d/bf/0e6dbfcc-601d-b6b8-3a89-0cb0e5af12a3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2025/08/30",
+      "rating": 4.41838,
+      "rating_count": 1979,
+      "timestamp": "2026-04-28 01:30:51"
+    },
+    {
+      "platform": "Google Play",
+      "category": "生活方式",
+      "app_id": "com.threedlifestyle",
+      "rank": 23,
+      "name": "3D Lifestyle PK",
+      "developer": "3D Lifestyle",
+      "store_url": "https://play.google.com/store/apps/details?id=com.threedlifestyle",
+      "icon_url": "https://play-lh.googleusercontent.com/J8-kDBNqQKym5gEFNWNolo03YgYtJBiVgXj-pSPb4g8F6ilyjWqQnZiaF-DuDa1VuWQ",
+      "timestamp": "2026-04-28 01:31:03"
+    }
+  ],
+  "generated_at": "2026-04-28 01:31:16"
+}
