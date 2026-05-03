@@ -1,0 +1,41 @@
+{
+  "date": "2026-05-03",
+  "compare_date": "2026-05-02",
+  "total_count": 3,
+  "new_apps": [
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "com.planetfitness",
+      "rank": 22,
+      "name": "Planet Fitness",
+      "developer": "Planet Fitness",
+      "store_url": "https://play.google.com/store/apps/details?id=com.planetfitness",
+      "icon_url": "https://play-lh.googleusercontent.com/OICnkECAhWjgkWSy2oBo4DJVE1myjJ5TC1YfdQJi6MMPQgEHvyg2YbuSnM4ENJy1t1ok",
+      "timestamp": "2026-05-03 01:30:02"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "sworkitapp.sworkit.com",
+      "rank": 23,
+      "name": "Sworkit: Fitness & Workouts",
+      "developer": "Nexercise Inc",
+      "store_url": "https://play.google.com/store/apps/details?id=sworkitapp.sworkit.com",
+      "icon_url": "https://play-lh.googleusercontent.com/KyP6tycYadkIuQY-w_4c0_feiK5qw9ftVOGn9rF-Mo0WmUxKgjDeKaIcgeAW7xp0a7s",
+      "timestamp": "2026-05-03 01:30:02"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.happproxy",
+      "rank": 13,
+      "name": "Happ - Proxy Utility",
+      "developer": "HappDev",
+      "store_url": "https://play.google.com/store/apps/details?id=com.happproxy",
+      "icon_url": "https://play-lh.googleusercontent.com/a3dR56g1viLgbtdBBu_NSEdDuWkqJFIn5XFFoc7lKXApkf-av4HI7fTn2NhBjxVmPFHf",
+      "timestamp": "2026-05-03 01:30:19"
+    }
+  ],
+  "generated_at": "2026-05-03 01:30:22"
+}
