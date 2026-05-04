@@ -1,0 +1,75 @@
+{
+  "date": "2026-05-04",
+  "compare_date": "2026-05-03",
+  "total_count": 5,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.peppervalesoftware.healthai",
+      "itunes_id": "6737612921",
+      "rank": 98,
+      "name": "Wellance – AI Health & Balance",
+      "developer": "Peppervale",
+      "store_url": "https://apps.apple.com/us/app/wellance-ai-health-balance/id6737612921?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/df/4f/5edf4f47-9376-db31-1e5b-e1f1d2d5efe5/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.jpeg/100x100bb.png",
+      "release_date": "2024/11/05",
+      "rating": 4.48846,
+      "rating_count": 1257,
+      "timestamp": "2026-05-04 01:28:25"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "soccer.score.star",
+      "itunes_id": "1550945606",
+      "rank": 96,
+      "name": "Soccer Superstar",
+      "developer": "Real Free Soccer",
+      "store_url": "https://apps.apple.com/us/app/soccer-superstar/id1550945606?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/db/a6/72/dba67263-9836-21d8-6ac8-5ec5de9edd88/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+      "release_date": "2021/03/25",
+      "rating": 4.70156,
+      "rating_count": 245559,
+      "timestamp": "2026-05-04 01:28:31"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.sun.crest.relax.card",
+      "itunes_id": "6755174500",
+      "rank": 97,
+      "name": "Leisurely Spot Hour",
+      "developer": "GL-TRADE",
+      "store_url": "https://apps.apple.com/us/app/leisurely-spot-hour/id6755174500?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/40/59/b8/4059b8e6-cb8b-eb68-e5f2-bacb9830b03f/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+      "release_date": "2025/11/12",
+      "rating": 4.53274,
+      "rating_count": 1130,
+      "timestamp": "2026-05-04 01:28:31"
+    },
+    {
+      "platform": "Google Play",
+      "category": "生活方式",
+      "app_id": "com.engagedin.freshtri",
+      "rank": 30,
+      "name": "Fresh Tri: Habits & Mindset",
+      "developer": "Fresh Tri, LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=com.engagedin.freshtri",
+      "icon_url": "https://play-lh.googleusercontent.com/iiGAWUrnfEaJCkomSGb7qm0j_71-8FgpvoXeGyr41sqQrE48LcZza5gn9gX7YO4dJM8",
+      "timestamp": "2026-05-04 01:28:43"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.network.wifi.info.sim.tools",
+      "rank": 30,
+      "name": "WiFi Analyzer & SIM Tool App",
+      "developer": "NCAP SOLUTIONS LLP",
+      "store_url": "https://play.google.com/store/apps/details?id=com.network.wifi.info.sim.tools",
+      "icon_url": "https://play-lh.googleusercontent.com/MGOnNS4dUL4XJTp7J3vt-eSALVd5ioa19eFz4M1GaLZ7xHJnEzj4tNlaZxusSisdsNmrMbE1_mFtl4l6Xy4SXQ",
+      "timestamp": "2026-05-04 01:28:53"
+    }
+  ],
+  "generated_at": "2026-05-04 01:28:56"
+}
