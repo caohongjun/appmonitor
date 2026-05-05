@@ -1,0 +1,112 @@
+{
+  "date": "2026-05-05",
+  "compare_date": "2026-05-04",
+  "total_count": 8,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.hyperaihub.tyu",
+      "itunes_id": "6761094950",
+      "rank": 100,
+      "name": "Srria - Joy & Bond",
+      "developer": "ELMER HANDGRAF",
+      "store_url": "https://apps.apple.com/us/app/srria-joy-bond/id6761094950?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/59/f7/7a59f715-f5f2-5811-f0b3-7b736e473700/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+      "release_date": "2026/03/25",
+      "rating": 4.4,
+      "rating_count": 20,
+      "timestamp": "2026-05-05 01:28:24"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.puti.lookmax",
+      "itunes_id": "6478697267",
+      "rank": 92,
+      "name": "LooksMax Face Rating AI－LooxUP",
+      "developer": "Look Style AI Studio",
+      "store_url": "https://apps.apple.com/us/app/looksmax-face-rating-ai-looxup/id6478697267?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/a4/57/87a4577f-eb80-3b22-efff-5fc2163c1f77/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/100x100bb.png",
+      "release_date": "2024/03/27",
+      "rating": 4.54927,
+      "rating_count": 33186,
+      "timestamp": "2026-05-05 01:28:30"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.supercell.scroll",
+      "itunes_id": "1053012308",
+      "rank": 94,
+      "name": "Clash Royale",
+      "developer": "Supercell",
+      "store_url": "https://apps.apple.com/us/app/clash-royale/id1053012308?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/98/b3/57/98b35751-4bb8-e858-9c10-bde8dcd3d043/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+      "release_date": "2016/03/01",
+      "rating": 4.59865,
+      "rating_count": 3779310,
+      "timestamp": "2026-05-05 01:28:36"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.chillfleet.buddy",
+      "itunes_id": "1278869953",
+      "rank": 99,
+      "name": "Kick the Buddy",
+      "developer": "Playgendary Limited",
+      "store_url": "https://apps.apple.com/us/app/kick-the-buddy/id1278869953?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2f/a4/b6/2fa4b65c-f085-1d91-86be-c6f5c79bfe9c/SK_AppIcon_New-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
+      "release_date": "2017/11/02",
+      "rating": 4.58539,
+      "rating_count": 1043791,
+      "timestamp": "2026-05-05 01:28:36"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "cn.gem.android",
+      "rank": 25,
+      "name": "PopUp - Chat, Friend, Fun",
+      "developer": "Fantastic SG PTE. LTD.",
+      "store_url": "https://play.google.com/store/apps/details?id=cn.gem.android",
+      "icon_url": "https://play-lh.googleusercontent.com/1LrGHutAj0yfVqPvBEackHcBoh7kAIqXZxfO_RQ4ScYKwIoNUVG_i_wKyaFpK9iiEDk",
+      "timestamp": "2026-05-05 01:28:45"
+    },
+    {
+      "platform": "Google Play",
+      "category": "游戏",
+      "app_id": "com.pazugames.avatarworld",
+      "rank": 19,
+      "name": "Avatar World ®",
+      "developer": "Pazu Games",
+      "store_url": "https://play.google.com/store/apps/details?id=com.pazugames.avatarworld",
+      "icon_url": "https://play-lh.googleusercontent.com/8XqfQPanCLtZXLR3BMiVcelrQjtiY9NY2XgcPcVFdVXmxmrMNiMIw2vG6T1GZoedFXjG37mt8IoplK-YJKfWIw",
+      "timestamp": "2026-05-05 01:28:52"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.overlook.android.fing",
+      "rank": 19,
+      "name": "Fing - Network Tools",
+      "developer": "Fing Limited",
+      "store_url": "https://play.google.com/store/apps/details?id=com.overlook.android.fing",
+      "icon_url": "https://play-lh.googleusercontent.com/ur5MtAqgdeIN5nsf2A_kVI2nF-JDfxp0_DrL0o5tzcUo2nG0lxPmWiLFTNUyr5ZH0w",
+      "timestamp": "2026-05-05 01:28:59"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.mobidia.android.mdm",
+      "rank": 29,
+      "name": "My Data Manager: Data Usage",
+      "developer": "ST Advanced",
+      "store_url": "https://play.google.com/store/apps/details?id=com.mobidia.android.mdm",
+      "icon_url": "https://play-lh.googleusercontent.com/mzKqF-kuMOrcF3JRYoKuIqTQjXAG1sXvxRCQKPnr0sSvDfK8S_8ui3FBOurmNxnmbXA",
+      "timestamp": "2026-05-05 01:28:59"
+    }
+  ],
+  "generated_at": "2026-05-05 01:29:02"
+}
