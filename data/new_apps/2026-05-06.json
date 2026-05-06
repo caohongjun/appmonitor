@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-06",
+  "compare_date": "2026-05-05",
+  "total_count": 4,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.breathwrk.ios",
+      "itunes_id": "1481804500",
+      "rank": 86,
+      "name": "Breathwrk: Breathing Exercises",
+      "developer": "Peloton Interactive, Inc.",
+      "store_url": "https://apps.apple.com/us/app/breathwrk-breathing-exercises/id1481804500?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/8c/d6/c78cd678-d058-0ca6-3908-44baeae83287/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2019/11/14",
+      "rating": 4.7604,
+      "rating_count": 18005,
+      "timestamp": "2026-05-06 01:26:39"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "co.koiapps.coloringbook",
+      "itunes_id": "6749229651",
+      "rank": 56,
+      "name": "Adult Coloring Book - Bloom",
+      "developer": "Koi Apps",
+      "store_url": "https://apps.apple.com/us/app/adult-coloring-book-bloom/id6749229651?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/9f/68/6f9f689e-6783-8fd0-4636-72a131f56ff7/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2025/09/01",
+      "rating": 4.47877,
+      "rating_count": 7135,
+      "timestamp": "2026-05-06 01:26:51"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.wtfapps.apollo16",
+      "itunes_id": "1374403536",
+      "rank": 94,
+      "name": "BitLife - Life Simulator",
+      "developer": "Candywriter, LLC",
+      "store_url": "https://apps.apple.com/us/app/bitlife-life-simulator/id1374403536?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/06/a9/4106a9c7-b429-ee1a-3f4b-69a4598fac92/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2018/09/29",
+      "rating": 4.75871,
+      "rating_count": 1769749,
+      "timestamp": "2026-05-06 01:26:58"
+    },
+    {
+      "platform": "Google Play",
+      "category": "游戏",
+      "app_id": "com.football.soccer.league",
+      "rank": 18,
+      "name": "Football League 2026",
+      "developer": "MOBILE SOCCER",
+      "store_url": "https://play.google.com/store/apps/details?id=com.football.soccer.league",
+      "icon_url": "https://play-lh.googleusercontent.com/F7DtJlSuZewLgNwyo8eabJjm4Unk6v7CEBbu-U3h1tXMyO82xmNKuxHtHnLgLblDkLU",
+      "timestamp": "2026-05-06 01:27:13"
+    }
+  ],
+  "generated_at": "2026-05-06 01:27:23"
+}
