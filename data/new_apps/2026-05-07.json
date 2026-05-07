@@ -1,0 +1,163 @@
+{
+  "date": "2026-05-07",
+  "compare_date": "2026-05-06",
+  "total_count": 13,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.xeelafitness.xeelafitness",
+      "itunes_id": "6468574624",
+      "rank": 99,
+      "name": "Xeela: Train, Fuel, Transform",
+      "developer": "XEELA LLC",
+      "store_url": "https://apps.apple.com/us/app/xeela-train-fuel-transform/id6468574624?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/45/7e/f5/457ef526-396c-ba86-9285-38a3c860b741/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "release_date": "2024/02/16",
+      "rating": 4.66316,
+      "rating_count": 1425,
+      "timestamp": "2026-05-07 01:44:51"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.beakerapps.InstaMeter",
+      "itunes_id": "651309421",
+      "rank": 79,
+      "name": "FollowMeter for Instagram",
+      "developer": "Followmeter Unfollowers Tracker",
+      "store_url": "https://apps.apple.com/us/app/followmeter-for-instagram/id651309421?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/33/6b/a4/336ba48d-d42c-65e1-05f7-510d66122280/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+      "release_date": "2013/07/29",
+      "rating": 4.07036,
+      "rating_count": 23421,
+      "timestamp": "2026-05-07 01:44:57"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.fiveprayer.app",
+      "itunes_id": "6755536905",
+      "rank": 29,
+      "name": "FivePrayer - Pray on Time",
+      "developer": "FivePrayer",
+      "store_url": "https://apps.apple.com/us/app/fiveprayer-pray-on-time/id6755536905?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cf/39/b0/cf39b015-a16d-2193-ed3b-7aa9d3d20d6b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/02/08",
+      "rating": 4.75216,
+      "rating_count": 694,
+      "timestamp": "2026-05-07 01:45:03"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "mint.woman.female.workout",
+      "rank": 10,
+      "name": "Women Workout: Lose Belly Fat",
+      "developer": "Min Fitness",
+      "store_url": "https://play.google.com/store/apps/details?id=mint.woman.female.workout",
+      "icon_url": "https://play-lh.googleusercontent.com/mskLPoGKOUe-CQrvjVSgEst1j186pYpOR6A0E4DKTYcCy0ea56qTG8jX1V6gOlamOY8",
+      "timestamp": "2026-05-07 01:45:15"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "com.alphaprogression.alphaprogression",
+      "rank": 25,
+      "name": "Alpha Progression Gym Tracker",
+      "developer": "Alpha Progression",
+      "store_url": "https://play.google.com/store/apps/details?id=com.alphaprogression.alphaprogression",
+      "icon_url": "https://play-lh.googleusercontent.com/vDZ-U_DCbBEDOUjADNg2zsYOJSWW67wCYsFXV2nXmLuGdZe3w-DCqwTF_sAK6Fuf28Y",
+      "timestamp": "2026-05-07 01:45:15"
+    },
+    {
+      "platform": "Google Play",
+      "category": "生活方式",
+      "app_id": "com.lofat.lifestyle",
+      "rank": 16,
+      "name": "Lofat LifeStyle",
+      "developer": "Lofat",
+      "store_url": "https://play.google.com/store/apps/details?id=com.lofat.lifestyle",
+      "icon_url": "https://play-lh.googleusercontent.com/3sj8jTxKrT8frwDYxqOSbFSnK4R2N9nSNKHHCMqRkek-Nz8v2d5uaZGyNgfcd8ZuefZuk-Dfw0839OBFBSeBmw",
+      "timestamp": "2026-05-07 01:45:22"
+    },
+    {
+      "platform": "Google Play",
+      "category": "生活方式",
+      "app_id": "com.pixelbrewstudio.clozzie",
+      "rank": 29,
+      "name": "Clozzie - Your Digital Closet",
+      "developer": "PixelBrew Studio",
+      "store_url": "https://play.google.com/store/apps/details?id=com.pixelbrewstudio.clozzie",
+      "icon_url": "https://play-lh.googleusercontent.com/25j_DlNqJha0RB5dlNFbb2Z6gKu5CY7xdXmnZ8Nzxgwy6VPJGpeDPuPr_vzESeLHjb0",
+      "timestamp": "2026-05-07 01:45:22"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "net.soft.openvpn",
+      "rank": 22,
+      "name": "EMB TOOLS",
+      "developer": "KHRANITELI ISTORII",
+      "store_url": "https://play.google.com/store/apps/details?id=net.soft.openvpn",
+      "icon_url": "https://play-lh.googleusercontent.com/H56Zm7U9nZVZBWKJlFW4vNMXrTq50IVq4IglOoRsOzyxba3n-fDLgW_7GYEKPggZ3sf3ue0uZY0TrUgoIA-GxQ",
+      "timestamp": "2026-05-07 01:45:32"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.zentix.zpinger",
+      "rank": 23,
+      "name": "Z Pinger: Network Stabilizer",
+      "developer": "ZentixTeam",
+      "store_url": "https://play.google.com/store/apps/details?id=com.zentix.zpinger",
+      "icon_url": "https://play-lh.googleusercontent.com/MAefvOHHU3yK2symQz49jnhMNeBJhUFPT4I0rOMVVSkkPierXkA7ZpSVtAxZ9NhJlw8WCP1msVirwJTs0m6lvw",
+      "timestamp": "2026-05-07 01:45:32"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.Relmtech.Remote",
+      "rank": 26,
+      "name": "Unified Remote",
+      "developer": "Unified Intents",
+      "store_url": "https://play.google.com/store/apps/details?id=com.Relmtech.Remote",
+      "icon_url": "https://play-lh.googleusercontent.com/0Tz2uTthM78_Z7TWC0tEWkoSetmudHFJKtHt7_0hEtdjoXrk2wqGkO9V1lWmFIzX1ww",
+      "timestamp": "2026-05-07 01:45:32"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.toolboxpro.app",
+      "rank": 27,
+      "name": "ToolBox Pro",
+      "developer": "GO Apps",
+      "store_url": "https://play.google.com/store/apps/details?id=com.toolboxpro.app",
+      "icon_url": "https://play-lh.googleusercontent.com/_RHgjDbi4neFaBlkt3XWMiUMRzKckdvYQikror9TLG7OuZ-0theJmya04Y-PWodtzhr-zKGD90IA7Iu9fL9n8Ns",
+      "timestamp": "2026-05-07 01:45:32"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.hungrybolo.remotemouseandroid",
+      "rank": 29,
+      "name": "Remote Mouse",
+      "developer": "Remote Mouse",
+      "store_url": "https://play.google.com/store/apps/details?id=com.hungrybolo.remotemouseandroid",
+      "icon_url": "https://play-lh.googleusercontent.com/SdvvARqZs4m4oesKw6maedFDV9ftdFCArqsiRj09lzu8km-hY7U1uGgT03dfUeGgSNM",
+      "timestamp": "2026-05-07 01:45:32"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.bryancandi.android.uituner",
+      "rank": 30,
+      "name": "System UI Tuner",
+      "developer": "High Desert Computing",
+      "store_url": "https://play.google.com/store/apps/details?id=com.bryancandi.android.uituner",
+      "icon_url": "https://play-lh.googleusercontent.com/6LmhbpN3oB_X-3dKND3AZWqQIcYYAUCltNCxiKZD9RFqvoF--mv569ArF_cqDKznEA",
+      "timestamp": "2026-05-07 01:45:32"
+    }
+  ],
+  "generated_at": "2026-05-07 01:45:35"
+}
