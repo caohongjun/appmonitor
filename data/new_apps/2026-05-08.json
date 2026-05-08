@@ -1,0 +1,112 @@
+{
+  "date": "2026-05-08",
+  "compare_date": "2026-05-07",
+  "total_count": 8,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "ripple.naviron.place",
+      "itunes_id": "6764525789",
+      "rank": 87,
+      "name": "Naviron",
+      "developer": "HARRY COX",
+      "store_url": "https://apps.apple.com/us/app/naviron/id6764525789?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/08/ad/fc08ad49-0d69-5087-4e81-56c7e2b5895d/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+      "release_date": "2026/04/29",
+      "rating": 0,
+      "rating_count": 0,
+      "timestamp": "2026-05-08 01:48:04"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.innovativedigitaltechnologies.Unrepost",
+      "itunes_id": "6756911575",
+      "rank": 96,
+      "name": "Unrepostify: Remove Reposts",
+      "developer": "INNOVATIVE DIGITAL TECHNOLOGIES LIMITED",
+      "store_url": "https://apps.apple.com/us/app/unrepostify-remove-reposts/id6756911575?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dd/83/66/dd836631-abe0-1c14-6f7a-18233a316a5b/Unrepostify-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+      "release_date": "2025/12/26",
+      "rating": 4.59158,
+      "rating_count": 950,
+      "timestamp": "2026-05-08 01:48:04"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.withus.lifesimulation",
+      "itunes_id": "6761469046",
+      "rank": 90,
+      "name": "Rap Star:Idle Clicker",
+      "developer": "聪 马",
+      "store_url": "https://apps.apple.com/us/app/rap-star-idle-clicker/id6761469046?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/03/ec/c5/03ecc55e-7392-5227-3dbb-fded0356b91d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/04/03",
+      "rating": 4.85812,
+      "rating_count": 874,
+      "timestamp": "2026-05-08 01:48:15"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.netease.dfjsna",
+      "itunes_id": "6461415696",
+      "rank": 100,
+      "name": "Racing Master",
+      "developer": "NETEASE INTERACTIVE ENTERTAINMENT PTE. LTD",
+      "store_url": "https://apps.apple.com/us/app/racing-master/id6461415696?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/9e/78/d89e78a5-cebc-6b35-eb2e-c766fb89ba56/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/05/06",
+      "rating": 0,
+      "rating_count": 0,
+      "timestamp": "2026-05-08 01:48:15"
+    },
+    {
+      "platform": "Google Play",
+      "category": "生活方式",
+      "app_id": "com.nichecreatives.calvoapp3",
+      "rank": 23,
+      "name": "Calvo's Lifestyle Club",
+      "developer": "Calvo's Insurance Underwriters, Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.nichecreatives.calvoapp3",
+      "icon_url": "https://play-lh.googleusercontent.com/pqGFU1-6hiSxjMW_D8QZoHMcxe9RkIbj5QBgXn3Wp2rGQeZQzqksXBEn__l7kv9ZTLCD",
+      "timestamp": "2026-05-08 01:48:27"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.mishuto.pingtest",
+      "rank": 10,
+      "name": "Pingmon - network ping monitor",
+      "developer": "mishuto",
+      "store_url": "https://play.google.com/store/apps/details?id=com.mishuto.pingtest",
+      "icon_url": "https://play-lh.googleusercontent.com/MrGrdz8iDZzBEofCkjeyW-wQZuMYPzbkDmGzEPL3S8W7jrJwOZD2Kb_Mf7b_GJLHfw",
+      "timestamp": "2026-05-08 01:48:37"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.constagility.nxttools",
+      "rank": 21,
+      "name": "NxtTools: QR & PDF Doc Scanner",
+      "developer": "Const Agility, LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=com.constagility.nxttools",
+      "icon_url": "https://play-lh.googleusercontent.com/LVDYe7dLT9ZsqrxYoOhFzS07ZWEzPW8ResO8PFvKoPPkk-57dwcPBY8-41ssckLcfgs7DUaRmzgJVtjmTsPForA",
+      "timestamp": "2026-05-08 01:48:37"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.dastanapps.androiddevtools",
+      "rank": 29,
+      "name": "Dev Tools: Decompiler,Analyzer",
+      "developer": "dastanApps",
+      "store_url": "https://play.google.com/store/apps/details?id=com.dastanapps.androiddevtools",
+      "icon_url": "https://play-lh.googleusercontent.com/xL51lseJ-7twNaBOMJreOsFUkvm23AmJwfaYR5j3-xwQ3AdR2X5zNF0lxM3AdyqG66CHywYw6XqCR-t9m7AFqQk",
+      "timestamp": "2026-05-08 01:48:37"
+    }
+  ],
+  "generated_at": "2026-05-08 01:48:40"
+}
