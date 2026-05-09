@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-09",
+  "compare_date": "2026-05-08",
+  "total_count": 5,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.google.fit",
+      "itunes_id": "1433864494",
+      "rank": 79,
+      "name": "Google Fit: Activity Tracker",
+      "developer": "Google",
+      "store_url": "https://apps.apple.com/us/app/google-fit-activity-tracker/id1433864494?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d1/28/27/d1282732-f20f-0f6f-12fb-39c2e4f31093/logo_gfit_color-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220-0.png/100x100bb.png",
+      "release_date": "2019/04/24",
+      "rating": 4.26183,
+      "rating_count": 2135,
+      "timestamp": "2026-05-09 01:43:53"
+    },
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.akrura.bloodpressure.health.monitor.app",
+      "itunes_id": "6474598021",
+      "rank": 90,
+      "name": "Blood Pressure App-BP Tracker",
+      "developer": "AKRURA PTE. LTD",
+      "store_url": "https://apps.apple.com/us/app/blood-pressure-app-bp-tracker/id6474598021?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/52/f8/0152f80b-94e8-b5a3-0af1-443cb3a6b1b5/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+      "release_date": "2024/01/05",
+      "rating": 4.47868,
+      "rating_count": 5956,
+      "timestamp": "2026-05-09 01:43:53"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.slg.policewar",
+      "itunes_id": "6757350661",
+      "rank": 15,
+      "name": "Police Chief",
+      "developer": "VoyagerOne",
+      "store_url": "https://apps.apple.com/us/app/police-chief/id6757350661?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/7d/42/5f7d42d8-fa17-f3ed-041a-2fdbcc81f879/AppIcon-1x_U007emarketing-0-5-85-220-0.png/100x100bb.png",
+      "release_date": "2026/05/08",
+      "rating": 0,
+      "rating_count": 0,
+      "timestamp": "2026-05-09 01:44:11"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.AppFore.BubbleWordJam",
+      "itunes_id": "6754839783",
+      "rank": 74,
+      "name": "Bubble Word Jam",
+      "developer": "Lion Studios Plus",
+      "store_url": "https://apps.apple.com/us/app/bubble-word-jam/id6754839783?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/19/70/59197092-01dd-3a52-3f97-51569939c1f1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/02/04",
+      "rating": 4.7171,
+      "rating_count": 4620,
+      "timestamp": "2026-05-09 01:44:11"
+    },
+    {
+      "platform": "Google Play",
+      "category": "生活方式",
+      "app_id": "com.bri.lifestylehub",
+      "rank": 25,
+      "name": "BRI - Your Lifestyle Hub",
+      "developer": "BRI APP",
+      "store_url": "https://play.google.com/store/apps/details?id=com.bri.lifestylehub",
+      "icon_url": "https://play-lh.googleusercontent.com/WaixlfdxG1kDmVR7Yw7QoubRR6QiTU2GfeJ32dyDT0e8GcHuhS9EU_l9thUAPYdaaBz0WcLZfwg4Fj5-I_CP9w",
+      "timestamp": "2026-05-09 01:44:22"
+    }
+  ],
+  "generated_at": "2026-05-09 01:44:35"
+}
