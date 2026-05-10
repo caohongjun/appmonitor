@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-10",
+  "compare_date": "2026-05-09",
+  "total_count": 4,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.scoutiosapp.scout",
+      "itunes_id": "6755553298",
+      "rank": 79,
+      "name": "Scout - Health Analysis",
+      "developer": "Wise Concepts LLC",
+      "store_url": "https://apps.apple.com/us/app/scout-health-analysis/id6755553298?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a6/40/b1/a640b104-5a43-969d-c92d-f988534286f0/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2025/12/03",
+      "rating": 4.72137,
+      "rating_count": 524,
+      "timestamp": "2026-05-10 01:44:46"
+    },
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.sw.HealthMonitor",
+      "itunes_id": "6746488495",
+      "rank": 99,
+      "name": "Blood Pressure- Health Monitor",
+      "developer": "GREEN CODE NETWORK TECHNOLOGY LIMITED",
+      "store_url": "https://apps.apple.com/us/app/blood-pressure-health-monitor/id6746488495?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1a/12/82/1a128259-6be9-f407-0ac6-6dff57d283ac/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png",
+      "release_date": "2025/05/30",
+      "rating": 3.93906,
+      "rating_count": 640,
+      "timestamp": "2026-05-10 01:44:46"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.flatgames.football.referee.simulator",
+      "itunes_id": "6742241805",
+      "rank": 99,
+      "name": "Soccer Referee Simulator 3D",
+      "developer": "J LABS TEKNOLOJI ANONIM SIRKETI",
+      "store_url": "https://apps.apple.com/us/app/soccer-referee-simulator-3d/id6742241805?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0f/78/8d/0f788de2-adb7-3328-f1b1-d65364b3887a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2025/03/26",
+      "rating": 4.63698,
+      "rating_count": 6512,
+      "timestamp": "2026-05-10 01:45:03"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.brb.iptools.c",
+      "rank": 29,
+      "name": "IP Tools & Geolocation",
+      "developer": "BRB Apps",
+      "store_url": "https://play.google.com/store/apps/details?id=com.brb.iptools.c",
+      "icon_url": "https://play-lh.googleusercontent.com/2Qcn1OaEHWr59AxjAe8gd-qLQM7bOVmzDLAO0gEcThdBPd8GE_gIWmNTSXvlwgHp3pA",
+      "timestamp": "2026-05-10 01:45:26"
+    }
+  ],
+  "generated_at": "2026-05-10 01:45:29"
+}
