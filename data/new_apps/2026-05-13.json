@@ -1,0 +1,68 @@
+{
+  "date": "2026-05-13",
+  "compare_date": "2026-05-12",
+  "total_count": 4,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "yuno.live.game",
+      "itunes_id": "6760016002",
+      "rank": 80,
+      "name": "Vera - Live Stream, Chat, Game",
+      "developer": "Chiwendu Ndubuisi",
+      "store_url": "https://apps.apple.com/us/app/vera-live-stream-chat-game/id6760016002?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d4/73/13/d4731348-092d-3487-f5c5-667d41a36e65/AppIcon-1x_U007ephone-0-1-0-85-220-0.png/100x100bb.png",
+      "release_date": "2026/04/06",
+      "rating": 4.69231,
+      "rating_count": 26,
+      "timestamp": "2026-05-13 01:52:24"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.indyx.ios",
+      "itunes_id": "1599179405",
+      "rank": 79,
+      "name": "Indyx: Wardrobe & Outfit App",
+      "developer": "Indyx Inc.",
+      "store_url": "https://apps.apple.com/us/app/indyx-wardrobe-outfit-app/id1599179405?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b1/37/5a/b1375a97-1615-099a-03c3-5b887761ba1d/AppIcon-1x_U007epad-0-1-85-220-0.png/100x100bb.png",
+      "release_date": "2022/01/20",
+      "rating": 4.78437,
+      "rating_count": 1280,
+      "timestamp": "2026-05-13 01:52:30"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.relatio.app",
+      "itunes_id": "6642703892",
+      "rank": 93,
+      "name": "Relatio: Couples Relationship",
+      "developer": "ARBINARE LIMITED",
+      "store_url": "https://apps.apple.com/us/app/relatio-couples-relationship/id6642703892?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d2/f0/ec/d2f0ecf5-bf3c-ec1a-8a16-4fa225f9071a/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "release_date": "2024/10/03",
+      "rating": 4.57157,
+      "rating_count": 9278,
+      "timestamp": "2026-05-13 01:52:30"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.aihair.app",
+      "itunes_id": "6740919592",
+      "rank": 96,
+      "name": "HairApp: AI Hairstyle Try On",
+      "developer": "XLABS DIJITAL HIZMETLER ANONIM SIRKETI",
+      "store_url": "https://apps.apple.com/us/app/hairapp-ai-hairstyle-try-on/id6740919592?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/50/a1/58/50a158d0-6f3e-c357-7fa9-175281e2dd02/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "release_date": "2025/02/21",
+      "rating": 4.19337,
+      "rating_count": 4582,
+      "timestamp": "2026-05-13 01:52:30"
+    }
+  ],
+  "generated_at": "2026-05-13 01:53:01"
+}
