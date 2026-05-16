@@ -1,0 +1,97 @@
+{
+  "date": "2026-05-16",
+  "compare_date": "2026-05-15",
+  "total_count": 7,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.ideation.Stress",
+      "itunes_id": "6444737095",
+      "rank": 97,
+      "name": "StressWatch: AI Stress Monitor",
+      "developer": "One Hundred Bad Ideas Limited",
+      "store_url": "https://apps.apple.com/us/app/stresswatch-ai-stress-monitor/id6444737095?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/37/44/56/37445627-3d30-acb0-3a66-7d942211cff8/AppIcon-0-0-1x_U007ephone-0-0-0-1-0-0-sRGB-0-85-220.png/100x100bb.png",
+      "release_date": "2023/04/26",
+      "rating": 4.6845,
+      "rating_count": 19173,
+      "timestamp": "2026-05-16 01:46:17"
+    },
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.voodoo.almanac",
+      "itunes_id": "6742649363",
+      "rank": 98,
+      "name": "The Almanac",
+      "developer": "Krzysztof Janik",
+      "store_url": "https://apps.apple.com/us/app/the-almanac/id6742649363?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/45/71/98/457198b0-e1e1-25e1-d710-83a394f0b75f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2025/03/20",
+      "rating": 4.50122,
+      "rating_count": 3691,
+      "timestamp": "2026-05-16 01:46:17"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.tricky.story.brain.puzzle",
+      "itunes_id": "6757844491",
+      "rank": 77,
+      "name": "Tricky Story 2: Brain Twist",
+      "developer": "Tang Thi Thuy",
+      "store_url": "https://apps.apple.com/us/app/tricky-story-2-brain-twist/id6757844491?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9d/b1/c1/9db1c1d2-c3e9-7471-9222-920b2fc665dd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/01/22",
+      "rating": 4.67387,
+      "rating_count": 3698,
+      "timestamp": "2026-05-16 01:46:34"
+    },
+    {
+      "platform": "Google Play",
+      "category": "生活方式",
+      "app_id": "com.indyx.android",
+      "rank": 23,
+      "name": "Indyx: Wardrobe & Outfit App",
+      "developer": "Indyx Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.indyx.android",
+      "icon_url": "https://play-lh.googleusercontent.com/fxnmfmFNonjH1ePt2NdjrhP_ARPr_0gHpNKidq0tsuWYkGe425fj-Ax8wZGtzEMg_q8",
+      "timestamp": "2026-05-16 01:46:45"
+    },
+    {
+      "platform": "Google Play",
+      "category": "生活方式",
+      "app_id": "com.halogo.lifestyle",
+      "rank": 27,
+      "name": "HaloGo Lifestyle",
+      "developer": "Winner Venture Sdn Bhd",
+      "store_url": "https://play.google.com/store/apps/details?id=com.halogo.lifestyle",
+      "icon_url": "https://play-lh.googleusercontent.com/KclCZSm3-2belO8f-UvixvIDwtYLTwuiDNmQvXCQB1NDlcnVFcV1y420BLBb94bAmvQ",
+      "timestamp": "2026-05-16 01:46:45"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "ua.com.streamsoft.pingtoolspro",
+      "rank": 15,
+      "name": "PingTools Pro",
+      "developer": "Yaroslav Syrytsia",
+      "store_url": "https://play.google.com/store/apps/details?id=ua.com.streamsoft.pingtoolspro",
+      "icon_url": "https://play-lh.googleusercontent.com/jaNNoCl7wQNhZPXG_pJPbPX1S4ufwfoM59mNCd-7UjwbtTs8drJmoA3I0RVeYYH2B_s_",
+      "timestamp": "2026-05-16 01:46:56"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.pandads.livescore",
+      "rank": 26,
+      "name": "ToolGPT All In One Tool",
+      "developer": "VinhMedia",
+      "store_url": "https://play.google.com/store/apps/details?id=com.pandads.livescore",
+      "icon_url": "https://play-lh.googleusercontent.com/ZGmxlJdaLdydoCdQW1biJe-sr3vhmULmwMVYOJbuAZOXNXp4KkXEUND8laZSmtrXqFRaiAs3kbP7YaYg2muRJA",
+      "timestamp": "2026-05-16 01:46:56"
+    }
+  ],
+  "generated_at": "2026-05-16 01:46:59"
+}
