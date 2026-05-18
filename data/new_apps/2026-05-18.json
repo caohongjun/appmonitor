@@ -1,0 +1,38 @@
+{
+  "date": "2026-05-18",
+  "compare_date": "2026-05-17",
+  "total_count": 2,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "global.leostudio.smarthome",
+      "itunes_id": "6738117098",
+      "rank": 91,
+      "name": "Smart Life - Smart Home App",
+      "developer": "LeoStudio Global",
+      "store_url": "https://apps.apple.com/us/app/smart-life-smart-home-app/id6738117098?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/c9/82/fcc982fa-a053-b4a2-ba86-8fa91dba6690/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2024/12/18",
+      "rating": 4.50237,
+      "rating_count": 5052,
+      "timestamp": "2026-05-18 01:59:47"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.game.thatsmyseat",
+      "itunes_id": "6532601126",
+      "rank": 80,
+      "name": "That’s My Seat – Logic Puzzle",
+      "developer": "ROOFTOP GAMES OYUN TEKNOLOJILERI ANONIM SIRKETI",
+      "store_url": "https://apps.apple.com/us/app/thats-my-seat-logic-puzzle/id6532601126?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/02/ad/b6/02adb620-ef0e-d06d-0b5e-fb4991f9113d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2024/07/22",
+      "rating": 4.89999,
+      "rating_count": 69920,
+      "timestamp": "2026-05-18 01:59:52"
+    }
+  ],
+  "generated_at": "2026-05-18 02:00:17"
+}
