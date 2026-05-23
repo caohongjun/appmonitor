@@ -1,0 +1,75 @@
+{
+  "date": "2026-05-23",
+  "compare_date": "2026-05-22",
+  "total_count": 5,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.facebook.agora",
+      "itunes_id": "6758308862",
+      "rank": 20,
+      "name": "Forum, a Facebook app",
+      "developer": "Meta Platforms, Inc.",
+      "store_url": "https://apps.apple.com/us/app/forum-a-facebook-app/id6758308862?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5d/c9/14/5dc91405-b712-277b-d775-c2ee2cb943b3/ember-app-icon-05062026-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2026/05/21",
+      "rating": 5,
+      "rating_count": 13,
+      "timestamp": "2026-05-23 01:50:32"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.fh.eu.drc.ios",
+      "itunes_id": "6751308171",
+      "rank": 65,
+      "name": "Dragon Raja: ReRise - RPG",
+      "developer": "Archosaur Games",
+      "store_url": "https://apps.apple.com/us/app/dragon-raja-rerise-rpg/id6751308171?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/6f/77/c16f7737-9b43-c505-b641-f6620b566045/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/05/22",
+      "rating": 0,
+      "rating_count": 0,
+      "timestamp": "2026-05-23 01:50:44"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.press.under.pressure",
+      "itunes_id": "6760447851",
+      "rank": 69,
+      "name": "Press under stress",
+      "developer": "Thuy On",
+      "store_url": "https://apps.apple.com/us/app/press-under-stress/id6760447851?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/26/69/08/2669082d-ac76-5387-2e90-93e0128c50d3/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+      "release_date": "2026/04/19",
+      "rating": 1.90323,
+      "rating_count": 31,
+      "timestamp": "2026-05-23 01:50:44"
+    },
+    {
+      "platform": "Google Play",
+      "category": "生活方式",
+      "app_id": "com.mvillage.app",
+      "rank": 11,
+      "name": "Modern Village Lifestyle",
+      "developer": "M Village",
+      "store_url": "https://play.google.com/store/apps/details?id=com.mvillage.app",
+      "icon_url": "https://play-lh.googleusercontent.com/wEX7ci7hL8TJDvyzxCfLiPtDSzJDDginKksaAwUtlnH5QsR0DKBp2aWyjNpYgsqV6RAKHjTSs_nKiB9IneJ2sA",
+      "timestamp": "2026-05-23 01:50:56"
+    },
+    {
+      "platform": "Google Play",
+      "category": "游戏",
+      "app_id": "com.activision.callofduty.shooter",
+      "rank": 13,
+      "name": "Call of Duty®: Mobile",
+      "developer": "Activision Publishing, Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.activision.callofduty.shooter",
+      "icon_url": "https://play-lh.googleusercontent.com/cfGSXkDwxa1jW3TlhhkDJBN16-1_KEtEDhnILPcs9rXcC25g14XY6MRGCtlXHFHs0g",
+      "timestamp": "2026-05-23 01:50:59"
+    }
+  ],
+  "generated_at": "2026-05-23 01:51:09"
+}
