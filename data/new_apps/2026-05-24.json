@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-24",
+  "compare_date": "2026-05-23",
+  "total_count": 5,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "fithub.ios",
+      "itunes_id": "6624298392",
+      "rank": 79,
+      "name": "FitHub - AI Calorie Tracker",
+      "developer": "MWM",
+      "store_url": "https://apps.apple.com/us/app/fithub-ai-calorie-tracker/id6624298392?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dd/dc/7c/dddc7cc9-e128-8485-e667-5bc9c85fb6f1/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "release_date": "2024/08/14",
+      "rating": 4.84093,
+      "rating_count": 19463,
+      "timestamp": "2026-05-24 01:56:57"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "app.swiftgram.ios",
+      "itunes_id": "6471879502",
+      "rank": 27,
+      "name": "Swiftgram: Telegram mod client",
+      "developer": "Akentech Ltd",
+      "store_url": "https://apps.apple.com/us/app/swiftgram-telegram-mod-client/id6471879502?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a3/90/cb/a390cb78-e707-4e48-7b35-071cf75a3f97/Swiftgram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2023/12/08",
+      "rating": 4.18727,
+      "rating_count": 534,
+      "timestamp": "2026-05-24 01:57:03"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.QuickCastPro600lpk.app",
+      "itunes_id": "6751531247",
+      "rank": 93,
+      "name": "Getting Out - Video Visit",
+      "developer": "BLESS YOUR LITTLE ART LLC",
+      "store_url": "https://apps.apple.com/us/app/getting-out-video-visit/id6751531247?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/92/a5/1e/92a51ecf-a1e2-b940-44eb-a886755e238a/N1-0-0-1x_U007epad-0-11-0-85-220.jpeg/100x100bb.png",
+      "release_date": "2026/05/19",
+      "rating": 4.57143,
+      "rating_count": 14,
+      "timestamp": "2026-05-24 01:57:03"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.netflix.NGP.Kamo",
+      "itunes_id": "6743944297",
+      "rank": 93,
+      "name": "Red Dead Redemption NETFLIX",
+      "developer": "Netflix, Inc.",
+      "store_url": "https://apps.apple.com/us/app/red-dead-redemption-netflix/id6743944297?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ea/96/56/ea965654-f78a-bb79-6c7f-82f361f5a1f2/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "release_date": "2025/12/02",
+      "rating": 4.80036,
+      "rating_count": 45608,
+      "timestamp": "2026-05-24 01:57:14"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "com.jun.noequipment.workoutathome",
+      "rank": 8,
+      "name": "Workout at Home: No Equipment",
+      "developer": "JunStudio",
+      "store_url": "https://play.google.com/store/apps/details?id=com.jun.noequipment.workoutathome",
+      "icon_url": "https://play-lh.googleusercontent.com/3zOd_Oah8kYzXJEi7RiwowuMtm73TPwRERd_FWQclWqNEE5_zATOG5bv-jMDDIBqEudb",
+      "timestamp": "2026-05-24 01:57:20"
+    }
+  ],
+  "generated_at": "2026-05-24 01:57:39"
+}
