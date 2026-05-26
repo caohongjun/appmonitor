@@ -1,0 +1,83 @@
+{
+  "date": "2026-05-26",
+  "compare_date": "2026-05-25",
+  "total_count": 5,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.auraapp.com",
+      "itunes_id": "6738584485",
+      "rank": 44,
+      "name": "Aura - Feel Alive Again",
+      "developer": "Alessio Gherasim",
+      "store_url": "https://apps.apple.com/us/app/aura-feel-alive-again/id6738584485?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/10/a6/c1/10a6c121-df43-4e9c-eb60-241f1d1635b5/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "release_date": "2025/01/15",
+      "rating": 4.85576,
+      "rating_count": 1865,
+      "timestamp": "2026-05-26 01:54:56"
+    },
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "app.meagain.app",
+      "itunes_id": "6744178534",
+      "rank": 90,
+      "name": "MeAgain: GLP-1 Tracker App",
+      "developer": "Dots Future Technologies",
+      "store_url": "https://apps.apple.com/us/app/meagain-glp-1-tracker-app/id6744178534?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7d/03/21/7d0321a5-8a75-e7f5-bd84-5fc998287d83/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "release_date": "2025/04/11",
+      "rating": 4.80504,
+      "rating_count": 16993,
+      "timestamp": "2026-05-26 01:54:56"
+    },
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.apptuitive.workoutgoalapp",
+      "itunes_id": "1136617388",
+      "rank": 94,
+      "name": "Running Walking Tracker Goals",
+      "developer": "AK Apptuitive GmbH",
+      "store_url": "https://apps.apple.com/us/app/running-walking-tracker-goals/id1136617388?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/96/c1/d3/96c1d3e3-4324-cf49-cb8c-8f138a09eba6/AppIcon-0-0-1x_U007ephone-0-1-0-P3-85-220.png/100x100bb.png",
+      "release_date": "2016/10/18",
+      "rating": 4.81973,
+      "rating_count": 102512,
+      "timestamp": "2026-05-26 01:54:56"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.swimply.ios",
+      "itunes_id": "1472785554",
+      "rank": 62,
+      "name": "Swimply - Rent Private Pools",
+      "developer": "Swimply Inc.",
+      "store_url": "https://apps.apple.com/us/app/swimply-rent-private-pools/id1472785554?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5d/01/a9/5d01a903-adbe-f037-3770-1ead2e0b37b1/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "release_date": "2019/07/18",
+      "rating": 4.78285,
+      "rating_count": 23159,
+      "timestamp": "2026-05-26 01:55:09"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.merge.cooking.theme.restaurant.food",
+      "itunes_id": "1643509748",
+      "rank": 92,
+      "name": "Merge Cooking®",
+      "developer": "Happibits",
+      "store_url": "https://apps.apple.com/us/app/merge-cooking/id1643509748?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/78/8c/0f/788c0f8f-9a02-e127-c58c-e236e501dca3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2022/09/19",
+      "rating": 4.72968,
+      "rating_count": 35329,
+      "timestamp": "2026-05-26 01:55:15"
+    }
+  ],
+  "generated_at": "2026-05-26 01:55:41"
+}
