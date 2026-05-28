@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-28",
+  "compare_date": "2026-05-27",
+  "total_count": 5,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.oorie.ios",
+      "itunes_id": "6753041651",
+      "rank": 54,
+      "name": "Oorie - Connect, Meet, Chat",
+      "developer": "语萱 魏",
+      "store_url": "https://apps.apple.com/us/app/oorie-connect-meet-chat/id6753041651?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/17/11/e5/1711e5ef-fc30-8a85-1b7b-c3c05226b34b/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png",
+      "release_date": "2025/09/28",
+      "rating": 4.69231,
+      "rating_count": 26,
+      "timestamp": "2026-05-28 01:47:16"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.vzw.familybase",
+      "itunes_id": "923408272",
+      "rank": 37,
+      "name": "Verizon Family",
+      "developer": "Verizon Wireless",
+      "store_url": "https://apps.apple.com/us/app/verizon-family/id923408272?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/26/a5/40/26a54058-0532-c88c-eb49-338c11ffac16/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2014/11/05",
+      "rating": 4.30058,
+      "rating_count": 35418,
+      "timestamp": "2026-05-28 01:47:22"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "net.fieldagent.fieldagent",
+      "itunes_id": "364946558",
+      "rank": 38,
+      "name": "Field Agent",
+      "developer": "Field Agent",
+      "store_url": "https://apps.apple.com/us/app/field-agent/id364946558?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/42/77/91427788-b5f6-175b-130b-eef30e846030/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "release_date": "2010/04/17",
+      "rating": 4.64658,
+      "rating_count": 12014,
+      "timestamp": "2026-05-28 01:47:22"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.oakever.meowdoku",
+      "itunes_id": "6761760135",
+      "rank": 96,
+      "name": "Meowdoku!",
+      "developer": "Oakever Games",
+      "store_url": "https://apps.apple.com/us/app/meowdoku/id6761760135?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e1/a3/d8/e1a3d851-6252-411a-b2df-5fb72e0f042f/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png",
+      "release_date": "2026/05/19",
+      "rating": 4.88732,
+      "rating_count": 142,
+      "timestamp": "2026-05-28 01:47:28"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.inteniquetic.tools",
+      "rank": 28,
+      "name": "Tools - PDF, Zip, QR, Image",
+      "developer": "INTENIQUETIC",
+      "store_url": "https://play.google.com/store/apps/details?id=com.inteniquetic.tools",
+      "icon_url": "https://play-lh.googleusercontent.com/ii4CpXXVXXwrsrzI3l3dXGtgdTSEzjrnXiUvPR0zOlS_8TOKXXKiI8_Lj-auQ9i6zDkhXOoUROdPMEn7dB4S",
+      "timestamp": "2026-05-28 01:47:51"
+    }
+  ],
+  "generated_at": "2026-05-28 01:47:54"
+}
