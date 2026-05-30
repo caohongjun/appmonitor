@@ -1,0 +1,101 @@
+{
+  "date": "2026-05-30",
+  "compare_date": "2026-05-29",
+  "total_count": 7,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.dukapp.app",
+      "itunes_id": "6761582262",
+      "rank": 80,
+      "name": "DUKapp",
+      "developer": "DIARIO DE 1 KORREDOR LLC",
+      "store_url": "https://apps.apple.com/us/app/dukapp/id6761582262?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/2d/30/6e2d3074-bc23-0722-7e72-c973ae1bec4a/duk_icon-0-0-1x_U007epad-0-1-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2026/05/23",
+      "rating": 5,
+      "rating_count": 1,
+      "timestamp": "2026-05-30 01:51:34"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.example.nyme.chat",
+      "itunes_id": "6754820478",
+      "rank": 98,
+      "name": "Voice Chat Nyme сhat",
+      "developer": "Maksim Tukhbatullin",
+      "store_url": "https://apps.apple.com/us/app/voice-chat-nyme-%D1%81hat/id6754820478?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/77/dd/15/77dd15bd-0899-6127-743f-6009bbf157f2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2025/12/01",
+      "rating": 4.24887,
+      "rating_count": 221,
+      "timestamp": "2026-05-30 01:51:40"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.famircle.family",
+      "itunes_id": "6758696583",
+      "rank": 98,
+      "name": "Famircle: Family Locator",
+      "developer": "Ruisibai (shenzhen) Trading Co., Ltd",
+      "store_url": "https://apps.apple.com/us/app/famircle-family-locator/id6758696583?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/83/2c/75/832c75e7-e95b-7ab4-5365-996e20f8cfd7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/03/12",
+      "rating": 3.11111,
+      "rating_count": 9,
+      "timestamp": "2026-05-30 01:51:45"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.regulusstudio.profileperfect",
+      "itunes_id": "6759077038",
+      "rank": 92,
+      "name": "Profile Perfect",
+      "developer": "Lion Studios Plus",
+      "store_url": "https://apps.apple.com/us/app/profile-perfect/id6759077038?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b5/39/18/b53918e5-96d8-f860-4279-57b3c2b21207/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/03/16",
+      "rating": 4.7893,
+      "rating_count": 916,
+      "timestamp": "2026-05-30 01:51:50"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "com.talkin.learn",
+      "rank": 26,
+      "name": "Talkin: Global Friends & Chat",
+      "developer": "Octopus Paradise",
+      "store_url": "https://play.google.com/store/apps/details?id=com.talkin.learn",
+      "icon_url": "https://play-lh.googleusercontent.com/Vap-1ZxCbFVkMp0onm0Kz7FyCmRivS-i3pZA2NalN5E-rDRqD9YAWyHtg_ztxMyEALY",
+      "timestamp": "2026-05-30 01:51:59"
+    },
+    {
+      "platform": "Google Play",
+      "category": "游戏",
+      "app_id": "com.block.juggle",
+      "rank": 10,
+      "name": "Block Blast!",
+      "developer": "HungryStudio",
+      "store_url": "https://play.google.com/store/apps/details?id=com.block.juggle",
+      "icon_url": "https://play-lh.googleusercontent.com/R0qgNDYYHbRhw6JFsdEbDMqONplEvJx0m0W9wzYVvY3eNF1c2rfBWYjQxW0sLEzFe1E",
+      "timestamp": "2026-05-30 01:52:06"
+    },
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "com.weareher.her",
+      "rank": 23,
+      "name": "HER Lesbian, bi & queer dating",
+      "developer": "HER App",
+      "store_url": "https://play.google.com/store/apps/details?id=com.weareher.her",
+      "icon_url": "https://play-lh.googleusercontent.com/IfrOVjRNuBO-OFfUNrmrEnE5Q3EAfxjzXaemZTgsoAZfje1wzkr8xJPWLOZCOcFairs",
+      "timestamp": "2026-05-30 01:52:09"
+    }
+  ],
+  "generated_at": "2026-05-30 01:52:15"
+}
