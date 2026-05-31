@@ -1,0 +1,68 @@
+{
+  "date": "2026-05-31",
+  "compare_date": "2026-05-30",
+  "total_count": 4,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.example.retapApp",
+      "itunes_id": "6761388757",
+      "rank": 48,
+      "name": "Retap App",
+      "developer": "Ercan DEMIRBAS",
+      "store_url": "https://apps.apple.com/us/app/retap-app/id6761388757?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7b/a0/9f/7ba09f73-a16a-4ff3-a49d-28b337c29ed4/AppIcon-1x_U007epad-0-11-0-85-220-0.png/100x100bb.png",
+      "release_date": "2026/03/31",
+      "rating": 0,
+      "rating_count": 0,
+      "timestamp": "2026-05-31 02:04:52"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.rookery.courier",
+      "itunes_id": "6746680855",
+      "rank": 24,
+      "name": "Roost Social",
+      "developer": "Logan Mendelsohn",
+      "store_url": "https://apps.apple.com/us/app/roost-social/id6746680855?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/80/02/038002bc-f3ff-8e21-ee69-a9a94043ea2d/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+      "release_date": "2026/04/27",
+      "rating": 4.971,
+      "rating_count": 69,
+      "timestamp": "2026-05-31 02:04:57"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.fx.MessageBackup",
+      "itunes_id": "6698874872",
+      "rank": 84,
+      "name": "Dual Messenger & Duo Web",
+      "developer": "Fangzhou Interactive Technology Co., Limited",
+      "store_url": "https://apps.apple.com/us/app/dual-messenger-duo-web/id6698874872?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/c6/42/0ac64269-d8d8-2345-62a4-efd7f1a5e8c5/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2024/10/23",
+      "rating": 3.98148,
+      "rating_count": 54,
+      "timestamp": "2026-05-31 02:04:57"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.gimica.nonocross",
+      "itunes_id": "6755181817",
+      "rank": 95,
+      "name": "Nonocross",
+      "developer": "Gimica GmbH",
+      "store_url": "https://apps.apple.com/us/app/nonocross/id6755181817?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/76/19/80/76198057-561a-d25e-f1e5-0c33f1c32516/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/05/04",
+      "rating": 1.6875,
+      "rating_count": 16,
+      "timestamp": "2026-05-31 02:05:08"
+    }
+  ],
+  "generated_at": "2026-05-31 02:05:33"
+}
