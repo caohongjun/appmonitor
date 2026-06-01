@@ -1,0 +1,83 @@
+{
+  "date": "2026-06-01",
+  "compare_date": "2026-05-31",
+  "total_count": 5,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.topmuse.health",
+      "itunes_id": "6730116702",
+      "rank": 88,
+      "name": "Glowise: GLP-1 Tracker & Diary",
+      "developer": "VOCALBEATS.AI PTE. LTD.",
+      "store_url": "https://apps.apple.com/us/app/glowise-glp-1-tracker-diary/id6730116702?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/51/41/81/51418100-8021-37c3-7288-46387182c64e/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.jpeg/100x100bb.png",
+      "release_date": "2024/11/06",
+      "rating": 4.8307,
+      "rating_count": 443,
+      "timestamp": "2026-06-01 02:13:20"
+    },
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.myorganicapps.organicfit",
+      "itunes_id": "1188810254",
+      "rank": 95,
+      "name": "Organic Fit: Workout for Women",
+      "developer": "OrganicApps",
+      "store_url": "https://apps.apple.com/us/app/organic-fit-workout-for-women/id1188810254?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/95/48/ad/9548add7-fd63-3373-5791-defdf185a724/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.png/100x100bb.png",
+      "release_date": "2017/01/29",
+      "rating": 4.50683,
+      "rating_count": 28037,
+      "timestamp": "2026-06-01 02:13:20"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.avilap.socialaut",
+      "itunes_id": "6738157030",
+      "rank": 30,
+      "name": "SocialAut",
+      "developer": "Felipe Avila Parra",
+      "store_url": "https://apps.apple.com/us/app/socialaut/id6738157030?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/95/a2/54/95a25423-fd69-57ad-d287-e9790aa06d89/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "release_date": "2025/01/23",
+      "rating": 1.70435,
+      "rating_count": 345,
+      "timestamp": "2026-06-01 02:13:25"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.reactions.Salo-Talks",
+      "itunes_id": "1600195477",
+      "rank": 39,
+      "name": "yope: friends-only pics",
+      "developer": "Salo App, Inc.",
+      "store_url": "https://apps.apple.com/us/app/yope-friends-only-pics/id1600195477?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/b3/40/69b34074-ba9b-02d3-71c4-624094b0fafb/AppIcon-yope-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
+      "release_date": "2022/06/01",
+      "rating": 4.7095,
+      "rating_count": 7580,
+      "timestamp": "2026-06-01 02:13:31"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.fc.goods.sort.matching.puzzle.triplemaster",
+      "itunes_id": "6482849843",
+      "rank": 98,
+      "name": "Goods Puzzle: Sort Challenge",
+      "developer": "ONESOFT GLOBAL PTE. LTD.",
+      "store_url": "https://apps.apple.com/us/app/goods-puzzle-sort-challenge/id6482849843?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6c/35/12/6c351271-66eb-3c37-082b-fd6ead3f269b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2024/04/11",
+      "rating": 4.77665,
+      "rating_count": 162690,
+      "timestamp": "2026-06-01 02:13:37"
+    }
+  ],
+  "generated_at": "2026-06-01 02:14:02"
+}

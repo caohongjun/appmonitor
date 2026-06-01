@@ -1,0 +1,152 @@
+{
+  "date": "2026-06-01",
+  "platform": "Google Play",
+  "category": "健康与健身",
+  "category_key": "health_fitness",
+  "total_apps": 13,
+  "apps": [
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "homeworkoutapp.homeworkout.fitness.workout.loseweight",
+      "rank": 1,
+      "name": "Home Workout App: Fitness",
+      "developer": "EZ Health",
+      "store_url": "https://play.google.com/store/apps/details?id=homeworkoutapp.homeworkout.fitness.workout.loseweight",
+      "icon_url": "https://play-lh.googleusercontent.com/Aa1K2ZNlT28gVEJQMKi4XkAVUpLdkoLW2DWO7wth6b4HPIKSg3ZZDakQWcHu7SMZTMw",
+      "timestamp": "2026-06-01 02:13:42"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "homeworkout.homeworkouts.noequipment",
+      "rank": 2,
+      "name": "Home Workout - No Equipment",
+      "developer": "Leap Fitness Group",
+      "store_url": "https://play.google.com/store/apps/details?id=homeworkout.homeworkouts.noequipment",
+      "icon_url": "https://play-lh.googleusercontent.com/NlQFS5pgo96dzbRuwZfkBhGf3ecKSGH5lRx0DSsmELYZXRYHlXrd7YVCR7tS7-R84eEVLhZ1qBIQj1WP_RCJAQ",
+      "timestamp": "2026-06-01 02:13:42"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "fitness.online.app",
+      "rank": 3,
+      "name": "Fitness App: Gym Workout Plan",
+      "developer": "FITNESS ONLINE LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=fitness.online.app",
+      "icon_url": "https://play-lh.googleusercontent.com/Vkr8u7qdY--dP5UnKsmw63Lgl3vRpmTpw37OCH0SSu7IOZqviEvKyma2OTQuiuVTapkW",
+      "timestamp": "2026-06-01 02:13:42"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "com.jun.noequipment.workoutathome",
+      "rank": 4,
+      "name": "Workout at Home: No Equipment",
+      "developer": "JunStudio",
+      "store_url": "https://play.google.com/store/apps/details?id=com.jun.noequipment.workoutathome",
+      "icon_url": "https://play-lh.googleusercontent.com/3zOd_Oah8kYzXJEi7RiwowuMtm73TPwRERd_FWQclWqNEE5_zATOG5bv-jMDDIBqEudb",
+      "timestamp": "2026-06-01 02:13:42"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "com.google.android.apps.fitness",
+      "rank": 5,
+      "name": "Google Fit: Activity Tracking",
+      "developer": "Google LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.fitness",
+      "icon_url": "https://play-lh.googleusercontent.com/jArSD-kxOa2llPXvqrjRcEJdL4XhjP8-WqEfg9UAlYF8v0qzXAZ0EI5k96l0pf3tDNg",
+      "timestamp": "2026-06-01 02:13:42"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "com.fitbod.fitbod",
+      "rank": 6,
+      "name": "Fitbod: Workout & Gym Planner",
+      "developer": "Fitbod",
+      "store_url": "https://play.google.com/store/apps/details?id=com.fitbod.fitbod",
+      "icon_url": "https://play-lh.googleusercontent.com/guPBWiFOsOm7jUUMKrErSvZuSTNqo3hOgLom_FEQoprZmdpPrFa1I0S5v1IReOP3gQ",
+      "timestamp": "2026-06-01 02:13:42"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "com.mapmyfitness.android2",
+      "rank": 7,
+      "name": "Map My Fitness Workout Tracker",
+      "developer": "MapMyFitness, Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.mapmyfitness.android2",
+      "icon_url": "https://play-lh.googleusercontent.com/MWwj8jBLB4-PFPvXyx4Tdiy1m4yrPM8hkTwG0jLvbiAFvjI2pLt46RbVUO_AafWKUmc",
+      "timestamp": "2026-06-01 02:13:42"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "com.fiton.android",
+      "rank": 8,
+      "name": "FitOn Workouts & Fitness Plans",
+      "developer": "FitOn",
+      "store_url": "https://play.google.com/store/apps/details?id=com.fiton.android",
+      "icon_url": "https://play-lh.googleusercontent.com/3F1LsBjZ2p-UjP2hwJa--jk_5gzHHezaQ8n381RI4u11DSb647zt07UVUNO4ZHVtdQ",
+      "timestamp": "2026-06-01 02:13:42"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "se.perigee.android.seven",
+      "rank": 9,
+      "name": "Seven - 7 Minute Workout",
+      "developer": "Perigee AB",
+      "store_url": "https://play.google.com/store/apps/details?id=se.perigee.android.seven",
+      "icon_url": "https://play-lh.googleusercontent.com/YghIS4tR31fXXRMYTctx_AjR5FMrNIH_4KfQ3XDd2zjiTvNhZC8OCNKCSN-b71CgiQ",
+      "timestamp": "2026-06-01 02:13:42"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "weightloss.weightlossforwomen.workoutforwomen.womenworkout",
+      "rank": 10,
+      "name": "Weight Loss for Women: Workout",
+      "developer": "EZ Health",
+      "store_url": "https://play.google.com/store/apps/details?id=weightloss.weightlossforwomen.workoutforwomen.womenworkout",
+      "icon_url": "https://play-lh.googleusercontent.com/DZEKi4NV0sDwH-zqXioEVCkjVjatPts4JREjZdNcfcy2YYkvrOXLI6f70EUYJu4ITnpdjO4KSO0SJZ66sK4J",
+      "timestamp": "2026-06-01 02:13:42"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "com.gymdone.gymworkouttrainer",
+      "rank": 11,
+      "name": "Gym Workout & Personal Trainer",
+      "developer": "BALANCED",
+      "store_url": "https://play.google.com/store/apps/details?id=com.gymdone.gymworkouttrainer",
+      "icon_url": "https://play-lh.googleusercontent.com/KS8pd3v9bKEo0n4e6t5dvLl64uU68P0y1mzlUIn1RcQn6PIPh7T27ftzlxuLOoodQU_Vh7t-kTEWBnoSPbPi",
+      "timestamp": "2026-06-01 02:13:42"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "pilatesworkout.yogaworkout.loseweight.workoutapps",
+      "rank": 12,
+      "name": "Pilates Workout at Home",
+      "developer": "EZ Health",
+      "store_url": "https://play.google.com/store/apps/details?id=pilatesworkout.yogaworkout.loseweight.workoutapps",
+      "icon_url": "https://play-lh.googleusercontent.com/FVHDgDvUP2K1sLSB9GkFBIwVSdYCODsGN3cy7EY54sqNbgbT-WspLj_QLk5njQtZY2A",
+      "timestamp": "2026-06-01 02:13:42"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "com.fitifyworkouts.bodyweight.workoutapp",
+      "rank": 13,
+      "name": "Fitify: Fitness, Home Workout",
+      "developer": "Fitify Workouts s.r.o.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.fitifyworkouts.bodyweight.workoutapp",
+      "icon_url": "https://play-lh.googleusercontent.com/_Yzyk1Hq_3K0nbgS-Ox3XwKUuef6oFbw3SdHAdViQZ-We7lY1AVAhxjMYKucFF2hiw",
+      "timestamp": "2026-06-01 02:13:42"
+    }
+  ]
+}
