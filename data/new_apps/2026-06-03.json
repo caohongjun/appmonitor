@@ -1,0 +1,101 @@
+{
+  "date": "2026-06-03",
+  "compare_date": "2026-06-02",
+  "total_count": 7,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.hello.purr",
+      "itunes_id": "6475722361",
+      "rank": 43,
+      "name": "Purrrr-Feed&Rescue Stray Cats",
+      "developer": "HI-BIKE HK LIMITED",
+      "store_url": "https://apps.apple.com/us/app/purrrr-feed-rescue-stray-cats/id6475722361?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/a1/28/8aa128ff-6ab3-d2e6-2211-81a8fe70d08f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2024/03/19",
+      "rating": 4.61599,
+      "rating_count": 3599,
+      "timestamp": "2026-06-03 02:32:02"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.ocho.grug",
+      "itunes_id": "6751649802",
+      "rank": 35,
+      "name": "grug",
+      "developer": "Ocho",
+      "store_url": "https://apps.apple.com/us/app/grug/id6751649802?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3a/ce/a3/3acea313-0d9b-4147-431a-95cd34c2da14/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "release_date": "2025/09/04",
+      "rating": 4.86813,
+      "rating_count": 455,
+      "timestamp": "2026-06-03 02:32:07"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.wb.hotd.socialstrategy",
+      "itunes_id": "1642607669",
+      "rank": 25,
+      "name": "Game of Thrones: Dragonfire",
+      "developer": "Warner Bros.",
+      "store_url": "https://apps.apple.com/us/app/game-of-thrones-dragonfire/id1642607669?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/36/6f/51/366f515c-8280-c5a2-b52b-95ebb9046a7b/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+      "release_date": "2026/06/02",
+      "rating": 4.8,
+      "rating_count": 5,
+      "timestamp": "2026-06-03 02:32:12"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.nytimes.wordgame",
+      "itunes_id": "6615086509",
+      "rank": 100,
+      "name": "NYT Crossplay: Word Games",
+      "developer": "The New York Times Company",
+      "store_url": "https://apps.apple.com/us/app/nyt-crossplay-word-games/id6615086509?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/5b/8b/ed5b8b2d-dfd5-7a27-733e-35ffbc7e9575/Release-0-0-1x_U007ephone-0-1-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2026/01/20",
+      "rating": 4.846,
+      "rating_count": 171948,
+      "timestamp": "2026-06-03 02:32:12"
+    },
+    {
+      "platform": "Google Play",
+      "category": "生活方式",
+      "app_id": "com.asanayoga.asanarebel",
+      "rank": 13,
+      "name": "Asana Rebel: Get in Shape",
+      "developer": "Asana Rebel",
+      "store_url": "https://play.google.com/store/apps/details?id=com.asanayoga.asanarebel",
+      "icon_url": "https://play-lh.googleusercontent.com/Oh4eK71R5ePjWilNoCm5sSLhSn35VJXnCx7ZxG26ySYz4nCpTi_uD09nGzarf0Ayxg",
+      "timestamp": "2026-06-03 02:32:24"
+    },
+    {
+      "platform": "Google Play",
+      "category": "生活方式",
+      "app_id": "com.myntra.android",
+      "rank": 21,
+      "name": "Myntra - Fashion Shopping App",
+      "developer": "Myntra",
+      "store_url": "https://play.google.com/store/apps/details?id=com.myntra.android",
+      "icon_url": "https://play-lh.googleusercontent.com/wpnNPYIrdHC3Q_bcFXGpwoMvFvvvQnZJHmFKzumq5ZTRZKIzfxURAUGOMqhPhVxnggY",
+      "timestamp": "2026-06-03 02:32:24"
+    },
+    {
+      "platform": "Google Play",
+      "category": "生活方式",
+      "app_id": "com.lifeactivator.pcosexercise",
+      "rank": 25,
+      "name": "PCOS Exercise & Lifestyle",
+      "developer": "Life Activator",
+      "store_url": "https://play.google.com/store/apps/details?id=com.lifeactivator.pcosexercise",
+      "icon_url": "https://play-lh.googleusercontent.com/Xorc9SxyyFVxiVMDXMPL3iPKduaIIrLSC13p9AQsci0RGodhfqBxXp9k6h8_cggSwA",
+      "timestamp": "2026-06-03 02:32:24"
+    }
+  ],
+  "generated_at": "2026-06-03 02:32:37"
+}
