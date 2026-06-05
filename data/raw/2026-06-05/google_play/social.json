@@ -1,0 +1,130 @@
+{
+  "date": "2026-06-05",
+  "platform": "Google Play",
+  "category": "社交",
+  "category_key": "social",
+  "total_apps": 11,
+  "apps": [
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "com.whatsapp",
+      "rank": 1,
+      "name": "WhatsApp Messenger",
+      "developer": "WhatsApp LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=com.whatsapp",
+      "icon_url": "https://play-lh.googleusercontent.com/Gqxk4T0uZsDwFp07DE-508hkyvcNmgFuRwPiwTEfF7D7OzGv1FdHDzEyMxNsSBZLOJlGpe3ULvVM2RgrRAlBqA",
+      "timestamp": "2026-06-05 02:03:21"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "org.thoughtcrime.securesms",
+      "rank": 2,
+      "name": "Signal Private Messenger",
+      "developer": "Signal Foundation",
+      "store_url": "https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms",
+      "icon_url": "https://play-lh.googleusercontent.com/FtGKSwVtpmMxKoJrJuI837DkYGRsqlMdiVPAd8bomLQZ3_Hc55XokY_dYdXKgGagiYs",
+      "timestamp": "2026-06-05 02:03:21"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "com.kakao.talk",
+      "rank": 3,
+      "name": "KakaoTalk : Messenger",
+      "developer": "Kakao Corp.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.kakao.talk",
+      "icon_url": "https://play-lh.googleusercontent.com/KwGCiEolNEeR9Q4RFOnDtb8Pvqs3LNiQEdE07wMCnoULO3yLUprHbGGLBYNEt8k7WJY",
+      "timestamp": "2026-06-05 02:03:21"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "org.telegram.messenger",
+      "rank": 4,
+      "name": "Telegram",
+      "developer": "Telegram FZ-LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=org.telegram.messenger",
+      "icon_url": "https://play-lh.googleusercontent.com/ZU9cSsyIJZo6Oy7HTHiEPwZg0m2Crep-d5ZrfajqtsH-qgUXSqKpNA2FpPDTn-7qA5Q",
+      "timestamp": "2026-06-05 02:03:21"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "com.google.android.apps.dynamite",
+      "rank": 5,
+      "name": "Google Chat",
+      "developer": "Google LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.dynamite",
+      "icon_url": "https://play-lh.googleusercontent.com/2pKBdPtkuDBhkMgyxXk9LtWA2FA1C1xUqJMddKONxbjr9NYOmlZzCT5HC8e3IOmhpOE",
+      "timestamp": "2026-06-05 02:03:21"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "com.tencent.mm",
+      "rank": 6,
+      "name": "WeChat",
+      "developer": "WeChat",
+      "store_url": "https://play.google.com/store/apps/details?id=com.tencent.mm",
+      "icon_url": "https://play-lh.googleusercontent.com/dsQ_iB6i-B_FSmgaOpLA-FmHC5U7pjqzV7P6FFr0USeKEl2Y7LqsLQIEeqhjweXHMLUKBF_WOf2TmMOxcYcT",
+      "timestamp": "2026-06-05 02:03:21"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "com.viber.voip",
+      "rank": 7,
+      "name": "Rakuten Viber Messenger",
+      "developer": "Viber Media",
+      "store_url": "https://play.google.com/store/apps/details?id=com.viber.voip",
+      "icon_url": "https://play-lh.googleusercontent.com/EbQM-vsHv42Hg6qZvuK47q_cK3-KObc9GRlhNBWebX0AWrg5nMD92Kniqz8Z1BFpD3U",
+      "timestamp": "2026-06-05 02:03:21"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "com.facebook.orca",
+      "rank": 8,
+      "name": "Messenger",
+      "developer": "Meta Platforms, Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.facebook.orca",
+      "icon_url": "https://play-lh.googleusercontent.com/cuRpiGqvAMkcbAOibD-AKCBagAunUkspQUWC_jVZF2Hob_ODdmkefnZeqkofW1idFQHhgZgnLIjsqT-2v7JKBw",
+      "timestamp": "2026-06-05 02:03:21"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "com.facebook.talk",
+      "rank": 9,
+      "name": "Messenger Kids – The Messaging",
+      "developer": "Meta Platforms, Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.facebook.talk",
+      "icon_url": "https://play-lh.googleusercontent.com/vwlHz3KjU8Cy1YBUsXI6Jnn-N_LdEMmOptzJeKBKDQvt2N5XjNbDqlpRyrm6_UkSjLc",
+      "timestamp": "2026-06-05 02:03:21"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "com.google.android.apps.messaging",
+      "rank": 10,
+      "name": "Google Messages",
+      "developer": "Google LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.messaging",
+      "icon_url": "https://play-lh.googleusercontent.com/9AZOTXU_CpreTFAXUPAmJNkm8VGCb1C90fjJ9pHGcVmpGMDSTq3cUbaQJdBT9Tdp9A",
+      "timestamp": "2026-06-05 02:03:21"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "com.discord",
+      "rank": 11,
+      "name": "Discord - Talk, Play, Hang Out",
+      "developer": "Discord Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.discord",
+      "icon_url": "https://play-lh.googleusercontent.com/0oO5sAneb9lJP6l8c6DH4aj6f85qNpplQVHmPmbbBxAukDnlO7DarDW0b-kEIHa8SQ",
+      "timestamp": "2026-06-05 02:03:21"
+    }
+  ]
+}
