@@ -1,0 +1,101 @@
+{
+  "date": "2026-06-06",
+  "compare_date": "2026-06-05",
+  "total_count": 7,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.approver.stretchy",
+      "itunes_id": "6738283379",
+      "rank": 88,
+      "name": "Stretch Go: Stretching Splits",
+      "developer": "App Rover",
+      "store_url": "https://apps.apple.com/us/app/stretch-go-stretching-splits/id6738283379?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a2/7e/36/a27e3633-9ecf-68be-6616-040433579d68/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2024/12/02",
+      "rating": 4.49113,
+      "rating_count": 2482,
+      "timestamp": "2026-06-06 01:54:29"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "org.vettix.vettix",
+      "itunes_id": "6451155639",
+      "rank": 76,
+      "name": "Vet Tix",
+      "developer": "Veteran Tickets Foundation",
+      "store_url": "https://apps.apple.com/us/app/vet-tix/id6451155639?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/de/a4/badea4b0-e66a-39b6-04c1-447a2479e39f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2023/08/27",
+      "rating": 3.60741,
+      "rating_count": 270,
+      "timestamp": "2026-06-06 01:54:41"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.hallmarkcardsnow.app",
+      "itunes_id": "1673592071",
+      "rank": 94,
+      "name": "Hallmark Cards Now",
+      "developer": "Hallmark Marketing Company, LLC",
+      "store_url": "https://apps.apple.com/us/app/hallmark-cards-now/id1673592071?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c2/fc/60/c2fc60bf-3808-4974-e79c-6a3957bd1c67/AppIcon-Prod-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+      "release_date": "2023/07/16",
+      "rating": 4.90259,
+      "rating_count": 8090,
+      "timestamp": "2026-06-06 01:54:41"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.yongyesea.ios",
+      "itunes_id": "6759942065",
+      "rank": 84,
+      "name": "Ever Night: Reawakening",
+      "developer": "LONGSIN GAME",
+      "store_url": "https://apps.apple.com/us/app/ever-night-reawakening/id6759942065?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1a/ba/b3/1abab340-3ced-23a3-5737-4236e5abf9a7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "release_date": "2026/06/05",
+      "rating": 0,
+      "rating_count": 0,
+      "timestamp": "2026-06-06 01:54:47"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "com.snapchat.android",
+      "rank": 7,
+      "name": "Snapchat",
+      "developer": "Snap Inc",
+      "store_url": "https://play.google.com/store/apps/details?id=com.snapchat.android",
+      "icon_url": "https://play-lh.googleusercontent.com/KxeSAjPTKliCErbivNiXrd6cTwfbqUJcbSRPe_IBVK_YmwckfMRS1VIHz-5cgT09yMo",
+      "timestamp": "2026-06-06 01:54:55"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "com.groupme.android",
+      "rank": 11,
+      "name": "GroupMe",
+      "developer": "GroupMe",
+      "store_url": "https://play.google.com/store/apps/details?id=com.groupme.android",
+      "icon_url": "https://play-lh.googleusercontent.com/3v5rY1LyfDpINaf1MIQXOE1cwt37Xnwf1h82UQsqsW8RyF6qaJmgOHxjQ3BGU3MS7A",
+      "timestamp": "2026-06-06 01:54:55"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "jp.naver.line.android",
+      "rank": 16,
+      "name": "LINE: Calls & Messages",
+      "developer": "LINE (LY Corporation)",
+      "store_url": "https://play.google.com/store/apps/details?id=jp.naver.line.android",
+      "icon_url": "https://play-lh.googleusercontent.com/74iMObG1vsR3Kfm82RjERFhf99QFMNIY211oMvN636_gULghbRBMjpVFTjOK36oxCbs",
+      "timestamp": "2026-06-06 01:54:55"
+    }
+  ],
+  "generated_at": "2026-06-06 01:55:12"
+}
