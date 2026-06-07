@@ -1,0 +1,90 @@
+{
+  "date": "2026-06-07",
+  "compare_date": "2026-06-06",
+  "total_count": 6,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.chatbcc",
+      "itunes_id": "6740636919",
+      "rank": 79,
+      "name": "ChatBCC",
+      "developer": "ChatBCC, Inc.",
+      "store_url": "https://apps.apple.com/us/app/chatbcc/id6740636919?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/08/76/19/08761968-3c40-1364-62df-f818e29e85ad/AppIcon-Release-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "release_date": "2025/01/29",
+      "rating": 4.92453,
+      "rating_count": 901,
+      "timestamp": "2026-06-07 02:10:05"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "US.Luxy.Luxy",
+      "itunes_id": "873518909",
+      "rank": 97,
+      "name": "Luxy - Selective Dating App",
+      "developer": "Luxy Inc.",
+      "store_url": "https://apps.apple.com/us/app/luxy-selective-dating-app/id873518909?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/84/62/42/846242b1-44a2-d9f1-fc59-8f25e13926f9/AppIcon_Luxy-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2014/05/20",
+      "rating": 4.72244,
+      "rating_count": 103899,
+      "timestamp": "2026-06-07 02:10:05"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "phone.location.tracker",
+      "itunes_id": "1669041518",
+      "rank": 96,
+      "name": "Phone Tracker - Family Locator",
+      "developer": "Webpeak OU",
+      "store_url": "https://apps.apple.com/us/app/phone-tracker-family-locator/id1669041518?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dc/2d/8f/dc2d8fb6-ffc7-7811-7293-f84344265aa5/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/100x100bb.png",
+      "release_date": "2023/05/31",
+      "rating": 4.34987,
+      "rating_count": 61963,
+      "timestamp": "2026-06-07 02:10:10"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.flow.cannon-ball",
+      "itunes_id": "6748084174",
+      "rank": 72,
+      "name": "Smash Fest!",
+      "developer": "Flow Games Bilisim Yazilim ve Pazarlama Anonim Sirketi",
+      "store_url": "https://apps.apple.com/us/app/smash-fest/id6748084174?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/54/f5/4a/54f54a94-bef4-9e0d-6394-3a96a5f6ff23/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+      "release_date": "2025/12/16",
+      "rating": 3.45455,
+      "rating_count": 22,
+      "timestamp": "2026-06-07 02:10:15"
+    },
+    {
+      "platform": "Google Play",
+      "category": "游戏",
+      "app_id": "com.reliancegames.wwemayhem",
+      "rank": 19,
+      "name": "WWE Mayhem",
+      "developer": "Reliance Games",
+      "store_url": "https://play.google.com/store/apps/details?id=com.reliancegames.wwemayhem",
+      "icon_url": "https://play-lh.googleusercontent.com/voHPquozqNtCn0z-8Yx7acDPcz19bRlsjOOlk2QZ-kpjEXqCNc8js-qLzJPZ-CJz92qcoNauE2RqY-jx6swQrA",
+      "timestamp": "2026-06-07 02:10:32"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.tplink.networktoolsbox",
+      "rank": 29,
+      "name": "Wi-Fi Toolkit",
+      "developer": "TP-LINK SYSTEMS INC.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.tplink.networktoolsbox",
+      "icon_url": "https://play-lh.googleusercontent.com/HQn668OaX6uVVeL_9t83IUpW6CWNCn20aCgJj0aRpjo5k8F2DKwXqHByYdC8L5QIujk",
+      "timestamp": "2026-06-07 02:10:39"
+    }
+  ],
+  "generated_at": "2026-06-07 02:10:42"
+}
