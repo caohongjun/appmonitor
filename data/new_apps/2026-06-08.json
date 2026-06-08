@@ -1,0 +1,83 @@
+{
+  "date": "2026-06-08",
+  "compare_date": "2026-06-07",
+  "total_count": 5,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.ltrconnect.app",
+      "itunes_id": "1592464666",
+      "rank": 70,
+      "name": "1Mate",
+      "developer": "Novel Creations LLC",
+      "store_url": "https://apps.apple.com/us/app/1mate/id1592464666?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e3/29/de/e329dee8-e060-7bf3-5f0d-51a3686a31f6/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.png",
+      "release_date": "2022/03/09",
+      "rating": 5,
+      "rating_count": 4,
+      "timestamp": "2026-06-08 02:14:35"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.kalecard.kale",
+      "itunes_id": "1672660475",
+      "rank": 69,
+      "name": "Kale - Creator Rewards",
+      "developer": "Palette Technologies Inc",
+      "store_url": "https://apps.apple.com/us/app/kale-creator-rewards/id1672660475?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/40/3d/6d/403d6dd8-8324-b2d1-8421-5062f3f86aba/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "release_date": "2023/03/26",
+      "rating": 4.86148,
+      "rating_count": 5436,
+      "timestamp": "2026-06-08 02:14:41"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.swagbucksApp",
+      "itunes_id": "640439547",
+      "rank": 99,
+      "name": "Swagbucks: Surveys for Money",
+      "developer": "Prodege LLC",
+      "store_url": "https://apps.apple.com/us/app/swagbucks-surveys-for-money/id640439547?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/b9/31/97b93122-62f5-56cd-c2eb-2ac3e1f3a47b/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2013/07/23",
+      "rating": 4.39719,
+      "rating_count": 147733,
+      "timestamp": "2026-06-08 02:14:41"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "jigsaw.solitaire.match.games.free",
+      "itunes_id": "6767091927",
+      "rank": 91,
+      "name": "Jigsaw Drop: Solitaire Puzzle",
+      "developer": "Runyou Game",
+      "store_url": "https://apps.apple.com/us/app/jigsaw-drop-solitaire-puzzle/id6767091927?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/77/27/5b/77275bb1-9838-3b0b-31b7-54dc48a5de9f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/05/11",
+      "rating": 4.76254,
+      "rating_count": 3529,
+      "timestamp": "2026-06-08 02:14:45"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.ea.pvzfree.bv",
+      "itunes_id": "893677096",
+      "rank": 98,
+      "name": "Plants vs. Zombies™",
+      "developer": "Electronic Arts",
+      "store_url": "https://apps.apple.com/us/app/plants-vs-zombies/id893677096?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/53/23/af/5323af0f-1fb3-96ff-3992-539c97802f43/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2014/11/13",
+      "rating": 4.81524,
+      "rating_count": 908723,
+      "timestamp": "2026-06-08 02:14:45"
+    }
+  ],
+  "generated_at": "2026-06-08 02:15:11"
+}
