@@ -1,0 +1,64 @@
+{
+  "date": "2026-06-09",
+  "compare_date": "2026-06-08",
+  "total_count": 4,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "io.supercent.weaponrpg",
+      "itunes_id": "6740618570",
+      "rank": 90,
+      "name": "XP Hero",
+      "developer": "Supercent, Inc.",
+      "store_url": "https://apps.apple.com/us/app/xp-hero/id6740618570?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9a/e7/03/9ae703a6-fcf0-aae6-b533-a74751b473cf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2025/02/24",
+      "rating": 4.67481,
+      "rating_count": 11464,
+      "timestamp": "2026-06-09 01:52:10"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.duykanbakay.carconveyortransfer",
+      "itunes_id": "6758138698",
+      "rank": 93,
+      "name": "Car Sort: Color Puzzle",
+      "developer": "Rollic Games",
+      "store_url": "https://apps.apple.com/us/app/car-sort-color-puzzle/id6758138698?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/01/3b/88/013b88d7-35c7-dce9-6707-4e41a6277f5c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/01/26",
+      "rating": 4.73639,
+      "rating_count": 2883,
+      "timestamp": "2026-06-09 01:52:10"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.fluffydrop.op",
+      "itunes_id": "6762342518",
+      "rank": 100,
+      "name": "Fluffy Drop",
+      "developer": "UniRise Studio",
+      "store_url": "https://apps.apple.com/us/app/fluffy-drop/id6762342518?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e4/45/17/e4451773-1743-6759-60a8-1df5c1a38a4a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/04/21",
+      "rating": 4.9017,
+      "rating_count": 3734,
+      "timestamp": "2026-06-09 01:52:10"
+    },
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "net.lovoo.android",
+      "rank": 13,
+      "name": "LOVOO - Dating App & Chat App",
+      "developer": "PE Digital GmbH",
+      "store_url": "https://play.google.com/store/apps/details?id=net.lovoo.android",
+      "icon_url": "https://play-lh.googleusercontent.com/Htx7O3EZtpDhAD5aiiUQS55jmez-HGOm2mdyeTe6EoJry47wVDrHdfSfFJX4W5zBjAyO",
+      "timestamp": "2026-06-09 01:52:29"
+    }
+  ],
+  "generated_at": "2026-06-09 01:52:35"
+}
