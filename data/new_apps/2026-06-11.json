@@ -1,0 +1,79 @@
+{
+  "date": "2026-06-11",
+  "compare_date": "2026-06-10",
+  "total_count": 5,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.feels-app.feels",
+      "itunes_id": "1455618069",
+      "rank": 34,
+      "name": "Feels: Meet People Friend Date",
+      "developer": "feels",
+      "store_url": "https://apps.apple.com/us/app/feels-meet-people-friend-date/id1455618069?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/a6/94/62a6945b-a1c9-c7c6-0e16-392fc6d2ad9b/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "release_date": "2019/04/13",
+      "rating": 4.34631,
+      "rating_count": 1978,
+      "timestamp": "2026-06-11 02:14:02"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.prospinity.daimonapp",
+      "itunes_id": "6752447819",
+      "rank": 97,
+      "name": "Daimon: Get Honest Advice",
+      "developer": "Prospinity Inc",
+      "store_url": "https://apps.apple.com/us/app/daimon-get-honest-advice/id6752447819?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1c/21/77/1c2177a8-ef62-ede9-858b-4fee79acfb74/Daimon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2025/10/20",
+      "rating": 4.9193,
+      "rating_count": 14127,
+      "timestamp": "2026-06-11 02:14:07"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.haoplay.game.ios.duck",
+      "itunes_id": "6758334085",
+      "rank": 67,
+      "name": "Quack Quack Attack",
+      "developer": "HaoPlay Limited",
+      "store_url": "https://apps.apple.com/us/app/quack-quack-attack/id6758334085?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fb/04/f1/fb04f13c-1bfd-fb9f-a12e-c4d4f42b53f3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/06/10",
+      "rating": 0,
+      "rating_count": 0,
+      "timestamp": "2026-06-11 02:14:12"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.unept.leveldevil",
+      "itunes_id": "6477413486",
+      "rank": 98,
+      "name": "Level Devil - NOT A Troll Game",
+      "developer": "Poki B.V.",
+      "store_url": "https://apps.apple.com/us/app/level-devil-not-a-troll-game/id6477413486?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/c8/12/03c812f3-961b-07a9-ed7b-bb6dbbc10676/AppIcon-0-0-1x_U007epad-0-11-85-220.png/100x100bb.png",
+      "release_date": "2024/02/11",
+      "rating": 4.75751,
+      "rating_count": 44529,
+      "timestamp": "2026-06-11 02:14:12"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "com.discord",
+      "rank": 12,
+      "name": "Discord - Talk, Play, Hang Out",
+      "developer": "Discord Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.discord",
+      "icon_url": "https://play-lh.googleusercontent.com/0oO5sAneb9lJP6l8c6DH4aj6f85qNpplQVHmPmbbBxAukDnlO7DarDW0b-kEIHa8SQ",
+      "timestamp": "2026-06-11 02:14:21"
+    }
+  ],
+  "generated_at": "2026-06-11 02:14:37"
+}
