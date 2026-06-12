@@ -1,0 +1,56 @@
+{
+  "date": "2026-06-12",
+  "compare_date": "2026-06-11",
+  "total_count": 4,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.gowish.app",
+      "itunes_id": "1605170923",
+      "rank": 73,
+      "name": "GoWish - Your Digital Wishlist",
+      "developer": "Onskeskyen ApS",
+      "store_url": "https://apps.apple.com/us/app/gowish-your-digital-wishlist/id1605170923?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/13/0d/1f/130d1fa8-0e0d-da42-38ab-ecef1ae5acfb/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "release_date": "2023/04/03",
+      "rating": 4.7805,
+      "rating_count": 147711,
+      "timestamp": "2026-06-12 02:09:47"
+    },
+    {
+      "platform": "Google Play",
+      "category": "生活方式",
+      "app_id": "com.combyne.app",
+      "rank": 20,
+      "name": "Combyne - Outfit creation",
+      "developer": "combyne GmbH",
+      "store_url": "https://play.google.com/store/apps/details?id=com.combyne.app",
+      "icon_url": "https://play-lh.googleusercontent.com/2KMYM3SPVxJUDaFRTNVce4pz1hv1nuh4QOKxaeopaqGW3QZgdAnjA2ThGU_DEl7CtDPRQB_R2ts0N8oaAIsNHH4",
+      "timestamp": "2026-06-12 02:10:05"
+    },
+    {
+      "platform": "Google Play",
+      "category": "游戏",
+      "app_id": "com.microsoft.xboxone.smartglass",
+      "rank": 13,
+      "name": "XBOX",
+      "developer": "Microsoft Corporation",
+      "store_url": "https://play.google.com/store/apps/details?id=com.microsoft.xboxone.smartglass",
+      "icon_url": "https://play-lh.googleusercontent.com/zARzhQw-V25X6KCiciynwWtlzOfaS41kx2rZYecxPoY5Z248n-d3lyotuKL0fJYLEvQQ40QNsx8J2VSm2G7RjA",
+      "timestamp": "2026-06-12 02:10:08"
+    },
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "com.jaumo.casual",
+      "rank": 26,
+      "name": "HookUp & Casual Dating App CSL",
+      "developer": "Joyride GmbH",
+      "store_url": "https://play.google.com/store/apps/details?id=com.jaumo.casual",
+      "icon_url": "https://play-lh.googleusercontent.com/qtRCzE_-gAjg0GwbIyIt5BeimnVmM40sK8HGYaMEzCkDVt3-ez9qSXFyMLjcdfZ3YNzJ",
+      "timestamp": "2026-06-12 02:10:13"
+    }
+  ],
+  "generated_at": "2026-06-12 02:10:19"
+}
