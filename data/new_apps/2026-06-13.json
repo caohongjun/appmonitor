@@ -1,0 +1,23 @@
+{
+  "date": "2026-06-13",
+  "compare_date": "2026-06-12",
+  "total_count": 1,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.discz.housewarming",
+      "itunes_id": "6754855615",
+      "rank": 50,
+      "name": "Housewarming: close friends",
+      "developer": "Discz Music Inc.",
+      "store_url": "https://apps.apple.com/us/app/housewarming-close-friends/id6754855615?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ff/57/ef/ff57ef5d-c240-5ee6-4d0a-5eda27f4cd2f/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.jpeg/100x100bb.png",
+      "release_date": "2025/11/20",
+      "rating": 4.63917,
+      "rating_count": 97,
+      "timestamp": "2026-06-13 02:02:48"
+    }
+  ],
+  "generated_at": "2026-06-13 02:03:26"
+}
