@@ -1,0 +1,64 @@
+{
+  "date": "2026-06-14",
+  "compare_date": "2026-06-13",
+  "total_count": 4,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.walk.new.walkio",
+      "itunes_id": "6747422880",
+      "rank": 88,
+      "name": "Walkio",
+      "developer": "梦伟 陈",
+      "store_url": "https://apps.apple.com/us/app/walkio/id6747422880?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c3/9b/ac/c39bac6d-9b84-0c55-8bef-d683c363bf1b/AppIcon-1x_U007ephone-0-1-0-85-220-0.png/100x100bb.png",
+      "release_date": "2025/06/24",
+      "rating": 4.63659,
+      "rating_count": 1962,
+      "timestamp": "2026-06-14 02:13:11"
+    },
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.health.hrblAnalys",
+      "itunes_id": "6478762529",
+      "rank": 96,
+      "name": "Heartwell: Track Health",
+      "developer": "AURALIS NOVA TECHNOLOGY PTE. LTD.",
+      "store_url": "https://apps.apple.com/us/app/heartwell-track-health/id6478762529?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c7/a7/bd/c7a7bdaf-8d65-c154-e170-1be3014e0719/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.jpeg/100x100bb.png",
+      "release_date": "2024/03/01",
+      "rating": 4.71515,
+      "rating_count": 1815,
+      "timestamp": "2026-06-14 02:13:11"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.matchesapp.bazalik",
+      "itunes_id": "6762491074",
+      "rank": 23,
+      "name": "Buz tv Matches",
+      "developer": "Alain ALAMEDA",
+      "store_url": "https://apps.apple.com/us/app/buz-tv-matches/id6762491074?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/83/d8/ba/83d8ba43-1d5e-4af8-d554-0f854d05bda9/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+      "release_date": "2026/05/01",
+      "rating": 3,
+      "rating_count": 2,
+      "timestamp": "2026-06-14 02:13:22"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.google.android.apps.pixelmigrate",
+      "rank": 29,
+      "name": "Data Transfer Tool",
+      "developer": "Google LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.pixelmigrate",
+      "icon_url": "https://play-lh.googleusercontent.com/RDTbzYdc5l5wR_s_WkzaGmWed7pwM8sobk1AJCBWkYWWtttLHbv4MtnXMfnaU14_1rM",
+      "timestamp": "2026-06-14 02:13:49"
+    }
+  ],
+  "generated_at": "2026-06-14 02:13:52"
+}
