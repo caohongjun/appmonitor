@@ -1,0 +1,38 @@
+{
+  "date": "2026-06-15",
+  "compare_date": "2026-06-14",
+  "total_count": 2,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.app.iHomeWeight",
+      "itunes_id": "6471813274",
+      "rank": 97,
+      "name": "iHome Fitness & Health",
+      "developer": "Design Headquarters LLC",
+      "store_url": "https://apps.apple.com/us/app/ihome-fitness-health/id6471813274?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f1/d8/a2/f1d8a218-3a3d-d2ff-235e-76209614f4da/AppIcon-0-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+      "release_date": "2024/01/10",
+      "rating": 4.28962,
+      "rating_count": 9813,
+      "timestamp": "2026-06-15 02:28:48"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "io.heseri.car",
+      "itunes_id": "6754464806",
+      "rank": 96,
+      "name": "Car Evolve",
+      "developer": "Heseri Games Inc",
+      "store_url": "https://apps.apple.com/us/app/car-evolve/id6754464806?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a6/8f/55/a68f556f-91dc-88cf-cbbc-d71e4d8edfcc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2025/11/10",
+      "rating": 4.65238,
+      "rating_count": 1237,
+      "timestamp": "2026-06-15 02:29:02"
+    }
+  ],
+  "generated_at": "2026-06-15 02:29:27"
+}
