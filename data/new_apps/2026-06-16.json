@@ -1,0 +1,68 @@
+{
+  "date": "2026-06-16",
+  "compare_date": "2026-06-15",
+  "total_count": 4,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.earnstar.games.earn.money",
+      "itunes_id": "6744350457",
+      "rank": 95,
+      "name": "EarnStar: Earn Money Fast",
+      "developer": "Earn Star AB",
+      "store_url": "https://apps.apple.com/us/app/earnstar-earn-money-fast/id6744350457?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7c/c9/d5/7cc9d5e4-53ce-e69e-cee0-4e33a8c1aeed/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "release_date": "2025/04/13",
+      "rating": 4.66831,
+      "rating_count": 31909,
+      "timestamp": "2026-06-16 02:32:18"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.chorouk.mecchachameleon",
+      "itunes_id": "6775178121",
+      "rank": 66,
+      "name": "Meccha Chameleon Coloring",
+      "developer": "Ben brahim khalili Chorok",
+      "store_url": "https://apps.apple.com/us/app/meccha-chameleon-coloring/id6775178121?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4a/5a/93/4a5a9320-24b3-945c-3841-4ec2affa105f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "release_date": "2026/06/03",
+      "rating": 1.29412,
+      "rating_count": 68,
+      "timestamp": "2026-06-16 02:32:23"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.zowii.mechachameleon",
+      "itunes_id": "6774990170",
+      "rank": 79,
+      "name": "Mecha Chameleon",
+      "developer": "Youssef Drioua",
+      "store_url": "https://apps.apple.com/us/app/mecha-chameleon/id6774990170?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/38/71/03/3871034b-040d-98e5-59ae-49661b2391d1/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "release_date": "2026/06/04",
+      "rating": 3,
+      "rating_count": 182,
+      "timestamp": "2026-06-16 02:32:23"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "hidden.object.find.seek.search.mystery.puzzle.games.free",
+      "itunes_id": "6751270213",
+      "rank": 96,
+      "name": "Hidden Object Games: Seek It",
+      "developer": "NimbleMind",
+      "store_url": "https://apps.apple.com/us/app/hidden-object-games-seek-it/id6751270213?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fb/ae/10/fbae1037-5124-9c21-041f-773f5775894f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2025/09/18",
+      "rating": 4.94677,
+      "rating_count": 102333,
+      "timestamp": "2026-06-16 02:32:23"
+    }
+  ],
+  "generated_at": "2026-06-16 02:32:49"
+}
