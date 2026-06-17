@@ -1,0 +1,64 @@
+{
+  "date": "2026-06-17",
+  "compare_date": "2026-06-16",
+  "total_count": 4,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.vlogitapp.Vlogit",
+      "itunes_id": "6753156888",
+      "rank": 22,
+      "name": "Vlogit: Vlogs With Friends",
+      "developer": "Vlogit",
+      "store_url": "https://apps.apple.com/us/app/vlogit-vlogs-with-friends/id6753156888?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c0/00/de/c000de01-ad1e-b4f4-36f1-82d97ec2a78e/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2026/06/15",
+      "rating": 0,
+      "rating_count": 0,
+      "timestamp": "2026-06-17 02:29:00"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.solmira.note",
+      "itunes_id": "6767750481",
+      "rank": 78,
+      "name": "Solmira",
+      "developer": "Nupur Rastogi",
+      "store_url": "https://apps.apple.com/us/app/solmira/id6767750481?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/2e/0d/b62e0d01-98f3-f594-6315-a869d7af4bb6/AppIcon-1x_U007ephone-0-1-0-85-220-0.png/100x100bb.png",
+      "release_date": "2026/05/11",
+      "rating": 4.6699,
+      "rating_count": 1339,
+      "timestamp": "2026-06-17 02:29:05"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.pikpok.br.iosstore",
+      "itunes_id": "6736413272",
+      "rank": 32,
+      "name": "Barbie™ Horse Ride & Rescue",
+      "developer": "PikPok",
+      "store_url": "https://apps.apple.com/us/app/barbie-horse-ride-rescue/id6736413272?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d7/34/f8/d734f8b0-b517-20d4-bcfd-ccc1d8eba567/AppIcon01_Both_Barbies-0-0-1x_U007epad-0-11-0-P3-85-220.png/100x100bb.png",
+      "release_date": "2026/06/16",
+      "rating": 0,
+      "rating_count": 0,
+      "timestamp": "2026-06-17 02:29:11"
+    },
+    {
+      "platform": "Google Play",
+      "category": "生活方式",
+      "app_id": "com.WahaLifestyle.android",
+      "rank": 18,
+      "name": "Waha Lifestyle",
+      "developer": "Waha Lifestyle",
+      "store_url": "https://play.google.com/store/apps/details?id=com.WahaLifestyle.android",
+      "icon_url": "https://play-lh.googleusercontent.com/61vk0oToYCgvXyydfgxw7M1y7FMQ3Z_IJHs1kQ10gk-U_lQ2nmiaw34K58KBCnD_B7UmTvJOAiaz9mQYRNrsRA",
+      "timestamp": "2026-06-17 02:29:23"
+    }
+  ],
+  "generated_at": "2026-06-17 02:29:36"
+}
