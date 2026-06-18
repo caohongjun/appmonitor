@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-18",
+  "compare_date": "2026-06-17",
+  "total_count": 3,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.feedcoyote.app",
+      "itunes_id": "1659437896",
+      "rank": 95,
+      "name": "Feedcoyote – Freelance Jobs",
+      "developer": "Feedcoyote",
+      "store_url": "https://apps.apple.com/us/app/feedcoyote-freelance-jobs/id1659437896?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f9/1e/8f/f91e8f3c-1a45-9d0b-b2d3-50b342e481bb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.jpeg/100x100bb.png",
+      "release_date": "2022/12/27",
+      "rating": 4.42623,
+      "rating_count": 61,
+      "timestamp": "2026-06-18 02:14:34"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "jp.pokemon.pokemonchampions",
+      "itunes_id": "6741503079",
+      "rank": 1,
+      "name": "Pokémon Champions",
+      "developer": "The Pokemon Company",
+      "store_url": "https://apps.apple.com/us/app/pok%C3%A9mon-champions/id6741503079?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fb/df/08/fbdf085f-5aec-446d-7ebc-eab804aebeae/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/06/17",
+      "rating": 0,
+      "rating_count": 0,
+      "timestamp": "2026-06-18 02:14:45"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.fiogonia.rummy500",
+      "itunes_id": "6742179041",
+      "rank": 99,
+      "name": "Rummy 500 - Card Game *",
+      "developer": "Fiogonia Games",
+      "store_url": "https://apps.apple.com/us/app/rummy-500-card-game/id6742179041?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ac/96/9c/ac969c0d-151b-9909-5761-48d4f2802e33/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2025/06/02",
+      "rating": 4.88992,
+      "rating_count": 19452,
+      "timestamp": "2026-06-18 02:14:45"
+    }
+  ],
+  "generated_at": "2026-06-18 02:15:12"
+}
