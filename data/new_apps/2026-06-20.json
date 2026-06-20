@@ -1,0 +1,104 @@
+{
+  "date": "2026-06-20",
+  "compare_date": "2026-06-19",
+  "total_count": 8,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.cash.advance.zora",
+      "itunes_id": "6763320578",
+      "rank": 91,
+      "name": "Instant Cash Advance - Zora",
+      "developer": "TC FUNDING V DESIGNATED ACTIVITY COMPANY",
+      "store_url": "https://apps.apple.com/us/app/instant-cash-advance-zora/id6763320578?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b0/79/b1/b079b146-14ab-de48-7438-05d562cfecc9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/06/09",
+      "rating": 4.7111,
+      "rating_count": 45,
+      "timestamp": "2026-06-20 02:03:35"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.vigafun.funfinity.foodhunt",
+      "itunes_id": "6769314786",
+      "rank": 91,
+      "name": "Food Hunt: Pixel Puzzle",
+      "developer": "FUNFINITY PTE. LTD",
+      "store_url": "https://apps.apple.com/us/app/food-hunt-pixel-puzzle/id6769314786?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9b/53/ca/9b53ca48-037b-e248-560e-589ebd5040ad/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/05/14",
+      "rating": 4.72273,
+      "rating_count": 2539,
+      "timestamp": "2026-06-20 02:03:41"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "com.samantharoobol.military",
+      "rank": 26,
+      "name": "Military Style Fitness Workout",
+      "developer": "Stay Fit With Samantha",
+      "store_url": "https://play.google.com/store/apps/details?id=com.samantharoobol.military",
+      "icon_url": "https://play-lh.googleusercontent.com/c8QC1CuyurksjbfPmBYhUKUesyXgR5EobEPn70zXDd4x0HkOKOk9dFzkL5tZq72zReqJVTtvp1T0VzJ9oG4kVhk",
+      "timestamp": "2026-06-20 02:03:46"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "armworkout.armworkoutformen.armexercises",
+      "rank": 27,
+      "name": "Arm Workout - Biceps Exercise",
+      "developer": "Leap Fitness Group",
+      "store_url": "https://play.google.com/store/apps/details?id=armworkout.armworkoutformen.armexercises",
+      "icon_url": "https://play-lh.googleusercontent.com/8yiWsYUyb-RyJd9sBdD2tv7jxw133zimpNrKHsaovEh6RdviocSSS2-5arEyy_45hWtnRxJ6NmEvQJf9havV5Q",
+      "timestamp": "2026-06-20 02:03:46"
+    },
+    {
+      "platform": "Google Play",
+      "category": "游戏",
+      "app_id": "com.playvalve.wsjourney",
+      "rank": 24,
+      "name": "Word Search - Word Puzzle Game",
+      "developer": "Bluetile",
+      "store_url": "https://play.google.com/store/apps/details?id=com.playvalve.wsjourney",
+      "icon_url": "https://play-lh.googleusercontent.com/suIjIupz1LefapyU750VmJk2ZpXN8Q-BzKjwwRUoL7smFyeJVfvUbEaNJ-5tKOmjDovg7GFbUwU9ydPoNFPBuYk",
+      "timestamp": "2026-06-20 02:03:56"
+    },
+    {
+      "platform": "Google Play",
+      "category": "游戏",
+      "app_id": "bubble.pop.games.shooter.ball.game",
+      "rank": 28,
+      "name": "Bubble Pop: Ball Shooter Game",
+      "developer": "HDuo Fun Games",
+      "store_url": "https://play.google.com/store/apps/details?id=bubble.pop.games.shooter.ball.game",
+      "icon_url": "https://play-lh.googleusercontent.com/_zxg0poPoyBxIKf7qI4PACbnOh_4PIOyq0dHm8Z6HJLnX-vVLTnX3zu7ZLQjBlZ-K3JpAAaOCjLVGyOxL-2Vzg",
+      "timestamp": "2026-06-20 02:03:56"
+    },
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "com.affinityapps.blk",
+      "rank": 21,
+      "name": "BLK: Black Singles Dating App",
+      "developer": "BLK Dating",
+      "store_url": "https://play.google.com/store/apps/details?id=com.affinityapps.blk",
+      "icon_url": "https://play-lh.googleusercontent.com/nyCBqCrwV0SzTaYusbAI8FtYxyfCkijnpEI4e6qxjlukK69J556WTF_5ngcrjXQfiMk9ZTOzOVFuntTvwrYt6w",
+      "timestamp": "2026-06-20 02:04:00"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.magewell.director.assistant",
+      "rank": 28,
+      "name": "Director Utility",
+      "developer": "Magewell",
+      "store_url": "https://play.google.com/store/apps/details?id=com.magewell.director.assistant",
+      "icon_url": "https://play-lh.googleusercontent.com/GIkJBeebesT-cLuMK0MLolLdQ0a_E4IM-d4r0nsA1cLFWXGCIzFaqoLp4JzWKAZRAzlyKmKFh84IBnWX8mxa",
+      "timestamp": "2026-06-20 02:04:03"
+    }
+  ],
+  "generated_at": "2026-06-20 02:04:06"
+}
