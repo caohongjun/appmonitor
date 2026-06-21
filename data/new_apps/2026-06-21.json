@@ -1,0 +1,49 @@
+{
+  "date": "2026-06-21",
+  "compare_date": "2026-06-20",
+  "total_count": 3,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.umatchonline.rsync",
+      "itunes_id": "498425717",
+      "rank": 63,
+      "name": "RoomSync",
+      "developer": "U-Match, LLC",
+      "store_url": "https://apps.apple.com/us/app/roomsync/id498425717?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/13/77/aa1377f9-9663-f7a1-2c79-247567ab6899/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "release_date": "2017/12/21",
+      "rating": 4.68187,
+      "rating_count": 4995,
+      "timestamp": "2026-06-21 02:15:40"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.zumiez.thestash",
+      "itunes_id": "1163863113",
+      "rank": 78,
+      "name": "Zumiez",
+      "developer": "Zumiez Inc.",
+      "store_url": "https://apps.apple.com/us/app/zumiez/id1163863113?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/c6/1c/3dc61cf0-b39d-1d13-5490-010ccfe465cf/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-0-85-220.png/100x100bb.png",
+      "release_date": "2016/10/17",
+      "rating": 4.17482,
+      "rating_count": 5068,
+      "timestamp": "2026-06-21 02:15:45"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "com.vk.im",
+      "rank": 15,
+      "name": "VK Messenger: Chats and calls",
+      "developer": "VK LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=com.vk.im",
+      "icon_url": "https://play-lh.googleusercontent.com/KhI3nUdABjXztAl4L_3btDfmIzgESACSX8J5mTPVQzpWiAzMjcM4aT_lssfJTbJJ88_bns8rnjqQNHx-j3MV2w",
+      "timestamp": "2026-06-21 02:16:00"
+    }
+  ],
+  "generated_at": "2026-06-21 02:16:16"
+}
