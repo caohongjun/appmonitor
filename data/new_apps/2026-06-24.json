@@ -1,0 +1,34 @@
+{
+  "date": "2026-06-24",
+  "compare_date": "2026-06-23",
+  "total_count": 2,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.buffalo-studios.newflashbingo",
+      "itunes_id": "529996768",
+      "rank": 85,
+      "name": "Bingo Blitz™ - BINGO Games",
+      "developer": "Playtika Santa Monica, LLC",
+      "store_url": "https://apps.apple.com/us/app/bingo-blitz-bingo-games/id529996768?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/45/14/a1/4514a1b9-28e9-cb37-4238-567a4f77b645/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2012/08/08",
+      "rating": 4.71638,
+      "rating_count": 603464,
+      "timestamp": "2026-06-24 01:57:51"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.deepblue.si.deeptools",
+      "rank": 17,
+      "name": "Deep Tools",
+      "developer": "Deep Blue d.o.o.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.deepblue.si.deeptools",
+      "icon_url": "https://play-lh.googleusercontent.com/rKo1IS2W2mb_4FqOoEvkN7hyG-72U2gHqL4p38S01mge7mTrNTnOevLrlCGhHfqLoYO2BWhzW-kX75FjyuXR",
+      "timestamp": "2026-06-24 01:58:13"
+    }
+  ],
+  "generated_at": "2026-06-24 01:58:16"
+}
