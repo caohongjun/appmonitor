@@ -1,0 +1,67 @@
+{
+  "date": "2026-06-25",
+  "compare_date": "2026-06-24",
+  "total_count": 5,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "net.arena.projectmercury",
+      "itunes_id": "820613069",
+      "rank": 35,
+      "name": "Guild Wars® Reforged",
+      "developer": "ArenaNet, LLC.",
+      "store_url": "https://apps.apple.com/us/app/guild-wars-reforged/id820613069?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/ff/21/6fff2116-39f9-cf0d-2174-51fef41550b2/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "release_date": "2026/06/24",
+      "rating": 0,
+      "rating_count": 0,
+      "timestamp": "2026-06-25 02:00:28"
+    },
+    {
+      "platform": "Google Play",
+      "category": "游戏",
+      "app_id": "com.chess",
+      "rank": 7,
+      "name": "Chess - Play and Learn Online",
+      "developer": "Chess.com",
+      "store_url": "https://play.google.com/store/apps/details?id=com.chess",
+      "icon_url": "https://play-lh.googleusercontent.com/JO7Z75U1oypXpNTAklroO5emKWePni0sK9zn1E_nRgqmbAHoMxz1oQHDfSTpcycdht92dTBejkpEDXttGeCWN74",
+      "timestamp": "2026-06-25 02:00:44"
+    },
+    {
+      "platform": "Google Play",
+      "category": "游戏",
+      "app_id": "com.miniclip.cricketleague",
+      "rank": 15,
+      "name": "Cricket League",
+      "developer": "Miniclip.com",
+      "store_url": "https://play.google.com/store/apps/details?id=com.miniclip.cricketleague",
+      "icon_url": "https://play-lh.googleusercontent.com/QnEkMI_KzabLL6wu4i4_bodn62rB2tBVCDXi9CdyTiN15m3cRXd4DGzfIvtGr0LQe13pphYUcnf3voAY9NYJQA",
+      "timestamp": "2026-06-25 02:00:44"
+    },
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "com.pof.android",
+      "rank": 13,
+      "name": "Plenty of Fish : Dating App",
+      "developer": "Plentyoffish Media ULC",
+      "store_url": "https://play.google.com/store/apps/details?id=com.pof.android",
+      "icon_url": "https://play-lh.googleusercontent.com/J2-xSFY0uwqvv2bAK2RewajbMT7gZmroSngoRv1YZ_JgU3FANh4YyuDStS5jas_8Y1SzoJp1MO3oGw9O_YlkMHo",
+      "timestamp": "2026-06-25 02:00:47"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.flir.tools",
+      "rank": 28,
+      "name": "FLIR Tools",
+      "developer": "FLIR Systems Aktiebolag",
+      "store_url": "https://play.google.com/store/apps/details?id=com.flir.tools",
+      "icon_url": "https://play-lh.googleusercontent.com/cwrj-ALl3p1sbj7RH3l3fb5xEz4nJ_VLsLggqW0l8gTb30JzdTDLyDJ9rOiwuS1bFtqe7KoDWDdoP3JsxYFl",
+      "timestamp": "2026-06-25 02:00:51"
+    }
+  ],
+  "generated_at": "2026-06-25 02:00:54"
+}
