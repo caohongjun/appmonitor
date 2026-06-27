@@ -1,0 +1,23 @@
+{
+  "date": "2026-06-27",
+  "compare_date": "2026-06-26",
+  "total_count": 1,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.vaultystudios.eightytwoand0",
+      "itunes_id": "6780195090",
+      "rank": 36,
+      "name": "82-0.com",
+      "developer": "Vaulty Studios Inc.",
+      "store_url": "https://apps.apple.com/us/app/82-0-com/id6780195090?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c6/86/77/c686776e-de67-db1c-e029-dbc9f0491a43/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "release_date": "2026/06/24",
+      "rating": 3.66667,
+      "rating_count": 6,
+      "timestamp": "2026-06-27 01:56:11"
+    }
+  ],
+  "generated_at": "2026-06-27 01:56:36"
+}
