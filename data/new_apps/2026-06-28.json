@@ -1,0 +1,79 @@
+{
+  "date": "2026-06-28",
+  "compare_date": "2026-06-27",
+  "total_count": 5,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.ihealthlabs.MyVitalsPro",
+      "itunes_id": "1532014748",
+      "rank": 95,
+      "name": "iHealth MyVitals",
+      "developer": "iHealth Labs Inc.",
+      "store_url": "https://apps.apple.com/us/app/ihealth-myvitals/id1532014748?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f0/5c/44/f05c440b-acff-744c-b730-430c1034c715/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/100x100bb.png",
+      "release_date": "2020/10/19",
+      "rating": 4.83267,
+      "rating_count": 140954,
+      "timestamp": "2026-06-28 02:06:24"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.chromatics.aisha",
+      "itunes_id": "6760787262",
+      "rank": 77,
+      "name": "Aisha: Better AI, Built for Us",
+      "developer": "Maan inc",
+      "store_url": "https://apps.apple.com/us/app/aisha-better-ai-built-for-us/id6760787262?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4e/57/fc/4e57fcc5-cfce-2a30-8b05-f99e3b67de47/aishalogo-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "release_date": "2026/05/09",
+      "rating": 5,
+      "rating_count": 15,
+      "timestamp": "2026-06-28 02:06:35"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.udisense.nanit",
+      "itunes_id": "1137885597",
+      "rank": 100,
+      "name": "Nanit",
+      "developer": "Udisense inc.",
+      "store_url": "https://apps.apple.com/us/app/nanit/id1137885597?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/94/90/ad/9490ad5b-462d-3925-1794-990d57d24173/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2016/11/18",
+      "rating": 4.67537,
+      "rating_count": 35346,
+      "timestamp": "2026-06-28 02:06:35"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.loop.moneysort",
+      "itunes_id": "6758149135",
+      "rank": 94,
+      "name": "Money Sort: Merge Puzzle",
+      "developer": "Loop Games Oyun Teknolojileri Anonim Sirketi",
+      "store_url": "https://apps.apple.com/us/app/money-sort-merge-puzzle/id6758149135?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/50/0f/0e/500f0ec7-d553-87e4-c404-58a252fd1c4e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/03/18",
+      "rating": 4.77909,
+      "rating_count": 1761,
+      "timestamp": "2026-06-28 02:06:40"
+    },
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "com.okcupid.okcupid",
+      "rank": 11,
+      "name": "OkCupid Dating: Date Singles",
+      "developer": "Match Group Americas, LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=com.okcupid.okcupid",
+      "icon_url": "https://play-lh.googleusercontent.com/bKCDOZ_nPdCyKwvDKhKZBE_RaZLs2A0eU7wzhZxco0NTPNJ9NN7b8O5QsdP_hXdBmPtJseqlErnbCKgGC6lUNA",
+      "timestamp": "2026-06-28 02:06:59"
+    }
+  ],
+  "generated_at": "2026-06-28 02:07:05"
+}
