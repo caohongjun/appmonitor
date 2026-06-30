@@ -1,0 +1,60 @@
+{
+  "date": "2026-06-30",
+  "compare_date": "2026-06-29",
+  "total_count": 4,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.tmmtmm.im",
+      "itunes_id": "1509896973",
+      "rank": 67,
+      "name": "TmmTmm",
+      "developer": "TMMTMM İLETİŞİM HİZMETLERİ VE TEKNOLOJİ ANONİM ŞİRKETİ",
+      "store_url": "https://apps.apple.com/us/app/tmmtmm/id1509896973?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/21/18/5e/21185ecb-3bdd-b590-e900-c88623f8236a/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2020/05/14",
+      "rating": 3.75,
+      "rating_count": 12,
+      "timestamp": "2026-06-30 02:00:57"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.azizamapp.app",
+      "itunes_id": "6578454904",
+      "rank": 30,
+      "name": "Azizam - Persian Dating App",
+      "developer": "Inno Lynx UG (haftungsbeschrankt)",
+      "store_url": "https://apps.apple.com/us/app/azizam-persian-dating-app/id6578454904?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/36/ee/15/36ee15a7-b569-5071-27f8-3d43b8ae1421/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2024/12/18",
+      "rating": 4.68868,
+      "rating_count": 1741,
+      "timestamp": "2026-06-30 02:01:03"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "com.viber.voip",
+      "rank": 24,
+      "name": "Rakuten Viber Messenger",
+      "developer": "Viber Media",
+      "store_url": "https://play.google.com/store/apps/details?id=com.viber.voip",
+      "icon_url": "https://play-lh.googleusercontent.com/JhZoFHnbCGzAcVXS1M_yJM5f_E6GpOTc63B7gP9Q2auZrTkLijzGbiXVI3nSCNIbXrY2uYJjkOCdMA9CpJVr",
+      "timestamp": "2026-06-30 02:01:18"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.dssoft.cajaherramientas",
+      "rank": 5,
+      "name": "Utilities",
+      "developer": ">>>AAR<<<",
+      "store_url": "https://play.google.com/store/apps/details?id=com.dssoft.cajaherramientas",
+      "icon_url": "https://play-lh.googleusercontent.com/fJSiuXDJKFcwRtPrmSXqGoj2iQQYHL0h_dtrk_0UPPlw6u27m6B1LfDrozO_ZcCxmqV-gjZvGrXZ2G-Kn2q4",
+      "timestamp": "2026-06-30 02:01:32"
+    }
+  ],
+  "generated_at": "2026-06-30 02:01:35"
+}

@@ -1,0 +1,141 @@
+{
+  "date": "2026-06-30",
+  "platform": "Google Play",
+  "category": "约会",
+  "category_key": "dating",
+  "total_apps": 12,
+  "apps": [
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "com.ftw_and_co.happn",
+      "rank": 1,
+      "name": "happn: dating app",
+      "developer": "happn",
+      "store_url": "https://play.google.com/store/apps/details?id=com.ftw_and_co.happn",
+      "icon_url": "https://play-lh.googleusercontent.com/dHnVDblktLoq6j5ZwbfQHxcPqb2RfoevV2tpzGc_CPXBySFe96a_RsGipMuy_snX3mGYaLkcU4tWWssW2jfITg",
+      "timestamp": "2026-06-30 02:01:28"
+    },
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "com.match.android.matchmobile",
+      "rank": 2,
+      "name": "Match Dating App : Chat & Meet",
+      "developer": "Match Group Americas, LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=com.match.android.matchmobile",
+      "icon_url": "https://play-lh.googleusercontent.com/rSuXubViEEe2bTR4dp5ytPlcBhHuGRaPTyJvO5oO77DBoya2C0tBm5qt79jAB5qATvjtRkapDyzYzjZYto4a",
+      "timestamp": "2026-06-30 02:01:28"
+    },
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "next.bondee.tech",
+      "rank": 3,
+      "name": "Duet Dating App: Chat & Meet",
+      "developer": "Duet - Meet People You Resonate With",
+      "store_url": "https://play.google.com/store/apps/details?id=next.bondee.tech",
+      "icon_url": "https://play-lh.googleusercontent.com/8AsQryY50bXMUGE2WgYyRVWw3HuDCUxTBx7sYYTeENZF_YYO-Yx60bWMwUUzOVJj_iOyTCjzYwAFGe-Oy0D6",
+      "timestamp": "2026-06-30 02:01:28"
+    },
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "com.tinder",
+      "rank": 4,
+      "name": "Tinder Dating App: Chat & Date",
+      "developer": "Tinder LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=com.tinder",
+      "icon_url": "https://play-lh.googleusercontent.com/VaExVMyjnrd9PkIAKchSBK6Eo7zb4A2rriDbD3pUvmveAy46StPS-Hs5mYVIP9upZV4YCJxRoQRnj77FAaQd2A",
+      "timestamp": "2026-06-30 02:01:28"
+    },
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "com.badoo.mobile",
+      "rank": 5,
+      "name": "Badoo Dating App: Meet & Date",
+      "developer": "Badoo",
+      "store_url": "https://play.google.com/store/apps/details?id=com.badoo.mobile",
+      "icon_url": "https://play-lh.googleusercontent.com/aMyeW3f4fJMafMQKxv3Sc3lMp3480heUc6pN_UgMoAHciN0bcw_8RIauGpHzYcpdiLtfVedAfRKLKCg9fmtrpvU",
+      "timestamp": "2026-06-30 02:01:28"
+    },
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "com.hily.app",
+      "rank": 6,
+      "name": "Hily Dating app: Meet & Date",
+      "developer": "Hily Corp.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.hily.app",
+      "icon_url": "https://play-lh.googleusercontent.com/5gti-T3m7QvGLbncPRJ_YPSWvF6GXr-8pI_7Sy4HVCSrykydj7XlCteNE3XPNkkesas5ttRoCvykUcHC9rSL_Q",
+      "timestamp": "2026-06-30 02:01:28"
+    },
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "com.bumble.app",
+      "rank": 7,
+      "name": "Bumble Dating App: Meet & Date",
+      "developer": "Bumble Holding Limited",
+      "store_url": "https://play.google.com/store/apps/details?id=com.bumble.app",
+      "icon_url": "https://play-lh.googleusercontent.com/7GSSxUQ2KneDsNK1KIlBa26ukNM6UmOtpfAVSj-72Im-62jd1-38et6VEqBD-LKfXZdGHQfucP3tVOIGa3kV",
+      "timestamp": "2026-06-30 02:01:28"
+    },
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "com.okcupid.okcupid",
+      "rank": 8,
+      "name": "OkCupid Dating: Date Singles",
+      "developer": "Match Group Americas, LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=com.okcupid.okcupid",
+      "icon_url": "https://play-lh.googleusercontent.com/bKCDOZ_nPdCyKwvDKhKZBE_RaZLs2A0eU7wzhZxco0NTPNJ9NN7b8O5QsdP_hXdBmPtJseqlErnbCKgGC6lUNA",
+      "timestamp": "2026-06-30 02:01:28"
+    },
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "ru.fotostrana.sweetmeet",
+      "rank": 9,
+      "name": "Dating and Chat - SweetMeet",
+      "developer": "SweetMeet",
+      "store_url": "https://play.google.com/store/apps/details?id=ru.fotostrana.sweetmeet",
+      "icon_url": "https://play-lh.googleusercontent.com/JAcBwnSBBpJMHkYq6esobgWxXvASjErlBJKhkJijzvPLwh_Y2PGidCKPLOQd7OtZdJVL-CnaTOhu-XEA-VKz",
+      "timestamp": "2026-06-30 02:01:28"
+    },
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "com.dating.android",
+      "rank": 10,
+      "name": "Dating.com: Online Dating App",
+      "developer": "KREOVA TECH LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=com.dating.android",
+      "icon_url": "https://play-lh.googleusercontent.com/RGg24vWUB5hW2P7bP1TCkvp2EqfFacJWcg45X-JMTSfxp6lZm04IZpqPlA48fRzipuGNyL2V8pWQ8PNIH_44-w",
+      "timestamp": "2026-06-30 02:01:28"
+    },
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "com.theystream",
+      "rank": 11,
+      "name": "Match and Meet - Dating app",
+      "developer": "Appire - social discovery dating, streaming apps",
+      "store_url": "https://play.google.com/store/apps/details?id=com.theystream",
+      "icon_url": "https://play-lh.googleusercontent.com/UgYmbwyjEdnIK3ksqZA_W22-l0djca6-vyhRtndiTHmBknpG848QMN5ZfTCGOMd8xXB2-yHvFdgcUXCldVXJ9Q",
+      "timestamp": "2026-06-30 02:01:28"
+    },
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "com.pof.android",
+      "rank": 12,
+      "name": "Plenty of Fish : Dating App",
+      "developer": "Plentyoffish Media ULC",
+      "store_url": "https://play.google.com/store/apps/details?id=com.pof.android",
+      "icon_url": "https://play-lh.googleusercontent.com/J2-xSFY0uwqvv2bAK2RewajbMT7gZmroSngoRv1YZ_JgU3FANh4YyuDStS5jas_8Y1SzoJp1MO3oGw9O_YlkMHo",
+      "timestamp": "2026-06-30 02:01:28"
+    }
+  ]
+}
