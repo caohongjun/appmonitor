@@ -1,0 +1,38 @@
+{
+  "date": "2026-07-01",
+  "compare_date": "2026-06-30",
+  "total_count": 2,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.thecut.mobile.ios.thecut",
+      "itunes_id": "1101408626",
+      "rank": 86,
+      "name": "theCut: Find & Book Barbers",
+      "developer": "theCut Inc",
+      "store_url": "https://apps.apple.com/us/app/thecut-find-book-barbers/id1101408626?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c6/37/03/c63703af-59d8-9e84-ed86-fa6f131206f4/app-icon-0-0-1x_U007emarketing-0-11-0-sRGB-85-220.jpeg/100x100bb.png",
+      "release_date": "2016/05/03",
+      "rating": 4.66018,
+      "rating_count": 16556,
+      "timestamp": "2026-07-01 02:06:53"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.crazylabs.fashionsquad",
+      "itunes_id": "6446197181",
+      "rank": 91,
+      "name": "Glow Fashion Idol",
+      "developer": "Crazy Labs",
+      "store_url": "https://apps.apple.com/us/app/glow-fashion-idol/id6446197181?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/c0/8f/3bc08f5e-068f-d620-efeb-28ccb5ca3f8b/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+      "release_date": "2024/05/22",
+      "rating": 4.8916,
+      "rating_count": 45932,
+      "timestamp": "2026-07-01 02:06:59"
+    }
+  ],
+  "generated_at": "2026-07-01 02:07:25"
+}
