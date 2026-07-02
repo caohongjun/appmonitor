@@ -1,0 +1,108 @@
+{
+  "date": "2026-07-02",
+  "platform": "Google Play",
+  "category": "工具",
+  "category_key": "tools",
+  "total_apps": 9,
+  "apps": [
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.yousx.thetoolsapp",
+      "rank": 1,
+      "name": "Tooly Toolbox All Tools In One",
+      "developer": "FutureCraft Apps",
+      "store_url": "https://play.google.com/store/apps/details?id=com.yousx.thetoolsapp",
+      "icon_url": "https://play-lh.googleusercontent.com/3cC0TdImz_yFG1VFu_hDbHhsy0kGPgijsoffE_1gVjlmAOYMVzQfGmGa50m3JyyYbiqENSeveS0bNcLSNbnB",
+      "timestamp": "2026-07-02 02:00:17"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.insoftyx.dailyutilitytools",
+      "rank": 2,
+      "name": "Daily Tools – Utility App",
+      "developer": "Insoftyx Studio",
+      "store_url": "https://play.google.com/store/apps/details?id=com.insoftyx.dailyutilitytools",
+      "icon_url": "https://play-lh.googleusercontent.com/0wI_PBpjT1q5SoGggRwgmnpYK9pOFmlC46nXAYI2zj6Uyw2avp3ywItWKOBXfp_KP00F1vOAiBPkTefV2MZpVA",
+      "timestamp": "2026-07-02 02:00:17"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.pradhyu.alltoolseveryutility",
+      "rank": 3,
+      "name": "All tools",
+      "developer": "ATEU Softwares ®",
+      "store_url": "https://play.google.com/store/apps/details?id=com.pradhyu.alltoolseveryutility",
+      "icon_url": "https://play-lh.googleusercontent.com/1UeZgCt8ES62CkyfAZUbhrC1Nnw9y1-PuV9wXbhurR_T6wno4bH0G4Bi3JVjE4-gUOd3qT49nor9hSsqEvs-228",
+      "timestamp": "2026-07-02 02:00:17"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.orven.smarttools",
+      "rank": 4,
+      "name": "All Tools: Utility & PDF Kit",
+      "developer": "ORVEN IT",
+      "store_url": "https://play.google.com/store/apps/details?id=com.orven.smarttools",
+      "icon_url": "https://play-lh.googleusercontent.com/wyn1u7Eevi8kZcdJpGkU-8isuuShngbB8xrfCpbJ_Bam8sIggb2i3DOg_G_uVXsGMd-bXt5fqF1xg7mq8t9XBQ4",
+      "timestamp": "2026-07-02 02:00:17"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.dssoft.cajaherramientas",
+      "rank": 5,
+      "name": "Utilities",
+      "developer": ">>>AAR<<<",
+      "store_url": "https://play.google.com/store/apps/details?id=com.dssoft.cajaherramientas",
+      "icon_url": "https://play-lh.googleusercontent.com/fJSiuXDJKFcwRtPrmSXqGoj2iQQYHL0h_dtrk_0UPPlw6u27m6B1LfDrozO_ZcCxmqV-gjZvGrXZ2G-Kn2q4",
+      "timestamp": "2026-07-02 02:00:17"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.toolance.allinonetools",
+      "rank": 6,
+      "name": "TOOLANCE - Smart Utility Tools",
+      "developer": "TOOLANCE",
+      "store_url": "https://play.google.com/store/apps/details?id=com.toolance.allinonetools",
+      "icon_url": "https://play-lh.googleusercontent.com/f3VVsdrLkIRlQoiNDmnQM8yAPlhJOrPkfqjuMpqVo30zKKH2Llmkyz-s5xvZndq-dvudSb65P4SUUf7KWQYc",
+      "timestamp": "2026-07-02 02:00:17"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "org.eldes.tool",
+      "rank": 7,
+      "name": "Eldes Utility tool",
+      "developer": "ELDES E Alarms",
+      "store_url": "https://play.google.com/store/apps/details?id=org.eldes.tool",
+      "icon_url": "https://play-lh.googleusercontent.com/t1wrqZgab_egBG-Yk0VRjy7EajvPhpMi7Rbro9jZYLZPl8D91jxmVWcv1XX9JDhgQr1iHvijENP7_0f8qnPP",
+      "timestamp": "2026-07-02 02:00:17"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.google.android.apps.wifisetup.app",
+      "rank": 8,
+      "name": "Device Utility",
+      "developer": "Google LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.wifisetup.app",
+      "icon_url": "https://play-lh.googleusercontent.com/IPsyfCnPT6KXa8H3CFENzrBNmHCbdn6aXRgeFO5ml7Pxs1eK9RPYOZa_s2eYAI322hQ36VpIR4rhz_duINKpFA",
+      "timestamp": "2026-07-02 02:00:17"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.smarttools.utility.multipurpose",
+      "rank": 9,
+      "name": "Smart Tools- Utilities toolbox",
+      "developer": "Apps Cabinet",
+      "store_url": "https://play.google.com/store/apps/details?id=com.smarttools.utility.multipurpose",
+      "icon_url": "https://play-lh.googleusercontent.com/VjOiB2o1InFgyeLqWRvCF2q--7ARPZrh09IDqJOHBtveU0g7KTN_UU19cHHXqYF7--irIXh4c2z8wKpu8wRf",
+      "timestamp": "2026-07-02 02:00:17"
+    }
+  ]
+}
