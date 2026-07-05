@@ -1,0 +1,83 @@
+{
+  "date": "2026-07-05",
+  "compare_date": "2026-07-04",
+  "total_count": 5,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.DawgLabs.DAWG",
+      "itunes_id": "6742336314",
+      "rank": 92,
+      "name": "DAWG - Discipline & Motivation",
+      "developer": "DWG Labs LLC",
+      "store_url": "https://apps.apple.com/us/app/dawg-discipline-motivation/id6742336314?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8c/9c/24/8c9c24df-bff1-de03-8356-83626d6d6996/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "release_date": "2025/03/05",
+      "rating": 4.76823,
+      "rating_count": 3400,
+      "timestamp": "2026-07-05 01:46:01"
+    },
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.lasta.fitness",
+      "itunes_id": "6466609362",
+      "rank": 98,
+      "name": "Lasta Fit: Your Wellness Coach",
+      "developer": "Lasta Inc.",
+      "store_url": "https://apps.apple.com/us/app/lasta-fit-your-wellness-coach/id6466609362?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/49/58/05/49580568-2913-7078-e4a2-6d9990bdacf9/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2025/12/01",
+      "rating": 4.5649,
+      "rating_count": 2080,
+      "timestamp": "2026-07-05 01:46:01"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.myYearbook.MyYearbook",
+      "itunes_id": "372648912",
+      "rank": 98,
+      "name": "MeetMe: Go Live & Meet People",
+      "developer": "The Meet Group Inc.",
+      "store_url": "https://apps.apple.com/us/app/meetme-go-live-meet-people/id372648912?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/96/5a/78/965a7845-02f8-412c-be6a-8d854ab3e334/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2010/05/27",
+      "rating": 4.29352,
+      "rating_count": 374404,
+      "timestamp": "2026-07-05 01:46:07"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.friendslocator",
+      "itunes_id": "6741145225",
+      "rank": 93,
+      "name": "Find My Location: Tracker",
+      "developer": "DIGITS LTD",
+      "store_url": "https://apps.apple.com/us/app/find-my-location-tracker/id6741145225?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d2/83/6b/d2836b36-a405-f595-ddf0-027da1d3ef25/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2025/01/31",
+      "rating": 4.04854,
+      "rating_count": 515,
+      "timestamp": "2026-07-05 01:46:13"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.abi.colony.flow",
+      "itunes_id": "6779167923",
+      "rank": 44,
+      "name": "Colony Flow!",
+      "developer": "ABI GLOBAL LTD.",
+      "store_url": "https://apps.apple.com/us/app/colony-flow/id6779167923?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6e/59/df/6e59dfa9-b158-9870-99f4-d520fc2228d7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/06/13",
+      "rating": 4.7401,
+      "rating_count": 531,
+      "timestamp": "2026-07-05 01:46:19"
+    }
+  ],
+  "generated_at": "2026-07-05 01:46:43"
+}
