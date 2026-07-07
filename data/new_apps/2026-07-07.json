@@ -1,0 +1,68 @@
+{
+  "date": "2026-07-07",
+  "compare_date": "2026-07-06",
+  "total_count": 4,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.pookies.food.ai",
+      "itunes_id": "6479529917",
+      "rank": 92,
+      "name": "BitePal: Food Calorie Tracker",
+      "developer": "Reface Lithuania UAB",
+      "store_url": "https://apps.apple.com/us/app/bitepal-food-calorie-tracker/id6479529917?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/32/56/22/3256222b-c6fc-aefe-75b3-fa8ebde95437/AppIcon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2024/06/10",
+      "rating": 4.66026,
+      "rating_count": 49168,
+      "timestamp": "2026-07-07 01:49:41"
+    },
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.glucobit.cravingBuster.CravingBuster",
+      "itunes_id": "1485756576",
+      "rank": 93,
+      "name": "Reframe: Drink Less & Thrive",
+      "developer": "Glucobit Inc.",
+      "store_url": "https://apps.apple.com/us/app/reframe-drink-less-thrive/id1485756576?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3a/d5/af/3ad5afe5-e656-be80-371b-67c201d7b5ca/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2020/02/19",
+      "rating": 4.73679,
+      "rating_count": 42126,
+      "timestamp": "2026-07-07 01:49:41"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.joyhub.velvet.reels",
+      "itunes_id": "6768564100",
+      "rank": 71,
+      "name": "Bruno Reels Casino",
+      "developer": "EverPrime Futures Inc.",
+      "store_url": "https://apps.apple.com/us/app/bruno-reels-casino/id6768564100?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d8/90/d4/d890d487-a1b7-b9f5-f95e-433507a1d9bf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/05/16",
+      "rating": 4.6219,
+      "rating_count": 685,
+      "timestamp": "2026-07-07 01:50:06"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.fullfat.textordie",
+      "itunes_id": "1562313985",
+      "rank": 84,
+      "name": "Text or Die",
+      "developer": "Rollic Games",
+      "store_url": "https://apps.apple.com/us/app/text-or-die/id1562313985?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/62/d9/d5/62d9d58c-69de-aebe-5180-96a9d9dd64cf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2021/04/17",
+      "rating": 4.47505,
+      "rating_count": 212482,
+      "timestamp": "2026-07-07 01:50:06"
+    }
+  ],
+  "generated_at": "2026-07-07 01:50:32"
+}
