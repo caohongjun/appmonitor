@@ -1,0 +1,23 @@
+{
+  "date": "2026-07-08",
+  "compare_date": "2026-07-07",
+  "total_count": 1,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "co.aviagames.mahjong",
+      "itunes_id": "6760377931",
+      "rank": 96,
+      "name": "Mahjong Rumble: Win Real Cash",
+      "developer": "Aviagames Inc.",
+      "store_url": "https://apps.apple.com/us/app/mahjong-rumble-win-real-cash/id6760377931?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8c/f5/b2/8cf5b2e0-ccf0-66b6-c560-2ffa636b624c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/04/14",
+      "rating": 4.82054,
+      "rating_count": 1733,
+      "timestamp": "2026-07-08 01:21:32"
+    }
+  ],
+  "generated_at": "2026-07-08 01:21:57"
+}
