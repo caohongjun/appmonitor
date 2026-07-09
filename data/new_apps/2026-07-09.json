@@ -1,0 +1,60 @@
+{
+  "date": "2026-07-09",
+  "compare_date": "2026-07-08",
+  "total_count": 4,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.neonmobile.app",
+      "itunes_id": "6745481255",
+      "rank": 87,
+      "name": "Neon - Money Talks",
+      "developer": "Neon Mobile Inc.",
+      "store_url": "https://apps.apple.com/us/app/neon-money-talks/id6745481255?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1c/d8/5d/1cd85d64-b592-30d9-34ff-381cc9d50a6d/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "release_date": "2025/07/26",
+      "rating": 3.84926,
+      "rating_count": 6183,
+      "timestamp": "2026-07-09 01:29:15"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.pp.pg",
+      "itunes_id": "6784047577",
+      "rank": 89,
+      "name": "Paint or Seek",
+      "developer": "Mateusz Grabowski",
+      "store_url": "https://apps.apple.com/us/app/paint-or-seek/id6784047577?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/43/e3/b9/43e3b9cf-c927-fc5e-36f0-dfd533de8906/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+      "release_date": "2026/06/30",
+      "rating": 3.5,
+      "rating_count": 42,
+      "timestamp": "2026-07-09 01:29:27"
+    },
+    {
+      "platform": "Google Play",
+      "category": "游戏",
+      "app_id": "jp.konami.pesam",
+      "rank": 21,
+      "name": "eFootball™",
+      "developer": "KONAMI",
+      "store_url": "https://play.google.com/store/apps/details?id=jp.konami.pesam",
+      "icon_url": "https://play-lh.googleusercontent.com/-an3zySx6j39CpLwZkIH26KfCvJPGmp974714U9HshiCb1W9NwFwULhNANcUSic9n1Mb1GDkVP6gBpjwLDs5UA",
+      "timestamp": "2026-07-09 01:29:42"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "ro.rkh.utilitati",
+      "rank": 28,
+      "name": "Utilities",
+      "developer": "Raksha",
+      "store_url": "https://play.google.com/store/apps/details?id=ro.rkh.utilitati",
+      "icon_url": "https://play-lh.googleusercontent.com/CF92w9grIkQ0Abc7YRtv4bZZE4lTbKjp3bRu9k2V-PGtk2YazP-riHO4G_q5yPvV5JKDWXzsy5FAOOCDkikKAg",
+      "timestamp": "2026-07-09 01:29:48"
+    }
+  ],
+  "generated_at": "2026-07-09 01:29:51"
+}
