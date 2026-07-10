@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-10",
+  "compare_date": "2026-07-09",
+  "total_count": 4,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.giftful.Giftful",
+      "itunes_id": "1450175505",
+      "rank": 96,
+      "name": "Giftful - Wishlist & Registry",
+      "developer": "Giftful LLC",
+      "store_url": "https://apps.apple.com/us/app/giftful-wishlist-registry/id1450175505?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/81/ee/07/81ee0770-9219-7bdd-3b92-d65e4b30c35e/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+      "release_date": "2019/11/04",
+      "rating": 4.84164,
+      "rating_count": 77545,
+      "timestamp": "2026-07-10 01:26:56"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.neoludic.tbs",
+      "itunes_id": "6766267906",
+      "rank": 98,
+      "name": "Tiny Bookshop",
+      "developer": "Skystone Games Inc.",
+      "store_url": "https://apps.apple.com/us/app/tiny-bookshop/id6766267906?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/62/73/d3/6273d378-85dc-ce92-85e3-e06f55e81e39/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/07/09",
+      "rating": 0,
+      "rating_count": 0,
+      "timestamp": "2026-07-10 01:27:02"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.leap.searchit",
+      "itunes_id": "6756185760",
+      "rank": 100,
+      "name": "Search It - Hidden Objects",
+      "developer": "LEAP BILISIM TEKNOLOJILERI VE YAZILIM TICARET ANONIM SIRKETI",
+      "store_url": "https://apps.apple.com/us/app/search-it-hidden-objects/id6756185760?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ca/ed/fb/caedfbcf-8572-16cd-2009-6828ace25270/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2025/12/29",
+      "rating": 4.93232,
+      "rating_count": 25221,
+      "timestamp": "2026-07-10 01:27:02"
+    },
+    {
+      "platform": "Google Play",
+      "category": "生活方式",
+      "app_id": "com.essembl.app",
+      "rank": 10,
+      "name": "Essembl : AI Styling Assistant",
+      "developer": "Essembl SA",
+      "store_url": "https://play.google.com/store/apps/details?id=com.essembl.app",
+      "icon_url": "https://play-lh.googleusercontent.com/q4xle4uP4hqi4TvpjRfZ-ACt_CUR_pEh_O-3sTalP0mceR7VWS9oKsqc7-fkU5eqyxRnIUTfoY_zxT7d1FlX",
+      "timestamp": "2026-07-10 01:27:14"
+    }
+  ],
+  "generated_at": "2026-07-10 01:27:27"
+}
