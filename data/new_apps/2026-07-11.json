@@ -1,0 +1,68 @@
+{
+  "date": "2026-07-11",
+  "compare_date": "2026-07-10",
+  "total_count": 4,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.myseat.zillakami",
+      "itunes_id": "6761554247",
+      "rank": 51,
+      "name": "ZillaKami",
+      "developer": "MySeat.com Media Inc.",
+      "store_url": "https://apps.apple.com/us/app/zillakami/id6761554247?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ad/01/ce/ad01ceb6-2810-6539-3c57-5a38e6dbeda7/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "release_date": "2026/06/11",
+      "rating": 0,
+      "rating_count": 0,
+      "timestamp": "2026-07-11 01:20:12"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.locaro.locationsharing",
+      "itunes_id": "6761357550",
+      "rank": 71,
+      "name": "Locaro: Find Friends & Family",
+      "developer": "志梅 向",
+      "store_url": "https://apps.apple.com/us/app/locaro-find-friends-family/id6761357550?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b2/ee/b1/b2eeb154-5416-cfe1-0391-59872fa3bd09/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/04/01",
+      "rating": 1.5,
+      "rating_count": 2,
+      "timestamp": "2026-07-11 01:20:18"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.sharoneLimited.epicaBeauty",
+      "itunes_id": "6743861403",
+      "rank": 80,
+      "name": "EPICA: Your Daily Beauty Guide",
+      "developer": "SharoneLimited",
+      "store_url": "https://apps.apple.com/us/app/epica-your-daily-beauty-guide/id6743861403?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dd/96/28/dd9628f5-09df-0a0c-3469-ed43315f9021/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "release_date": "2025/04/16",
+      "rating": 4.59734,
+      "rating_count": 1957,
+      "timestamp": "2026-07-11 01:20:18"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.ea.ios.collegefbmobile",
+      "itunes_id": "6759412341",
+      "rank": 37,
+      "name": "EA College Football Mobile 27",
+      "developer": "Electronic Arts",
+      "store_url": "https://apps.apple.com/us/app/ea-college-football-mobile-27/id6759412341?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/64/c3/39/64c3395a-0672-cb81-74a8-0ca0a8f5d9f1/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "release_date": "2026/07/09",
+      "rating": 4.04545,
+      "rating_count": 22,
+      "timestamp": "2026-07-11 01:20:23"
+    }
+  ],
+  "generated_at": "2026-07-11 01:20:48"
+}
