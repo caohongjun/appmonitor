@@ -1,0 +1,38 @@
+{
+  "date": "2026-07-12",
+  "compare_date": "2026-07-11",
+  "total_count": 2,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "llc.sololeveling.Arise",
+      "itunes_id": "6743036247",
+      "rank": 96,
+      "name": "Arise: Level Up In Real Life",
+      "developer": "DIGITAL LIONS APPS",
+      "store_url": "https://apps.apple.com/us/app/arise-level-up-in-real-life/id6743036247?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/10/07/a2/1007a23b-0c31-c5d2-f7f5-4a21377b8547/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "release_date": "2025/04/02",
+      "rating": 4.78167,
+      "rating_count": 19888,
+      "timestamp": "2026-07-12 01:22:00"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.mobsmile.coincollector",
+      "itunes_id": "6779310326",
+      "rank": 94,
+      "name": "Coin Collector!",
+      "developer": "Venturesis Teknoloji Anonim Sirketi",
+      "store_url": "https://apps.apple.com/us/app/coin-collector/id6779310326?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/4d/00/bd4d0072-be00-b656-500d-a4f92ec3a9d8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/06/18",
+      "rating": 4.81266,
+      "rating_count": 395,
+      "timestamp": "2026-07-12 01:22:17"
+    }
+  ],
+  "generated_at": "2026-07-12 01:22:42"
+}
