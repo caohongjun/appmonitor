@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-13",
+  "compare_date": "2026-07-12",
+  "total_count": 4,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "app.impact.ImpactApp3",
+      "itunes_id": "6749520351",
+      "rank": 29,
+      "name": "75Me: 75 Day Reset Challenge",
+      "developer": "75Me LLC",
+      "store_url": "https://apps.apple.com/us/app/75me-75-day-reset-challenge/id6749520351?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/18/8c/a5/188ca524-a326-079a-4483-a33ac7be966a/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2025/08/23",
+      "rating": 4.82074,
+      "rating_count": 569,
+      "timestamp": "2026-07-13 01:23:20"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "net.estatesales.estatesales",
+      "itunes_id": "1018443930",
+      "rank": 42,
+      "name": "Estate Sales - EstateSales.NET",
+      "developer": "EstateSales.NET",
+      "store_url": "https://apps.apple.com/us/app/estate-sales-estatesales-net/id1018443930?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/84/bc/27/84bc273e-bda8-e8f3-a04a-ad8dd9bc9caa/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/100x100bb.png",
+      "release_date": "2015/10/17",
+      "rating": 4.85003,
+      "rating_count": 11742,
+      "timestamp": "2026-07-13 01:23:31"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "alarmmusic.listen.ringtone",
+      "itunes_id": "6503280598",
+      "rank": 100,
+      "name": "Musico Vision - Listen, Sounds",
+      "developer": "Thi Tam Hoang",
+      "store_url": "https://apps.apple.com/us/app/musico-vision-listen-sounds/id6503280598?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0b/8d/2d/0b8d2d8a-7523-fb7a-dd4a-3004251f4bf4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "release_date": "2024/06/01",
+      "rating": 4.83868,
+      "rating_count": 3868,
+      "timestamp": "2026-07-13 01:23:31"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "com.facebook.orca",
+      "rank": 10,
+      "name": "Messenger",
+      "developer": "Meta Platforms, Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.facebook.orca",
+      "icon_url": "https://play-lh.googleusercontent.com/cuRpiGqvAMkcbAOibD-AKCBagAunUkspQUWC_jVZF2Hob_ODdmkefnZeqkofW1idFQHhgZgnLIjsqT-2v7JKBw",
+      "timestamp": "2026-07-13 01:23:45"
+    }
+  ],
+  "generated_at": "2026-07-13 01:24:02"
+}
