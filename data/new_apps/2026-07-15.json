@@ -1,0 +1,38 @@
+{
+  "date": "2026-07-15",
+  "compare_date": "2026-07-14",
+  "total_count": 2,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "in.habuild",
+      "itunes_id": "6743130736",
+      "rank": 68,
+      "name": "Habuild: Online Yoga Everyday",
+      "developer": "HABUILD HEALTHTECH PRIVATE LIMITED",
+      "store_url": "https://apps.apple.com/us/app/habuild-online-yoga-everyday/id6743130736?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/29/6c/62296cc2-5eeb-ce4f-9015-5374dec6bd99/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+      "release_date": "2025/09/12",
+      "rating": 4.84949,
+      "rating_count": 691,
+      "timestamp": "2026-07-15 01:09:42"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.cyphergames.royalsmash",
+      "itunes_id": "6780891673",
+      "rank": 81,
+      "name": "Royal Smash! : Physics Puzzle",
+      "developer": "Cypher Games",
+      "store_url": "https://apps.apple.com/us/app/royal-smash-physics-puzzle/id6780891673?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6a/e4/bd/6ae4bdb4-571e-7238-580f-ad5b2f7fa3d0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/06/30",
+      "rating": 4.72686,
+      "rating_count": 3339,
+      "timestamp": "2026-07-15 01:09:59"
+    }
+  ],
+  "generated_at": "2026-07-15 01:10:24"
+}
