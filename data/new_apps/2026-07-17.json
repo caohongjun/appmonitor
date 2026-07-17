@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-17",
+  "compare_date": "2026-07-16",
+  "total_count": 4,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.pfd.myrvp",
+      "itunes_id": "1389415422",
+      "rank": 58,
+      "name": "Empower: Relational Organizing",
+      "developer": "Empower Innovations Group, Inc.",
+      "store_url": "https://apps.apple.com/us/app/empower-relational-organizing/id1389415422?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dc/84/91/dc8491a1-3d06-a121-fcfb-99cf7a400c6f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "release_date": "2018/06/24",
+      "rating": 4.245,
+      "rating_count": 200,
+      "timestamp": "2026-07-17 01:22:24"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.rotatelab.cubeblast",
+      "itunes_id": "6757154335",
+      "rank": 60,
+      "name": "Cube Land Puzzle Game",
+      "developer": "Rotatelab",
+      "store_url": "https://apps.apple.com/us/app/cube-land-puzzle-game/id6757154335?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d4/6a/c7/d46ac7fa-a149-8566-8dad-4e8a9db8a2c1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/01/18",
+      "rating": 4.67204,
+      "rating_count": 4531,
+      "timestamp": "2026-07-17 01:22:35"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.magmic.NYTCrosswords09",
+      "itunes_id": "307569751",
+      "rank": 90,
+      "name": "NYT Games: Wordle & Crossword",
+      "developer": "The New York Times Company",
+      "store_url": "https://apps.apple.com/us/app/nyt-games-wordle-crossword/id307569751?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/55/e8/96/55e896e8-b0b7-0479-519c-172710d4a252/Release-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/100x100bb.png",
+      "release_date": "2009/03/26",
+      "rating": 4.8003,
+      "rating_count": 291591,
+      "timestamp": "2026-07-17 01:22:35"
+    },
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "com.chinalove",
+      "rank": 27,
+      "name": "ZenDate - Meet Asian Singles",
+      "developer": "SOL NETWORKS LIMITED",
+      "store_url": "https://play.google.com/store/apps/details?id=com.chinalove",
+      "icon_url": "https://play-lh.googleusercontent.com/E6-G-cj7I34AlvauhZsBQtYkbxOTm2RzSNxDBkLwMC0VplrgkThS2rzM1SaOZBCG7l5T2hl_vHBXHTd-Wj5o",
+      "timestamp": "2026-07-17 01:22:53"
+    }
+  ],
+  "generated_at": "2026-07-17 01:23:00"
+}
