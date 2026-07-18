@@ -1,0 +1,34 @@
+{
+  "date": "2026-07-18",
+  "compare_date": "2026-07-17",
+  "total_count": 2,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.anthonyng.workoutapp",
+      "itunes_id": "1409190654",
+      "rank": 82,
+      "name": "Gym Day: Workout Planner & Log",
+      "developer": "Anthony Ng",
+      "store_url": "https://apps.apple.com/us/app/gym-day-workout-planner-log/id1409190654?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cd/73/04/cd730469-5c89-4ae7-702f-07d35e8abf5a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2018/07/31",
+      "rating": 4.77485,
+      "rating_count": 1328,
+      "timestamp": "2026-07-18 01:14:42"
+    },
+    {
+      "platform": "Google Play",
+      "category": "游戏",
+      "app_id": "com.mojang.minecraftpe",
+      "rank": 9,
+      "name": "Minecraft: Dream it, Build it!",
+      "developer": "Mojang",
+      "store_url": "https://play.google.com/store/apps/details?id=com.mojang.minecraftpe",
+      "icon_url": "https://play-lh.googleusercontent.com/tI4StRSPVhpGJH5R013naszLUawOjao1ya8FvyaNO7XY_cJFHFqo1EFaEJv_7zz3rRJ5lEpLiw14ZqQLCOYc",
+      "timestamp": "2026-07-18 01:15:16"
+    }
+  ],
+  "generated_at": "2026-07-18 01:15:26"
+}
