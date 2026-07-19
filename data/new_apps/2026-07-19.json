@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-19",
+  "compare_date": "2026-07-18",
+  "total_count": 4,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "spicy.chat.ai.cha",
+      "itunes_id": "6754952278",
+      "rank": 88,
+      "name": "Spicychat AI: Roleplay Chat GF",
+      "developer": "Chengdu Qizhixu Technology Co., Ltd",
+      "store_url": "https://apps.apple.com/us/app/spicychat-ai-roleplay-chat-gf/id6754952278?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4e/f2/82/4ef28225-2dd6-9d12-27ae-3aefac3eda32/RTYUAppIcon-1x_U007ephone-0-1-0-85-220-0.png/100x100bb.png",
+      "release_date": "2025/11/13",
+      "rating": 4.53092,
+      "rating_count": 1407,
+      "timestamp": "2026-07-19 01:20:22"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.wyndy",
+      "itunes_id": "1182728161",
+      "rank": 51,
+      "name": "Wyndy: Trusted Babysitting App",
+      "developer": "Wyndy",
+      "store_url": "https://apps.apple.com/us/app/wyndy-trusted-babysitting-app/id1182728161?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/05/71/e2/0571e26f-721a-a5d1-04fe-cf71f8d9f65e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "release_date": "2017/03/17",
+      "rating": 4.63604,
+      "rating_count": 2253,
+      "timestamp": "2026-07-19 01:20:29"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.stake.us",
+      "itunes_id": "6738114176",
+      "rank": 91,
+      "name": "Stake US - Casino & Slots",
+      "developer": "Sweepsteaks Limited",
+      "store_url": "https://apps.apple.com/us/app/stake-us-casino-slots/id6738114176?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/66/54/0b/66540bd9-43a1-cea1-764d-3dbbf198184e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2025/02/13",
+      "rating": 4.68508,
+      "rating_count": 18576,
+      "timestamp": "2026-07-19 01:20:34"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.onstack.toolbox",
+      "rank": 28,
+      "name": "Toolbox: Private Utility Tools",
+      "developer": "Stacks Solutions",
+      "store_url": "https://play.google.com/store/apps/details?id=com.onstack.toolbox",
+      "icon_url": "https://play-lh.googleusercontent.com/16uIqD9PFUBTg1_SDHlkSpDTwpjjSX_7TY3rJHwfYa-vRF6NHPEcwxTQ1w50QUbRjjZeT9ZhV4ytiXuwea-D",
+      "timestamp": "2026-07-19 01:20:56"
+    }
+  ],
+  "generated_at": "2026-07-19 01:20:59"
+}
