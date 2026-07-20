@@ -1,0 +1,97 @@
+{
+  "date": "2026-07-20",
+  "platform": "Google Play",
+  "category": "工具",
+  "category_key": "tools",
+  "total_apps": 8,
+  "apps": [
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.insoftyx.dailyutilitytools",
+      "rank": 1,
+      "name": "Daily Tools – Utility App",
+      "developer": "Insoftyx Studio",
+      "store_url": "https://play.google.com/store/apps/details?id=com.insoftyx.dailyutilitytools",
+      "icon_url": "https://play-lh.googleusercontent.com/0wI_PBpjT1q5SoGggRwgmnpYK9pOFmlC46nXAYI2zj6Uyw2avp3ywItWKOBXfp_KP00F1vOAiBPkTefV2MZpVA",
+      "timestamp": "2026-07-20 01:24:28"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.yousx.thetoolsapp",
+      "rank": 2,
+      "name": "Tooly Toolbox All Tools In One",
+      "developer": "FutureCraft Apps",
+      "store_url": "https://play.google.com/store/apps/details?id=com.yousx.thetoolsapp",
+      "icon_url": "https://play-lh.googleusercontent.com/3cC0TdImz_yFG1VFu_hDbHhsy0kGPgijsoffE_1gVjlmAOYMVzQfGmGa50m3JyyYbiqENSeveS0bNcLSNbnB",
+      "timestamp": "2026-07-20 01:24:28"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.pradhyu.alltoolseveryutility",
+      "rank": 3,
+      "name": "All tools",
+      "developer": "ATEU Softwares ®",
+      "store_url": "https://play.google.com/store/apps/details?id=com.pradhyu.alltoolseveryutility",
+      "icon_url": "https://play-lh.googleusercontent.com/1UeZgCt8ES62CkyfAZUbhrC1Nnw9y1-PuV9wXbhurR_T6wno4bH0G4Bi3JVjE4-gUOd3qT49nor9hSsqEvs-228",
+      "timestamp": "2026-07-20 01:24:28"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.quickhub.tools",
+      "rank": 4,
+      "name": "QuickTools: Utility Tools",
+      "developer": "S7NJOY",
+      "store_url": "https://play.google.com/store/apps/details?id=com.quickhub.tools",
+      "icon_url": "https://play-lh.googleusercontent.com/QrzxL_q3LhFo6-w9yg5llKKfwqB1xUZjIphe3cXL1fPBlkbw7ynqT6m4g_TwfpMpJW21GC1DP_iEZfyyuW6XBks",
+      "timestamp": "2026-07-20 01:24:28"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.alorferi.ping_ip",
+      "rank": 5,
+      "name": "Ping Tools - Network Utility",
+      "developer": "Alor Feri Limited",
+      "store_url": "https://play.google.com/store/apps/details?id=com.alorferi.ping_ip",
+      "icon_url": "https://play-lh.googleusercontent.com/C1bpfwCXLrhLSlol4mDoy4u-Yp_WhgiepdBYs2Rt6waMiWN-oLkkdsW_pE5lQKWAx10P3KLz6KCRW8TqlWE9",
+      "timestamp": "2026-07-20 01:24:28"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.velox_tools.app",
+      "rank": 6,
+      "name": "All in one Tools -Utility",
+      "developer": "Panelief",
+      "store_url": "https://play.google.com/store/apps/details?id=com.velox_tools.app",
+      "icon_url": "https://play-lh.googleusercontent.com/1aA7WumZpz_YimdOUOlH9HEAKKJvwTJrpdNaMrhKMFCCP3EUTZ1AeDbWjpUqAMW6b0mCAaJ9tsiGFJxOlAtuew",
+      "timestamp": "2026-07-20 01:24:28"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.google.android.apps.wifisetup.app",
+      "rank": 7,
+      "name": "Device Utility",
+      "developer": "Google LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.wifisetup.app",
+      "icon_url": "https://play-lh.googleusercontent.com/IPsyfCnPT6KXa8H3CFENzrBNmHCbdn6aXRgeFO5ml7Pxs1eK9RPYOZa_s2eYAI322hQ36VpIR4rhz_duINKpFA",
+      "timestamp": "2026-07-20 01:24:28"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.lazycoder.utility_plus",
+      "rank": 8,
+      "name": "Utility Pro – All in One Tools",
+      "developer": "Code Cooker",
+      "store_url": "https://play.google.com/store/apps/details?id=com.lazycoder.utility_plus",
+      "icon_url": "https://play-lh.googleusercontent.com/Fd4ZmMuCWoe15lSscIsBmrerZlI2AC16F_mnsJRwNRPg45438e-swZJ5HnQuudVmxFgaw2lk3-KaurlQ5dJrqA",
+      "timestamp": "2026-07-20 01:24:28"
+    }
+  ]
+}
