@@ -1,0 +1,60 @@
+{
+  "date": "2026-07-21",
+  "compare_date": "2026-07-20",
+  "total_count": 4,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.tiksaver.pro.TikSaver-Pro",
+      "itunes_id": "6448082221",
+      "rank": 97,
+      "name": "Tik Saver Pro Video Downloader",
+      "developer": "Spektrum Epps",
+      "store_url": "https://apps.apple.com/us/app/tik-saver-pro-video-downloader/id6448082221?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/e0/f9/7de0f986-cb3e-0649-0093-0d9c94d8fca8/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/100x100bb.png",
+      "release_date": "2023/06/21",
+      "rating": 4.50807,
+      "rating_count": 65630,
+      "timestamp": "2026-07-21 01:20:02"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.fourthwall.wla.c5.now",
+      "itunes_id": "6751903400",
+      "rank": 87,
+      "name": "C5.now",
+      "developer": "Fourthwall, Inc.",
+      "store_url": "https://apps.apple.com/us/app/c5-now/id6751903400?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f5/e0/09/f5e00945-50a5-480b-691e-4a087d34a388/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2026/07/17",
+      "rating": 5,
+      "rating_count": 12,
+      "timestamp": "2026-07-21 01:20:08"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "com.selahsoft.workoutlog",
+      "rank": 26,
+      "name": "Simple Workout Log",
+      "developer": "SelahSoft",
+      "store_url": "https://play.google.com/store/apps/details?id=com.selahsoft.workoutlog",
+      "icon_url": "https://play-lh.googleusercontent.com/6A9SSlhDmA6c9B3yNgbgvMZxdUc5TIFnNGu0gD11QysWh-x2O1Hc7we02C6e4hgkQutr_5bDV4ot692GayLOhng",
+      "timestamp": "2026-07-21 01:20:19"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.multiutilityapp",
+      "rank": 26,
+      "name": "Utility Space – 20+ Tools",
+      "developer": "prakash kumar jha",
+      "store_url": "https://play.google.com/store/apps/details?id=com.multiutilityapp",
+      "icon_url": "https://play-lh.googleusercontent.com/uDsZRlCWd42PQDa0JJv-zdmrKMovWNzfB-nZVZZPiHwYg3Dn3sTqpG0FlBNP8jmiilMoRHW5FhGL7QzscLdW-g",
+      "timestamp": "2026-07-21 01:20:36"
+    }
+  ],
+  "generated_at": "2026-07-21 01:20:39"
+}
