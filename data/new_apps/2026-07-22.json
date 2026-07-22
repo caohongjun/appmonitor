@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-22",
+  "compare_date": "2026-07-21",
+  "total_count": 3,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.universe.ruut",
+      "itunes_id": "6755474436",
+      "rank": 92,
+      "name": "Ruut: AI Running Coach",
+      "developer": "Shalitone Limited",
+      "store_url": "https://apps.apple.com/us/app/ruut-ai-running-coach/id6755474436?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d1/08/2e/d1082e03-0896-1836-90e9-1ac1c42d7b9f/RuutIcon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2026/04/09",
+      "rating": 4.23695,
+      "rating_count": 249,
+      "timestamp": "2026-07-22 01:18:20"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.i5dev.bloodpressureinpulse",
+      "itunes_id": "6478997398",
+      "rank": 85,
+      "name": "Blood Pressure Monitor-BP Log",
+      "developer": "MA CHENG BUSINESS LIMITED",
+      "store_url": "https://apps.apple.com/us/app/blood-pressure-monitor-bp-log/id6478997398?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ce/fb/df/cefbdf9c-d785-6dab-5203-2738a3521ea7/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2024/03/20",
+      "rating": 4.37123,
+      "rating_count": 11365,
+      "timestamp": "2026-07-22 01:18:31"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.roomperfect.global",
+      "itunes_id": "6760998152",
+      "rank": 99,
+      "name": "Family Farm Merge",
+      "developer": "Century Games Innovation Pte. Ltd.",
+      "store_url": "https://apps.apple.com/us/app/family-farm-merge/id6760998152?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/91/02/9d/91029dd5-d74a-6d41-1494-6b3d909aff39/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/05/09",
+      "rating": 4.08824,
+      "rating_count": 136,
+      "timestamp": "2026-07-22 01:18:36"
+    }
+  ],
+  "generated_at": "2026-07-22 01:19:02"
+}
