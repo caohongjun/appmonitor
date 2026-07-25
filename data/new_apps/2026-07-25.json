@@ -1,0 +1,60 @@
+{
+  "date": "2026-07-25",
+  "compare_date": "2026-07-24",
+  "total_count": 4,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.tapcart.tIcTuIzY0J",
+      "itunes_id": "1539936585",
+      "rank": 81,
+      "name": "JADED LONDON",
+      "developer": "Jaded London Limited",
+      "store_url": "https://apps.apple.com/us/app/jaded-london/id1539936585?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/7c/20/b87c2040-d59e-08ee-88ef-f7456eb48752/GeneratedIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2023/04/11",
+      "rating": 4.86639,
+      "rating_count": 1250,
+      "timestamp": "2026-07-25 01:22:47"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.cozyverseglobal.wello",
+      "itunes_id": "6760641376",
+      "rank": 100,
+      "name": "Wello - Heart Health Monitor",
+      "developer": "Cozyverse",
+      "store_url": "https://apps.apple.com/us/app/wello-heart-health-monitor/id6760641376?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/22/cb/b1/22cbb197-6216-0589-415d-4b8e9e64233e/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/100x100bb.png",
+      "release_date": "2026/03/27",
+      "rating": 4.55138,
+      "rating_count": 613,
+      "timestamp": "2026-07-25 01:22:47"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "com.enflick.android.TextNow",
+      "rank": 24,
+      "name": "TextNow: Call + Text Unlimited",
+      "developer": "TextNow, Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.enflick.android.TextNow",
+      "icon_url": "https://play-lh.googleusercontent.com/dhPBaff_7shT1IF0fV0P1R0psaYknV9ppvu1IyNrj3f1uXET9F56C_7w5OvfT16nKdKIGJG8Q86QI0YsjU6tIA",
+      "timestamp": "2026-07-25 01:23:00"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.ohe.utility",
+      "rank": 17,
+      "name": "OHE Utility Tools",
+      "developer": "Utilitymindspro",
+      "store_url": "https://play.google.com/store/apps/details?id=com.ohe.utility",
+      "icon_url": "https://play-lh.googleusercontent.com/BiYSFqPOHzrag8PQ0LEKN8ewFoVGK4i82Rdmk3UZc6HoNiVs1bGAOPkD98gAnNU6lrE25soMJ3CQ07P2_Eaocg",
+      "timestamp": "2026-07-25 01:23:14"
+    }
+  ],
+  "generated_at": "2026-07-25 01:23:17"
+}
