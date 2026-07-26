@@ -1,0 +1,38 @@
+{
+  "date": "2026-07-26",
+  "compare_date": "2026-07-25",
+  "total_count": 2,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "app.mentor.chat",
+      "itunes_id": "6762411586",
+      "rank": 92,
+      "name": "Mentor: Your AI Bestie",
+      "developer": "Glassroom Studio",
+      "store_url": "https://apps.apple.com/us/app/mentor-your-ai-bestie/id6762411586?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f4/ea/eb/f4eaeb59-f9d0-c725-cbec-e58e8a74edc4/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "release_date": "2026/04/21",
+      "rating": 4.69831,
+      "rating_count": 3497,
+      "timestamp": "2026-07-26 01:25:45"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.bwf.BWF",
+      "itunes_id": "601174087",
+      "rank": 97,
+      "name": "DOWN: The Casual Dating App",
+      "developer": "Down App, Inc.",
+      "store_url": "https://apps.apple.com/us/app/down-the-casual-dating-app/id601174087?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/32/cf/a2/32cfa22c-9d6d-ae13-eed0-4ba9cdd01945/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2013/04/30",
+      "rating": 4.31107,
+      "rating_count": 124767,
+      "timestamp": "2026-07-26 01:25:45"
+    }
+  ],
+  "generated_at": "2026-07-26 01:26:16"
+}
