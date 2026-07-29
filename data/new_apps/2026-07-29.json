@@ -1,0 +1,68 @@
+{
+  "date": "2026-07-29",
+  "compare_date": "2026-07-28",
+  "total_count": 4,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.snweb.swaip",
+      "itunes_id": "1065101150",
+      "rank": 43,
+      "name": "Lokum: Turkish Dating & Chat",
+      "developer": "SN Web",
+      "store_url": "https://apps.apple.com/us/app/lokum-turkish-dating-chat/id1065101150?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/03/11/61/031161fa-55ef-8f80-93bc-dab3ee1b2ae7/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2015/12/21",
+      "rating": 1,
+      "rating_count": 1,
+      "timestamp": "2026-07-29 01:19:47"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.silverai.calendar.lockscreen",
+      "itunes_id": "6769250805",
+      "rank": 49,
+      "name": "Ink: Lockscreen Calendar, Note",
+      "developer": "SilverAI Joint Stock Company",
+      "store_url": "https://apps.apple.com/us/app/ink-lockscreen-calendar-note/id6769250805?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/41/6a/c1416af2-83be-1218-8ffe-5ec7073abf85/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "release_date": "2026/05/31",
+      "rating": 4.2,
+      "rating_count": 5,
+      "timestamp": "2026-07-29 01:19:47"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.us.yzlm.ios",
+      "itunes_id": "6772872703",
+      "rank": 58,
+      "name": "Whoa Adventure",
+      "developer": "Joy Net Games",
+      "store_url": "https://apps.apple.com/us/app/whoa-adventure/id6772872703?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/34/47/8f344763-d827-9fc1-193e-eca035ea921f/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.png",
+      "release_date": "2026/08/01",
+      "rating": 0,
+      "rating_count": 0,
+      "timestamp": "2026-07-29 01:19:54"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "loop.clear.cube.free.card.puzzle.sort.match",
+      "itunes_id": "6761603258",
+      "rank": 96,
+      "name": "Loop Master: Color Jam Sort",
+      "developer": "Orange One Limited",
+      "store_url": "https://apps.apple.com/us/app/loop-master-color-jam-sort/id6761603258?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e5/37/b5/e537b5e5-9ba9-a3bf-4f13-268153d047ad/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/04/23",
+      "rating": 4.94888,
+      "rating_count": 2269,
+      "timestamp": "2026-07-29 01:19:54"
+    }
+  ],
+  "generated_at": "2026-07-29 01:20:20"
+}
