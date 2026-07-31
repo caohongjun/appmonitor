@@ -1,0 +1,49 @@
+{
+  "date": "2026-07-31",
+  "compare_date": "2026-07-30",
+  "total_count": 3,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.astrograph.timepassagesfre",
+      "itunes_id": "488946918",
+      "rank": 54,
+      "name": "TimePassages Astrology",
+      "developer": "AstroGraph Software",
+      "store_url": "https://apps.apple.com/us/app/timepassages-astrology/id488946918?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/55/3c/15/553c15d9-65fa-a364-e8ca-ed165831a892/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2012/01/05",
+      "rating": 4.83708,
+      "rating_count": 43818,
+      "timestamp": "2026-07-31 01:26:09"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.google.paidtasks",
+      "itunes_id": "1227019728",
+      "rank": 63,
+      "name": "Google Opinion Rewards",
+      "developer": "Google",
+      "store_url": "https://apps.apple.com/us/app/google-opinion-rewards/id1227019728?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4e/e4/73/4ee47336-c780-c976-b2bd-0a387e62eb5f/app_logo-0-0-1x_U007epad-0-0-0-1-0-0-0-85-220.png/100x100bb.png",
+      "release_date": "2017/10/09",
+      "rating": 4.74695,
+      "rating_count": 210341,
+      "timestamp": "2026-07-31 01:26:09"
+    },
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "com.mingle.dateinasia",
+      "rank": 23,
+      "name": "Date in Asia: Dating Chat Meet",
+      "developer": "Innovation Dating Apps",
+      "store_url": "https://play.google.com/store/apps/details?id=com.mingle.dateinasia",
+      "icon_url": "https://play-lh.googleusercontent.com/07YER7AP11QyeNA5as02Jz1HZLp72BZd1BhvO9ParEiRbQzXI27P9l0SVNzsrnhlwXfQLuLD_eA3bMNNilmn",
+      "timestamp": "2026-07-31 01:26:34"
+    }
+  ],
+  "generated_at": "2026-07-31 01:26:40"
+}
