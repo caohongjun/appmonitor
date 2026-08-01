@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-01",
+  "compare_date": "2026-07-31",
+  "total_count": 3,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.teric.pushuparena",
+      "itunes_id": "6762318743",
+      "rank": 54,
+      "name": "Push Up Arena - Fitness Game",
+      "developer": "Airix LLC",
+      "store_url": "https://apps.apple.com/us/app/push-up-arena-fitness-game/id6762318743?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1a/19/ec/1a19ecec-955d-162f-5352-73f2cfb1c968/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "release_date": "2026/05/14",
+      "rating": 4.62453,
+      "rating_count": 807,
+      "timestamp": "2026-08-01 01:27:00"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "axon.pulse",
+      "itunes_id": "6754110310",
+      "rank": 12,
+      "name": "Gist - Life Well Lived",
+      "developer": "AppLovin Corp",
+      "store_url": "https://apps.apple.com/us/app/gist-life-well-lived/id6754110310?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f9/bf/d6/f9bfd654-8af4-a9eb-f35e-472b9ab0bf8a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "release_date": "2026/05/03",
+      "rating": 4.57864,
+      "rating_count": 356,
+      "timestamp": "2026-08-01 01:27:11"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.tripledot.blockssmashgame",
+      "itunes_id": "6784602967",
+      "rank": 78,
+      "name": "Stack Smash - 3D Puzzle Game",
+      "developer": "Tripledot Studios",
+      "store_url": "https://apps.apple.com/us/app/stack-smash-3d-puzzle-game/id6784602967?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/83/3f/ac/833fac01-6d99-783c-de7a-c1acadbb8590/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/07/15",
+      "rating": 4.9284,
+      "rating_count": 4721,
+      "timestamp": "2026-08-01 01:27:17"
+    }
+  ],
+  "generated_at": "2026-08-01 01:27:42"
+}
