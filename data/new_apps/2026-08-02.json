@@ -1,0 +1,38 @@
+{
+  "date": "2026-08-02",
+  "compare_date": "2026-08-01",
+  "total_count": 2,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.ridewithgps.mobile.ios",
+      "itunes_id": "893687399",
+      "rank": 94,
+      "name": "Ride with GPS: Bike Navigation",
+      "developer": "Ride with GPS",
+      "store_url": "https://apps.apple.com/us/app/ride-with-gps-bike-navigation/id893687399?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/97/6a/06976a48-af90-fe1e-17e5-d122e1a77d47/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/100x100bb.png",
+      "release_date": "2014/07/19",
+      "rating": 4.72841,
+      "rating_count": 35156,
+      "timestamp": "2026-08-02 01:24:47"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.pikochat.app",
+      "itunes_id": "6760045658",
+      "rank": 37,
+      "name": "Piko Chat",
+      "developer": "Ebonnee Almeida",
+      "store_url": "https://apps.apple.com/us/app/piko-chat/id6760045658?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f3/53/ed/f353ed0c-e3c5-f0ad-66b2-79405c4568d7/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "release_date": "2026/06/11",
+      "rating": 4.81994,
+      "rating_count": 361,
+      "timestamp": "2026-08-02 01:24:53"
+    }
+  ],
+  "generated_at": "2026-08-02 01:25:29"
+}
