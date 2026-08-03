@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-03",
+  "compare_date": "2026-08-02",
+  "total_count": 3,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.litatom.Litmatch",
+      "itunes_id": "1498889847",
+      "rank": 100,
+      "name": "Litmatch - Make new friends",
+      "developer": "CONSTRUCT TECHNOLOGY PTE. LTD.",
+      "store_url": "https://apps.apple.com/us/app/litmatch-make-new-friends/id1498889847?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/01/cf/29/01cf293e-2c19-8ae2-99de-1d9734429a4a/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2020/02/19",
+      "rating": 4.3026,
+      "rating_count": 5109,
+      "timestamp": "2026-08-03 01:25:27"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.konkanikurdi.app",
+      "itunes_id": "6766608185",
+      "rank": 98,
+      "name": "Konkani Kurdi - کۆنکانی کوردی",
+      "developer": "The S Dev LLC",
+      "store_url": "https://apps.apple.com/us/app/konkani-kurdi-%DA%A9%DB%86%D9%86%DA%A9%D8%A7%D9%86%DB%8C-%DA%A9%D9%88%D8%B1%D8%AF%DB%8C/id6766608185?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/16/cc/29/16cc297b-0ec6-2615-3b8b-ce2d56c2bd7f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/05/06",
+      "rating": 4.54978,
+      "rating_count": 231,
+      "timestamp": "2026-08-03 01:25:39"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.moonactive.jellybusters",
+      "itunes_id": "6756058501",
+      "rank": 100,
+      "name": "Jelly Busters: Puzzle Game",
+      "developer": "Moon Active",
+      "store_url": "https://apps.apple.com/us/app/jelly-busters-puzzle-game/id6756058501?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6b/0f/c6/6b0fc6d5-761a-c191-998a-fc696dff6a7f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/01/26",
+      "rating": 4.76516,
+      "rating_count": 1946,
+      "timestamp": "2026-08-03 01:25:39"
+    }
+  ],
+  "generated_at": "2026-08-03 01:26:04"
+}
