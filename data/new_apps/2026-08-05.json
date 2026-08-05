@@ -1,0 +1,83 @@
+{
+  "date": "2026-08-05",
+  "compare_date": "2026-08-04",
+  "total_count": 5,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.incvattica.vowel",
+      "itunes_id": "1561663276",
+      "rank": 72,
+      "name": "Vibrator - Strong Massage App",
+      "developer": "Antony Starkov",
+      "store_url": "https://apps.apple.com/us/app/vibrator-strong-massage-app/id1561663276?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e2/98/de/e298deac-bd7e-7a19-2ca3-6f2d4b009f70/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+      "release_date": "2021/04/10",
+      "rating": 3.93739,
+      "rating_count": 6884,
+      "timestamp": "2026-08-05 01:18:33"
+    },
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.pm.blood",
+      "itunes_id": "6759100722",
+      "rank": 98,
+      "name": "Blood Sugar & Health Tracker",
+      "developer": "Phuong Mai",
+      "store_url": "https://apps.apple.com/us/app/blood-sugar-health-tracker/id6759100722?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/29/ca/93/29ca9389-48a6-8da6-217b-482e48c5b453/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2026/02/28",
+      "rating": 1,
+      "rating_count": 2,
+      "timestamp": "2026-08-05 01:18:33"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "ph.telegra.Telegraph",
+      "itunes_id": "686449807",
+      "rank": 4,
+      "name": "Telegram Messenger",
+      "developer": "Telegram FZ-LLC",
+      "store_url": "https://apps.apple.com/us/app/telegram-messenger/id686449807?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/83/96/c183964f-32d7-16fe-57ab-8c66518f6625/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2013/08/14",
+      "rating": 4.0094,
+      "rating_count": 276792,
+      "timestamp": "2026-08-05 01:18:38"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.eclip.ios",
+      "itunes_id": "6751702819",
+      "rank": 55,
+      "name": "Eclip - Chat, Share & Meet",
+      "developer": "嘉璐 梁",
+      "store_url": "https://apps.apple.com/us/app/eclip-chat-share-meet/id6751702819?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/72/4b/0f/724b0f28-a3f0-f806-a74a-9ecd1d7230ba/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png",
+      "release_date": "2025/09/09",
+      "rating": 4.74603,
+      "rating_count": 504,
+      "timestamp": "2026-08-05 01:18:38"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.wonderhub.slot.aura",
+      "itunes_id": "6758431435",
+      "rank": 86,
+      "name": "Go Go Gold: Casino",
+      "developer": "Kernel Games Inc.",
+      "store_url": "https://apps.apple.com/us/app/go-go-gold-casino/id6758431435?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/b6/ca/90b6caa7-4a00-ef4c-cdae-a9e060dad900/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/03/09",
+      "rating": 4.44369,
+      "rating_count": 1767,
+      "timestamp": "2026-08-05 01:18:47"
+    }
+  ],
+  "generated_at": "2026-08-05 01:19:13"
+}
