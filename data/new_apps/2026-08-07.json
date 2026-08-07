@@ -1,0 +1,68 @@
+{
+  "date": "2026-08-07",
+  "compare_date": "2026-08-06",
+  "total_count": 4,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.app.2aSi2pg11d",
+      "itunes_id": "6760149692",
+      "rank": 59,
+      "name": "'47: Sports Hats & Fan Apparel",
+      "developer": "'47 Brand",
+      "store_url": "https://apps.apple.com/us/app/47-sports-hats-fan-apparel/id6760149692?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dc/5f/f3/dc5ff397-72f8-2466-d1e6-6a4c2e8b70cd/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "release_date": "2026/07/15",
+      "rating": 5,
+      "rating_count": 10,
+      "timestamp": "2026-08-07 01:58:13"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.atcMngs",
+      "itunes_id": "6793086709",
+      "rank": 82,
+      "name": "ATC Mngs",
+      "developer": "Bihter ERDOGDU",
+      "store_url": "https://apps.apple.com/us/app/atc-mngs/id6793086709?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c9/0b/41/c90b4139-6e82-d9a9-f89d-9ba721275005/AppIcon-1x_U007epad-0-11-0-85-220-0.png/100x100bb.png",
+      "release_date": "2026/07/23",
+      "rating": 0,
+      "rating_count": 0,
+      "timestamp": "2026-08-07 01:58:13"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.deepfind-orbit.app",
+      "itunes_id": "6775974979",
+      "rank": 90,
+      "name": "DeepFind AI Search Agent",
+      "developer": "Orbit Intelligence, Inc.",
+      "store_url": "https://apps.apple.com/us/app/deepfind-ai-search-agent/id6775974979?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/90/f2/d790f245-f91d-4af8-00cc-11743a724069/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+      "release_date": "2026/06/13",
+      "rating": 4.69428,
+      "rating_count": 700,
+      "timestamp": "2026-08-07 01:58:13"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.robtop.geometryjumplite",
+      "itunes_id": "698255242",
+      "rank": 99,
+      "name": "Geometry Dash Lite",
+      "developer": "RobTop Games AB",
+      "store_url": "https://apps.apple.com/us/app/geometry-dash-lite/id698255242?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2a/08/7f/2a087f71-90d8-b8a0-7f4d-97a0c35e2194/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
+      "release_date": "2013/09/12",
+      "rating": 4.30509,
+      "rating_count": 257940,
+      "timestamp": "2026-08-07 01:58:18"
+    }
+  ],
+  "generated_at": "2026-08-07 01:58:43"
+}
