@@ -1,0 +1,64 @@
+{
+  "date": "2026-08-09",
+  "compare_date": "2026-08-08",
+  "total_count": 4,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.aura.care",
+      "itunes_id": "6749313216",
+      "rank": 84,
+      "name": "Aura: Wellbeing Copilot",
+      "developer": "Aura SAS",
+      "store_url": "https://apps.apple.com/us/app/aura-wellbeing-copilot/id6749313216?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0f/40/74/0f407425-2b34-e0fb-e523-9f6a0ebb5900/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "release_date": "2025/08/13",
+      "rating": 4.44204,
+      "rating_count": 647,
+      "timestamp": "2026-08-09 00:43:13"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.merge.game.foodstars",
+      "itunes_id": "6753862216",
+      "rank": 91,
+      "name": "Foodstars: Merge & Cook",
+      "developer": "Happibits",
+      "store_url": "https://apps.apple.com/us/app/foodstars-merge-cook/id6753862216?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/81/8e/ab/818eab3e-45b1-de6e-e168-e2052027ab67/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2025/12/11",
+      "rating": 4.8246,
+      "rating_count": 3512,
+      "timestamp": "2026-08-09 00:43:31"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.superplaystudios.disneysolitairedreams",
+      "itunes_id": "6475757306",
+      "rank": 98,
+      "name": "Disney Solitaire",
+      "developer": "SuperPlay",
+      "store_url": "https://apps.apple.com/us/app/disney-solitaire/id6475757306?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4d/64/c4/4d64c428-1ec7-a68a-0c0f-8a16d0bdcea6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2025/04/17",
+      "rating": 4.90104,
+      "rating_count": 682956,
+      "timestamp": "2026-08-09 00:43:31"
+    },
+    {
+      "platform": "Google Play",
+      "category": "生活方式",
+      "app_id": "com.lifestyle.tracker",
+      "rank": 18,
+      "name": "Lifestyle - Calorie Tracker",
+      "developer": "gajce",
+      "store_url": "https://play.google.com/store/apps/details?id=com.lifestyle.tracker",
+      "icon_url": "https://play-lh.googleusercontent.com/x8Ldn_pGDT6R6qeLXF-6iWGSfFl59Y580tlY9_4IqZ_r6mzZotA4x2bNkVik50phCSk-5sr0vzDcLjyoUUmYOCE",
+      "timestamp": "2026-08-09 00:43:42"
+    }
+  ],
+  "generated_at": "2026-08-09 00:43:55"
+}
