@@ -1,0 +1,79 @@
+{
+  "date": "2026-08-10",
+  "compare_date": "2026-08-09",
+  "total_count": 5,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.nike.niketrainingclub",
+      "itunes_id": "301521403",
+      "rank": 92,
+      "name": "Nike Training Club",
+      "developer": "Nike, Inc",
+      "store_url": "https://apps.apple.com/us/app/nike-training-club/id301521403?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ab/9f/77/ab9f77b6-732e-00d6-223b-69f784ef5012/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+      "release_date": "2009/01/15",
+      "rating": 4.84872,
+      "rating_count": 280369,
+      "timestamp": "2026-08-10 00:45:10"
+    },
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.luxatlas.pace",
+      "itunes_id": "6761610554",
+      "rank": 95,
+      "name": "WalkGains:Walk & Gain More",
+      "developer": "Tu Dao Trong",
+      "store_url": "https://apps.apple.com/us/app/walkgains-walk-gain-more/id6761610554?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/24/24/a3/2424a37b-94de-cde6-aa9f-8747c66634ab/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "release_date": "2026/05/20",
+      "rating": 4.49608,
+      "rating_count": 637,
+      "timestamp": "2026-08-10 00:45:10"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.O3O.PicPetNewVersion",
+      "itunes_id": "6742077014",
+      "rank": 60,
+      "name": "PicPet",
+      "developer": "O3O Labs Inc.",
+      "store_url": "https://apps.apple.com/us/app/picpet/id6742077014?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/86/87/54/86875409-e011-4cb5-559f-7b4d8a48e6be/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2025/08/04",
+      "rating": 4.66957,
+      "rating_count": 115,
+      "timestamp": "2026-08-10 00:45:16"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.bubble.buster.rescue",
+      "itunes_id": "6743385713",
+      "rank": 93,
+      "name": "Wool Crush™-Escape Traffic Jam",
+      "developer": "Astrasen Global",
+      "store_url": "https://apps.apple.com/us/app/wool-crush-escape-traffic-jam/id6743385713?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/00/82/d7008245-0782-5f26-0d67-773e71dcbedb/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "release_date": "2025/04/08",
+      "rating": 4.87812,
+      "rating_count": 70139,
+      "timestamp": "2026-08-10 00:45:27"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "com.fc.parrotchat",
+      "rank": 28,
+      "name": "Parrot Chat – Messages & Calls",
+      "developer": "Futurecode app",
+      "store_url": "https://play.google.com/store/apps/details?id=com.fc.parrotchat",
+      "icon_url": "https://play-lh.googleusercontent.com/leiJQOOYNRZ8zzs1ECV3w0i9WAsuTCiypqMfgR3uwyQW5M2N-jqOQ7H5-7M8K0enbrU9elvRtt5tElfhscHOQw",
+      "timestamp": "2026-08-10 00:45:36"
+    }
+  ],
+  "generated_at": "2026-08-10 00:45:53"
+}
