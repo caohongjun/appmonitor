@@ -1,0 +1,79 @@
+{
+  "date": "2026-08-12",
+  "compare_date": "2026-08-11",
+  "total_count": 5,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.bridgefy.Bridgefy",
+      "itunes_id": "975776347",
+      "rank": 76,
+      "name": "Bridgefy - Offline Messages",
+      "developer": "Bridgefy, Inc.",
+      "store_url": "https://apps.apple.com/us/app/bridgefy-offline-messages/id975776347?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/14/79/d2/1479d2f3-b9b5-d750-3c45-16863bbe52d6/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2015/04/22",
+      "rating": 2.62295,
+      "rating_count": 61,
+      "timestamp": "2026-08-12 00:52:36"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.facebook.pronest",
+      "itunes_id": "6761864604",
+      "rank": 87,
+      "name": "Facebook Creator Studio",
+      "developer": "Meta Platforms, Inc.",
+      "store_url": "https://apps.apple.com/us/app/facebook-creator-studio/id6761864604?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f3/2b/78/f32b7894-a2ee-a409-7881-ebeb66aceac0/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2026/08/10",
+      "rating": 4,
+      "rating_count": 4,
+      "timestamp": "2026-08-12 00:52:36"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.combo.knockout",
+      "itunes_id": "6782096197",
+      "rank": 46,
+      "name": "Knock Out : Physics Puzzle",
+      "developer": "Combo Games",
+      "store_url": "https://apps.apple.com/us/app/knock-out-physics-puzzle/id6782096197?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8c/8f/15/8c8f155b-98ac-c088-08ca-ef41ffec77ff/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/06/30",
+      "rating": 4.75312,
+      "rating_count": 16988,
+      "timestamp": "2026-08-12 00:52:47"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.Garawell.LoopSort",
+      "itunes_id": "6751101794",
+      "rank": 100,
+      "name": "Loop Sort",
+      "developer": "Voodoo",
+      "store_url": "https://apps.apple.com/us/app/loop-sort/id6751101794?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e0/76/5e/e0765ee1-0649-26e6-d23d-10c2c5e4db15/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+      "release_date": "2025/09/19",
+      "rating": 4.83302,
+      "rating_count": 12295,
+      "timestamp": "2026-08-12 00:52:47"
+    },
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "com.dating.meetby",
+      "rank": 24,
+      "name": "Meetby: Local Dating Meet",
+      "developer": "Dating Apps for Adults Near Me",
+      "store_url": "https://play.google.com/store/apps/details?id=com.dating.meetby",
+      "icon_url": "https://play-lh.googleusercontent.com/_e1IE7PF_5hjTcL72ClO6YXyllOICI9dQwYAubSIZlzcBvsDadX30RcaY7ZhP2fA9tZyPOQm9RDSVTjW3i_U",
+      "timestamp": "2026-08-12 00:53:06"
+    }
+  ],
+  "generated_at": "2026-08-12 00:53:13"
+}
