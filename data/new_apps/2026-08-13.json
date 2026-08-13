@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-13",
+  "compare_date": "2026-08-12",
+  "total_count": 5,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.theo-c.mylyfeapp",
+      "itunes_id": "6758522939",
+      "rank": 54,
+      "name": "MyLyfe. Stay Connected.",
+      "developer": "Theodore Ho-Tsing Finkels Chan",
+      "store_url": "https://apps.apple.com/us/app/mylyfe-stay-connected/id6758522939?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ff/93/4d/ff934dc9-e88e-4176-6516-b51bae4079fc/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "release_date": "2026/03/09",
+      "rating": 5,
+      "rating_count": 15,
+      "timestamp": "2026-08-13 00:53:52"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.meechtr.gloab",
+      "itunes_id": "6751406500",
+      "rank": 91,
+      "name": "Chaimi - Meet Global",
+      "developer": "AstraLink LLC(WY)",
+      "store_url": "https://apps.apple.com/us/app/chaimi-meet-global/id6751406500?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b8/1d/aa/b81daa72-3cff-2454-9f4e-c51c3d94a754/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.jpeg/100x100bb.png",
+      "release_date": "2025/09/16",
+      "rating": 4.42373,
+      "rating_count": 59,
+      "timestamp": "2026-08-13 00:53:52"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.easybrain.number.puzzle.game",
+      "itunes_id": "1545567989",
+      "rank": 86,
+      "name": "Number Match - Numbers Game",
+      "developer": "Easybrain Ltd",
+      "store_url": "https://apps.apple.com/us/app/number-match-numbers-game/id1545567989?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e5/97/11/e59711dd-051b-99cd-cc8f-62970ff6650b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2021/10/11",
+      "rating": 4.57652,
+      "rating_count": 240772,
+      "timestamp": "2026-08-13 00:54:04"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.honeywell.installer",
+      "rank": 17,
+      "name": "Honeywell Device Utility",
+      "developer": "Honeywell International, Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.honeywell.installer",
+      "icon_url": "https://play-lh.googleusercontent.com/teVtHb_5i5md-HZg4B5LL1OKkXt9e0bDqSIx7r67rDZHl-x6P5H-7WrWVzFrlfqVGGJgvMH8AH_yxgZgjTpbICw",
+      "timestamp": "2026-08-13 00:54:26"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.waqaslabs.all_in_one_tools",
+      "rank": 19,
+      "name": "Utility Hub: All-in-One Tools",
+      "developer": "Waqas Labs",
+      "store_url": "https://play.google.com/store/apps/details?id=com.waqaslabs.all_in_one_tools",
+      "icon_url": "https://play-lh.googleusercontent.com/Hy06ArAIRS1YqFCC_jzmBdtpwLPpUclJtbqFhHm87zCYEKmvDM0u3tHM9ql4vPzg9Ox7NZu6kAhJHRnZP0oK",
+      "timestamp": "2026-08-13 00:54:26"
+    }
+  ],
+  "generated_at": "2026-08-13 00:54:29"
+}
