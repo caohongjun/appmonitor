@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-16",
+  "compare_date": "2026-08-15",
+  "total_count": 3,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.zamalabs.fitbit.toapplehealth",
+      "itunes_id": "1637904679",
+      "rank": 97,
+      "name": "Fitbit Sync to Health App",
+      "developer": "Zamalabs Yazılım ve Bilgi Teknolojileri Limited Şirketi",
+      "store_url": "https://apps.apple.com/us/app/fitbit-sync-to-health-app/id1637904679?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e3/7c/05/e37c0544-ee4c-31fc-81b9-b34680a30bdd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2022/09/11",
+      "rating": 4.05855,
+      "rating_count": 854,
+      "timestamp": "2026-08-16 00:31:16"
+    },
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.bloodpressure.healthmonitor",
+      "itunes_id": "6450994700",
+      "rank": 100,
+      "name": "Blood Pressure App-Health Body",
+      "developer": "Vincentius Tech Sdn Bhd",
+      "store_url": "https://apps.apple.com/us/app/blood-pressure-app-health-body/id6450994700?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/9f/6e/8f9f6e6f-e5b8-9a4e-c424-5bb49bfaab5f/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.jpeg/100x100bb.png",
+      "release_date": "2023/07/18",
+      "rating": 4.47659,
+      "rating_count": 9079,
+      "timestamp": "2026-08-16 00:31:16"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.reactish.rewatchlive",
+      "itunes_id": "6475189565",
+      "rank": 82,
+      "name": "Rewatch LIVE: Save Live Stream",
+      "developer": "Reactish, LLC",
+      "store_url": "https://apps.apple.com/us/app/rewatch-live-save-live-stream/id6475189565?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ea/be/47/eabe47f7-d30c-8171-4c5d-dd0d49debf77/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2024/01/29",
+      "rating": 4.47144,
+      "rating_count": 963,
+      "timestamp": "2026-08-16 00:31:21"
+    }
+  ],
+  "generated_at": "2026-08-16 00:31:58"
+}
