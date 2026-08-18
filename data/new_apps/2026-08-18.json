@@ -1,0 +1,49 @@
+{
+  "date": "2026-08-18",
+  "compare_date": "2026-08-17",
+  "total_count": 3,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.lydiaickler.lautjetzt",
+      "itunes_id": "6761342025",
+      "rank": 8,
+      "name": "beloud.now",
+      "developer": "Lydia Ickler",
+      "store_url": "https://apps.apple.com/us/app/beloud-now/id6761342025?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/57/54/fb/5754fbb6-3763-31f7-6cdd-e06efe17a4d1/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "release_date": "2026/04/13",
+      "rating": 4,
+      "rating_count": 5,
+      "timestamp": "2026-08-18 00:29:20"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.tipsyflamingo.flamingo",
+      "itunes_id": "1537890432",
+      "rank": 61,
+      "name": "Flamingo Cards: Couple Games",
+      "developer": "Tipsy Flamingo LLC",
+      "store_url": "https://apps.apple.com/us/app/flamingo-cards-couple-games/id1537890432?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b3/bc/48/b3bc4869-f261-ac32-1f93-cf41049d18e5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "release_date": "2020/11/13",
+      "rating": 4.56224,
+      "rating_count": 1510,
+      "timestamp": "2026-08-18 00:29:25"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "com.google.android.apps.messaging",
+      "rank": 12,
+      "name": "Google Messages",
+      "developer": "Google LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.messaging",
+      "icon_url": "https://play-lh.googleusercontent.com/Mgukz1fq2stUYX_lQf79gmMeDzNvRCu5eobmiJwNkXl4riNY6HZ3VB-HRW5QciwEuLnFyk_ZmHumvn8RJ5Um",
+      "timestamp": "2026-08-18 00:29:34"
+    }
+  ],
+  "generated_at": "2026-08-18 00:29:51"
+}
