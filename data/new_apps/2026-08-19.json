@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-19",
+  "compare_date": "2026-08-18",
+  "total_count": 3,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.duhaamaham.pebble",
+      "itunes_id": "6797264569",
+      "rank": 53,
+      "name": "PebblePro",
+      "developer": "Giray KORUTURK",
+      "store_url": "https://apps.apple.com/us/app/pebblepro/id6797264569?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3d/c9/6a/3dc96a3d-0e99-7ef5-c892-a08f39a9923d/AppIcon-1x_U007epad-0-11-0-85-220-0.png/100x100bb.png",
+      "release_date": "2026/08/04",
+      "rating": 4,
+      "rating_count": 5,
+      "timestamp": "2026-08-19 00:29:47"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.nebula.zoodoku.ios",
+      "itunes_id": "6781525746",
+      "rank": 83,
+      "name": "Zoodoku！",
+      "developer": "Nebula Studio",
+      "store_url": "https://apps.apple.com/us/app/zoodoku/id6781525746?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/38/42/37/38423710-e030-fa71-a853-aac7aa987cb5/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+      "release_date": "2026/07/26",
+      "rating": 4.67718,
+      "rating_count": 666,
+      "timestamp": "2026-08-19 00:30:05"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.easybrain.art.puzzle",
+      "itunes_id": "1519174001",
+      "rank": 97,
+      "name": "Art Puzzle - Jigsaw Games",
+      "developer": "Easybrain Ltd",
+      "store_url": "https://apps.apple.com/us/app/art-puzzle-jigsaw-games/id1519174001?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/bf/22/efbf22ad-6b86-c548-7e26-eda320167317/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2020/12/15",
+      "rating": 4.61573,
+      "rating_count": 281249,
+      "timestamp": "2026-08-19 00:30:05"
+    }
+  ],
+  "generated_at": "2026-08-19 00:30:30"
+}
