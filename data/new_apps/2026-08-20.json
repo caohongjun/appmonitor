@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-20",
+  "compare_date": "2026-08-19",
+  "total_count": 3,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.ovulation.baby.tracking.momsupport",
+      "itunes_id": "6746038834",
+      "rank": 85,
+      "name": "Momiary: Pregnancy Tracker",
+      "developer": "Chuong Tran Phuc",
+      "store_url": "https://apps.apple.com/us/app/momiary-pregnancy-tracker/id6746038834?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8a/03/75/8a0375ee-a693-ff87-fcb7-3ae065021a9a/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png",
+      "release_date": "2025/05/25",
+      "rating": 4.38128,
+      "rating_count": 2649,
+      "timestamp": "2026-08-20 00:29:53"
+    },
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "co.supp.app",
+      "itunes_id": "6504838951",
+      "rank": 99,
+      "name": "SuppCo: Supplement Scanner",
+      "developer": "Supple Stack Inc",
+      "store_url": "https://apps.apple.com/us/app/suppco-supplement-scanner/id6504838951?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/48/fb/cc/48fbcc61-f897-79a8-6035-392ba0b1e190/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+      "release_date": "2024/09/17",
+      "rating": 4.8194,
+      "rating_count": 28001,
+      "timestamp": "2026-08-20 00:29:53"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.peoplefun.wordsearch",
+      "itunes_id": "1420294918",
+      "rank": 90,
+      "name": "Wordscapes Search - Word Game",
+      "developer": "PeopleFun, Inc.",
+      "store_url": "https://apps.apple.com/us/app/wordscapes-search-word-game/id1420294918?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ac/24/f6/ac24f6d3-4d87-884a-7d34-addf10c8f067/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2019/11/22",
+      "rating": 4.88865,
+      "rating_count": 187555,
+      "timestamp": "2026-08-20 00:30:11"
+    }
+  ],
+  "generated_at": "2026-08-20 00:30:36"
+}
