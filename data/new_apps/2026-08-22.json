@@ -1,0 +1,152 @@
+{
+  "date": "2026-08-22",
+  "compare_date": "2026-08-21",
+  "total_count": 12,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "app.crushes",
+      "itunes_id": "6751143764",
+      "rank": 61,
+      "name": "CounIt: Party & Drink Counter",
+      "developer": "FORB LABS SL",
+      "store_url": "https://apps.apple.com/us/app/counit-party-drink-counter/id6751143764?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9e/b8/6c/9eb86cde-5979-f77a-60a0-d38684bb4740/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "release_date": "2025/08/21",
+      "rating": 4.35714,
+      "rating_count": 14,
+      "timestamp": "2026-08-22 00:29:31"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "xyz.nextalone.nagram",
+      "itunes_id": "6781000861",
+      "rank": 70,
+      "name": "Nagram",
+      "developer": "Kitta Co.",
+      "store_url": "https://apps.apple.com/us/app/nagram/id6781000861?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b1/93/ed/b193ed97-6b1b-d6d5-ca0a-b42e52adfffc/NagramBuild-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2026/08/19",
+      "rating": 0,
+      "rating_count": 0,
+      "timestamp": "2026-08-22 00:29:31"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.ravemobilesafety.raveguardian",
+      "itunes_id": "691246562",
+      "rank": 97,
+      "name": "Rave Guardian",
+      "developer": "Rave Mobile Safety",
+      "store_url": "https://apps.apple.com/us/app/rave-guardian/id691246562?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cf/dd/cc/cfddcc0a-ec99-f9db-ab17-7b2a1ef69f6a/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2013/08/29",
+      "rating": 4.6295,
+      "rating_count": 2915,
+      "timestamp": "2026-08-22 00:29:36"
+    },
+    {
+      "platform": "Google Play",
+      "category": "健康与健身",
+      "app_id": "com.fitbod.fitbod",
+      "rank": 11,
+      "name": "Fitbod: Workout & Gym Planner",
+      "developer": "Fitbod",
+      "store_url": "https://play.google.com/store/apps/details?id=com.fitbod.fitbod",
+      "icon_url": "https://play-lh.googleusercontent.com/bHwuoAEtZW40k3A15ya6of1_p930CXTXGNy01ybT3ICFciBum0PLnIfWjwWFk2iiKsSXdusVQTOckn7rTMREBA",
+      "timestamp": "2026-08-22 00:29:47"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "com.handcent.app.nextsms",
+      "rank": 8,
+      "name": "Handcent Next SMS messenger",
+      "developer": "Handcent",
+      "store_url": "https://play.google.com/store/apps/details?id=com.handcent.app.nextsms",
+      "icon_url": "https://play-lh.googleusercontent.com/dMLSedHTDnSFJjIXDsZSeHs1tI7tGbsiWuK4nqhC_c6tp6F69ISX-1ev4CMXfB7Td5FH3Vsy858vM5U0W98lwg",
+      "timestamp": "2026-08-22 00:29:50"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "com.joinkingschat.android",
+      "rank": 20,
+      "name": "KingsChat",
+      "developer": "KingsChat",
+      "store_url": "https://play.google.com/store/apps/details?id=com.joinkingschat.android",
+      "icon_url": "https://play-lh.googleusercontent.com/UAzEVlICH_Dd6ypK64daC6cEJpwnM79ALFS-vsKldRj57eVkrA_CH1Bf2Zb167vGH4ElsbUblk6ZFECmnFeq",
+      "timestamp": "2026-08-22 00:29:50"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "net.thesocialapp.consumer",
+      "rank": 21,
+      "name": "The Social App -Make Paid Chat",
+      "developer": "The Social App",
+      "store_url": "https://play.google.com/store/apps/details?id=net.thesocialapp.consumer",
+      "icon_url": "https://play-lh.googleusercontent.com/4y5k02_B-xa7eAlWydSsJZFR4BPCRhKjhEbD2qsjCxAB7v8G8YVsRFriGgpxhMFWq1kWn8lJIkBCCikqIcLTnMM",
+      "timestamp": "2026-08-22 00:29:50"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "doi.it.chat",
+      "rank": 23,
+      "name": "DoitChat - Foreign Friend Chat",
+      "developer": "kpp Technology",
+      "store_url": "https://play.google.com/store/apps/details?id=doi.it.chat",
+      "icon_url": "https://play-lh.googleusercontent.com/eOsfbUClC7uPaRrHMPIAebajrE5SauPPZlZZDhAK7JtrmrTYVVQOUE2rNP5HzsaRlWgJCYPIzohgc_7OKptamA",
+      "timestamp": "2026-08-22 00:29:50"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "com.shujiu.litchat2",
+      "rank": 24,
+      "name": "Litchat",
+      "developer": "Litchat HK",
+      "store_url": "https://play.google.com/store/apps/details?id=com.shujiu.litchat2",
+      "icon_url": "https://play-lh.googleusercontent.com/xFP4sx04C_TpLRgALRvD1fIR8FUTzzJ_esNYHzr0yotsl3gRK18K9hU60ITIXpQ1jjS0bSM3yc3Do9-myXg56M4",
+      "timestamp": "2026-08-22 00:29:50"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "to.go",
+      "rank": 25,
+      "name": "Flock - Team Chat & Collaborat",
+      "developer": "Titan HQ",
+      "store_url": "https://play.google.com/store/apps/details?id=to.go",
+      "icon_url": "https://play-lh.googleusercontent.com/4DfJ_xheNULCDGdAQ9zt9ANxanvwHjG7mZQbCVQtYoqFnhoa0DiswI9qFFTfhkHhGFwp5H2bD7VeCMHZ3Q0KISk",
+      "timestamp": "2026-08-22 00:29:50"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "chat.yay.app",
+      "rank": 26,
+      "name": "Yaychat-Voice chat room",
+      "developer": "YAYCHAT",
+      "store_url": "https://play.google.com/store/apps/details?id=chat.yay.app",
+      "icon_url": "https://play-lh.googleusercontent.com/4jAAgHBPtsw6Ao4bDkOeMOtAKVdH-gdsnZROVF-UqYiqKwWlJg-8Od9iqYphCFs2PIFw8xLEmdEHXsunnY2MJQ",
+      "timestamp": "2026-08-22 00:29:50"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "com.novatech.textutilitiestoolkit",
+      "rank": 10,
+      "name": "Text Utilities Toolkit",
+      "developer": "Nova Stack Studios",
+      "store_url": "https://play.google.com/store/apps/details?id=com.novatech.textutilitiestoolkit",
+      "icon_url": "https://play-lh.googleusercontent.com/AqecsYVjjAHF-aCfvhirpVCzr1kFsFlHXjrSucqwXHNNHe4mZcyOF39pXze2BXuumyCOUGiTz30y_lBk8vRAbB8",
+      "timestamp": "2026-08-22 00:30:04"
+    }
+  ],
+  "generated_at": "2026-08-22 00:30:07"
+}
