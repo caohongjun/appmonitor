@@ -1,0 +1,64 @@
+{
+  "date": "2026-08-23",
+  "compare_date": "2026-08-22",
+  "total_count": 4,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.joouz.mobile",
+      "itunes_id": "6785870462",
+      "rank": 89,
+      "name": "JOOUZ",
+      "developer": "JOOUZ DIGITAL LTD",
+      "store_url": "https://apps.apple.com/us/app/joouz/id6785870462?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/11/47/41114750-2c71-d2b6-dfe1-86656040cd1f/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+      "release_date": "2026/07/17",
+      "rating": 0,
+      "rating_count": 0,
+      "timestamp": "2026-08-23 00:32:22"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.smileycraft.emojiwall.EmojiWall",
+      "itunes_id": "6763980664",
+      "rank": 87,
+      "name": "EmojiWall-Emojis & Wallpapers",
+      "developer": "FantasyParkLimited",
+      "store_url": "https://apps.apple.com/us/app/emojiwall-emojis-wallpapers/id6763980664?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e5/ba/2d/e5ba2de5-dc86-7748-793d-fb3438cf4de7/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2026/05/12",
+      "rating": 1.66667,
+      "rating_count": 3,
+      "timestamp": "2026-08-23 00:32:28"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.2ksports.nba2km",
+      "itunes_id": "1252850847",
+      "rank": 96,
+      "name": "NBA 2K Mobile Basketball Game",
+      "developer": "2K",
+      "store_url": "https://apps.apple.com/us/app/nba-2k-mobile-basketball-game/id1252850847?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/28/8f/b3/288fb342-ea9a-aa63-5eba-74db98fc56c5/AppIcon-0-0-1x_U007epad-0-1-512MB-85-220.png/100x100bb.png",
+      "release_date": "2018/11/19",
+      "rating": 4.75919,
+      "rating_count": 1673107,
+      "timestamp": "2026-08-23 00:32:34"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "sourcerabbit.android.apps.networkutilitiesultimate",
+      "rank": 26,
+      "name": "Network Utilities Ultimate",
+      "developer": "SourceRabbit",
+      "store_url": "https://play.google.com/store/apps/details?id=sourcerabbit.android.apps.networkutilitiesultimate",
+      "icon_url": "https://play-lh.googleusercontent.com/oIkiPIbuZuieM-TQZIh1t2OaymNFMx991xDXJFDTW2Vs5gEdhGgPtdgeQBd-ESfeqtgxdOb_jmsoavYXXe0J0AE",
+      "timestamp": "2026-08-23 00:32:55"
+    }
+  ],
+  "generated_at": "2026-08-23 00:32:59"
+}
