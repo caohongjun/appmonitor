@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-24",
+  "compare_date": "2026-08-23",
+  "total_count": 5,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.igtracker.insights",
+      "itunes_id": "1499924074",
+      "rank": 90,
+      "name": "Reports Unfollowers Followers+",
+      "developer": "BYTECORE MOBILITY LIMITED",
+      "store_url": "https://apps.apple.com/us/app/reports-unfollowers-followers/id1499924074?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f3/ac/ef/f3aceffe-87c2-99af-f451-a716d662a41f/AppIcon-1x_U007ephone-0-1-0-85-220-0.png/100x100bb.png",
+      "release_date": "2020/03/06",
+      "rating": 4.45448,
+      "rating_count": 130404,
+      "timestamp": "2026-08-24 00:31:20"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "church.sagebrush.buddycheck",
+      "itunes_id": "6761621456",
+      "rank": 69,
+      "name": "BuddyCheck (Sagebrush)",
+      "developer": "Sagebrush Community Church",
+      "store_url": "https://apps.apple.com/us/app/buddycheck-sagebrush/id6761621456?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/85/2a/dd/852addca-3ac8-1ac0-1522-616b6c1d30e1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/08/11",
+      "rating": 5,
+      "rating_count": 9,
+      "timestamp": "2026-08-24 00:31:25"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "com.dmp.gather",
+      "itunes_id": "6553957231",
+      "rank": 84,
+      "name": "Gather: GPS Location Sharing",
+      "developer": "gather.life",
+      "store_url": "https://apps.apple.com/us/app/gather-gps-location-sharing/id6553957231?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/43/2b/50/432b50cb-acc8-0801-de0b-ee2500007434/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "release_date": "2024/09/16",
+      "rating": 4.6838,
+      "rating_count": 1556,
+      "timestamp": "2026-08-24 00:31:25"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "net.chatp",
+      "rank": 28,
+      "name": "Talkinchat - Voice Rooms &Chat",
+      "developer": "Talkinchat LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=net.chatp",
+      "icon_url": "https://play-lh.googleusercontent.com/KZ3foCeJehremZ2MgYfowcMdIBL_fFISH4Rek38kEQdANDygnGLgreDyLUMOXDmEHcrc0zIfvuNA2YKlhd4v",
+      "timestamp": "2026-08-24 00:31:39"
+    },
+    {
+      "platform": "Google Play",
+      "category": "社交",
+      "app_id": "com.synology.dschat",
+      "rank": 30,
+      "name": "Synology Chat",
+      "developer": "Synology Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.synology.dschat",
+      "icon_url": "https://play-lh.googleusercontent.com/zoicWRov_XVXVmBx21iFILf1laGlQoVLoWEWb6tv80gZLljaE_FWcpVQa69UUhin8YRm4ySx25gL3gMmfAI7yjY",
+      "timestamp": "2026-08-24 00:31:39"
+    }
+  ],
+  "generated_at": "2026-08-24 00:31:56"
+}
