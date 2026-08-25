@@ -1,0 +1,68 @@
+{
+  "date": "2026-08-25",
+  "compare_date": "2026-08-24",
+  "total_count": 4,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.appalex.repostremover",
+      "itunes_id": "6793075281",
+      "rank": 59,
+      "name": "RepostZap: Repost Remover",
+      "developer": "Appalex Ltd.",
+      "store_url": "https://apps.apple.com/us/app/repostzap-repost-remover/id6793075281?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2a/2b/f7/2a2bf732-e602-7963-8c0c-c028cf146e91/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "release_date": "2026/07/28",
+      "rating": 4.80769,
+      "rating_count": 260,
+      "timestamp": "2026-08-25 00:30:45"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "Keller.YouAndMe",
+      "itunes_id": "6801322823",
+      "rank": 77,
+      "name": "You&Me",
+      "developer": "Dmitry Keller",
+      "store_url": "https://apps.apple.com/us/app/you-me/id6801322823?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c6/0a/22/c60a220f-3541-8922-8397-edc4cb1aa9c3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "release_date": "2026/08/22",
+      "rating": 5,
+      "rating_count": 2,
+      "timestamp": "2026-08-25 00:30:51"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "ios.animal.hunter.shooting.apex",
+      "itunes_id": "6761614488",
+      "rank": 66,
+      "name": "Apex Hunter: Animal Shooting",
+      "developer": "CozyCraft",
+      "store_url": "https://apps.apple.com/us/app/apex-hunter-animal-shooting/id6761614488?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1e/6d/48/1e6d48f2-f674-2bed-e13a-1ff2c09a58db/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2026/08/02",
+      "rating": 4.65854,
+      "rating_count": 82,
+      "timestamp": "2026-08-25 00:30:56"
+    },
+    {
+      "platform": "App Store",
+      "category": "游戏",
+      "app_id": "com.blockcrush.travelmaster",
+      "itunes_id": "1638139403",
+      "rank": 84,
+      "name": "Block Crush！",
+      "developer": "Wonderful Studio",
+      "store_url": "https://apps.apple.com/us/app/block-crush/id1638139403?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/de/35/de/de35de62-9ead-0847-c321-812bfe4bc6b8/AppIcon-0-0-1x_U007epad-0-11-0-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2022/08/05",
+      "rating": 4.85933,
+      "rating_count": 136940,
+      "timestamp": "2026-08-25 00:30:56"
+    }
+  ],
+  "generated_at": "2026-08-25 00:31:21"
+}
