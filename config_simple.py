@@ -65,14 +65,27 @@ APP_STORE_CATEGORIES = {
 }
 
 # Google Play 分类配置
+# category 值对应 facundoolano/google-play-scraper 的 constants.category
 GOOGLE_PLAY_CATEGORIES = {
+    "tools": {
+        "name_cn": "工具",
+        "name_en": "TOOLS"
+    },
     "health_fitness": {
-        "name_cn": "健康与健身",
+        "name_cn": "健身与健康",
         "name_en": "HEALTH_AND_FITNESS"
+    },
+    "travel_local": {
+        "name_cn": "旅行与当地",
+        "name_en": "TRAVEL_AND_LOCAL"
     },
     "social": {
         "name_cn": "社交",
         "name_en": "SOCIAL"
+    },
+    "productivity": {
+        "name_cn": "生产力",
+        "name_en": "PRODUCTIVITY"
     },
     "lifestyle": {
         "name_cn": "生活方式",
@@ -82,13 +95,13 @@ GOOGLE_PLAY_CATEGORIES = {
         "name_cn": "游戏",
         "name_en": "GAME"
     },
+    "entertainment": {
+        "name_cn": "娱乐",
+        "name_en": "ENTERTAINMENT"
+    },
     "dating": {
         "name_cn": "约会",
         "name_en": "DATING"
-    },
-    "tools": {
-        "name_cn": "工具",
-        "name_en": "TOOLS"
     }
 }
 
@@ -106,5 +119,5 @@ SCRAPER_CONFIG = {
         "delay": 3  # 请求延迟（秒）
     },
     "retry_times": 3,  # 失败重试次数
-    "timeout": 30  # 请求超时时间（秒）
+    "timeout": 120  # 请求超时时间（秒）；Google Play fullDetail 模式下 100 个 app 约需 30-60s
 }

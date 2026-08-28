@@ -1,0 +1,24 @@
+{
+  "name": "app_moitor",
+  "version": "1.0.0",
+  "description": "一个自动化的应用商店榜单监控与分析系统，帮助你跟踪热门应用、发现新上榜产品、分析市场趋势。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caohongjun/appmonitor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/caohongjun/appmonitor/issues"
+  },
+  "homepage": "https://github.com/caohongjun/appmonitor#readme",
+  "dependencies": {
+    "google-play-scraper": "^10.1.3"
+  }
+}

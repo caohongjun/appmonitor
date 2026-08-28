@@ -75,15 +75,30 @@ APP_STORE_CATEGORIES = {
 # 文档: https://developers.google.com/android-publisher/api-ref/rest/v3/applications
 
 GOOGLE_PLAY_CATEGORIES = {
-    "健康与健身": {
-        "name_cn": "健康与健身",
+    "工具": {
+        "name_cn": "工具",
+        "name_en": "Tools",
+        "category_id": "TOOLS"
+    },
+    "健身与健康": {
+        "name_cn": "健身与健康",
         "name_en": "Health & Fitness",
         "category_id": "HEALTH_AND_FITNESS"
+    },
+    "旅行与当地": {
+        "name_cn": "旅行与当地",
+        "name_en": "Travel & Local",
+        "category_id": "TRAVEL_AND_LOCAL"
     },
     "社交": {
         "name_cn": "社交",
         "name_en": "Social",
         "category_id": "SOCIAL"
+    },
+    "生产力": {
+        "name_cn": "生产力",
+        "name_en": "Productivity",
+        "category_id": "PRODUCTIVITY"
     },
     "生活方式": {
         "name_cn": "生活方式",
@@ -95,15 +110,15 @@ GOOGLE_PLAY_CATEGORIES = {
         "name_en": "Game",
         "category_id": "GAME"
     },
+    "娱乐": {
+        "name_cn": "娱乐",
+        "name_en": "Entertainment",
+        "category_id": "ENTERTAINMENT"
+    },
     "约会": {
         "name_cn": "约会",
         "name_en": "Dating",
         "category_id": "DATING"
-    },
-    "工具": {
-        "name_cn": "工具",
-        "name_en": "Tools",
-        "category_id": "TOOLS"
     }
 }
 

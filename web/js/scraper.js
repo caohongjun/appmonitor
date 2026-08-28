@@ -20,12 +20,15 @@ const scraperCategories = {
         'travel': '旅行'
     },
     'google_play': {
-        'health_fitness': '健康与健身',
+        'tools': '工具',
+        'health_fitness': '健身与健康',
+        'travel_local': '旅行与当地',
         'social': '社交',
+        'productivity': '生产力',
         'lifestyle': '生活方式',
         'games': '游戏',
-        'dating': '约会',
-        'tools': '工具'
+        'entertainment': '娱乐',
+        'dating': '约会'
     }
 };
 

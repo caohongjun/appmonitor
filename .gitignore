@@ -48,3 +48,7 @@ logs/
 
 # Environment variables (敏感信息)
 .env
+
+# Node.js（Google Play 爬虫依赖，通过 npm install 安装）
+node_modules/
+package-lock.json
