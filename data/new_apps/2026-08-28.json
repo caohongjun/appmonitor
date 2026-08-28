@@ -1,0 +1,68 @@
+{
+  "date": "2026-08-28",
+  "compare_date": "2026-08-27",
+  "total_count": 4,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.clubdotcom.club",
+      "itunes_id": "6774236682",
+      "rank": 28,
+      "name": "Club.com",
+      "developer": "ClubCreators Inc.",
+      "store_url": "https://apps.apple.com/us/app/club-com/id6774236682?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/f4/8c/0af48cad-1ed3-0988-20c7-487e111e29e5/ios-0-0-1x_U007ephone-0-1-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2026/08/19",
+      "rating": 4.75861,
+      "rating_count": 29,
+      "timestamp": "2026-08-28 07:19:08"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.joinpoppin.poppin",
+      "itunes_id": "1573674111",
+      "rank": 61,
+      "name": "Poppin - The Party Platform",
+      "developer": "Poppin Technologies Inc.",
+      "store_url": "https://apps.apple.com/us/app/poppin-the-party-platform/id1573674111?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7d/4b/b4/7d4bb479-102f-da19-a0e1-25db5f5cb153/AppIcon-Updated-0-0-1x_U007ephone-0-1-0-85-220.jpeg/100x100bb.png",
+      "release_date": "2021/07/01",
+      "rating": 4.28916,
+      "rating_count": 166,
+      "timestamp": "2026-08-28 07:19:08"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "ott.queenbeautynetwork",
+      "itunes_id": "6648793413",
+      "rank": 83,
+      "name": "QBN",
+      "developer": "Elizabeth Miles, LLC",
+      "store_url": "https://apps.apple.com/us/app/qbn/id6648793413?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8c/a0/a7/8ca0a73d-6631-1f7c-d654-cc5026e63837/AppIcon-Branded-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+      "release_date": "2024/09/03",
+      "rating": 2.05263,
+      "rating_count": 19,
+      "timestamp": "2026-08-28 07:19:14"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活方式",
+      "app_id": "rexar.dreammate.ai",
+      "itunes_id": "6739350749",
+      "rank": 100,
+      "name": "Dream Mate: AI Roleplay Chat",
+      "developer": "BOBY AI YAZILIM ANONIM SIRKETI",
+      "store_url": "https://apps.apple.com/us/app/dream-mate-ai-roleplay-chat/id6739350749?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ae/d3/f1/aed3f126-a86b-f75f-2b1a-231a773d1d87/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "release_date": "2025/02/23",
+      "rating": 4.03056,
+      "rating_count": 589,
+      "timestamp": "2026-08-28 07:19:14"
+    }
+  ],
+  "generated_at": "2026-08-28 07:19:45"
+}
