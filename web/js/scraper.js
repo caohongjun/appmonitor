@@ -11,7 +11,13 @@ const scraperCategories = {
         'health_fitness': '健康与健身',
         'social': '社交网络',
         'lifestyle': '生活方式',
-        'games': '游戏'
+        'games': '游戏',
+        'education': '教育',
+        'productivity': '生产力',
+        'utilities': '生活实用',
+        'entertainment': '娱乐',
+        'photo_video': '照片和视频',
+        'travel': '旅行'
     },
     'google_play': {
         'health_fitness': '健康与健身',

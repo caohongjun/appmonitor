@@ -31,6 +31,36 @@ APP_STORE_CATEGORIES = {
         "name_cn": "游戏",
         "name_en": "Games",
         "genre_id": "6014"
+    },
+    "education": {
+        "name_cn": "教育",
+        "name_en": "Education",
+        "genre_id": "6017"
+    },
+    "productivity": {
+        "name_cn": "生产力",
+        "name_en": "Productivity",
+        "genre_id": "6007"
+    },
+    "utilities": {
+        "name_cn": "生活实用",
+        "name_en": "Utilities",
+        "genre_id": "6002"
+    },
+    "entertainment": {
+        "name_cn": "娱乐",
+        "name_en": "Entertainment",
+        "genre_id": "6016"
+    },
+    "photo_video": {
+        "name_cn": "照片和视频",
+        "name_en": "Photo & Video",
+        "genre_id": "6008"
+    },
+    "travel": {
+        "name_cn": "旅行",
+        "name_en": "Travel",
+        "genre_id": "6003"
     }
 }
 
