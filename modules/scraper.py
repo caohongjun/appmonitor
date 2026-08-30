@@ -71,6 +71,9 @@ class RankingMonitorScraper:
 
         Args:
             categories: 指定要爬取的分类列表，None表示全部
+
+        Returns:
+            bool: 是否至少成功爬取一个分类
         """
         self.logger.info("=" * 60)
         self.logger.info("开始爬取 App Store 榜单")
@@ -124,16 +127,21 @@ class RankingMonitorScraper:
         self.logger.info(f"成功: {success_count}/{len(target_categories)} 个分类")
         self.logger.info(f"应用总数: {total_apps}")
 
+        return success_count > 0
+
     def scrape_google_play(self, categories=None):
         """
         爬取 Google Play 榜单
 
         Args:
             categories: 指定要爬取的分类列表，None表示全部
+
+        Returns:
+            bool | None: 是否至少成功爬取一个分类；环境不可用时返回 None
         """
         if not self.google_play_scraper:
-            self.logger.warning("Google Play 爬虫不可用，请安装: pip install google-play-scraper")
-            return
+            self.logger.warning("Google Play 爬虫不可用（缺少 Node.js 环境或未安装依赖），请安装 Node.js 后执行: npm install")
+            return None  # 环境不可用视为跳过，不计入失败
 
         self.logger.info("=" * 60)
         self.logger.info("开始爬取 Google Play 榜单")
@@ -187,6 +195,8 @@ class RankingMonitorScraper:
         self.logger.info(f"成功: {success_count}/{len(target_categories)} 个分类")
         self.logger.info(f"应用总数: {total_apps}")
 
+        return success_count > 0
+
     def scrape_all(self, platform=None, categories=None):
         """
         爬取所有榜单
@@ -194,6 +204,10 @@ class RankingMonitorScraper:
         Args:
             platform: 指定平台（app_store / google_play），None表示全部
             categories: 指定分类列表，None表示全部
+
+        Returns:
+            dict: 各平台爬取结果，如 {"app_store": True, "google_play": False}；
+                  未执行的平台不会出现在结果中
         """
         start_time = datetime.now()
         self.logger.info("=" * 60)
@@ -201,11 +215,13 @@ class RankingMonitorScraper:
         self.logger.info(f"日期: {self.date}")
         self.logger.info("=" * 60)
 
+        results = {}
+
         if platform is None or platform == "app_store":
-            self.scrape_app_store(categories)
+            results["app_store"] = self.scrape_app_store(categories)
 
         if platform is None or platform == "google_play":
-            self.scrape_google_play(categories)
+            results["google_play"] = self.scrape_google_play(categories)
 
         end_time = datetime.now()
         duration = (end_time - start_time).total_seconds()
@@ -213,6 +229,8 @@ class RankingMonitorScraper:
         self.logger.info("=" * 60)
         self.logger.info(f"全部爬取完成，耗时: {duration:.1f} 秒")
         self.logger.info("=" * 60)
+
+        return results
 
 
 def update_dates_json(date_str):
@@ -297,8 +315,15 @@ def main():
 
     # 创建爬虫实例并执行
     scraper = RankingMonitorScraper(args.date)
-    scraper.scrape_all(args.platform, categories)
-    
+    results = scraper.scrape_all(args.platform, categories)
+
+    # 某平台已执行但全部分类失败时，以非零退出码结束，
+    # 便于 GitHub Actions 等环境及时发现爬取故障（避免静默失败）
+    failed_platforms = [p for p, ok in results.items() if ok is False]
+    if failed_platforms:
+        print(f"错误: 以下平台所有分类均爬取失败: {', '.join(failed_platforms)}")
+        sys.exit(1)
+
     # 更新dates.json
     update_dates_json(scraper.date)
 

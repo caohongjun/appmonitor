@@ -21,8 +21,8 @@
 
 ### 📦 模块1：榜单数据爬取 ✅ 已完成
 
-- ✅ **App Store**：4个分类（健康与健身、社交网络、生活方式、游戏）
-- ✅ **Google Play**：6个分类（健康与健身、社交、生活方式、游戏、约会、工具）
+- ✅ **App Store**：10个分类（健康与健身、社交网络、生活方式、游戏、教育、生产力、生活实用、娱乐、照片和视频、旅行）
+- ✅ **Google Play**：9个分类（工具、健身与健康、旅行与当地、社交、生产力、生活方式、游戏、娱乐、约会）
 - ✅ **数据存储**：本地JSON格式，按日期和分类组织
 - ✅ **命令行支持**：可指定日期、平台、分类
 - ✅ **错误处理**：自动重试、日志记录
@@ -72,7 +72,11 @@ source venv/bin/activate
 ### 3. 安装依赖
 
 ```bash
+# Python 依赖（App Store 爬虫）
 pip install -r requirements_module1.txt
+
+# Node.js 依赖（Google Play 爬虫，需先安装 Node.js 18+）
+npm install
 ```
 
 ### 4. 运行爬虫（模块1）
@@ -249,7 +253,7 @@ crontab -e
 - **语言**：Python 3.11+
 - **爬虫库**：
   - `requests` - App Store RSS API
-  - `google-play-scraper` - Google Play 数据
+  - `google-play-scraper`（Node.js 版）- Google Play 分类榜单数据
 - **数据存储**：JSON 文件
 - **AI分析**：Claude API（模块3）
 - **前端**：HTML + CSS + JavaScript（模块4）
@@ -330,9 +334,9 @@ source venv/bin/activate
 
 ### Google Play 数据准确性
 
-- 使用的 `google-play-scraper` 是非官方库
-- 数据通过搜索方式获取，可能与实际榜单有差异
-- 如需准确数据，建议使用官方 API（付费）
+- 使用的 `google-play-scraper`（Node.js 版）是非官方库
+- 通过分类榜单（list）接口获取真实的 Top N 排名
+- 如需官方数据，建议使用官方 API（付费）
 
 ---
 
@@ -352,7 +356,7 @@ MIT License
 
 - [飞书开放平台](https://open.feishu.cn/)（如需使用飞书存储）
 - [Apple RSS Feed Generator](https://rss.applemarketingtools.com/)
-- [google-play-scraper](https://github.com/JoMingyu/google-play-scraper)
+- [google-play-scraper（Node.js 版）](https://github.com/facundoolano/google-play-scraper)
 
 ---
 

@@ -3,7 +3,8 @@ Google Play 爬虫模块
 通过 Node.js 版 google-play-scraper (facundoolano/google-play-scraper) 的 list() 接口
 获取真正的分类榜单 Top N（Python 版无此接口，且 search 最多返回约 30 条）。
 
-Python 通过 subprocess 调用 scrapers/gplay_node.js，传 JSON 参数，解析 JSON 返回。
+Python 通过 subprocess 调用 scrapers/gplay_node.mjs，传 JSON 参数，解析 JSON 返回。
+依赖 Node.js 环境及 npm 包 google-play-scraper（在项目根目录执行 npm install 安装）。
 """
 
 import os
@@ -15,7 +16,7 @@ from typing import List, Dict, Optional
 from datetime import datetime
 import logging
 
-# Node 脚本路径（项目根目录下的 scrapers/gplay_node.js）
+# Node 脚本路径（项目根目录下的 scrapers/gplay_node.mjs）
 _SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 _NODE_SCRIPT = os.path.join(_SCRIPT_DIR, "gplay_node.mjs")
 _PROJECT_ROOT = os.path.dirname(_SCRIPT_DIR)

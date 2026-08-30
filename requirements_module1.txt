@@ -1,3 +1,5 @@
 # 模块1（爬虫）依赖
+# App Store 爬虫使用
 requests>=2.31.0
-google-play-scraper>=1.2.0
+# Google Play 爬虫已改用 Node.js 版 google-play-scraper，
+# 不再依赖 Python 版包；请在项目根目录执行 npm install 安装（见 package.json）

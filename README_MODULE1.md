@@ -2,23 +2,32 @@
 
 ## 📋 功能说明
 
-自动爬取 App Store 和 Google Play 的榜单数据，支持10个分类，每个分类获取前100名应用。
+自动爬取 App Store 和 Google Play 的榜单数据，支持19个分类，每个分类获取前100名应用。
 
 ### 支持的分类
 
-**App Store（4个）**：
+**App Store（10个）**：
 - 健康与健身
 - 社交网络
 - 生活方式
 - 游戏
+- 教育
+- 生产力
+- 生活实用
+- 娱乐
+- 照片和视频
+- 旅行
 
-**Google Play（6个）**：
-- 健康与健身
+**Google Play（9个）**：
+- 工具
+- 健身与健康
+- 旅行与当地
 - 社交
+- 生产力
 - 生活方式
 - 游戏
+- 娱乐
 - 约会
-- 工具
 
 ### 获取的数据字段
 
@@ -30,6 +39,9 @@
 - 开发者
 - 商店链接
 - 图标链接
+- 上架时间
+- 评分
+- 评价数
 - 抓取时间
 
 ---
@@ -39,7 +51,11 @@
 ### 1. 安装依赖
 
 ```bash
+# Python 依赖（App Store 爬虫）
 pip install -r requirements_module1.txt
+
+# Node.js 依赖（Google Play 爬虫，需先安装 Node.js 18+）
+npm install
 ```
 
 ### 2. 运行爬虫
@@ -181,7 +197,11 @@ pip install -r requirements_module1.txt
 ```
 
 ### Q2: Google Play 爬取失败？
-Google Play 使用非官方库，可能因为网络问题或 Google 限流导致失败。可以：
+Google Play 爬虫基于 Node.js（google-play-scraper），请先确认环境正常：
+- 已安装 Node.js 18+（`node -v` 可正常执行）
+- 已在项目根目录执行 `npm install`
+
+环境正常仍失败时，可能因网络问题或 Google 限流，可以：
 - 增加延迟时间（修改 config_simple.py 中的 delay）
 - 稍后重试
 - 只爬取 App Store：`python3 modules/scraper.py --platform app_store`
