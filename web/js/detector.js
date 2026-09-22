@@ -42,6 +42,13 @@ const platformNames = {
 async function init() {
     // 加载日期列表
     const dates = await getNewAppsDate();
+
+    // 若当天数据还没爬取，则回退到最新的可用日期（最近1天）；若已有今天数据则保持默认选中当天
+    const hasData = dates.includes(currentDate);
+    if (!hasData && dates.length > 0) {
+        currentDate = dates[0];
+    }
+
     renderDateList(dates);
 
     // 平台Tab切换

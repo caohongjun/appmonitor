@@ -1,37 +1,13 @@
 // 主页JavaScript - 本地版本
 
-// 检查今天的数据并跳转到榜单页面
-async function checkAndGoToScraper() {
-    const today = getTodayString();
-    const testUrl = `../data/raw/${today}/app_store/health_fitness.json`;
-    
-    try {
-        const response = await fetch(testUrl);
-        if (response.ok) {
-            window.location.href = 'scraper.html';
-        } else {
-            showToast('今天的数据还未爬取，请稍后再试', 'info');
-        }
-    } catch (error) {
-        showToast('检查数据失败: ' + error.message, 'error');
-    }
+// 跳转到榜单页面（当天数据未爬取时，scraper.html 内部会自动回退到最近1天可用数据）
+function checkAndGoToScraper() {
+    window.location.href = 'scraper.html';
 }
 
-// 检查并运行检测模块
-async function checkAndRunDetector() {
-    const today = getTodayString();
-    const testUrl = `../data/new_apps/${today}.json`;
-    
-    try {
-        const response = await fetch(testUrl);
-        if (response.ok) {
-            window.location.href = 'detector.html';
-        } else {
-            showToast('今天还没有检测数据，请稍后再试', 'info');
-        }
-    } catch (error) {
-        showToast('检查数据失败: ' + error.message, 'error');
-    }
+// 跳转到新上榜产品页面（当天数据未爬取时，detector.html 内部会自动回退到最近1天可用数据）
+function checkAndRunDetector() {
+    window.location.href = 'detector.html';
 }
 
 // 加载统计数据
@@ -50,19 +26,20 @@ async function loadStats() {
             document.getElementById('module1-date').textContent = '暂无数据';
         }
 
-        // 加载模块2日期（最新新上榜产品分析日期）
-        const newAppsDates = [];
-        const today = getTodayString();
+        // 加载模块2日期（最新新上榜产品检测日期，当天未检测则回退到最近1天）
+        let latestNewAppsDate = null;
         try {
-            const response = await fetch(`../data/new_apps/${today}.json`);
-            if (response.ok) {
-                newAppsDates.push(today);
+            const naDatesResponse = await fetch('../data/new_apps/dates.json');
+            let module2Date = '暂无';
+            if (naDatesResponse.ok) {
+                const naDatesData = await naDatesResponse.json();
+                if (naDatesData.dates && naDatesData.dates.length > 0) {
+                    latestNewAppsDate = naDatesData.dates[0];
+                    module2Date = formatDate(latestNewAppsDate);
+                }
             }
-        } catch (e) {}
-        
-        if (newAppsDates.length > 0) {
-            document.getElementById('module2-date').textContent = formatDate(newAppsDates[0]);
-        } else {
+            document.getElementById('module2-date').textContent = module2Date;
+        } catch (e) {
             document.getElementById('module2-date').textContent = '暂无';
         }
 
@@ -106,8 +83,8 @@ async function loadStats() {
             document.getElementById('total-apps').textContent = totalApps;
         }
 
-        // 获取新上榜产品数
-        const newAppsData = await loadJSON(`../data/new_apps/${today}.json`);
+        // 获取新上榜产品数（用最新可用检测日期的数据，当天未检测则回退到最近1天）
+        const newAppsData = latestNewAppsDate ? await loadJSON(`../data/new_apps/${latestNewAppsDate}.json`) : null;
         console.log('新上榜产品数据:', newAppsData);
         if (newAppsData) {
             document.getElementById('new-apps').textContent = newAppsData.total_count || 0;
