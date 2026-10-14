@@ -18,7 +18,15 @@ const categories = {
         'utilities': '生活实用',
         'entertainment': '娱乐',
         'photo_video': '照片和视频',
-        'travel': '旅行'
+        'travel': '旅行',
+        'graphics_design': '绘图与设计',
+        'books': '书籍',
+        'shopping': '购物',
+        'business': '商务',
+        'sports': '体育',
+        'weather': '天气',
+        'news': '新闻',
+        'music': '音乐'
     },
     'google_play': {
         'tools': '工具',
@@ -29,7 +37,24 @@ const categories = {
         'lifestyle': '生活方式',
         'games': '游戏',
         'entertainment': '娱乐',
-        'dating': '约会'
+        'dating': '约会',
+        'personalization': '个性化',
+        'shopping': '购物',
+        'events': '活动',
+        'family': '家庭',
+        'house_home': '家庭与家居',
+        'comics': '漫画',
+        'beauty': '美妆',
+        'business': '商务',
+        'photography': '摄影',
+        'video_players': '视频播放器和编辑器',
+        'books_reference': '书籍和参考',
+        'sports': '体育',
+        'weather': '天气',
+        'medical': '医疗',
+        'art_design': '艺术和设计',
+        'music_audio': '音乐和音频',
+        'parenting': '育儿'
     }
 };
 

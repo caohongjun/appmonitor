@@ -67,6 +67,54 @@ APP_STORE_CATEGORIES = {
         "name_en": "Travel",
         "genre_id": "6003",
         "url": "https://itunes.apple.com/us/rss/topfreeapplications/limit=100/genre=6003/json"
+    },
+    "绘图与设计": {
+        "name_cn": "绘图与设计",
+        "name_en": "Graphics & Design",
+        "genre_id": "6027",
+        "url": "https://itunes.apple.com/us/rss/topfreeapplications/limit=100/genre=6027/json"
+    },
+    "书籍": {
+        "name_cn": "书籍",
+        "name_en": "Books",
+        "genre_id": "6018",
+        "url": "https://itunes.apple.com/us/rss/topfreeapplications/limit=100/genre=6018/json"
+    },
+    "购物": {
+        "name_cn": "购物",
+        "name_en": "Shopping",
+        "genre_id": "6024",
+        "url": "https://itunes.apple.com/us/rss/topfreeapplications/limit=100/genre=6024/json"
+    },
+    "商务": {
+        "name_cn": "商务",
+        "name_en": "Business",
+        "genre_id": "6000",
+        "url": "https://itunes.apple.com/us/rss/topfreeapplications/limit=100/genre=6000/json"
+    },
+    "体育": {
+        "name_cn": "体育",
+        "name_en": "Sports",
+        "genre_id": "6004",
+        "url": "https://itunes.apple.com/us/rss/topfreeapplications/limit=100/genre=6004/json"
+    },
+    "天气": {
+        "name_cn": "天气",
+        "name_en": "Weather",
+        "genre_id": "6001",
+        "url": "https://itunes.apple.com/us/rss/topfreeapplications/limit=100/genre=6001/json"
+    },
+    "新闻": {
+        "name_cn": "新闻",
+        "name_en": "News",
+        "genre_id": "6009",
+        "url": "https://itunes.apple.com/us/rss/topfreeapplications/limit=100/genre=6009/json"
+    },
+    "音乐": {
+        "name_cn": "音乐",
+        "name_en": "Music",
+        "genre_id": "6011",
+        "url": "https://itunes.apple.com/us/rss/topfreeapplications/limit=100/genre=6011/json"
     }
 }
 
@@ -119,6 +167,91 @@ GOOGLE_PLAY_CATEGORIES = {
         "name_cn": "约会",
         "name_en": "Dating",
         "category_id": "DATING"
+    },
+    "个性化": {
+        "name_cn": "个性化",
+        "name_en": "Personalization",
+        "category_id": "PERSONALIZATION"
+    },
+    "购物": {
+        "name_cn": "购物",
+        "name_en": "Shopping",
+        "category_id": "SHOPPING"
+    },
+    "活动": {
+        "name_cn": "活动",
+        "name_en": "Events",
+        "category_id": "EVENTS"
+    },
+    "家庭": {
+        "name_cn": "家庭",
+        "name_en": "Family",
+        "category_id": "FAMILY"
+    },
+    "家庭与家居": {
+        "name_cn": "家庭与家居",
+        "name_en": "House & Home",
+        "category_id": "HOUSE_AND_HOME"
+    },
+    "漫画": {
+        "name_cn": "漫画",
+        "name_en": "Comics",
+        "category_id": "COMICS"
+    },
+    "美妆": {
+        "name_cn": "美妆",
+        "name_en": "Beauty",
+        "category_id": "BEAUTY"
+    },
+    "商务": {
+        "name_cn": "商务",
+        "name_en": "Business",
+        "category_id": "BUSINESS"
+    },
+    "摄影": {
+        "name_cn": "摄影",
+        "name_en": "Photography",
+        "category_id": "PHOTOGRAPHY"
+    },
+    "视频播放器和编辑器": {
+        "name_cn": "视频播放器和编辑器",
+        "name_en": "Video Players & Editors",
+        "category_id": "VIDEO_PLAYERS"
+    },
+    "书籍和参考": {
+        "name_cn": "书籍和参考",
+        "name_en": "Books & Reference",
+        "category_id": "BOOKS_AND_REFERENCE"
+    },
+    "体育": {
+        "name_cn": "体育",
+        "name_en": "Sports",
+        "category_id": "SPORTS"
+    },
+    "天气": {
+        "name_cn": "天气",
+        "name_en": "Weather",
+        "category_id": "WEATHER"
+    },
+    "医疗": {
+        "name_cn": "医疗",
+        "name_en": "Medical",
+        "category_id": "MEDICAL"
+    },
+    "艺术和设计": {
+        "name_cn": "艺术和设计",
+        "name_en": "Art & Design",
+        "category_id": "ART_AND_DESIGN"
+    },
+    "音乐和音频": {
+        "name_cn": "音乐和音频",
+        "name_en": "Music & Audio",
+        "category_id": "MUSIC_AND_AUDIO"
+    },
+    "育儿": {
+        "name_cn": "育儿",
+        "name_en": "Parenting",
+        "category_id": "PARENTING"
     }
 }
 
