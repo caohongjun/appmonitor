@@ -16,8 +16,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/_kEwgJxGS1uAycERIuo4rN2FwnF0IRlf8CdZ3Irgci5nXWTlHIkvA-5Hbjs9gHOvH1oujxOyX_1RniLxxPwlnw",
       "release_date": "2011/06/15",
       "rating": 4.5,
-      "rating_count": 500756,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 500809,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -30,8 +30,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/asJgbmyZ5ABtjbX9igZ4L4H8hLrw3J0sBi9E99gzoprS7zwlQJdnP4c9yXyNYNiVhJABj4OebeUZpVjWPbZJmg",
       "release_date": "2011/10/31",
       "rating": 4.5,
-      "rating_count": 289108,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 289115,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -44,8 +44,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/sn5j5ajzgJ0wKZxW9v3O9SSG7WnNroVjtdKQqcQDCcPvdZKmSSp2Y6-PBAUbbACSjglE5fAIj_4UG3OpvKHefaA",
       "release_date": "2018/09/26",
       "rating": 4.6,
-      "rating_count": 248196,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 248233,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -58,8 +58,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/7KrJZhE1KcY2rjrR5enUTiDx7BNp7XnA-UT-SOtO3xDT9h2B0VRgpLAb298bCeXIFs3VS82d6c0jzKmlWs0ejtQ",
       "release_date": "2012/12/12",
       "rating": 4.8,
-      "rating_count": 336335,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 336336,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -73,7 +73,7 @@
       "release_date": "2023/10/26",
       "rating": 4.1,
       "rating_count": 1349,
-      "timestamp": "2026-10-15 02:07:29"
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -87,7 +87,7 @@
       "release_date": "2018/04/17",
       "rating": 4.1,
       "rating_count": 37245,
-      "timestamp": "2026-10-15 02:07:29"
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -101,7 +101,7 @@
       "release_date": "2016/03/02",
       "rating": 4.0,
       "rating_count": 10811,
-      "timestamp": "2026-10-15 02:07:29"
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -114,8 +114,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/sZ2ZYYMxN8_qkYVEAIijD-BYw2z6UEHzks_cUYzxkBmdbtdOMnDEGqBGiJbklYVS0JL4UkWFX73pvsBHvkA1AEU",
       "release_date": "2012/08/06",
       "rating": 4.7,
-      "rating_count": 189860,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 189861,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -128,8 +128,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/WPhdFeF7b65gKmq7FzGjsH6DnEisjKYk8jFVM3vsuQ2-94aJAS2LERL2brIfbTALPd4hqLkVwgfPTg4Zotl1mQ",
       "release_date": "2022/11/09",
       "rating": 4.8,
-      "rating_count": 75745,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 75752,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -142,8 +142,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/U_s3dVvkhSs6aDaOUpCW2wNkIFe5fpVFz8GF83vBxI2jJmYdoNxKIIkoHNa-I2BL8CL5f3HkPdcX_SWns8AdFA",
       "release_date": "2018/04/19",
       "rating": 4.7,
-      "rating_count": 18862,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 18875,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -157,13 +157,27 @@
       "release_date": "2013/09/30",
       "rating": 4.3,
       "rating_count": 80831,
-      "timestamp": "2026-10-15 02:07:29"
+      "timestamp": "2026-10-15 08:15:17"
+    },
+    {
+      "platform": "Google Play",
+      "category": "医疗",
+      "app_id": "com.anthem.sydney",
+      "rank": 12,
+      "name": "Sydney Health",
+      "developer": "Elevance Health, Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.anthem.sydney&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/tvfBevTYnIjp7jcK84MPOmzjqr5MBHtYD5QLs0i8sPoKBNKuztvCXdTlu4snL2noukSx3bgN2nbNBpu_6iGGWg",
+      "release_date": "2019/08/30",
+      "rating": 4.7,
+      "rating_count": 98033,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
       "category": "医疗",
       "app_id": "com.simplepractice.video",
-      "rank": 12,
+      "rank": 13,
       "name": "Telehealth by SimplePractice",
       "developer": "SimplePractice",
       "store_url": "https://play.google.com/store/apps/details?id=com.simplepractice.video&hl=en&gl=us",
@@ -171,13 +185,13 @@
       "release_date": "2018/05/03",
       "rating": 4.5,
       "rating_count": 35944,
-      "timestamp": "2026-10-15 02:07:29"
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
       "category": "医疗",
       "app_id": "com.shire.biolife",
-      "rank": 13,
+      "rank": 14,
       "name": "BioLife Plasma Services",
       "developer": "Takeda Pharmaceuticals",
       "store_url": "https://play.google.com/store/apps/details?id=com.shire.biolife&hl=en&gl=us",
@@ -185,21 +199,7 @@
       "release_date": "2018/03/25",
       "rating": 3.8,
       "rating_count": 26876,
-      "timestamp": "2026-10-15 02:07:29"
-    },
-    {
-      "platform": "Google Play",
-      "category": "医疗",
-      "app_id": "com.anthem.sydney",
-      "rank": 14,
-      "name": "Sydney Health",
-      "developer": "Elevance Health, Inc.",
-      "store_url": "https://play.google.com/store/apps/details?id=com.anthem.sydney&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/tvfBevTYnIjp7jcK84MPOmzjqr5MBHtYD5QLs0i8sPoKBNKuztvCXdTlu4snL2noukSx3bgN2nbNBpu_6iGGWg",
-      "release_date": "2019/08/30",
-      "rating": 4.7,
-      "rating_count": 98029,
-      "timestamp": "2026-10-15 02:07:29"
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -212,8 +212,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/tvakUzlC1tFMa8PFGDutPTPOOahZhHNBbPnIPzpPicKl1MAUljMUHAGj17kN8j1qTwc4OdT0yvxKGXe2Vk000LI",
       "release_date": "2011/07/25",
       "rating": 4.8,
-      "rating_count": 54652,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 54661,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -226,8 +226,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/_GG2mH8-Mp7Bb8z6KNNU9p8pwaye450rqLEnuWVe8kGmc-2eGB0t_rwoBK4DUvoWmPoRU7nySE5kJA_JLEvw",
       "release_date": "2017/12/31",
       "rating": 4.3,
-      "rating_count": 109047,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 109055,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -240,8 +240,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/9QOgqPndYwHtZ6P42rlosys2_VD-SmfSqY5AlOCpmmG9Lwz_L6iUEZn6WpLiUyDm2oPXNE7rPar-523btib7BQ",
       "release_date": "2025/04/07",
       "rating": 4.4,
-      "rating_count": 39424,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 39433,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -254,8 +254,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/5XR9f1IgyEjW2Hwy9lZBt93SiAJQOnt1nGMiQewU6maoOAJ9IGMbAhxbvLapt9dL2fe42LKpRWsMOppxVmQ4",
       "release_date": "2015/12/16",
       "rating": 4.8,
-      "rating_count": 34231,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 34238,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -269,7 +269,7 @@
       "release_date": "2014/03/27",
       "rating": 4.6,
       "rating_count": 50453,
-      "timestamp": "2026-10-15 02:07:29"
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -283,7 +283,7 @@
       "release_date": "2020/07/22",
       "rating": 3.9,
       "rating_count": 10900,
-      "timestamp": "2026-10-15 02:07:29"
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -297,7 +297,7 @@
       "release_date": "2026/06/25",
       "rating": 4.5,
       "rating_count": 50,
-      "timestamp": "2026-10-15 02:07:29"
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -310,8 +310,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/T-aTmfLaHF-3yOw0dEYUhf2rmJWTtk0UZD8FR_xGUEyYKHJkW_pGFDMIxaxju8abuc8L6if4Jl3EaWikFce44g",
       "release_date": "2025/04/30",
       "rating": 4.7,
-      "rating_count": 997,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 1000,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -325,7 +325,7 @@
       "release_date": "2026/09/26",
       "rating": 2.8,
       "rating_count": 8,
-      "timestamp": "2026-10-15 02:07:29"
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -339,7 +339,7 @@
       "release_date": "2013/03/27",
       "rating": 3.3,
       "rating_count": 2295,
-      "timestamp": "2026-10-15 02:07:29"
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -352,8 +352,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/npHDcARN6maEQfW6huDc6S-Hju2yG0Y50DZRT73fijzamw9esXeUEigIFngRtnccK5YedB7ihoulC0ViEA3YssA",
       "release_date": "2021/11/09",
       "rating": 4.7,
-      "rating_count": 45748,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 45751,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -366,8 +366,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/nUEo9jdHHHvtjrYnLnlGH0m-FRDGvO2omcm2Mld_eMORTY7v1-ILwqK6_QmZVPHeSkc2BZxvmuTOqNWEWKpfPw",
       "release_date": "2025/10/23",
       "rating": 4.3,
-      "rating_count": 1967,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 1968,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -380,14 +380,28 @@
       "icon_url": "https://play-lh.googleusercontent.com/inBRln5oJJ4usBSqEobcY9v7qWQAnGLKj_sBRzwlHuePQwTfzdOEWV-mW8CrrbWRmQ0Q1Yz7hTRkAxZYK3OWwQ",
       "release_date": "2017/05/31",
       "rating": 4.8,
-      "rating_count": 11821,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 11822,
+      "timestamp": "2026-10-15 08:15:17"
+    },
+    {
+      "platform": "Google Play",
+      "category": "医疗",
+      "app_id": "com.irhythm.myzio.android",
+      "rank": 28,
+      "name": "MyZio",
+      "developer": "iRhythm Technologies, Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.irhythm.myzio.android&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/puYVpqujMABfg1UK5usdP7FhkvrJYYASuwY17eNtGRm2Vz4CtGz4yCiPOYi9NZ1ovtzFhmaqFhiVpOsX9gNSlS0",
+      "release_date": "2017/07/12",
+      "rating": 4.6,
+      "rating_count": 17643,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
       "category": "医疗",
       "app_id": "com.singlecare.scma",
-      "rank": 28,
+      "rank": 29,
       "name": "SingleCare - Rx Coupons",
       "developer": "RxSense",
       "store_url": "https://play.google.com/store/apps/details?id=com.singlecare.scma&hl=en&gl=us",
@@ -395,13 +409,13 @@
       "release_date": "2016/04/20",
       "rating": 4.6,
       "rating_count": 10566,
-      "timestamp": "2026-10-15 02:07:29"
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
       "category": "医疗",
       "app_id": "com.buoysoftware.parachute",
-      "rank": 29,
+      "rank": 30,
       "name": "Parachute: Get Paid for Plasma",
       "developer": "Buoy Software, LLC",
       "store_url": "https://play.google.com/store/apps/details?id=com.buoysoftware.parachute&hl=en&gl=us",
@@ -409,21 +423,7 @@
       "release_date": "2021/01/15",
       "rating": 4.5,
       "rating_count": 1485,
-      "timestamp": "2026-10-15 02:07:29"
-    },
-    {
-      "platform": "Google Play",
-      "category": "医疗",
-      "app_id": "com.irhythm.myzio.android",
-      "rank": 30,
-      "name": "MyZio",
-      "developer": "iRhythm Technologies, Inc.",
-      "store_url": "https://play.google.com/store/apps/details?id=com.irhythm.myzio.android&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/puYVpqujMABfg1UK5usdP7FhkvrJYYASuwY17eNtGRm2Vz4CtGz4yCiPOYi9NZ1ovtzFhmaqFhiVpOsX9gNSlS0",
-      "release_date": "2017/07/12",
-      "rating": 4.6,
-      "rating_count": 17641,
-      "timestamp": "2026-10-15 02:07:29"
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -436,8 +436,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/ZXRp2wgwoEzkRItLcqtpiHZHhlfaI_FyDxEbifNaYGHBZ_xvcsf4FWzVrr2AQVOASSVVxx1AP1tQxf0FEg6DPc4",
       "release_date": "2010/12/17",
       "rating": 4.6,
-      "rating_count": 11223,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 11224,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -451,7 +451,7 @@
       "release_date": "2011/04/15",
       "rating": 4.7,
       "rating_count": 40591,
-      "timestamp": "2026-10-15 02:07:29"
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -464,8 +464,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/4ak4gTVSkD5SEhgsZkddip33yJaSH-iMCNsE4LF96p_hcu8O3HFm7jCa7kj_yk4Trc2p0F3Hmqc7rOT9_9BvcA",
       "release_date": "2012/07/18",
       "rating": 3.8,
-      "rating_count": 2167,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 2168,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -478,8 +478,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/E-uZH3sJPp7qGtdXGdtHShQBJfiWRlnE2wskK9zXe-o8TmlrwsAFOo5B1aD487bhR6SxQa3Y4ewDWy8yxZkMSQ",
       "release_date": "2018/04/16",
       "rating": 4.5,
-      "rating_count": 135448,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 135472,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -492,8 +492,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/P87fubNF9KGiyGn1gkEd1tveAvjdyU2DJj5cTP4TnwzjGq_S1x1KaDg_sKRUVc2vivhk9BHyhQzPZkIZOB2NzA",
       "release_date": "2022/10/29",
       "rating": 4.8,
-      "rating_count": 6240,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 6242,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -506,8 +506,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/66ChQKJ-OAJEl5e7k5-wX9husqSs0QdRRBXS-6EoatVOKjSnEGZNQTNf_55o98feBTWixFap5SMts6WIE-URlJ0",
       "release_date": "2013/10/03",
       "rating": 4.7,
-      "rating_count": 66349,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 66353,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -521,7 +521,7 @@
       "release_date": "2019/06/28",
       "rating": 4.1,
       "rating_count": 6637,
-      "timestamp": "2026-10-15 02:07:29"
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -535,7 +535,7 @@
       "release_date": "2015/01/28",
       "rating": 4.2,
       "rating_count": 54904,
-      "timestamp": "2026-10-15 02:07:29"
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -549,111 +549,13 @@
       "release_date": "2016/02/25",
       "rating": 4.9,
       "rating_count": 17884,
-      "timestamp": "2026-10-15 02:07:29"
-    },
-    {
-      "platform": "Google Play",
-      "category": "医疗",
-      "app_id": "com.cerner.iris.play",
-      "rank": 40,
-      "name": "HealtheLife",
-      "developer": "Cerner Corporation",
-      "store_url": "https://play.google.com/store/apps/details?id=com.cerner.iris.play&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/9jbkxZ3X6xeGbG6CNBqEK8Glj8BkAN18nQKEQDZDpz4oOrGGKjXYgCTFnnVofLm7LfS05WTe50r7S645lRII",
-      "release_date": "2015/10/26",
-      "rating": 3.4,
-      "rating_count": 2727,
-      "timestamp": "2026-10-15 02:07:29"
-    },
-    {
-      "platform": "Google Play",
-      "category": "医疗",
-      "app_id": "com.affecttherapeutics",
-      "rank": 41,
-      "name": "Affect: Addiction Recovery",
-      "developer": "Affect Therapeutics",
-      "store_url": "https://play.google.com/store/apps/details?id=com.affecttherapeutics&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/OeL05u4I575xnu3dJnL8_h-guEABLFOiiMhxoroC3ASwx1Fp8ETgW2QRcG44MF7zfTGltXuUSEcuITdoEsIG",
-      "release_date": "2021/10/12",
-      "rating": 4.6,
-      "rating_count": 3967,
-      "timestamp": "2026-10-15 02:07:29"
-    },
-    {
-      "platform": "Google Play",
-      "category": "医疗",
-      "app_id": "org.trinity.health",
-      "rank": 42,
-      "name": "Trinity Health MyChart",
-      "developer": "Trinity Information Services Web Development",
-      "store_url": "https://play.google.com/store/apps/details?id=org.trinity.health&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/15bLBCgzysx_IDtIlPmVT1SP_ifZy5ODXxBOfTxdpnGWjJ7Il6ZiNzrnr60gaIbizHVjL0QX0HgVSAwIkitLog",
-      "release_date": "2020/01/09",
-      "rating": 4.2,
-      "rating_count": 4297,
-      "timestamp": "2026-10-15 02:07:29"
-    },
-    {
-      "platform": "Google Play",
-      "category": "医疗",
-      "app_id": "com.mdlive.mobile",
-      "rank": 43,
-      "name": "MDLIVE: Talk to a Doctor 24/7",
-      "developer": "MDLIVE Inc",
-      "store_url": "https://play.google.com/store/apps/details?id=com.mdlive.mobile&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/nnB2_Jg6lUKfVwUSULsS5AVscl1KofwfombsrsVSCRRlbwz6pSybni8qD6Yr3nrrFnkcH_bo92dsSoOwJWknsA",
-      "release_date": "2014/07/11",
-      "rating": 4.5,
-      "rating_count": 17953,
-      "timestamp": "2026-10-15 02:07:29"
-    },
-    {
-      "platform": "Google Play",
-      "category": "医疗",
-      "app_id": "com.newtechsys.rxlocalmobile",
-      "rank": 44,
-      "name": "RxLocal",
-      "developer": "PioneerRx, LLC",
-      "store_url": "https://play.google.com/store/apps/details?id=com.newtechsys.rxlocalmobile&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/rgrtDuphCsP1flkRweQdbV0hl1RngVgLmVAS_cIy8RdVmhwJagQiuFTULUEQfq8TXhcBo4oKeq6SXA4Yn8sBWU4",
-      "release_date": "2012/08/07",
-      "rating": 4.6,
-      "rating_count": 21685,
-      "timestamp": "2026-10-15 02:07:29"
-    },
-    {
-      "platform": "Google Play",
-      "category": "医疗",
-      "app_id": "com.verily.me",
-      "rank": 45,
-      "name": "Verily Me",
-      "developer": "Verily Health Inc.",
-      "store_url": "https://play.google.com/store/apps/details?id=com.verily.me&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/PiFHsFAJ6VcDF66qat54a6_EWqA1SvpOf_uSYHwSzn0H6Jp16_uBuPSB_rz3X6FFcTi6NrkyhqEIzW3HbzHK",
-      "release_date": "2024/01/16",
-      "rating": 4.6,
-      "rating_count": 838,
-      "timestamp": "2026-10-15 02:07:29"
-    },
-    {
-      "platform": "Google Play",
-      "category": "医疗",
-      "app_id": "com.oticon.app",
-      "rank": 46,
-      "name": "Oticon Companion",
-      "developer": "Oticon A/S",
-      "store_url": "https://play.google.com/store/apps/details?id=com.oticon.app&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/aYHcZaRjWXpWlOoW-uGDoLsAmVxPOS-ar89IB94v1mf7LaCwXbF-opn8adUqQNjCiZjA2hklYppKNxSw9Q_tNA8",
-      "release_date": "2023/01/17",
-      "rating": 4.2,
-      "rating_count": 20294,
-      "timestamp": "2026-10-15 02:07:29"
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
       "category": "医疗",
       "app_id": "com.bob.umr",
-      "rank": 47,
+      "rank": 40,
       "name": "UMR | Health",
       "developer": "UNITED HEALTHCARE SERVICES, INC.",
       "store_url": "https://play.google.com/store/apps/details?id=com.bob.umr&hl=en&gl=us",
@@ -661,7 +563,105 @@
       "release_date": "2022/12/01",
       "rating": 4.4,
       "rating_count": 2571,
-      "timestamp": "2026-10-15 02:07:29"
+      "timestamp": "2026-10-15 08:15:17"
+    },
+    {
+      "platform": "Google Play",
+      "category": "医疗",
+      "app_id": "com.cerner.iris.play",
+      "rank": 41,
+      "name": "HealtheLife",
+      "developer": "Cerner Corporation",
+      "store_url": "https://play.google.com/store/apps/details?id=com.cerner.iris.play&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/9jbkxZ3X6xeGbG6CNBqEK8Glj8BkAN18nQKEQDZDpz4oOrGGKjXYgCTFnnVofLm7LfS05WTe50r7S645lRII",
+      "release_date": "2015/10/26",
+      "rating": 3.4,
+      "rating_count": 2727,
+      "timestamp": "2026-10-15 08:15:17"
+    },
+    {
+      "platform": "Google Play",
+      "category": "医疗",
+      "app_id": "com.affecttherapeutics",
+      "rank": 42,
+      "name": "Affect: Addiction Recovery",
+      "developer": "Affect Therapeutics",
+      "store_url": "https://play.google.com/store/apps/details?id=com.affecttherapeutics&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/OeL05u4I575xnu3dJnL8_h-guEABLFOiiMhxoroC3ASwx1Fp8ETgW2QRcG44MF7zfTGltXuUSEcuITdoEsIG",
+      "release_date": "2021/10/12",
+      "rating": 4.6,
+      "rating_count": 3967,
+      "timestamp": "2026-10-15 08:15:17"
+    },
+    {
+      "platform": "Google Play",
+      "category": "医疗",
+      "app_id": "org.trinity.health",
+      "rank": 43,
+      "name": "Trinity Health MyChart",
+      "developer": "Trinity Information Services Web Development",
+      "store_url": "https://play.google.com/store/apps/details?id=org.trinity.health&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/15bLBCgzysx_IDtIlPmVT1SP_ifZy5ODXxBOfTxdpnGWjJ7Il6ZiNzrnr60gaIbizHVjL0QX0HgVSAwIkitLog",
+      "release_date": "2020/01/09",
+      "rating": 4.2,
+      "rating_count": 4297,
+      "timestamp": "2026-10-15 08:15:17"
+    },
+    {
+      "platform": "Google Play",
+      "category": "医疗",
+      "app_id": "com.mdlive.mobile",
+      "rank": 44,
+      "name": "MDLIVE: Talk to a Doctor 24/7",
+      "developer": "MDLIVE Inc",
+      "store_url": "https://play.google.com/store/apps/details?id=com.mdlive.mobile&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/nnB2_Jg6lUKfVwUSULsS5AVscl1KofwfombsrsVSCRRlbwz6pSybni8qD6Yr3nrrFnkcH_bo92dsSoOwJWknsA",
+      "release_date": "2014/07/11",
+      "rating": 4.5,
+      "rating_count": 17953,
+      "timestamp": "2026-10-15 08:15:17"
+    },
+    {
+      "platform": "Google Play",
+      "category": "医疗",
+      "app_id": "com.newtechsys.rxlocalmobile",
+      "rank": 45,
+      "name": "RxLocal",
+      "developer": "PioneerRx, LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=com.newtechsys.rxlocalmobile&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/rgrtDuphCsP1flkRweQdbV0hl1RngVgLmVAS_cIy8RdVmhwJagQiuFTULUEQfq8TXhcBo4oKeq6SXA4Yn8sBWU4",
+      "release_date": "2012/08/07",
+      "rating": 4.6,
+      "rating_count": 21690,
+      "timestamp": "2026-10-15 08:15:17"
+    },
+    {
+      "platform": "Google Play",
+      "category": "医疗",
+      "app_id": "com.verily.me",
+      "rank": 46,
+      "name": "Verily Me",
+      "developer": "Verily Health Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.verily.me&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/PiFHsFAJ6VcDF66qat54a6_EWqA1SvpOf_uSYHwSzn0H6Jp16_uBuPSB_rz3X6FFcTi6NrkyhqEIzW3HbzHK",
+      "release_date": "2024/01/16",
+      "rating": 4.6,
+      "rating_count": 838,
+      "timestamp": "2026-10-15 08:15:17"
+    },
+    {
+      "platform": "Google Play",
+      "category": "医疗",
+      "app_id": "com.oticon.app",
+      "rank": 47,
+      "name": "Oticon Companion",
+      "developer": "Oticon A/S",
+      "store_url": "https://play.google.com/store/apps/details?id=com.oticon.app&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/aYHcZaRjWXpWlOoW-uGDoLsAmVxPOS-ar89IB94v1mf7LaCwXbF-opn8adUqQNjCiZjA2hklYppKNxSw9Q_tNA8",
+      "release_date": "2023/01/17",
+      "rating": 4.2,
+      "rating_count": 20299,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -674,8 +674,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/dV_ZznNwuYnWRiHA_FsecUnq8jrMCe2HStk8d3YcFtbPk1WKFWWcirzECRzRMIhKwHgrUmKoJAjDS0A_MjHvQA",
       "release_date": "2014/09/05",
       "rating": 4.8,
-      "rating_count": 34785,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 34787,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -689,41 +689,13 @@
       "release_date": "2020/03/25",
       "rating": 3.9,
       "rating_count": 8454,
-      "timestamp": "2026-10-15 02:07:29"
-    },
-    {
-      "platform": "Google Play",
-      "category": "医疗",
-      "app_id": "com.saferidehealth.memberapp",
-      "rank": 50,
-      "name": "MySafeRide - Manage your rides",
-      "developer": "SafeRide Inc",
-      "store_url": "https://play.google.com/store/apps/details?id=com.saferidehealth.memberapp&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/hKTfmQ_8Fc1unc2A1YOP9jrNx2l8oiiM4P3PDShRJO1ZrrbYc9gLu1dBv71UTqz36LE9TNXVz6iIDajkeuuRPIs",
-      "release_date": "2024/12/13",
-      "rating": 3.6,
-      "rating_count": 872,
-      "timestamp": "2026-10-15 02:07:29"
-    },
-    {
-      "platform": "Google Play",
-      "category": "医疗",
-      "app_id": "com.pawp.android",
-      "rank": 51,
-      "name": "Pawp: 24/7 Vet & Pet Care",
-      "developer": "Pawp, Inc.",
-      "store_url": "https://play.google.com/store/apps/details?id=com.pawp.android&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/0BaQk7A8soKkf_8ay_BHRtAcyhNQYj8Driiq0ZR6xOhLM-pArunXW4YAWjCQx2inWg8P8dXCwK8i4emX4-0f0g",
-      "release_date": "2022/06/28",
-      "rating": 4.7,
-      "rating_count": 6226,
-      "timestamp": "2026-10-15 02:07:29"
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
       "category": "医疗",
       "app_id": "org.sclhealth.sclmychart",
-      "rank": 52,
+      "rank": 50,
       "name": "Intermountain Health",
       "developer": "Intermountain Healthcare",
       "store_url": "https://play.google.com/store/apps/details?id=org.sclhealth.sclmychart&hl=en&gl=us",
@@ -731,7 +703,35 @@
       "release_date": "2019/01/17",
       "rating": 4.1,
       "rating_count": 1388,
-      "timestamp": "2026-10-15 02:07:29"
+      "timestamp": "2026-10-15 08:15:17"
+    },
+    {
+      "platform": "Google Play",
+      "category": "医疗",
+      "app_id": "com.saferidehealth.memberapp",
+      "rank": 51,
+      "name": "MySafeRide - Manage your rides",
+      "developer": "SafeRide Inc",
+      "store_url": "https://play.google.com/store/apps/details?id=com.saferidehealth.memberapp&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/hKTfmQ_8Fc1unc2A1YOP9jrNx2l8oiiM4P3PDShRJO1ZrrbYc9gLu1dBv71UTqz36LE9TNXVz6iIDajkeuuRPIs",
+      "release_date": "2024/12/13",
+      "rating": 3.6,
+      "rating_count": 873,
+      "timestamp": "2026-10-15 08:15:17"
+    },
+    {
+      "platform": "Google Play",
+      "category": "医疗",
+      "app_id": "com.pawp.android",
+      "rank": 52,
+      "name": "Pawp: 24/7 Vet & Pet Care",
+      "developer": "Pawp, Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.pawp.android&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/0BaQk7A8soKkf_8ay_BHRtAcyhNQYj8Driiq0ZR6xOhLM-pArunXW4YAWjCQx2inWg8P8dXCwK8i4emX4-0f0g",
+      "release_date": "2022/06/28",
+      "rating": 4.7,
+      "rating_count": 6227,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -744,8 +744,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/fa3uSQs0SF6oBUM6QGWzL48MOthNBjI1Nvqe1JxTrMHPeUcjDtkfsq64h9nDrIPkIjjxDVgNUoMM8tOB3aM72g",
       "release_date": "2011/12/22",
       "rating": 4.6,
-      "rating_count": 34972,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 34993,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -758,8 +758,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/k8G908SbV4vm1TrMPSw2DEq01VamIcsfAr4eYhX2-y-Tsi0SqpHHUP5V5zprzgeWm053724hL1RISlX1zqc3",
       "release_date": "2022/09/17",
       "rating": 4.7,
-      "rating_count": 20344,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 20351,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -773,7 +773,7 @@
       "release_date": "2017/09/28",
       "rating": 3.8,
       "rating_count": 34738,
-      "timestamp": "2026-10-15 02:07:29"
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -786,8 +786,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/GrgEeouFewQmsZaEOnGj_i3GOV23sRPgWXhiZE1ej9zaRJGGqnuW0sY7EM4yCO-lHzC-CmTnB3ys7tQ1SHyCxw",
       "release_date": "2014/03/20",
       "rating": 4.5,
-      "rating_count": 170799,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 170820,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -800,8 +800,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/x99QWyAOKO2XeFT9_ArB5FhZZd7QtPX09bo6fq7qLrhqcQaXIVSanOVPZLTiR9xrEmi7N8ttrvB09IvX96eZ",
       "release_date": "2016/03/02",
       "rating": 4.6,
-      "rating_count": 3755,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 3756,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -814,8 +814,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/UhSD04Gnqx0r-Y9GjyAekIr9aoGrwtIhdRioiKqDC9PDPoxRD5xJ8Ht4UHzGO0IoMzwFvodbf28wKUlc8Nbonw",
       "release_date": "2013/12/06",
       "rating": 4.5,
-      "rating_count": 142835,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 142845,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -829,7 +829,7 @@
       "release_date": "2018/12/21",
       "rating": 3.6,
       "rating_count": 132849,
-      "timestamp": "2026-10-15 02:07:29"
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -842,8 +842,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/oxhdUs3Ruqp73__ymXlGmODLxi8pkcSYrz2W5UAHSR8Z0TCLvZ-EPQ9aGkty8WEC2Raks9Ha-YBxEt6il4nl0LE",
       "release_date": "2025/04/29",
       "rating": 4.6,
-      "rating_count": 1581,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 1582,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -856,70 +856,14 @@
       "icon_url": "https://play-lh.googleusercontent.com/yfcrlZjg9OAz7YAG_nAlPzXPYKXaLZk28FfBzC44vI4UEi13EdegpIiIUCD0xK7-QYmsa9EcgTLCbEsAeBzSA_k",
       "release_date": "2014/11/18",
       "rating": 4.4,
-      "rating_count": 26520,
-      "timestamp": "2026-10-15 02:07:29"
-    },
-    {
-      "platform": "Google Play",
-      "category": "医疗",
-      "app_id": "com.lbrc.PeriodCalendar",
-      "rank": 62,
-      "name": "Period Tracker and Calendar",
-      "developer": "SimpleInnovation",
-      "store_url": "https://play.google.com/store/apps/details?id=com.lbrc.PeriodCalendar&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/n0zyIciCwzUtHCYfxs5v4akwq4dwAXrmP4GUljnWefUdRKfOaHkrPcNjMyQGTHZQ0ptqSblGvpitdB9iEuyU",
-      "release_date": "2015/08/16",
-      "rating": 4.9,
-      "rating_count": 558994,
-      "timestamp": "2026-10-15 02:07:29"
-    },
-    {
-      "platform": "Google Play",
-      "category": "医疗",
-      "app_id": "com.hcsc.android.providerfinderil",
-      "rank": 63,
-      "name": "BCBSIL",
-      "developer": "Blue Cross and Blue Shield of Illinois",
-      "store_url": "https://play.google.com/store/apps/details?id=com.hcsc.android.providerfinderil&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/UAvzmhOseL7WzJbmyhuXK_jGgN2lAMBwSmSNIaSul0MxvsAm35f2zA7tNkOA_No4fASLM34NYsibZHb2vOuaPw",
-      "release_date": "2010/12/17",
-      "rating": 4.5,
-      "rating_count": 7176,
-      "timestamp": "2026-10-15 02:07:29"
-    },
-    {
-      "platform": "Google Play",
-      "category": "医疗",
-      "app_id": "com.vca.careclub",
-      "rank": 64,
-      "name": "myVCA",
-      "developer": "VCA, Inc.",
-      "store_url": "https://play.google.com/store/apps/details?id=com.vca.careclub&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/_vdQCNFlG50hGFQNpoRhHNdu7ptqSoUxhrpqm2OyL6NjWQh-EL2njfC17o-FSAz3kqllYSjfn41ThYO8ga1gSw",
-      "release_date": "2017/04/18",
-      "rating": 4.8,
-      "rating_count": 8980,
-      "timestamp": "2026-10-15 02:07:29"
-    },
-    {
-      "platform": "Google Play",
-      "category": "医疗",
-      "app_id": "com.modivcareriderapp",
-      "rank": 65,
-      "name": "Modivcare",
-      "developer": "Modivcare",
-      "store_url": "https://play.google.com/store/apps/details?id=com.modivcareriderapp&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/z6b0JmrHvcTKEE7loytsCLeulUIX9BLr9RwbQ_ruIqyR7EeV0obeP_G1lbE0VP3Y3cYHLSnKuWqimKf8RfsTpw",
-      "release_date": "2021/08/04",
-      "rating": 4.6,
-      "rating_count": 29317,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 26521,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
       "category": "医疗",
       "app_id": "com.ectosense.nightowl",
-      "rank": 66,
+      "rank": 62,
       "name": "NightOwl Companion",
       "developer": "Resmed",
       "store_url": "https://play.google.com/store/apps/details?id=com.ectosense.nightowl&hl=en&gl=us",
@@ -927,55 +871,69 @@
       "release_date": "2018/06/11",
       "rating": 4.7,
       "rating_count": 25252,
-      "timestamp": "2026-10-15 02:07:29"
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
       "category": "医疗",
-      "app_id": "com.aligntech.myinvisalign",
-      "rank": 67,
-      "name": "My Invisalign - Official App",
-      "developer": "Align Technology Inc.",
-      "store_url": "https://play.google.com/store/apps/details?id=com.aligntech.myinvisalign&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/fqJacF9foNY47H7Rx85fLFuONyw579-nmYnsoXZGb6J_U6xML20zCzbmJ8kU6ARJUZ_jvIJdbrQ_FGBx00Yslw",
-      "release_date": "2018/02/26",
-      "rating": 3.5,
-      "rating_count": 15204,
-      "timestamp": "2026-10-15 02:07:29"
+      "app_id": "com.lbrc.PeriodCalendar",
+      "rank": 63,
+      "name": "Period Tracker and Calendar",
+      "developer": "SimpleInnovation",
+      "store_url": "https://play.google.com/store/apps/details?id=com.lbrc.PeriodCalendar&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/n0zyIciCwzUtHCYfxs5v4akwq4dwAXrmP4GUljnWefUdRKfOaHkrPcNjMyQGTHZQ0ptqSblGvpitdB9iEuyU",
+      "release_date": "2015/08/16",
+      "rating": 4.9,
+      "rating_count": 559004,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
       "category": "医疗",
-      "app_id": "com.getgarner.app",
-      "rank": 68,
-      "name": "Garner Health",
-      "developer": "Garner Health",
-      "store_url": "https://play.google.com/store/apps/details?id=com.getgarner.app&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/WLbXRY_1SdXAAvzLW875XnO_R6EldgdmSbjMqpER_hdsvxtHioDRR71bW3LgXCTTvHt_xd__EccmxTX499iaZ54",
-      "release_date": "2020/11/05",
+      "app_id": "com.hcsc.android.providerfinderil",
+      "rank": 64,
+      "name": "BCBSIL",
+      "developer": "Blue Cross and Blue Shield of Illinois",
+      "store_url": "https://play.google.com/store/apps/details?id=com.hcsc.android.providerfinderil&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/UAvzmhOseL7WzJbmyhuXK_jGgN2lAMBwSmSNIaSul0MxvsAm35f2zA7tNkOA_No4fASLM34NYsibZHb2vOuaPw",
+      "release_date": "2010/12/17",
+      "rating": 4.5,
+      "rating_count": 7176,
+      "timestamp": "2026-10-15 08:15:17"
+    },
+    {
+      "platform": "Google Play",
+      "category": "医疗",
+      "app_id": "com.vca.careclub",
+      "rank": 65,
+      "name": "myVCA",
+      "developer": "VCA, Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.vca.careclub&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/_vdQCNFlG50hGFQNpoRhHNdu7ptqSoUxhrpqm2OyL6NjWQh-EL2njfC17o-FSAz3kqllYSjfn41ThYO8ga1gSw",
+      "release_date": "2017/04/18",
+      "rating": 4.8,
+      "rating_count": 8980,
+      "timestamp": "2026-10-15 08:15:17"
+    },
+    {
+      "platform": "Google Play",
+      "category": "医疗",
+      "app_id": "com.modivcareriderapp",
+      "rank": 66,
+      "name": "Modivcare",
+      "developer": "Modivcare",
+      "store_url": "https://play.google.com/store/apps/details?id=com.modivcareriderapp&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/z6b0JmrHvcTKEE7loytsCLeulUIX9BLr9RwbQ_ruIqyR7EeV0obeP_G1lbE0VP3Y3cYHLSnKuWqimKf8RfsTpw",
+      "release_date": "2021/08/04",
       "rating": 4.6,
-      "rating_count": 351,
-      "timestamp": "2026-10-15 02:07:29"
-    },
-    {
-      "platform": "Google Play",
-      "category": "医疗",
-      "app_id": "gov.va.vamf.vavideoconnect",
-      "rank": 69,
-      "name": "VA Video Connect",
-      "developer": "US Department of Veterans Affairs (VA)",
-      "store_url": "https://play.google.com/store/apps/details?id=gov.va.vamf.vavideoconnect&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/gEk4CJg5eYQxsMeLuz76NYJR_TT7X9alrD02Ll_-9-5ZgD_ElC-Dz0I3UH0Xq_D1pO8rWh-eRMJ1Bw9T4vFY",
-      "release_date": "2021/08/25",
-      "rating": 4.4,
-      "rating_count": 11071,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 29321,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
       "category": "医疗",
       "app_id": "com.grandroundshealth.m",
-      "rank": 70,
+      "rank": 67,
       "name": "Included Health",
       "developer": "Included Health",
       "store_url": "https://play.google.com/store/apps/details?id=com.grandroundshealth.m&hl=en&gl=us",
@@ -983,21 +941,63 @@
       "release_date": "2014/08/25",
       "rating": 4.9,
       "rating_count": 12541,
-      "timestamp": "2026-10-15 02:07:29"
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
       "category": "医疗",
       "app_id": "com.upmc.enterprises.myupmc",
-      "rank": 71,
+      "rank": 68,
       "name": "MyUPMC",
       "developer": "UPMC",
       "store_url": "https://play.google.com/store/apps/details?id=com.upmc.enterprises.myupmc&hl=en&gl=us",
       "icon_url": "https://play-lh.googleusercontent.com/qzBUXSiEO8HNVcmAPNF-viAeQOhBOrA5orVHsmVNuMKZwyp2iC_kOBKEpIZKndonKwnMyfGTtCqAxDi63ko2kQ",
       "release_date": "2018/07/21",
       "rating": 4.3,
-      "rating_count": 27504,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 27506,
+      "timestamp": "2026-10-15 08:15:17"
+    },
+    {
+      "platform": "Google Play",
+      "category": "医疗",
+      "app_id": "com.aligntech.myinvisalign",
+      "rank": 69,
+      "name": "My Invisalign - Official App",
+      "developer": "Align Technology Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.aligntech.myinvisalign&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/fqJacF9foNY47H7Rx85fLFuONyw579-nmYnsoXZGb6J_U6xML20zCzbmJ8kU6ARJUZ_jvIJdbrQ_FGBx00Yslw",
+      "release_date": "2018/02/26",
+      "rating": 3.5,
+      "rating_count": 15204,
+      "timestamp": "2026-10-15 08:15:17"
+    },
+    {
+      "platform": "Google Play",
+      "category": "医疗",
+      "app_id": "com.getgarner.app",
+      "rank": 70,
+      "name": "Garner Health",
+      "developer": "Garner Health",
+      "store_url": "https://play.google.com/store/apps/details?id=com.getgarner.app&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/WLbXRY_1SdXAAvzLW875XnO_R6EldgdmSbjMqpER_hdsvxtHioDRR71bW3LgXCTTvHt_xd__EccmxTX499iaZ54",
+      "release_date": "2020/11/05",
+      "rating": 4.6,
+      "rating_count": 351,
+      "timestamp": "2026-10-15 08:15:17"
+    },
+    {
+      "platform": "Google Play",
+      "category": "医疗",
+      "app_id": "gov.va.vamf.vavideoconnect",
+      "rank": 71,
+      "name": "VA Video Connect",
+      "developer": "US Department of Veterans Affairs (VA)",
+      "store_url": "https://play.google.com/store/apps/details?id=gov.va.vamf.vavideoconnect&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/gEk4CJg5eYQxsMeLuz76NYJR_TT7X9alrD02Ll_-9-5ZgD_ElC-Dz0I3UH0Xq_D1pO8rWh-eRMJ1Bw9T4vFY",
+      "release_date": "2021/08/25",
+      "rating": 4.4,
+      "rating_count": 11071,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -1010,8 +1010,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/BDfYBdmbPytty83JyG1J4Hn-Mth1DPK1LKS7MnN_CdHinWN6P23wh032X8rwwq4QmL3bvDPhjvphMo66czoqYg",
       "release_date": "2025/03/14",
       "rating": 4.7,
-      "rating_count": 4029,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 4030,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -1024,8 +1024,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/E8IzJl6mQKaC9ggZlGVv4EKmjYMWEc9YgNkIKcDKMhDOyBshZhjiiLEcWTv7dqdIMsN3IF3xgcoff-1gwhwXDA",
       "release_date": "2025/05/15",
       "rating": 3.8,
-      "rating_count": 15480,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 15490,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -1039,7 +1039,7 @@
       "release_date": "2014/12/19",
       "rating": 3.1,
       "rating_count": 3794,
-      "timestamp": "2026-10-15 02:07:29"
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -1052,8 +1052,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/qoWTh5xW4HURdliPHSClCQ9-U6MT55twYahSkES_Nhhjut8tsVyIErAetJbNqNvpt3J-YiklnKWV8HJ5_qsg4Q",
       "release_date": "2024/10/01",
       "rating": 4.9,
-      "rating_count": 4693,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 4694,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -1067,7 +1067,7 @@
       "release_date": "2022/12/21",
       "rating": 4.4,
       "rating_count": 5264,
-      "timestamp": "2026-10-15 02:07:29"
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -1081,13 +1081,27 @@
       "release_date": "2019/07/15",
       "rating": 4.0,
       "rating_count": 39044,
-      "timestamp": "2026-10-15 02:07:29"
+      "timestamp": "2026-10-15 08:15:17"
+    },
+    {
+      "platform": "Google Play",
+      "category": "医疗",
+      "app_id": "org.healthybirthday.countthekicks",
+      "rank": 78,
+      "name": "Count the Kicks",
+      "developer": "Healthy Birth Day, Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=org.healthybirthday.countthekicks&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/8iUxkvOCvdxH_VuGurdhg8iefe-ofil53rmGGEI-7AiT4xF4qM8EhFqBzdIJUDgFgRtguYJj3AznFjGAIy_2jsM",
+      "release_date": "2014/04/01",
+      "rating": 4.2,
+      "rating_count": 1005,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
       "category": "医疗",
       "app_id": "net.mercy.mymercy",
-      "rank": 78,
+      "rank": 79,
       "name": "MyMercy",
       "developer": "Mercy",
       "store_url": "https://play.google.com/store/apps/details?id=net.mercy.mymercy&hl=en&gl=us",
@@ -1095,13 +1109,13 @@
       "release_date": "2015/11/12",
       "rating": 4.2,
       "rating_count": 5942,
-      "timestamp": "2026-10-15 02:07:29"
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
       "category": "医疗",
       "app_id": "com.kareheroes",
-      "rank": 79,
+      "rank": 80,
       "name": "KARE Heroes",
       "developer": "Kare Technologies, LLC",
       "store_url": "https://play.google.com/store/apps/details?id=com.kareheroes&hl=en&gl=us",
@@ -1109,41 +1123,41 @@
       "release_date": "2019/10/14",
       "rating": 4.1,
       "rating_count": 1097,
-      "timestamp": "2026-10-15 02:07:29"
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
       "category": "医疗",
       "app_id": "com.swordhealth.guarda",
-      "rank": 80,
+      "rank": 81,
       "name": "Sword Health: AI Care",
       "developer": "Sword Health",
       "store_url": "https://play.google.com/store/apps/details?id=com.swordhealth.guarda&hl=en&gl=us",
       "icon_url": "https://play-lh.googleusercontent.com/leHJ7J0IBdVP6ZBCaLPFRSylnUUqMAmVCQ7DY9uqrA2oKaN4h2VDvWf89wdjyxv9Oyk0D9W4MgJeuxA5dT4iBbE",
       "release_date": "2019/08/09",
       "rating": 4.7,
-      "rating_count": 9751,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 9753,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
       "category": "医疗",
       "app_id": "ai.mxlabs.heartmonitor",
-      "rank": 81,
+      "rank": 82,
       "name": "Heart Monitor: Measure BP & HR",
       "developer": "Shen.AI",
       "store_url": "https://play.google.com/store/apps/details?id=ai.mxlabs.heartmonitor&hl=en&gl=us",
       "icon_url": "https://play-lh.googleusercontent.com/ZYwyXqq_I8f8JgcvZnGnCT1ZCm0IQCJumsig3kooD8ujCxKtnY9B7FFUQN4d-iWztqyVWbXPATNZyV0lKCkYDw",
       "release_date": "2021/05/12",
       "rating": 4.5,
-      "rating_count": 6131,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 6133,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
       "category": "医疗",
       "app_id": "com.contacts1800.ecomapp",
-      "rank": 82,
+      "rank": 83,
       "name": "1800 Contacts - Lens Store",
       "developer": "1-800 CONTACTS",
       "store_url": "https://play.google.com/store/apps/details?id=com.contacts1800.ecomapp&hl=en&gl=us",
@@ -1151,13 +1165,13 @@
       "release_date": "2013/03/15",
       "rating": 4.5,
       "rating_count": 31940,
-      "timestamp": "2026-10-15 02:07:29"
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
       "category": "医疗",
       "app_id": "com.medtronic.crhf.mclh",
-      "rank": 83,
+      "rank": 84,
       "name": "MyCareLink Heart™",
       "developer": "Medtronic, Inc.",
       "store_url": "https://play.google.com/store/apps/details?id=com.medtronic.crhf.mclh&hl=en&gl=us",
@@ -1165,69 +1179,13 @@
       "release_date": "2019/01/25",
       "rating": 3.6,
       "rating_count": 2868,
-      "timestamp": "2026-10-15 02:07:29"
-    },
-    {
-      "platform": "Google Play",
-      "category": "医疗",
-      "app_id": "org.healthybirthday.countthekicks",
-      "rank": 84,
-      "name": "Count the Kicks",
-      "developer": "Healthy Birth Day, Inc.",
-      "store_url": "https://play.google.com/store/apps/details?id=org.healthybirthday.countthekicks&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/8iUxkvOCvdxH_VuGurdhg8iefe-ofil53rmGGEI-7AiT4xF4qM8EhFqBzdIJUDgFgRtguYJj3AznFjGAIy_2jsM",
-      "release_date": "2014/04/01",
-      "rating": 4.2,
-      "rating_count": 1006,
-      "timestamp": "2026-10-15 02:07:29"
-    },
-    {
-      "platform": "Google Play",
-      "category": "医疗",
-      "app_id": "com.ronasoftstudios.earmaxfxpro",
-      "rank": 85,
-      "name": "Microphone Amplifier",
-      "developer": "DOSA Apps",
-      "store_url": "https://play.google.com/store/apps/details?id=com.ronasoftstudios.earmaxfxpro&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/tF4p5UG_wkWBnhHk6Hdn8QA0s94p2ky__0sA07PxuudV8_NBK2aKWP87wAxaED5DhWnV9ImyDxYew6e1ClYS0Q",
-      "release_date": "2019/08/16",
-      "rating": 4.2,
-      "rating_count": 71042,
-      "timestamp": "2026-10-15 02:07:29"
-    },
-    {
-      "platform": "Google Play",
-      "category": "医疗",
-      "app_id": "com.mayoclinic.patient",
-      "rank": 86,
-      "name": "Mayo Clinic",
-      "developer": "Mayo Clinic",
-      "store_url": "https://play.google.com/store/apps/details?id=com.mayoclinic.patient&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/PhIORx327wN3SQqD6Kc336G2ZDQ5e4GBzmRr2OwCPJEpV8XKVJUzkj-ZVgEySXNwi0OaIKbSGkLK3vARaOd46Yc",
-      "release_date": "2013/04/18",
-      "rating": 3.6,
-      "rating_count": 12121,
-      "timestamp": "2026-10-15 02:07:29"
-    },
-    {
-      "platform": "Google Play",
-      "category": "医疗",
-      "app_id": "com.advocate.myadvocate",
-      "rank": 87,
-      "name": "LiveWell with Advocate Aurora",
-      "developer": "Advocate Aurora Health",
-      "store_url": "https://play.google.com/store/apps/details?id=com.advocate.myadvocate&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/6DIqIWl2P9UOCPTpMdYTqEEfrsfW4Wnb40WltJI8nHNS_FSuaMu0ox451oguC1kAu0yLwLvw9I3sZp8mbPALDA",
-      "release_date": "2015/03/09",
-      "rating": 4.4,
-      "rating_count": 17052,
-      "timestamp": "2026-10-15 02:07:29"
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
       "category": "医疗",
       "app_id": "com.doctorondemand.android.patient",
-      "rank": 88,
+      "rank": 85,
       "name": "Doctor On Demand",
       "developer": "Doctor On Demand, Inc",
       "store_url": "https://play.google.com/store/apps/details?id=com.doctorondemand.android.patient&hl=en&gl=us",
@@ -1235,69 +1193,55 @@
       "release_date": "2013/10/07",
       "rating": 4.9,
       "rating_count": 89801,
-      "timestamp": "2026-10-15 02:07:29"
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
       "category": "医疗",
       "app_id": "com.bluefish.bloodpressure",
-      "rank": 89,
+      "rank": 86,
       "name": "Blood Pressure Diary",
       "developer": "Health & Fitness AI Lab",
       "store_url": "https://play.google.com/store/apps/details?id=com.bluefish.bloodpressure&hl=en&gl=us",
       "icon_url": "https://play-lh.googleusercontent.com/XPHOp6cqiF5TgAXYSssSzj2HcvdAtcyUNIB67Ri_0Wa-T_Co5oyZA_cJ0LqZJGjlIqtCnWum_fxU07l6FLQ1FA",
       "release_date": "2018/11/29",
       "rating": 4.8,
-      "rating_count": 127670,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 127672,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
       "category": "医疗",
-      "app_id": "com.devotedhealth.memberportal",
-      "rank": 90,
-      "name": "MyDevoted",
-      "developer": "Devoted Health, Inc.",
-      "store_url": "https://play.google.com/store/apps/details?id=com.devotedhealth.memberportal&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/XPLFibiTfC_JFkGX_IPdIe5YbQRltNHYTrSThB1ggulF4mjFam4TzJV6cqf9Ect-Cq_619aU9C3uTbJFdP_Z1TU",
-      "release_date": "2025/10/28",
-      "rating": 4.7,
-      "rating_count": 360,
-      "timestamp": "2026-10-15 02:07:29"
+      "app_id": "com.ronasoftstudios.earmaxfxpro",
+      "rank": 87,
+      "name": "Microphone Amplifier",
+      "developer": "DOSA Apps",
+      "store_url": "https://play.google.com/store/apps/details?id=com.ronasoftstudios.earmaxfxpro&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/tF4p5UG_wkWBnhHk6Hdn8QA0s94p2ky__0sA07PxuudV8_NBK2aKWP87wAxaED5DhWnV9ImyDxYew6e1ClYS0Q",
+      "release_date": "2019/08/16",
+      "rating": 4.2,
+      "rating_count": 71048,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
       "category": "医疗",
-      "app_id": "com.allydvm.ast",
-      "rank": 91,
-      "name": "PetPage",
-      "developer": "AllyDVM",
-      "store_url": "https://play.google.com/store/apps/details?id=com.allydvm.ast&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/C6LF7FipfM1VKlXh9m9hkQPEKwDcQMXopVpKpEHybpXspfB8sRYA1c2rjhzBtacFpBHzPER8ezjqKM-auKF7Kg",
-      "release_date": "2023/05/02",
-      "rating": 4.7,
-      "rating_count": 1387,
-      "timestamp": "2026-10-15 02:07:29"
-    },
-    {
-      "platform": "Google Play",
-      "category": "医疗",
-      "app_id": "org.carolinas.android.dir",
-      "rank": 92,
-      "name": "MyAtriumHealth",
-      "developer": "Atrium Health",
-      "store_url": "https://play.google.com/store/apps/details?id=org.carolinas.android.dir&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/V2feL7y2p5bOwJJ1uSRA5m8gBIkEYiA0KDhUwdNIA6hNGbDCMkxjElI2Uy3mS5poZ53_dvjVYFezeYImgMW8Yw",
-      "release_date": "2011/07/28",
-      "rating": 4.4,
-      "rating_count": 1782,
-      "timestamp": "2026-10-15 02:07:29"
+      "app_id": "com.mayoclinic.patient",
+      "rank": 88,
+      "name": "Mayo Clinic",
+      "developer": "Mayo Clinic",
+      "store_url": "https://play.google.com/store/apps/details?id=com.mayoclinic.patient&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/PhIORx327wN3SQqD6Kc336G2ZDQ5e4GBzmRr2OwCPJEpV8XKVJUzkj-ZVgEySXNwi0OaIKbSGkLK3vARaOd46Yc",
+      "release_date": "2013/04/18",
+      "rating": 3.6,
+      "rating_count": 12121,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
       "category": "医疗",
       "app_id": "com.allergan.bd.bdmobileapp",
-      "rank": 93,
+      "rank": 89,
       "name": "Allē",
       "developer": "AbbVie",
       "store_url": "https://play.google.com/store/apps/details?id=com.allergan.bd.bdmobileapp&hl=en&gl=us",
@@ -1305,41 +1249,27 @@
       "release_date": "2017/02/15",
       "rating": 4.4,
       "rating_count": 1824,
-      "timestamp": "2026-10-15 02:07:29"
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
       "category": "医疗",
-      "app_id": "com.healint.migraineapp",
-      "rank": 94,
-      "name": "Migraine Buddy: Track Headache",
-      "developer": "Aptar Digital Health",
-      "store_url": "https://play.google.com/store/apps/details?id=com.healint.migraineapp&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/VtjelM1fFsklb5SyDMN-EGQOau4vwRcyyPjC_VmNKmrinFE5cwv8RPKYJCN5C76Mj4AYCMjP4UL1jBWmV-gr",
-      "release_date": "2014/07/08",
-      "rating": 4.8,
-      "rating_count": 67227,
-      "timestamp": "2026-10-15 02:07:29"
-    },
-    {
-      "platform": "Google Play",
-      "category": "医疗",
-      "app_id": "org.nyulmc.clinical.mychart",
-      "rank": 95,
-      "name": "NYU Langone Health",
-      "developer": "NYU Langone Health",
-      "store_url": "https://play.google.com/store/apps/details?id=org.nyulmc.clinical.mychart&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/3hVSyp09ms2tmzR8CTA2xP1JEe7a9MXM_UFSTDOda7P88buwPEZsN4M6sLCRix5p3-I1gG6Y7kacMjaCemOV5dU",
-      "release_date": "2017/04/26",
+      "app_id": "com.advocate.myadvocate",
+      "rank": 90,
+      "name": "LiveWell with Advocate Aurora",
+      "developer": "Advocate Aurora Health",
+      "store_url": "https://play.google.com/store/apps/details?id=com.advocate.myadvocate&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/6DIqIWl2P9UOCPTpMdYTqEEfrsfW4Wnb40WltJI8nHNS_FSuaMu0ox451oguC1kAu0yLwLvw9I3sZp8mbPALDA",
+      "release_date": "2015/03/09",
       "rating": 4.4,
-      "rating_count": 6097,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 17052,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
       "category": "医疗",
       "app_id": "com.accredohealth.accredo",
-      "rank": 96,
+      "rank": 91,
       "name": "Accredo",
       "developer": "Accredo Health Group, Inc",
       "store_url": "https://play.google.com/store/apps/details?id=com.accredohealth.accredo&hl=en&gl=us",
@@ -1347,7 +1277,77 @@
       "release_date": "2017/11/16",
       "rating": 4.7,
       "rating_count": 11760,
-      "timestamp": "2026-10-15 02:07:29"
+      "timestamp": "2026-10-15 08:15:17"
+    },
+    {
+      "platform": "Google Play",
+      "category": "医疗",
+      "app_id": "com.devotedhealth.memberportal",
+      "rank": 92,
+      "name": "MyDevoted",
+      "developer": "Devoted Health, Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.devotedhealth.memberportal&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/XPLFibiTfC_JFkGX_IPdIe5YbQRltNHYTrSThB1ggulF4mjFam4TzJV6cqf9Ect-Cq_619aU9C3uTbJFdP_Z1TU",
+      "release_date": "2025/10/28",
+      "rating": 4.7,
+      "rating_count": 360,
+      "timestamp": "2026-10-15 08:15:17"
+    },
+    {
+      "platform": "Google Play",
+      "category": "医疗",
+      "app_id": "com.allydvm.ast",
+      "rank": 93,
+      "name": "PetPage",
+      "developer": "AllyDVM",
+      "store_url": "https://play.google.com/store/apps/details?id=com.allydvm.ast&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/C6LF7FipfM1VKlXh9m9hkQPEKwDcQMXopVpKpEHybpXspfB8sRYA1c2rjhzBtacFpBHzPER8ezjqKM-auKF7Kg",
+      "release_date": "2023/05/02",
+      "rating": 4.7,
+      "rating_count": 1388,
+      "timestamp": "2026-10-15 08:15:17"
+    },
+    {
+      "platform": "Google Play",
+      "category": "医疗",
+      "app_id": "org.carolinas.android.dir",
+      "rank": 94,
+      "name": "MyAtriumHealth",
+      "developer": "Atrium Health",
+      "store_url": "https://play.google.com/store/apps/details?id=org.carolinas.android.dir&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/V2feL7y2p5bOwJJ1uSRA5m8gBIkEYiA0KDhUwdNIA6hNGbDCMkxjElI2Uy3mS5poZ53_dvjVYFezeYImgMW8Yw",
+      "release_date": "2011/07/28",
+      "rating": 4.4,
+      "rating_count": 1782,
+      "timestamp": "2026-10-15 08:15:17"
+    },
+    {
+      "platform": "Google Play",
+      "category": "医疗",
+      "app_id": "com.healint.migraineapp",
+      "rank": 95,
+      "name": "Migraine Buddy: Track Headache",
+      "developer": "Aptar Digital Health",
+      "store_url": "https://play.google.com/store/apps/details?id=com.healint.migraineapp&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/VtjelM1fFsklb5SyDMN-EGQOau4vwRcyyPjC_VmNKmrinFE5cwv8RPKYJCN5C76Mj4AYCMjP4UL1jBWmV-gr",
+      "release_date": "2014/07/08",
+      "rating": 4.8,
+      "rating_count": 67229,
+      "timestamp": "2026-10-15 08:15:17"
+    },
+    {
+      "platform": "Google Play",
+      "category": "医疗",
+      "app_id": "org.nyulmc.clinical.mychart",
+      "rank": 96,
+      "name": "NYU Langone Health",
+      "developer": "NYU Langone Health",
+      "store_url": "https://play.google.com/store/apps/details?id=org.nyulmc.clinical.mychart&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/3hVSyp09ms2tmzR8CTA2xP1JEe7a9MXM_UFSTDOda7P88buwPEZsN4M6sLCRix5p3-I1gG6Y7kacMjaCemOV5dU",
+      "release_date": "2017/04/26",
+      "rating": 4.4,
+      "rating_count": 6097,
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -1361,7 +1361,7 @@
       "release_date": "2019/01/07",
       "rating": 4.2,
       "rating_count": 1321,
-      "timestamp": "2026-10-15 02:07:29"
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -1375,7 +1375,7 @@
       "release_date": "2015/12/31",
       "rating": 4.2,
       "rating_count": 4112,
-      "timestamp": "2026-10-15 02:07:29"
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -1389,7 +1389,7 @@
       "release_date": "2026/06/29",
       "rating": 3.2,
       "rating_count": 46,
-      "timestamp": "2026-10-15 02:07:29"
+      "timestamp": "2026-10-15 08:15:17"
     },
     {
       "platform": "Google Play",
@@ -1402,8 +1402,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/v3-pJlCXpgnNYe-a6JfWOKcmQK8hnyMGUw21W6EFVqMOi1Bpq9LC1xBAx5ha6XXl4_S0HEeQx9vF5_k2eeiZFA",
       "release_date": "2023/12/20",
       "rating": 4.7,
-      "rating_count": 5664,
-      "timestamp": "2026-10-15 02:07:29"
+      "rating_count": 5667,
+      "timestamp": "2026-10-15 08:15:17"
     }
   ]
 }
