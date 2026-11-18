@@ -16,8 +16,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/he2lEwx_2GRMBKxpN78dcnwbtTntaOOvUlnBpPJ0G5xXBetmzkdXgYuu_6xqwMTrjlYMb74NW1bb5RUwvp2pmQ",
       "release_date": "2014/07/01",
       "rating": 4.6,
-      "rating_count": 4645236,
-      "timestamp": "2026-11-18 02:12:22"
+      "rating_count": 4645325,
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
@@ -29,9 +29,9 @@
       "store_url": "https://play.google.com/store/apps/details?id=com.toomics.coimiics.spaceee&hl=en&gl=us",
       "icon_url": "https://play-lh.googleusercontent.com/wyoUqwU5y6LLmg21Wqdrmeg49yY-3y2uWC9-y7Zjp10MoUOg3xpcKnJPZS4wxIMQI-ncbaHGievwvGYAGbP6CnE",
       "release_date": "2026/09/25",
-      "rating": 4.0,
-      "rating_count": 7,
-      "timestamp": "2026-11-18 02:12:22"
+      "rating": 0,
+      "rating_count": 0,
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
@@ -44,8 +44,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/xdYhHF8wotpZtIir9At4rmtOTxSYfb8SVSYggvbVOZUsIfVvj7w-mlsczL5UkwOnGAP7MNNbZdItqxaZ-GMa",
       "release_date": "2026/08/19",
       "rating": 4.4,
-      "rating_count": 132,
-      "timestamp": "2026-11-18 02:12:22"
+      "rating_count": 131,
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
@@ -58,8 +58,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/YVC8ZMJYzIfAU5ZnCYLL0UTsaqPOhEQWE920M2nf4n-ZY3Orw-0qPL359BVac9r2t36G31wnVFB-_Bd3JYKPfg",
       "release_date": "2022/07/21",
       "rating": 4.3,
-      "rating_count": 31785,
-      "timestamp": "2026-11-18 02:12:22"
+      "rating_count": 31787,
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
@@ -73,7 +73,7 @@
       "release_date": "2019/01/26",
       "rating": 3.7,
       "rating_count": 91989,
-      "timestamp": "2026-11-18 02:12:22"
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
@@ -86,36 +86,36 @@
       "icon_url": "https://play-lh.googleusercontent.com/tI1G05VYiJEX779odvr-wjIhpsH4wStw9qnRAHK-KcOiFpcUIrfOL5WGTzWTJ6cau2qpOIfxLeqLjfOHdLhV",
       "release_date": "2013/08/21",
       "rating": 4.8,
-      "rating_count": 88626,
-      "timestamp": "2026-11-18 02:12:22"
+      "rating_count": 88631,
+      "timestamp": "2026-11-18 04:56:15"
+    },
+    {
+      "platform": "Google Play",
+      "category": "漫画",
+      "app_id": "net.mangamuse.app",
+      "rank": 7,
+      "name": "MangaMuse:AceToon Lite & Comic",
+      "developer": "FairfaxAngelic",
+      "store_url": "https://play.google.com/store/apps/details?id=net.mangamuse.app&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/e27YeQaxOr-s0lUYSW2opkagJmKzz0Q37AEG2oKt7Cw-vUV8yNeVImBjNhbecWXg_3d7qGqEUzo3bCEPBpjwBQ",
+      "release_date": "2026/06/12",
+      "rating": 4.5,
+      "rating_count": 14728,
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
       "category": "漫画",
       "app_id": "com.webcomics.manga",
-      "rank": 7,
+      "rank": 8,
       "name": "WebComics - Webtoon & Manga",
       "developer": "WEBCOMICS HOLDINGS HK LIMITED",
       "store_url": "https://play.google.com/store/apps/details?id=com.webcomics.manga&hl=en&gl=us",
       "icon_url": "https://play-lh.googleusercontent.com/4dl0ZiEEqnZajKMt7Cmqvffi0q44-SD6ZhskZPY6o9dD4h2FCMdgA73C_yosp6Ik678AVnat7lwupwVAQSdg",
       "release_date": "2018/01/19",
       "rating": 4.4,
-      "rating_count": 236047,
-      "timestamp": "2026-11-18 02:12:22"
-    },
-    {
-      "platform": "Google Play",
-      "category": "漫画",
-      "app_id": "net.mangamuse.app",
-      "rank": 8,
-      "name": "MangaMuse:AceToon Lite & Comic",
-      "developer": "FairfaxAngelic",
-      "store_url": "https://play.google.com/store/apps/details?id=net.mangamuse.app&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/e27YeQaxOr-s0lUYSW2opkagJmKzz0Q37AEG2oKt7Cw-vUV8yNeVImBjNhbecWXg_3d7qGqEUzo3bCEPBpjwBQ",
-      "release_date": "2026/06/12",
-      "rating": 4.6,
-      "rating_count": 14693,
-      "timestamp": "2026-11-18 02:12:22"
+      "rating_count": 236048,
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
@@ -129,7 +129,7 @@
       "release_date": "2026/08/04",
       "rating": 3.6,
       "rating_count": 29,
-      "timestamp": "2026-11-18 02:12:22"
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
@@ -142,8 +142,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/hUCFcL05co4zBPE4QH7iazrsZ_WZ34arz62xUrzF0pbADauqCsb24DvT-ldFhmuC08Gxx00XUB8mFIITYDj5nXk",
       "release_date": "2026/07/12",
       "rating": 3.9,
-      "rating_count": 674,
-      "timestamp": "2026-11-18 02:12:22"
+      "rating_count": 680,
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
@@ -156,8 +156,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/XsQS-XGRXaZBw2aatfUKVK5n6OOZZmphotO94nuCsXGHvXeJvJS300Ryk2qiwJgioRyPq5XXyGTkOkQHRxFR",
       "release_date": "2026/06/16",
       "rating": 4.6,
-      "rating_count": 7401,
-      "timestamp": "2026-11-18 02:12:22"
+      "rating_count": 7415,
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
@@ -170,8 +170,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/MSnQtFmxKEQkRPZs7cMnWBf_xTopmeWpx2jp3YoBVNYHZwh1SmTb7p3aV5Q3UcVoUJ_dyHhT_syGLU6-wZVshg",
       "release_date": "2025/09/16",
       "rating": 4.6,
-      "rating_count": 3193,
-      "timestamp": "2026-11-18 02:12:22"
+      "rating_count": 3195,
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
@@ -185,7 +185,7 @@
       "release_date": "2020/11/09",
       "rating": 3.9,
       "rating_count": 63130,
-      "timestamp": "2026-11-18 02:12:22"
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
@@ -199,7 +199,7 @@
       "release_date": "2023/05/09",
       "rating": 4.3,
       "rating_count": 13554,
-      "timestamp": "2026-11-18 02:12:22"
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
@@ -213,7 +213,7 @@
       "release_date": "2012/07/10",
       "rating": 4.6,
       "rating_count": 15368,
-      "timestamp": "2026-11-18 02:12:22"
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
@@ -226,8 +226,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/TUSGtrKIFvfon1tUBcz5fXgHGfCWNaHa7jZ4iJE_R0aCQFQFdjBuYAq621xB4W3wvBfYvdBJ9fFyMoPSDkUItA",
       "release_date": "2016/04/12",
       "rating": 4.2,
-      "rating_count": 54991,
-      "timestamp": "2026-11-18 02:12:22"
+      "rating_count": 54992,
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
@@ -241,7 +241,7 @@
       "release_date": "2026/04/28",
       "rating": 4.4,
       "rating_count": 267,
-      "timestamp": "2026-11-18 02:12:22"
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
@@ -255,7 +255,7 @@
       "release_date": "2013/05/07",
       "rating": 4.6,
       "rating_count": 86443,
-      "timestamp": "2026-11-18 02:12:22"
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
@@ -269,7 +269,7 @@
       "release_date": "2021/06/22",
       "rating": 4.1,
       "rating_count": 30,
-      "timestamp": "2026-11-18 02:12:22"
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
@@ -283,7 +283,7 @@
       "release_date": "2013/06/06",
       "rating": 3.3,
       "rating_count": 53891,
-      "timestamp": "2026-11-18 02:12:22"
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
@@ -297,7 +297,7 @@
       "release_date": "2026/09/24",
       "rating": 0,
       "rating_count": 0,
-      "timestamp": "2026-11-18 02:12:22"
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
@@ -311,7 +311,7 @@
       "release_date": "2026/10/20",
       "rating": 0,
       "rating_count": 0,
-      "timestamp": "2026-11-18 02:12:22"
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
@@ -325,7 +325,7 @@
       "release_date": "2023/09/08",
       "rating": 4.5,
       "rating_count": 6687,
-      "timestamp": "2026-11-18 02:12:22"
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
@@ -339,27 +339,41 @@
       "release_date": "2023/10/18",
       "rating": 4.8,
       "rating_count": 9682,
-      "timestamp": "2026-11-18 02:12:22"
+      "timestamp": "2026-11-18 04:56:15"
+    },
+    {
+      "platform": "Google Play",
+      "category": "漫画",
+      "app_id": "com.acetoon.www",
+      "rank": 25,
+      "name": "Acetoon: Comics & Manga",
+      "developer": "Ezahouani lahsen",
+      "store_url": "https://play.google.com/store/apps/details?id=com.acetoon.www&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/VcoK7H-64sqRyGrdiuVHaVdc1bSaZmXFBiHbbLEmQYZ40O2ZdpzhAEtI8b0T96dvEfKJx8PV_qD8IUVuozxxLg",
+      "release_date": "2026/07/17",
+      "rating": 4.7,
+      "rating_count": 1688,
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
       "category": "漫画",
       "app_id": "com.toomics.global.google",
-      "rank": 25,
+      "rank": 26,
       "name": "Toomics - Read Premium Comics",
       "developer": "Toomics Global",
       "store_url": "https://play.google.com/store/apps/details?id=com.toomics.global.google&hl=en&gl=us",
       "icon_url": "https://play-lh.googleusercontent.com/bVCtSs3SL17q4bEwnVahuJxqoYKKP-2uzicSDoEMVULHahXIZhHeJwbyTBJjMshIPkV8dOQKRkh__Ly_BYHBcw",
       "release_date": "2018/10/17",
       "rating": 4.0,
-      "rating_count": 28949,
-      "timestamp": "2026-11-18 02:12:22"
+      "rating_count": 28950,
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
       "category": "漫画",
       "app_id": "com.tapastic",
-      "rank": 26,
+      "rank": 27,
       "name": "Tapas – Comics and Novels",
       "developer": "Tapas Entertainment Inc.",
       "store_url": "https://play.google.com/store/apps/details?id=com.tapastic&hl=en&gl=us",
@@ -367,97 +381,13 @@
       "release_date": "2012/10/02",
       "rating": 4.2,
       "rating_count": 125881,
-      "timestamp": "2026-11-18 02:12:22"
-    },
-    {
-      "platform": "Google Play",
-      "category": "漫画",
-      "app_id": "com.acetoon.www",
-      "rank": 27,
-      "name": "Acetoon: Comics & Manga",
-      "developer": "Ezahouani lahsen",
-      "store_url": "https://play.google.com/store/apps/details?id=com.acetoon.www&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/VcoK7H-64sqRyGrdiuVHaVdc1bSaZmXFBiHbbLEmQYZ40O2ZdpzhAEtI8b0T96dvEfKJx8PV_qD8IUVuozxxLg",
-      "release_date": "2026/07/17",
-      "rating": 4.7,
-      "rating_count": 1685,
-      "timestamp": "2026-11-18 02:12:22"
-    },
-    {
-      "platform": "Google Play",
-      "category": "漫画",
-      "app_id": "com.collectorz.javamobile.android.comics",
-      "rank": 28,
-      "name": "CLZ Comics comic book database",
-      "developer": "CLZ",
-      "store_url": "https://play.google.com/store/apps/details?id=com.collectorz.javamobile.android.comics&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/qXyZJWCE2ppwwN9aOlec4QHWoPLj7WK0u357C5ew11xOlfC5G7e010hSLuLd-jmwSa_f-ijru5mU0hUCJ4hBww",
-      "release_date": "2010/12/06",
-      "rating": 4.8,
-      "rating_count": 15662,
-      "timestamp": "2026-11-18 02:12:22"
-    },
-    {
-      "platform": "Google Play",
-      "category": "漫画",
-      "app_id": "com.vlv.aravali.kumiyo",
-      "rank": 29,
-      "name": "Kumiyo",
-      "developer": "Kuku Technologies Limited",
-      "store_url": "https://play.google.com/store/apps/details?id=com.vlv.aravali.kumiyo&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/hFegmsNhYL8gOVkWkDIiWYNeT-6J4VoaOMcpBUiwTkaQxHxoMip9m0NeTmBfuKGsx0a2RuTbpaWtR3D6bl2Y",
-      "release_date": "2026/10/07",
-      "rating": 4.5,
-      "rating_count": 259,
-      "timestamp": "2026-11-18 02:12:22"
-    },
-    {
-      "platform": "Google Play",
-      "category": "漫画",
-      "app_id": "com.wb.goog.dcuniverse",
-      "rank": 30,
-      "name": "DC UNIVERSE INFINITE",
-      "developer": "Warner Bros. International Enterprises",
-      "store_url": "https://play.google.com/store/apps/details?id=com.wb.goog.dcuniverse&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/A066--RpdrSih_GP9AkuShJkRUf712Qi989Of-mC1nSbl6T2PBropyNoxJTqqFjfWnL1T--F8JvyFWIL0W6C1A",
-      "release_date": "2018/09/12",
-      "rating": 3.3,
-      "rating_count": 19988,
-      "timestamp": "2026-11-18 02:12:22"
-    },
-    {
-      "platform": "Google Play",
-      "category": "漫画",
-      "app_id": "com.comic.en.flutter.comic_en",
-      "rank": 31,
-      "name": "ReadManga-Manga/Comics/Webtoon",
-      "developer": "DLXUYI",
-      "store_url": "https://play.google.com/store/apps/details?id=com.comic.en.flutter.comic_en&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/OHLPBswf9uILYNgms3RbErGNvSRhuHzNC3xrIvbGOgBq5t6bPWTF_k3N2oJ-wSM9a7hXGppkH_IYDSqbDY1PRg",
-      "release_date": "2024/11/03",
-      "rating": 4.2,
-      "rating_count": 8665,
-      "timestamp": "2026-11-18 02:12:22"
-    },
-    {
-      "platform": "Google Play",
-      "category": "漫画",
-      "app_id": "com.colorjoy.learn.to.draw.glow.comics",
-      "rank": 32,
-      "name": "Draw Glow Comics",
-      "developer": "ColorJoy",
-      "store_url": "https://play.google.com/store/apps/details?id=com.colorjoy.learn.to.draw.glow.comics&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/jppcyUwq03bH-hGzoAGqM88QV-8Vs3QYuepoyfuwW_unMuFGZwulo_t67jOIfH4GB2z1_EPoz2v2ps_xs9H8TQ",
-      "release_date": "2017/10/04",
-      "rating": 4.4,
-      "rating_count": 19550,
-      "timestamp": "2026-11-18 02:12:22"
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
       "category": "漫画",
       "app_id": "com.wexpy.ocaso",
-      "rank": 33,
+      "rank": 28,
       "name": "Comic Maker - Arcstory",
       "developer": "Wallet Passes Alliance",
       "store_url": "https://play.google.com/store/apps/details?id=com.wexpy.ocaso&hl=en&gl=us",
@@ -465,7 +395,77 @@
       "release_date": "2024/06/03",
       "rating": 2.9,
       "rating_count": 722,
-      "timestamp": "2026-11-18 02:12:22"
+      "timestamp": "2026-11-18 04:56:15"
+    },
+    {
+      "platform": "Google Play",
+      "category": "漫画",
+      "app_id": "com.comic.en.flutter.comic_en",
+      "rank": 29,
+      "name": "ReadManga-Manga/Comics/Webtoon",
+      "developer": "DLXUYI",
+      "store_url": "https://play.google.com/store/apps/details?id=com.comic.en.flutter.comic_en&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/OHLPBswf9uILYNgms3RbErGNvSRhuHzNC3xrIvbGOgBq5t6bPWTF_k3N2oJ-wSM9a7hXGppkH_IYDSqbDY1PRg",
+      "release_date": "2024/11/03",
+      "rating": 4.2,
+      "rating_count": 8667,
+      "timestamp": "2026-11-18 04:56:15"
+    },
+    {
+      "platform": "Google Play",
+      "category": "漫画",
+      "app_id": "com.collectorz.javamobile.android.comics",
+      "rank": 30,
+      "name": "CLZ Comics comic book database",
+      "developer": "CLZ",
+      "store_url": "https://play.google.com/store/apps/details?id=com.collectorz.javamobile.android.comics&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/qXyZJWCE2ppwwN9aOlec4QHWoPLj7WK0u357C5ew11xOlfC5G7e010hSLuLd-jmwSa_f-ijru5mU0hUCJ4hBww",
+      "release_date": "2010/12/06",
+      "rating": 4.8,
+      "rating_count": 15663,
+      "timestamp": "2026-11-18 04:56:15"
+    },
+    {
+      "platform": "Google Play",
+      "category": "漫画",
+      "app_id": "com.vlv.aravali.kumiyo",
+      "rank": 31,
+      "name": "Kumiyo",
+      "developer": "Kuku Technologies Limited",
+      "store_url": "https://play.google.com/store/apps/details?id=com.vlv.aravali.kumiyo&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/hFegmsNhYL8gOVkWkDIiWYNeT-6J4VoaOMcpBUiwTkaQxHxoMip9m0NeTmBfuKGsx0a2RuTbpaWtR3D6bl2Y",
+      "release_date": "2026/10/07",
+      "rating": 4.5,
+      "rating_count": 259,
+      "timestamp": "2026-11-18 04:56:15"
+    },
+    {
+      "platform": "Google Play",
+      "category": "漫画",
+      "app_id": "com.wb.goog.dcuniverse",
+      "rank": 32,
+      "name": "DC UNIVERSE INFINITE",
+      "developer": "Warner Bros. International Enterprises",
+      "store_url": "https://play.google.com/store/apps/details?id=com.wb.goog.dcuniverse&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/A066--RpdrSih_GP9AkuShJkRUf712Qi989Of-mC1nSbl6T2PBropyNoxJTqqFjfWnL1T--F8JvyFWIL0W6C1A",
+      "release_date": "2018/09/12",
+      "rating": 3.3,
+      "rating_count": 19988,
+      "timestamp": "2026-11-18 04:56:15"
+    },
+    {
+      "platform": "Google Play",
+      "category": "漫画",
+      "app_id": "com.colorjoy.learn.to.draw.glow.comics",
+      "rank": 33,
+      "name": "Draw Glow Comics",
+      "developer": "ColorJoy",
+      "store_url": "https://play.google.com/store/apps/details?id=com.colorjoy.learn.to.draw.glow.comics&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/jppcyUwq03bH-hGzoAGqM88QV-8Vs3QYuepoyfuwW_unMuFGZwulo_t67jOIfH4GB2z1_EPoz2v2ps_xs9H8TQ",
+      "release_date": "2017/10/04",
+      "rating": 4.4,
+      "rating_count": 19550,
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
@@ -478,8 +478,8 @@
       "icon_url": "https://play-lh.googleusercontent.com/B4V6RjS2ussNotSv-8f7UMSy6OyWVH6O-AdptMw-Zyvj58xxaidShxq0q0dzZd2c47hZFDxM6utGeairGa4bATw",
       "release_date": "2024/09/23",
       "rating": 4.6,
-      "rating_count": 4070,
-      "timestamp": "2026-11-18 02:12:22"
+      "rating_count": 4071,
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
@@ -493,69 +493,27 @@
       "release_date": "2025/05/06",
       "rating": 4.4,
       "rating_count": 1463,
-      "timestamp": "2026-11-18 02:12:22"
-    },
-    {
-      "platform": "Google Play",
-      "category": "漫画",
-      "app_id": "com.LeagueofComicGeeks.app2",
-      "rank": 36,
-      "name": "League of Comic Geeks",
-      "developer": "League of Comic Geeks",
-      "store_url": "https://play.google.com/store/apps/details?id=com.LeagueofComicGeeks.app2&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/EmShmzxupKsBn6R78sYoW4nhRLYtYZhvj8bvNdU9YrYWr5Upufe-ETgoVPJQHQajX0b-QJbRSjIFnUWmXSsxkA",
-      "release_date": "2021/07/21",
-      "rating": 4.7,
-      "rating_count": 2805,
-      "timestamp": "2026-11-18 02:12:22"
-    },
-    {
-      "platform": "Google Play",
-      "category": "漫画",
-      "app_id": "com.hipcomic",
-      "rank": 37,
-      "name": "My Collection: Comic Scanner",
-      "developer": "HipComic",
-      "store_url": "https://play.google.com/store/apps/details?id=com.hipcomic&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/cFD3uKns7jTRP_z9QXFx8p5RWxgAGSL8a3PX4K2YrQ7ChTfiuInp9Yo7Vt0zHD1Y7r0IllfRrOjS0lI_BEuw",
-      "release_date": "2023/02/21",
-      "rating": 3.2,
-      "rating_count": 665,
-      "timestamp": "2026-11-18 02:12:22"
-    },
-    {
-      "platform": "Google Play",
-      "category": "漫画",
-      "app_id": "com.viewer.comicscreen",
-      "rank": 38,
-      "name": "ComicScreen - PDF, ComicReader",
-      "developer": "InstSoft",
-      "store_url": "https://play.google.com/store/apps/details?id=com.viewer.comicscreen&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/zTTgClOZcZkyyuDILyICNRAA9jJ2y-X1sh4R3CAoeWkHU5HSGexWffGZeatCrdVpG0BUCcoeTjO7_AbZ9y-V3w",
-      "release_date": "2014/06/03",
-      "rating": 4.7,
-      "rating_count": 92767,
-      "timestamp": "2026-11-18 02:12:22"
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
       "category": "漫画",
       "app_id": "com.nhn.android.webtoon",
-      "rank": 39,
+      "rank": 36,
       "name": "네이버 웹툰 - Naver Webtoon",
       "developer": "NAVER WEBTOON",
       "store_url": "https://play.google.com/store/apps/details?id=com.nhn.android.webtoon&hl=en&gl=us",
       "icon_url": "https://play-lh.googleusercontent.com/mFm5gZJI9VLJMJGWkwkLhm3c5qaljIhVdEtRGKqegYY2mExlM6OMeXAKhZ6e_Rsbtl19xc8AcZ_0jeOOW-5L",
       "release_date": "2010/12/21",
       "rating": 4.3,
-      "rating_count": 307981,
-      "timestamp": "2026-11-18 02:12:22"
+      "rating_count": 307986,
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
       "category": "漫画",
       "app_id": "com.mangaflip",
-      "rank": 40,
+      "rank": 37,
       "name": "MANGA BANG！",
       "developer": "Amazia,inc.",
       "store_url": "https://play.google.com/store/apps/details?id=com.mangaflip&hl=en&gl=us",
@@ -563,7 +521,49 @@
       "release_date": "2021/03/30",
       "rating": 3.7,
       "rating_count": 301,
-      "timestamp": "2026-11-18 02:12:22"
+      "timestamp": "2026-11-18 04:56:15"
+    },
+    {
+      "platform": "Google Play",
+      "category": "漫画",
+      "app_id": "com.LeagueofComicGeeks.app2",
+      "rank": 38,
+      "name": "League of Comic Geeks",
+      "developer": "League of Comic Geeks",
+      "store_url": "https://play.google.com/store/apps/details?id=com.LeagueofComicGeeks.app2&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/EmShmzxupKsBn6R78sYoW4nhRLYtYZhvj8bvNdU9YrYWr5Upufe-ETgoVPJQHQajX0b-QJbRSjIFnUWmXSsxkA",
+      "release_date": "2021/07/21",
+      "rating": 4.7,
+      "rating_count": 2806,
+      "timestamp": "2026-11-18 04:56:15"
+    },
+    {
+      "platform": "Google Play",
+      "category": "漫画",
+      "app_id": "com.hipcomic",
+      "rank": 39,
+      "name": "My Collection: Comic Scanner",
+      "developer": "HipComic",
+      "store_url": "https://play.google.com/store/apps/details?id=com.hipcomic&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/cFD3uKns7jTRP_z9QXFx8p5RWxgAGSL8a3PX4K2YrQ7ChTfiuInp9Yo7Vt0zHD1Y7r0IllfRrOjS0lI_BEuw",
+      "release_date": "2023/02/21",
+      "rating": 3.2,
+      "rating_count": 665,
+      "timestamp": "2026-11-18 04:56:15"
+    },
+    {
+      "platform": "Google Play",
+      "category": "漫画",
+      "app_id": "com.viewer.comicscreen",
+      "rank": 40,
+      "name": "ComicScreen - PDF, ComicReader",
+      "developer": "InstSoft",
+      "store_url": "https://play.google.com/store/apps/details?id=com.viewer.comicscreen&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/zTTgClOZcZkyyuDILyICNRAA9jJ2y-X1sh4R3CAoeWkHU5HSGexWffGZeatCrdVpG0BUCcoeTjO7_AbZ9y-V3w",
+      "release_date": "2014/06/03",
+      "rating": 4.7,
+      "rating_count": 92767,
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
@@ -576,42 +576,14 @@
       "icon_url": "https://play-lh.googleusercontent.com/--R3zb_oUZR36D4-JKmgfhr5qDD4WVOAoiJauv9llK9-LciqC1zxTF7fOnGwna75jpsPz73DQBbX7X01UrtVzg",
       "release_date": "2025/12/04",
       "rating": 4.5,
-      "rating_count": 510,
-      "timestamp": "2026-11-18 02:12:22"
-    },
-    {
-      "platform": "Google Play",
-      "category": "漫画",
-      "app_id": "com.neonichiban.app",
-      "rank": 42,
-      "name": "Neon Ichiban",
-      "developer": "DSTLRY MEDIA, INC.",
-      "store_url": "https://play.google.com/store/apps/details?id=com.neonichiban.app&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/3Q3eydCMecRIwnHKiA9pzJtT6IUEHDiefmGACq5iANnCTtk-mbHLVEM_LQaYbV8dyN29rc1tQY3Wb-xweUpVVYk",
-      "release_date": "2026/08/19",
-      "rating": 0,
-      "rating_count": 0,
-      "timestamp": "2026-11-18 02:12:22"
-    },
-    {
-      "platform": "Google Play",
-      "category": "漫画",
-      "app_id": "com.panlix.app",
-      "rank": 43,
-      "name": "Qivora: Comic Reader",
-      "developer": "AxyTech",
-      "store_url": "https://play.google.com/store/apps/details?id=com.panlix.app&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/N41bz565lMRsA_Gzrjc16qA6hdCOaL8MXgXhdj1MuOWjXVwFGSDEvBfDVE5w9TX2tpjXcprZcUJwrY2lrnNl57o",
-      "release_date": "2026/04/30",
-      "rating": 4.7,
-      "rating_count": 42738,
-      "timestamp": "2026-11-18 02:12:22"
+      "rating_count": 511,
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
       "category": "漫画",
       "app_id": "com.mangexcomicbd.manganadcomix",
-      "rank": 44,
+      "rank": 42,
       "name": "Mangadex: Manga, Comics",
       "developer": "OLEXK APPS STUDIOS",
       "store_url": "https://play.google.com/store/apps/details?id=com.mangexcomicbd.manganadcomix&hl=en&gl=us",
@@ -619,7 +591,35 @@
       "release_date": "2026/07/24",
       "rating": 0,
       "rating_count": 0,
-      "timestamp": "2026-11-18 02:12:22"
+      "timestamp": "2026-11-18 04:56:15"
+    },
+    {
+      "platform": "Google Play",
+      "category": "漫画",
+      "app_id": "com.neonichiban.app",
+      "rank": 43,
+      "name": "Neon Ichiban",
+      "developer": "DSTLRY MEDIA, INC.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.neonichiban.app&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/3Q3eydCMecRIwnHKiA9pzJtT6IUEHDiefmGACq5iANnCTtk-mbHLVEM_LQaYbV8dyN29rc1tQY3Wb-xweUpVVYk",
+      "release_date": "2026/08/19",
+      "rating": 0,
+      "rating_count": 0,
+      "timestamp": "2026-11-18 04:56:15"
+    },
+    {
+      "platform": "Google Play",
+      "category": "漫画",
+      "app_id": "com.panlix.app",
+      "rank": 44,
+      "name": "Qivora: Comic Reader",
+      "developer": "AxyTech",
+      "store_url": "https://play.google.com/store/apps/details?id=com.panlix.app&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/N41bz565lMRsA_Gzrjc16qA6hdCOaL8MXgXhdj1MuOWjXVwFGSDEvBfDVE5w9TX2tpjXcprZcUJwrY2lrnNl57o",
+      "release_date": "2026/04/30",
+      "rating": 4.7,
+      "rating_count": 42751,
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
@@ -633,7 +633,7 @@
       "release_date": "2022/12/07",
       "rating": 4.0,
       "rating_count": 23882,
-      "timestamp": "2026-11-18 02:12:22"
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
@@ -647,13 +647,27 @@
       "release_date": "2026/10/25",
       "rating": 0,
       "rating_count": 0,
-      "timestamp": "2026-11-18 02:12:22"
+      "timestamp": "2026-11-18 04:56:15"
+    },
+    {
+      "platform": "Google Play",
+      "category": "漫画",
+      "app_id": "mobi.mangatoon.comics.aphone",
+      "rank": 47,
+      "name": "MangaToon: Comic & Manga",
+      "developer": "MangaToon",
+      "store_url": "https://play.google.com/store/apps/details?id=mobi.mangatoon.comics.aphone&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/twLcvROtMsx-MIGdT4CUTmlarMmeS1LZJfl90eL64iskTJ8p_CnxcECKkCNJn7crvs6_KKZzzb2mpoqaI9ojGA",
+      "release_date": "2018/07/08",
+      "rating": 4.3,
+      "rating_count": 716165,
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
       "category": "漫画",
       "app_id": "com.toonmarkapp.comics",
-      "rank": 47,
+      "rank": 48,
       "name": "ToonMark",
       "developer": "Developers Anime 30.",
       "store_url": "https://play.google.com/store/apps/details?id=com.toonmarkapp.comics&hl=en&gl=us",
@@ -661,41 +675,13 @@
       "release_date": "2026/08/05",
       "rating": 0,
       "rating_count": 0,
-      "timestamp": "2026-11-18 02:12:22"
-    },
-    {
-      "platform": "Google Play",
-      "category": "漫画",
-      "app_id": "io.toonspace.app",
-      "rank": 48,
-      "name": "ToonSpace: Comics and Anime",
-      "developer": "ToonSpace",
-      "store_url": "https://play.google.com/store/apps/details?id=io.toonspace.app&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/ZFHLibNkrDTbuudNPo7r1L_qfjYqQtVb2uhdBqUBDQnXUOerijl75DdSKXUbvPNzzhUbw-UbVJpUuvo5ukPJZYs",
-      "release_date": "2025/09/27",
-      "rating": 4.2,
-      "rating_count": 2792,
-      "timestamp": "2026-11-18 02:12:22"
-    },
-    {
-      "platform": "Google Play",
-      "category": "漫画",
-      "app_id": "ai.yatoon.app",
-      "rank": 49,
-      "name": "Yatoon",
-      "developer": "FlowGPT",
-      "store_url": "https://play.google.com/store/apps/details?id=ai.yatoon.app&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/TzbrmJsRQLvtRNlReD-Gk9emuTa8_8V9W3im8DskoTIGX_fzM1gT1atOFQYiwxHpMuSYYHiVMLxYF4nzqqiq",
-      "release_date": "2026/10/20",
-      "rating": 0,
-      "rating_count": 0,
-      "timestamp": "2026-11-18 02:12:22"
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
       "category": "漫画",
       "app_id": "com.keycollectorcomics.keycollector",
-      "rank": 50,
+      "rank": 49,
       "name": "Key Collector Comics",
       "developer": "Key Collector Comics",
       "store_url": "https://play.google.com/store/apps/details?id=com.keycollectorcomics.keycollector&hl=en&gl=us",
@@ -703,83 +689,27 @@
       "release_date": "2017/10/03",
       "rating": 4.5,
       "rating_count": 5742,
-      "timestamp": "2026-11-18 02:12:22"
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
       "category": "漫画",
-      "app_id": "com.toonhub.mangacomics",
-      "rank": 51,
-      "name": "ToonHub - Comics & Manga",
-      "developer": "USA Cars Centrum",
-      "store_url": "https://play.google.com/store/apps/details?id=com.toonhub.mangacomics&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/3Q4Cx8xhXCzIT8nBKJlt0MYDq_K-W80Oj7wElFfTAXPf3V32Hk4DKFjqDJQueDvW7KR4tgN74CACHHjHN2_A",
-      "release_date": "2026/11/05",
-      "rating": 0,
-      "rating_count": 0,
-      "timestamp": "2026-11-18 02:12:22"
-    },
-    {
-      "platform": "Google Play",
-      "category": "漫画",
-      "app_id": "com.srpc.MangaArabia",
-      "rank": 52,
-      "name": "مانجا للصغار",
-      "developer": "Saudi Research and Media Group",
-      "store_url": "https://play.google.com/store/apps/details?id=com.srpc.MangaArabia&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/tHFd8_JM4R9UlFgRaIHNP3BPyAgSrBXsAnDLiBkI10dbUSckiK4_T5xMqMElOFrF31f_P_48DEYHglIYxvU8",
-      "release_date": "2021/08/23",
-      "rating": 3.5,
-      "rating_count": 5847,
-      "timestamp": "2026-11-18 02:12:22"
-    },
-    {
-      "platform": "Google Play",
-      "category": "漫画",
-      "app_id": "com.zuarinware.comicdrive",
-      "rank": 53,
-      "name": "ComicDrive: CBZ & Manga Reader",
-      "developer": "Zuarinware",
-      "store_url": "https://play.google.com/store/apps/details?id=com.zuarinware.comicdrive&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/Yy9qB5xf1oHFzY_m9q9s4lxo8QZGut71Wh2Mn0WhkNqkdbnlPSI6Pu70eDMCO3TBtnWHH6wJaHYpZ6RifQKHUQ",
-      "release_date": "2025/09/05",
-      "rating": 4.8,
-      "rating_count": 433,
-      "timestamp": "2026-11-18 02:12:22"
-    },
-    {
-      "platform": "Google Play",
-      "category": "漫画",
-      "app_id": "com.topps.marvel",
-      "rank": 54,
-      "name": "Marvel Collect! by Topps®",
-      "developer": "The Topps Company, Inc.",
-      "store_url": "https://play.google.com/store/apps/details?id=com.topps.marvel&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/kM4mM-XX4I3nkUlSt27IMorFwkQ5BnfaQOeDtvJuQVLJpzgXjXONH0PrxID6TC9-Mv-cxZmy-OaLS9-K1QORvw",
-      "release_date": "2019/04/25",
-      "rating": 3.5,
-      "rating_count": 23981,
-      "timestamp": "2026-11-18 02:12:22"
-    },
-    {
-      "platform": "Google Play",
-      "category": "漫画",
-      "app_id": "mobi.mangatoon.comics.aphone",
-      "rank": 55,
-      "name": "MangaToon: Comic & Manga",
-      "developer": "MangaToon",
-      "store_url": "https://play.google.com/store/apps/details?id=mobi.mangatoon.comics.aphone&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/twLcvROtMsx-MIGdT4CUTmlarMmeS1LZJfl90eL64iskTJ8p_CnxcECKkCNJn7crvs6_KKZzzb2mpoqaI9ojGA",
-      "release_date": "2018/07/08",
-      "rating": 4.3,
-      "rating_count": 716164,
-      "timestamp": "2026-11-18 02:12:22"
+      "app_id": "io.toonspace.app",
+      "rank": 50,
+      "name": "ToonSpace: Comics and Anime",
+      "developer": "ToonSpace",
+      "store_url": "https://play.google.com/store/apps/details?id=io.toonspace.app&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/ZFHLibNkrDTbuudNPo7r1L_qfjYqQtVb2uhdBqUBDQnXUOerijl75DdSKXUbvPNzzhUbw-UbVJpUuvo5ukPJZYs",
+      "release_date": "2025/09/27",
+      "rating": 4.2,
+      "rating_count": 2789,
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
       "category": "漫画",
       "app_id": "com.qtoon.reader",
-      "rank": 56,
+      "rank": 51,
       "name": "QToon: Manga, Manhua & Comics",
       "developer": "KDA ENTERTAINMENT",
       "store_url": "https://play.google.com/store/apps/details?id=com.qtoon.reader&hl=en&gl=us",
@@ -787,41 +717,41 @@
       "release_date": "2026/08/29",
       "rating": 3.1,
       "rating_count": 188,
-      "timestamp": "2026-11-18 02:12:22"
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
       "category": "漫画",
-      "app_id": "com.initialcoms.ridi",
-      "rank": 57,
-      "name": "만화 웹툰 웹소설 도서는 리디",
-      "developer": "RIDI Corporation",
-      "store_url": "https://play.google.com/store/apps/details?id=com.initialcoms.ridi&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/VT-eG_cbI6wNsIaeCYSKDDpDM6PRcvyOc2TDRtomkk1j81w2ppiHxqdnNKc3k-azA9aztPb5nRZORGPmIiMMaw",
-      "release_date": "2010/09/20",
-      "rating": 4.1,
-      "rating_count": 39788,
-      "timestamp": "2026-11-18 02:12:22"
+      "app_id": "ai.yatoon.app",
+      "rank": 52,
+      "name": "Yatoon",
+      "developer": "FlowGPT",
+      "store_url": "https://play.google.com/store/apps/details?id=ai.yatoon.app&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/TzbrmJsRQLvtRNlReD-Gk9emuTa8_8V9W3im8DskoTIGX_fzM1gT1atOFQYiwxHpMuSYYHiVMLxYF4nzqqiq",
+      "release_date": "2026/10/20",
+      "rating": 0,
+      "rating_count": 0,
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
       "category": "漫画",
-      "app_id": "com.comic.value.scanner.identifier",
-      "rank": 58,
-      "name": "ComicID: Comic Book Scanner",
-      "developer": "The App Dude",
-      "store_url": "https://play.google.com/store/apps/details?id=com.comic.value.scanner.identifier&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/UwXijECtoo2vWTXGS0_k_NEo2_uaqeJaFuarxgNtWAuA1xLlvSca_qPYuvQ6PCwNZNB7hQ2sEOSN0dg2pGSx4aE",
-      "release_date": "2025/10/10",
-      "rating": 3.9,
-      "rating_count": 168,
-      "timestamp": "2026-11-18 02:12:22"
+      "app_id": "com.toonhub.mangacomics",
+      "rank": 53,
+      "name": "ToonHub - Comics & Manga",
+      "developer": "USA Cars Centrum",
+      "store_url": "https://play.google.com/store/apps/details?id=com.toonhub.mangacomics&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/3Q4Cx8xhXCzIT8nBKJlt0MYDq_K-W80Oj7wElFfTAXPf3V32Hk4DKFjqDJQueDvW7KR4tgN74CACHHjHN2_A",
+      "release_date": "2026/11/05",
+      "rating": 0,
+      "rating_count": 0,
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
       "category": "漫画",
       "app_id": "com.wiryaimd.mangatranslator",
-      "rank": 59,
+      "rank": 54,
       "name": "Manga Translator - Translate",
       "developer": "kandurr",
       "store_url": "https://play.google.com/store/apps/details?id=com.wiryaimd.mangatranslator&hl=en&gl=us",
@@ -829,97 +759,97 @@
       "release_date": "2021/07/31",
       "rating": 3.1,
       "rating_count": 1759,
-      "timestamp": "2026-11-18 02:12:22"
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
       "category": "漫画",
-      "app_id": "com.progdigy.cdisplay.free",
-      "rank": 60,
-      "name": "CDisplayEx Comic Reader Lite",
-      "developer": "Progdigy Software",
-      "store_url": "https://play.google.com/store/apps/details?id=com.progdigy.cdisplay.free&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/nFt6SG58Tks8JV4AfsxKUzdQLjtCIbCieAVKZXA9zsNkBWD7sw0yWotDbw4oQ9ZXYzPopv5sKFN3MB6GxSMwKQ",
-      "release_date": "2018/04/15",
-      "rating": 4.0,
-      "rating_count": 15011,
-      "timestamp": "2026-11-18 02:12:22"
+      "app_id": "com.srpc.MangaArabia",
+      "rank": 55,
+      "name": "مانجا للصغار",
+      "developer": "Saudi Research and Media Group",
+      "store_url": "https://play.google.com/store/apps/details?id=com.srpc.MangaArabia&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/tHFd8_JM4R9UlFgRaIHNP3BPyAgSrBXsAnDLiBkI10dbUSckiK4_T5xMqMElOFrF31f_P_48DEYHglIYxvU8",
+      "release_date": "2021/08/23",
+      "rating": 3.5,
+      "rating_count": 5847,
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
       "category": "漫画",
-      "app_id": "com.evlppy.comicbookmaker",
-      "rank": 61,
-      "name": "Comic Book Studio",
-      "developer": "EVL Apps",
-      "store_url": "https://play.google.com/store/apps/details?id=com.evlppy.comicbookmaker&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/nmYrBz1b0ky4gXI2thPSUW2SvJd_Kvyl6whPRuKwM3fTm2Izk4TKjk6kr3iUXhbZlcTYtZWQgUkTvgnIDWx5aA",
-      "release_date": "2026/04/01",
-      "rating": 3.9,
-      "rating_count": 244,
-      "timestamp": "2026-11-18 02:12:22"
+      "app_id": "com.zuarinware.comicdrive",
+      "rank": 56,
+      "name": "ComicDrive: CBZ & Manga Reader",
+      "developer": "Zuarinware",
+      "store_url": "https://play.google.com/store/apps/details?id=com.zuarinware.comicdrive&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/Yy9qB5xf1oHFzY_m9q9s4lxo8QZGut71Wh2Mn0WhkNqkdbnlPSI6Pu70eDMCO3TBtnWHH6wJaHYpZ6RifQKHUQ",
+      "release_date": "2025/09/05",
+      "rating": 4.8,
+      "rating_count": 434,
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
       "category": "漫画",
-      "app_id": "com.app.ezmanga",
-      "rank": 62,
-      "name": "EZ Manga: Webtoon & Manhwa",
-      "developer": "EZ Apps Studio",
-      "store_url": "https://play.google.com/store/apps/details?id=com.app.ezmanga&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/0ZsC5J3H138yW-gVa3q0FhAgLmaARB85n20wNcRxiqAQYcOIWhSziXGncfZdwux86_BizThZe-qh-MfL7wQ9",
-      "release_date": "2026/03/27",
-      "rating": 3.8,
-      "rating_count": 99,
-      "timestamp": "2026-11-18 02:12:22"
+      "app_id": "com.topps.marvel",
+      "rank": 57,
+      "name": "Marvel Collect! by Topps®",
+      "developer": "The Topps Company, Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.topps.marvel&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/kM4mM-XX4I3nkUlSt27IMorFwkQ5BnfaQOeDtvJuQVLJpzgXjXONH0PrxID6TC9-Mv-cxZmy-OaLS9-K1QORvw",
+      "release_date": "2019/04/25",
+      "rating": 3.5,
+      "rating_count": 23981,
+      "timestamp": "2026-11-18 04:56:15"
+    },
+    {
+      "platform": "Google Play",
+      "category": "漫画",
+      "app_id": "com.initialcoms.ridi",
+      "rank": 58,
+      "name": "만화 웹툰 웹소설 도서는 리디",
+      "developer": "RIDI Corporation",
+      "store_url": "https://play.google.com/store/apps/details?id=com.initialcoms.ridi&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/VT-eG_cbI6wNsIaeCYSKDDpDM6PRcvyOc2TDRtomkk1j81w2ppiHxqdnNKc3k-azA9aztPb5nRZORGPmIiMMaw",
+      "release_date": "2010/09/20",
+      "rating": 4.1,
+      "rating_count": 39789,
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
       "category": "漫画",
       "app_id": "manga.anime.toon",
-      "rank": 63,
+      "rank": 59,
       "name": "Anime App - Watch Anime Series",
       "developer": "Rstream Labs",
       "store_url": "https://play.google.com/store/apps/details?id=manga.anime.toon&hl=en&gl=us",
       "icon_url": "https://play-lh.googleusercontent.com/bzuGUYsfaX6ZXhevxkeDcAGq6rL0v5s7ykwpnd1Wk6AEQTtCYJNxijIsGgGrn0AbttQ1pJD4Xvy-9LSUMOvC",
       "release_date": "2019/12/14",
       "rating": 4.5,
-      "rating_count": 21377,
-      "timestamp": "2026-11-18 02:12:22"
+      "rating_count": 21378,
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
       "category": "漫画",
-      "app_id": "ai.kartoon.app",
-      "rank": 64,
-      "name": "toongether: create comics",
-      "developer": "Kartoon",
-      "store_url": "https://play.google.com/store/apps/details?id=ai.kartoon.app&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/S93vZHnJIxii3LMsEfIxdfvyK1xon9DhKw6Z3rfM_mbIT4xR6PxBLm4wwcMb0TRIhUHOGlKTSwYyd577Nt29xA",
-      "release_date": "2026/06/17",
-      "rating": 4.9,
-      "rating_count": 131,
-      "timestamp": "2026-11-18 02:12:22"
-    },
-    {
-      "platform": "Google Play",
-      "category": "漫画",
-      "app_id": "com.madmustachecompany.comic.book.manga.reader",
-      "rank": 65,
-      "name": "Comic Reader CBR, CBZ & PDF",
-      "developer": "Mad Mustache Company",
-      "store_url": "https://play.google.com/store/apps/details?id=com.madmustachecompany.comic.book.manga.reader&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/Jua9EYCg_9RiJ90y4rSDqV43vPPszjo5YYwHn1dqWE06Jbm5lj775uRC8PJa1xfYnNZsKVKwEykDobmJiRjc",
-      "release_date": "2024/06/30",
-      "rating": 3.7,
-      "rating_count": 795,
-      "timestamp": "2026-11-18 02:12:22"
+      "app_id": "com.comic.value.scanner.identifier",
+      "rank": 60,
+      "name": "ComicID: Comic Book Scanner",
+      "developer": "The App Dude",
+      "store_url": "https://play.google.com/store/apps/details?id=com.comic.value.scanner.identifier&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/UwXijECtoo2vWTXGS0_k_NEo2_uaqeJaFuarxgNtWAuA1xLlvSca_qPYuvQ6PCwNZNB7hQ2sEOSN0dg2pGSx4aE",
+      "release_date": "2025/10/10",
+      "rating": 3.9,
+      "rating_count": 168,
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
       "category": "漫画",
       "app_id": "ru.androidtools.comic_book_magazine_reader_cbr_cbz",
-      "rank": 66,
+      "rank": 61,
       "name": "Comic Book Reader (cbz/cbr)",
       "developer": "Android Tools (ru)",
       "store_url": "https://play.google.com/store/apps/details?id=ru.androidtools.comic_book_magazine_reader_cbr_cbz&hl=en&gl=us",
@@ -927,55 +857,55 @@
       "release_date": "2020/01/01",
       "rating": 4.4,
       "rating_count": 8908,
-      "timestamp": "2026-11-18 02:12:22"
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
       "category": "漫画",
-      "app_id": "com.swat.apps.manga",
-      "rank": 67,
-      "name": "مانجا سوات - Swat Manga",
-      "developer": "Swatmanga",
-      "store_url": "https://play.google.com/store/apps/details?id=com.swat.apps.manga&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/LVZbPQdTKhhEtltnR60cuOaxquk8LeUHvKWeh4AZBIl3LVgTErvA9BCvh94pZ90LDCREPRm6tJMyp5duK2Fb",
-      "release_date": "2025/03/21",
+      "app_id": "com.progdigy.cdisplay.free",
+      "rank": 62,
+      "name": "CDisplayEx Comic Reader Lite",
+      "developer": "Progdigy Software",
+      "store_url": "https://play.google.com/store/apps/details?id=com.progdigy.cdisplay.free&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/nFt6SG58Tks8JV4AfsxKUzdQLjtCIbCieAVKZXA9zsNkBWD7sw0yWotDbw4oQ9ZXYzPopv5sKFN3MB6GxSMwKQ",
+      "release_date": "2018/04/15",
       "rating": 4.0,
-      "rating_count": 1079,
-      "timestamp": "2026-11-18 02:12:22"
+      "rating_count": 15011,
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
       "category": "漫画",
-      "app_id": "co.opentoon.app",
-      "rank": 68,
-      "name": "OpenToon - Manga Translator",
-      "developer": "OpenNovel",
-      "store_url": "https://play.google.com/store/apps/details?id=co.opentoon.app&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/JUyAXGIxVidEPGR0BfhONLRSl3JmnaW9r4TCTL6_ppcm3CX8r8_fEaeXCntK6GPztBnYQFRgdLjSUjSiwe0WFQ",
-      "release_date": "2026/05/24",
-      "rating": 4.6,
-      "rating_count": 6748,
-      "timestamp": "2026-11-18 02:12:22"
+      "app_id": "com.evlppy.comicbookmaker",
+      "rank": 63,
+      "name": "Comic Book Studio",
+      "developer": "EVL Apps",
+      "store_url": "https://play.google.com/store/apps/details?id=com.evlppy.comicbookmaker&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/nmYrBz1b0ky4gXI2thPSUW2SvJd_Kvyl6whPRuKwM3fTm2Izk4TKjk6kr3iUXhbZlcTYtZWQgUkTvgnIDWx5aA",
+      "release_date": "2026/04/01",
+      "rating": 3.9,
+      "rating_count": 244,
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
       "category": "漫画",
-      "app_id": "com.jegulabs.manga",
-      "rank": 69,
-      "name": "Mango: Lector de Manga Español",
-      "developer": "JeguLabs",
-      "store_url": "https://play.google.com/store/apps/details?id=com.jegulabs.manga&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/0oPzvwJgLObTqm0KdnDCDwQCABv74sFWKoe5Uo4TIvq926EAS1l6563WbjWZ8A7oB039yuVJA0e-xdMuID-DG1c",
-      "release_date": "2023/10/18",
-      "rating": 4.2,
-      "rating_count": 20029,
-      "timestamp": "2026-11-18 02:12:22"
+      "app_id": "com.app.ezmanga",
+      "rank": 64,
+      "name": "EZ Manga: Webtoon & Manhwa",
+      "developer": "EZ Apps Studio",
+      "store_url": "https://play.google.com/store/apps/details?id=com.app.ezmanga&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/0ZsC5J3H138yW-gVa3q0FhAgLmaARB85n20wNcRxiqAQYcOIWhSziXGncfZdwux86_BizThZe-qh-MfL7wQ9",
+      "release_date": "2026/03/27",
+      "rating": 3.8,
+      "rating_count": 99,
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
       "category": "漫画",
       "app_id": "com.rookiestudio.perfectviewer",
-      "rank": 70,
+      "rank": 65,
       "name": "Perfect Viewer",
       "developer": "Rookie001",
       "store_url": "https://play.google.com/store/apps/details?id=com.rookiestudio.perfectviewer&hl=en&gl=us",
@@ -983,21 +913,91 @@
       "release_date": "2010/10/02",
       "rating": 4.3,
       "rating_count": 57576,
-      "timestamp": "2026-11-18 02:12:22"
+      "timestamp": "2026-11-18 04:56:15"
+    },
+    {
+      "platform": "Google Play",
+      "category": "漫画",
+      "app_id": "ai.kartoon.app",
+      "rank": 66,
+      "name": "toongether: create comics",
+      "developer": "Kartoon",
+      "store_url": "https://play.google.com/store/apps/details?id=ai.kartoon.app&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/S93vZHnJIxii3LMsEfIxdfvyK1xon9DhKw6Z3rfM_mbIT4xR6PxBLm4wwcMb0TRIhUHOGlKTSwYyd577Nt29xA",
+      "release_date": "2026/06/17",
+      "rating": 4.9,
+      "rating_count": 131,
+      "timestamp": "2026-11-18 04:56:15"
+    },
+    {
+      "platform": "Google Play",
+      "category": "漫画",
+      "app_id": "com.madmustachecompany.comic.book.manga.reader",
+      "rank": 67,
+      "name": "Comic Reader CBR, CBZ & PDF",
+      "developer": "Mad Mustache Company",
+      "store_url": "https://play.google.com/store/apps/details?id=com.madmustachecompany.comic.book.manga.reader&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/Jua9EYCg_9RiJ90y4rSDqV43vPPszjo5YYwHn1dqWE06Jbm5lj775uRC8PJa1xfYnNZsKVKwEykDobmJiRjc",
+      "release_date": "2024/06/30",
+      "rating": 3.7,
+      "rating_count": 795,
+      "timestamp": "2026-11-18 04:56:15"
+    },
+    {
+      "platform": "Google Play",
+      "category": "漫画",
+      "app_id": "com.swat.apps.manga",
+      "rank": 68,
+      "name": "مانجا سوات - Swat Manga",
+      "developer": "Swatmanga",
+      "store_url": "https://play.google.com/store/apps/details?id=com.swat.apps.manga&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/LVZbPQdTKhhEtltnR60cuOaxquk8LeUHvKWeh4AZBIl3LVgTErvA9BCvh94pZ90LDCREPRm6tJMyp5duK2Fb",
+      "release_date": "2025/03/21",
+      "rating": 4.0,
+      "rating_count": 1079,
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
       "category": "漫画",
       "app_id": "com.comikey.banagher",
-      "rank": 71,
+      "rank": 69,
       "name": "Comikey - Manga & Webcomics",
       "developer": "Comikey Media",
       "store_url": "https://play.google.com/store/apps/details?id=com.comikey.banagher&hl=en&gl=us",
       "icon_url": "https://play-lh.googleusercontent.com/BKtpB-gSzwzwf_TA6LRWrnlpRrw7hRCVHH9MqiDz86BRy6dokjQ8CSeoth2PNNNMjqaCwiNJuoe7NUV0Gs-Q",
       "release_date": "2022/01/31",
       "rating": 3.7,
-      "rating_count": 6795,
-      "timestamp": "2026-11-18 02:12:22"
+      "rating_count": 6796,
+      "timestamp": "2026-11-18 04:56:15"
+    },
+    {
+      "platform": "Google Play",
+      "category": "漫画",
+      "app_id": "co.opentoon.app",
+      "rank": 70,
+      "name": "OpenToon - Manga Translator",
+      "developer": "OpenNovel",
+      "store_url": "https://play.google.com/store/apps/details?id=co.opentoon.app&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/JUyAXGIxVidEPGR0BfhONLRSl3JmnaW9r4TCTL6_ppcm3CX8r8_fEaeXCntK6GPztBnYQFRgdLjSUjSiwe0WFQ",
+      "release_date": "2026/05/24",
+      "rating": 4.6,
+      "rating_count": 6749,
+      "timestamp": "2026-11-18 04:56:15"
+    },
+    {
+      "platform": "Google Play",
+      "category": "漫画",
+      "app_id": "com.jegulabs.manga",
+      "rank": 71,
+      "name": "Mango: Lector de Manga Español",
+      "developer": "JeguLabs",
+      "store_url": "https://play.google.com/store/apps/details?id=com.jegulabs.manga&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/0oPzvwJgLObTqm0KdnDCDwQCABv74sFWKoe5Uo4TIvq926EAS1l6563WbjWZ8A7oB039yuVJA0e-xdMuID-DG1c",
+      "release_date": "2023/10/18",
+      "rating": 4.2,
+      "rating_count": 20031,
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
@@ -1011,97 +1011,13 @@
       "release_date": "2026/07/14",
       "rating": 4.8,
       "rating_count": 1869,
-      "timestamp": "2026-11-18 02:12:22"
-    },
-    {
-      "platform": "Google Play",
-      "category": "漫画",
-      "app_id": "ceui.pixiv.pshaft",
-      "rank": 73,
-      "name": "PixShaft",
-      "developer": "CeuiLiSA",
-      "store_url": "https://play.google.com/store/apps/details?id=ceui.pixiv.pshaft&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/FhYR2wO9UAzDOclS3SNltNjp1LUr1ecWWZOCBANkzzVqtMMbqC2NUX4Cv2dE4VxOp_gKOUFyDziJ8BdRvQalD8o",
-      "release_date": "2026/03/23",
-      "rating": 4.9,
-      "rating_count": 301,
-      "timestamp": "2026-11-18 02:12:22"
-    },
-    {
-      "platform": "Google Play",
-      "category": "漫画",
-      "app_id": "com.toontubee.animess.comicssjafe",
-      "rank": 74,
-      "name": "Toonhub: Premium Comics",
-      "developer": "Luxe or car",
-      "store_url": "https://play.google.com/store/apps/details?id=com.toontubee.animess.comicssjafe&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/fnmsZI82wR4Q_j4bkHsLoUHu85aKDcxII3HDEYWm_mscOiyCdK0UBkaW8vTLnym-FEXc6wAywv_EoR51LBpSBwA",
-      "release_date": "2026/09/10",
-      "rating": 3.0,
-      "rating_count": 49,
-      "timestamp": "2026-11-18 02:12:22"
-    },
-    {
-      "platform": "Google Play",
-      "category": "漫画",
-      "app_id": "com.mangamo.app",
-      "rank": 75,
-      "name": "Mangamo Manga & Comics",
-      "developer": "Mangamo",
-      "store_url": "https://play.google.com/store/apps/details?id=com.mangamo.app&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/yFMpUmpMD0vdq6BFb_uXGAIw_C6hbQRZRnKhFkp5XwZtb7nYqoWTcAFPMEpgiPylbLine83go6X9UbcTaugdKUo",
-      "release_date": "2020/11/22",
-      "rating": 3.6,
-      "rating_count": 1603,
-      "timestamp": "2026-11-18 02:12:22"
-    },
-    {
-      "platform": "Google Play",
-      "category": "漫画",
-      "app_id": "com.ai.comic.book",
-      "rank": 76,
-      "name": "KAI: Comic Maker Manga, Manhwa",
-      "developer": "MOBIVERSITE YAZILIM BILISIM REKLAM VE DANISMANLIK",
-      "store_url": "https://play.google.com/store/apps/details?id=com.ai.comic.book&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/jU6b4e1_lI4k2PWDjsTHAYvDQT7vuq6vLZ8SZLw44DXVz4DypcUYEq2OPZTr98BBuaBCJ47HzI7KUmuQWp8FIQ",
-      "release_date": "2025/12/04",
-      "rating": 3.8,
-      "rating_count": 28204,
-      "timestamp": "2026-11-18 02:12:22"
-    },
-    {
-      "platform": "Google Play",
-      "category": "漫画",
-      "app_id": "com.smiletoon.android",
-      "rank": 77,
-      "name": "SmileToon- Read Webtoon Comics",
-      "developer": "SMILE TOON",
-      "store_url": "https://play.google.com/store/apps/details?id=com.smiletoon.android&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/RMwMIy5fiSj7VfXYUr8GgypxrYCKG9dlmf78ltAoLM3M_KdSPTFtEwgZy_AWjhFdPsYVajVcBy6gUFc9qOmlJg",
-      "release_date": "2026/05/21",
-      "rating": 0,
-      "rating_count": 0,
-      "timestamp": "2026-11-18 02:12:22"
-    },
-    {
-      "platform": "Google Play",
-      "category": "漫画",
-      "app_id": "com.minu.toonly.ai.comic",
-      "rank": 78,
-      "name": "Toonly: AI Story & Comic Maker",
-      "developer": "Wiin Ltd.",
-      "store_url": "https://play.google.com/store/apps/details?id=com.minu.toonly.ai.comic&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/XYBWY_X-LXtXjw-DR9yXL9ra4GHEYs8iRyQDIJiopPvwsjEqKMiD_9vL-wYl6Xm6U9vdc7cRbkci__eLcGVpCw",
-      "release_date": "2026/03/06",
-      "rating": 4.1,
-      "rating_count": 3011,
-      "timestamp": "2026-11-18 02:12:22"
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
       "category": "漫画",
       "app_id": "com.balcony.bomtoon.tw",
-      "rank": 79,
+      "rank": 73,
       "name": "BOMTOON - 正版授權網漫",
       "developer": "㈜ 키다리스튜디오",
       "store_url": "https://play.google.com/store/apps/details?id=com.balcony.bomtoon.tw&hl=en&gl=us",
@@ -1109,7 +1025,91 @@
       "release_date": "2022/08/09",
       "rating": 3.3,
       "rating_count": 933,
-      "timestamp": "2026-11-18 02:12:22"
+      "timestamp": "2026-11-18 04:56:15"
+    },
+    {
+      "platform": "Google Play",
+      "category": "漫画",
+      "app_id": "com.minu.toonly.ai.comic",
+      "rank": 74,
+      "name": "Toonly: AI Story & Comic Maker",
+      "developer": "Wiin Ltd.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.minu.toonly.ai.comic&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/XYBWY_X-LXtXjw-DR9yXL9ra4GHEYs8iRyQDIJiopPvwsjEqKMiD_9vL-wYl6Xm6U9vdc7cRbkci__eLcGVpCw",
+      "release_date": "2026/03/06",
+      "rating": 4.1,
+      "rating_count": 3011,
+      "timestamp": "2026-11-18 04:56:15"
+    },
+    {
+      "platform": "Google Play",
+      "category": "漫画",
+      "app_id": "ceui.pixiv.pshaft",
+      "rank": 75,
+      "name": "PixShaft",
+      "developer": "CeuiLiSA",
+      "store_url": "https://play.google.com/store/apps/details?id=ceui.pixiv.pshaft&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/FhYR2wO9UAzDOclS3SNltNjp1LUr1ecWWZOCBANkzzVqtMMbqC2NUX4Cv2dE4VxOp_gKOUFyDziJ8BdRvQalD8o",
+      "release_date": "2026/03/23",
+      "rating": 4.9,
+      "rating_count": 301,
+      "timestamp": "2026-11-18 04:56:15"
+    },
+    {
+      "platform": "Google Play",
+      "category": "漫画",
+      "app_id": "com.toontubee.animess.comicssjafe",
+      "rank": 76,
+      "name": "Toonhub: Premium Comics",
+      "developer": "Luxe or car",
+      "store_url": "https://play.google.com/store/apps/details?id=com.toontubee.animess.comicssjafe&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/fnmsZI82wR4Q_j4bkHsLoUHu85aKDcxII3HDEYWm_mscOiyCdK0UBkaW8vTLnym-FEXc6wAywv_EoR51LBpSBwA",
+      "release_date": "2026/09/10",
+      "rating": 3.0,
+      "rating_count": 49,
+      "timestamp": "2026-11-18 04:56:15"
+    },
+    {
+      "platform": "Google Play",
+      "category": "漫画",
+      "app_id": "com.mangamo.app",
+      "rank": 77,
+      "name": "Mangamo Manga & Comics",
+      "developer": "Mangamo",
+      "store_url": "https://play.google.com/store/apps/details?id=com.mangamo.app&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/yFMpUmpMD0vdq6BFb_uXGAIw_C6hbQRZRnKhFkp5XwZtb7nYqoWTcAFPMEpgiPylbLine83go6X9UbcTaugdKUo",
+      "release_date": "2020/11/22",
+      "rating": 3.6,
+      "rating_count": 1603,
+      "timestamp": "2026-11-18 04:56:15"
+    },
+    {
+      "platform": "Google Play",
+      "category": "漫画",
+      "app_id": "com.ai.comic.book",
+      "rank": 78,
+      "name": "KAI: Comic Maker Manga, Manhwa",
+      "developer": "MOBIVERSITE YAZILIM BILISIM REKLAM VE DANISMANLIK",
+      "store_url": "https://play.google.com/store/apps/details?id=com.ai.comic.book&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/jU6b4e1_lI4k2PWDjsTHAYvDQT7vuq6vLZ8SZLw44DXVz4DypcUYEq2OPZTr98BBuaBCJ47HzI7KUmuQWp8FIQ",
+      "release_date": "2025/12/04",
+      "rating": 3.8,
+      "rating_count": 28204,
+      "timestamp": "2026-11-18 04:56:15"
+    },
+    {
+      "platform": "Google Play",
+      "category": "漫画",
+      "app_id": "com.smiletoon.android",
+      "rank": 79,
+      "name": "SmileToon- Read Webtoon Comics",
+      "developer": "SMILE TOON",
+      "store_url": "https://play.google.com/store/apps/details?id=com.smiletoon.android&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/RMwMIy5fiSj7VfXYUr8GgypxrYCKG9dlmf78ltAoLM3M_KdSPTFtEwgZy_AWjhFdPsYVajVcBy6gUFc9qOmlJg",
+      "release_date": "2026/05/21",
+      "rating": 0,
+      "rating_count": 0,
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
@@ -1122,42 +1122,14 @@
       "icon_url": "https://play-lh.googleusercontent.com/pfsnI-l3wIUdp_ZP15X0VG_4ouAyck5JXiJiS-nVbfDqkRBlFMQ9flDgDAx3RcmtsWKwgXi0IccOhMnPb3vHJQ",
       "release_date": "2025/05/06",
       "rating": 3.4,
-      "rating_count": 1565,
-      "timestamp": "2026-11-18 02:12:22"
-    },
-    {
-      "platform": "Google Play",
-      "category": "漫画",
-      "app_id": "com.manga.star",
-      "rank": 81,
-      "name": "Manga Star - مانجا ستار",
-      "developer": "Kizohi",
-      "store_url": "https://play.google.com/store/apps/details?id=com.manga.star&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/d3fCfwfyzC06Y_yZ97gtqnSmw_6k9T26epfTJxLG-DHwYNHkQ6paWFQ1A3d0f813v4dJeeb0oSFd_0pOR6m_",
-      "release_date": "2026/08/13",
-      "rating": 4.8,
-      "rating_count": 318,
-      "timestamp": "2026-11-18 02:12:22"
-    },
-    {
-      "platform": "Google Play",
-      "category": "漫画",
-      "app_id": "com.delitoon",
-      "rank": 82,
-      "name": "LEZHIN FR",
-      "developer": "Delitoon",
-      "store_url": "https://play.google.com/store/apps/details?id=com.delitoon&hl=en&gl=us",
-      "icon_url": "https://play-lh.googleusercontent.com/zfv3VwFtTmKFoPdYZ4tzw3nyRWdl1Tsb8f6OQmo0rLOglR_LWeAdXhnYXNG9H3nJjtNCFPA9b6VTTmgVXM2byA",
-      "release_date": "2017/09/28",
-      "rating": 3.3,
-      "rating_count": 8698,
-      "timestamp": "2026-11-18 02:12:22"
+      "rating_count": 1566,
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
       "category": "漫画",
       "app_id": "wastickerapps.newemojistickers.stickersforwhatsapp",
-      "rank": 83,
+      "rank": 81,
       "name": "WASticker-Sticker for WhatsApp",
       "developer": "Office Tools.",
       "store_url": "https://play.google.com/store/apps/details?id=wastickerapps.newemojistickers.stickersforwhatsapp&hl=en&gl=us",
@@ -1165,7 +1137,35 @@
       "release_date": "2019/05/06",
       "rating": 4.4,
       "rating_count": 21155,
-      "timestamp": "2026-11-18 02:12:22"
+      "timestamp": "2026-11-18 04:56:15"
+    },
+    {
+      "platform": "Google Play",
+      "category": "漫画",
+      "app_id": "com.manga.star",
+      "rank": 82,
+      "name": "Manga Star - مانجا ستار",
+      "developer": "Kizohi",
+      "store_url": "https://play.google.com/store/apps/details?id=com.manga.star&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/d3fCfwfyzC06Y_yZ97gtqnSmw_6k9T26epfTJxLG-DHwYNHkQ6paWFQ1A3d0f813v4dJeeb0oSFd_0pOR6m_",
+      "release_date": "2026/08/13",
+      "rating": 4.8,
+      "rating_count": 318,
+      "timestamp": "2026-11-18 04:56:15"
+    },
+    {
+      "platform": "Google Play",
+      "category": "漫画",
+      "app_id": "com.delitoon",
+      "rank": 83,
+      "name": "LEZHIN FR",
+      "developer": "Delitoon",
+      "store_url": "https://play.google.com/store/apps/details?id=com.delitoon&hl=en&gl=us",
+      "icon_url": "https://play-lh.googleusercontent.com/zfv3VwFtTmKFoPdYZ4tzw3nyRWdl1Tsb8f6OQmo0rLOglR_LWeAdXhnYXNG9H3nJjtNCFPA9b6VTTmgVXM2byA",
+      "release_date": "2017/09/28",
+      "rating": 3.3,
+      "rating_count": 8698,
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
@@ -1179,7 +1179,7 @@
       "release_date": "2026/01/09",
       "rating": 4.6,
       "rating_count": 962,
-      "timestamp": "2026-11-18 02:12:22"
+      "timestamp": "2026-11-18 04:56:15"
     },
     {
       "platform": "Google Play",
@@ -1193,7 +1193,7 @@
       "release_date": "2026/10/16",
       "rating": 0,
       "rating_count": 0,
-      "timestamp": "2026-11-18 02:12:22"
+      "timestamp": "2026-11-18 04:56:15"
     }
   ]
 }
